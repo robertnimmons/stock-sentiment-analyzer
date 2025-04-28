@@ -1,0 +1,35 @@
+name: Daily Stock Analysis
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # 1PM EST daily
+  workflow_dispatch:       # Allow manual runs
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+      
+    - name: Run Analysis
+      env:
+        ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: python scheduler.py
+      
+    - name: Commit Results
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add results.json
+        git commit -m "Daily update $(date +'%Y-%m-%d')"
+        git push
