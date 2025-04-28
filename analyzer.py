@@ -165,7 +165,7 @@ def save_outputs(df):
         # Simple text summary
         with open("summary.txt", "w") as f:
             f.write(f"Last run: {datetime.now()}\n")
-            f.write(f"Stocks analyzed: {len(df['Ticker'].unique()}\n")
+            f.write(f"Stocks analyzed: {len(df['Ticker'].unique())}\n")
             f.write(f"Positive headlines: {sum(df['Sentiment'] == 'POSITIVE')}\n")
         
         return True
