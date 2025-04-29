@@ -12,6 +12,18 @@ from transformers import pipeline
 from concurrent.futures import ThreadPoolExecutor
 import json
 from datetime import datetime
+import os  # <-- Add this if not already present
+
+def save_results(df):
+    """Enhanced file saving with debug output"""
+    try:
+        df.to_json("results.json", orient='records')
+        print("✅ Successfully saved results.json")
+        print(f"File size: {os.path.getsize('results.json')} bytes")
+        return True
+    except Exception as e:
+        print(f"❌ Failed to save results.json: {str(e)}")
+        return False
 
 # Configuration
 CONFIG = {
@@ -193,3 +205,8 @@ if __name__ == "__main__":
     if results is not None:
         print("\nTop Movers:")
         print(results.sort_values("Regular Change", ascending=False).head())
+
+if __name__ == "__main__":
+    results = run_analysis()
+    if results is not None:
+        save_results(results)
