@@ -28,17 +28,16 @@ jobs:
         pip install -r requirements.txt
     
     # 4. Run analysis with verification
-    - name: Run analysis
-      id: analysis
-      run: |
-        python analyzer.py
-        # Verify results.json exists
-        if [ ! -f "results.json" ]; then
-          echo "::error::results.json was not created!"
-          exit 1
-        fi
-        echo "results.json created successfully"
-        echo "size=$(wc -c < results.json)" >> $GITHUB_OUTPUT
+- name: Run analysis
+  run: |
+    python analyzer.py
+    
+    # Debug: Show files and contents
+    echo "=== DEBUG ==="
+    ls -la
+    [ -f results.json ] || (echo "::error::results.json missing!" ; cat debug.log ; exit 1)
+  env:
+    PYTHONUNBUFFERED: 1  # Get real-time logs
     
     # 5. Commit results (only if file was created)
     - name: Commit results
