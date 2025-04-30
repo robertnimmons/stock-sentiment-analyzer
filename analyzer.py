@@ -13,7 +13,51 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 from datetime import datetime
 import os  # <-- Add this if not already present
+# Add to imports (top of file)
+import logging
+logging.basicConfig(level=logging.INFO)
 
+def get_stock_data(ticker):
+    """Enhanced stock fetcher with debug"""
+    try:
+        stock = yf.Ticker(ticker)
+        hist = stock.history(period="1d", prepost=True)
+        
+        if hist.empty:
+            logging.error(f"⚠️ No data for {ticker}: Empty history")
+            return None
+            
+        # Debug print prices
+        logging.info(f"\n{ticker} Price Data:")
+        logging.info(f"Open: {hist['Open'].iloc[0]}")
+        logging.info(f"Close: {hist['Close'].iloc[-1]}")
+        logging.info(f"After Hours: {stock.fast_info.get('postMarketPrice')}")
+        
+        return {
+            "symbol": ticker,
+            "regular_change": (hist['Close'].iloc[-1] - hist['Open'].iloc[0]) / hist['Open'].iloc[0] * 100,
+            "current_price": stock.fast_info.get('postMarketPrice', hist['Close'].iloc[-1])
+        }
+    except Exception as e:
+        logging.error(f"🚨 Failed {ticker}: {str(e)}")
+        return None
+
+def run_analysis():
+    print("🔍 Starting analysis with debug...")
+    valid_stocks = {}
+    
+    for ticker in CONFIG["top_50_stocks"] + CONFIG["elon_stocks"]:
+        data = get_stock_data(ticker)
+        if data:
+            valid_stocks[ticker] = data
+        else:
+            logging.warning(f"⚠️ Skipping {ticker} - no valid data")
+    
+    if not valid_stocks:
+        logging.error("❌ All tickers failed - check network or API limits")
+        return None
+    
+    # Rest of your analysis code...
 def save_results(df):
     """Enhanced file saving with debug output"""
     try:
