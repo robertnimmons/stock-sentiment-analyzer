@@ -1,25 +1,23 @@
-name: Stock Sentiment Analysis
+name: Daily Stock Analysis with Website Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Run every 6 hours
+    - cron: '0 9 * * 1-5'  # Run at 9 AM UTC, Monday-Friday (market days)
+    - cron: '0 21 * * 1-5' # Run at 9 PM UTC for after-hours analysis
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  analyze:
+  analyze-and-deploy:
     runs-on: ubuntu-latest
     
-    steps:
-    - uses: actions/checkout@v4
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     
-    - name: Debug - List files immediately after checkout
-      run: |
-        echo "Current directory:"
-        pwd
-        echo "Files in current directory:"
-        ls -la
-        echo "Python files:"
-        find . -name "*.py" 2>/dev/null || echo "No Python files found"
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -30,28 +28,53 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install yfinance==0.2.18 pandas matplotlib numpy transformers requests torch --no-cache-dir
-    
-    - name: Debug - List files
-      run: |
-        echo "Current directory:"
-        pwd
-        echo "Files in current directory:"
-        ls -la
-        echo "Python files:"
-        find . -name "*.py"
         
-    - name: Run analysis
+    - name: Run stock analysis
       env:
         ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
         NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
       run: |
         python analyzer.py
         
-    - name: Upload results
-      uses: actions/upload-artifact@v4
+    - name: Create website files
+      run: |
+        # Create index.html as main page (copy from results.html)
+        cp results.html index.html
+        
+        # Create a simple API endpoint (JSON data)
+        mkdir -p api
+        cp results.json api/data.json
+        
+        # Create historical data directory
+        mkdir -p data/$(date +%Y)/$(date +%m)
+        cp results.json "data/$(date +%Y)/$(date +%m)/$(date +%Y-%m-%d).json"
+        
+        # Create latest.json for easy access
+        cp results.json latest.json
+        
+        echo "Website files created successfully"
+        ls -la
+        
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+      
+    - name: Build with Jekyll
+      uses: actions/jekyll-build-pages@v1
       with:
-        name: analysis-results
-        path: |
-          results.json
-          results.html
-          summary.txt
+        source: ./
+        destination: ./_site
+        
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+      
+    - name: Commit data to repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ latest.json
+        git diff --staged --quiet || git commit -m "Daily stock data update: $(date)"
+        git push
