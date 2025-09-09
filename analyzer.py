@@ -1,73 +1,25 @@
-# =============================================
-# STOCK SENTIMENT ANALYZER (GitHub-Deployable Version)
-# =============================================
+#!/usr/bin/env python3
+"""
+STOCK SENTIMENT ANALYZER (GitHub-Deployable Version)
+Fixed version for GitHub Actions deployment
+"""
 
 import os
 import requests
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # Must be before pyplot import
 import matplotlib.pyplot as plt
 import yfinance as yf
 import numpy as np
-from transformers import pipeline
 from concurrent.futures import ThreadPoolExecutor
 import json
 from datetime import datetime
-import os  # <-- Add this if not already present
-# Add to imports (top of file)
 import logging
-logging.basicConfig(level=logging.INFO)
+import time
 
-def get_stock_data(ticker):
-    """Enhanced stock fetcher with debug"""
-    try:
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period="1d", prepost=True)
-        
-        if hist.empty:
-            logging.error(f"⚠️ No data for {ticker}: Empty history")
-            return None
-            
-        # Debug print prices
-        logging.info(f"\n{ticker} Price Data:")
-        logging.info(f"Open: {hist['Open'].iloc[0]}")
-        logging.info(f"Close: {hist['Close'].iloc[-1]}")
-        logging.info(f"After Hours: {stock.fast_info.get('postMarketPrice')}")
-        
-        return {
-            "symbol": ticker,
-            "regular_change": (hist['Close'].iloc[-1] - hist['Open'].iloc[0]) / hist['Open'].iloc[0] * 100,
-            "current_price": stock.fast_info.get('postMarketPrice', hist['Close'].iloc[-1])
-        }
-    except Exception as e:
-        logging.error(f"🚨 Failed {ticker}: {str(e)}")
-        return None
-
-def run_analysis():
-    print("🔍 Starting analysis with debug...")
-    valid_stocks = {}
-    
-    for ticker in CONFIG["top_50_stocks"] + CONFIG["elon_stocks"]:
-        data = get_stock_data(ticker)
-        if data:
-            valid_stocks[ticker] = data
-        else:
-            logging.warning(f"⚠️ Skipping {ticker} - no valid data")
-    
-    if not valid_stocks:
-        logging.error("❌ All tickers failed - check network or API limits")
-        return None
-    
-    # Rest of your analysis code...
-def save_results(df):
-    """Enhanced file saving with debug output"""
-    try:
-        df.to_json("results.json", orient='records')
-        print("✅ Successfully saved results.json")
-        print(f"File size: {os.path.getsize('results.json')} bytes")
-        return True
-    except Exception as e:
-        print(f"❌ Failed to save results.json: {str(e)}")
-        return False
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configuration
 CONFIG = {
@@ -82,175 +34,298 @@ CONFIG = {
     "api_keys": {
         "alpha_vantage": os.getenv('ALPHAVANTAGE_KEY', 'demo'),
         "newsapi": os.getenv('NEWSAPI_KEY', '')
-    },
-    "nlp_model": {
-        "name": "distilbert-base-uncased-finetuned-sst-2-english",
-        "max_length": 512
     }
 }
 
-# Initialize NLP model
+# Initialize NLP model with fallback
+sentiment_pipeline = None
 try:
+    from transformers import pipeline
     sentiment_pipeline = pipeline(
         "sentiment-analysis",
-        model=CONFIG["nlp_model"]["name"],
-        device=-1
+        model="distilbert-base-uncased-finetuned-sst-2-english",
+        device=-1  # Use CPU
     )
-except:
-    def get_sentiment(text):
-        positive = ["rise", "gain", "up", "bullish", "beat", "buy", "strong"]
-        negative = ["fall", "drop", "down", "bearish", "miss", "sell", "weak"]
-        score = sum(1 for w in positive if w in text.lower()) - \
-                sum(1 for w in negative if w in text.lower())
-        return "POSITIVE" if score > 0 else "NEGATIVE" if score < 0 else "NEUTRAL"
+    logging.info("✅ Transformers model loaded successfully")
+except Exception as e:
+    logging.warning(f"⚠️ Could not load transformers model: {e}")
     sentiment_pipeline = None
 
+def get_sentiment_fallback(text):
+    """Simple keyword-based sentiment analysis"""
+    positive = ["rise", "gain", "up", "bullish", "beat", "buy", "strong", "surge", "rally"]
+    negative = ["fall", "drop", "down", "bearish", "miss", "sell", "weak", "plunge", "crash"]
+    
+    text_lower = text.lower()
+    pos_score = sum(1 for word in positive if word in text_lower)
+    neg_score = sum(1 for word in negative if word in text_lower)
+    
+    if pos_score > neg_score:
+        return "POSITIVE"
+    elif neg_score > pos_score:
+        return "NEGATIVE"
+    else:
+        return "NEUTRAL"
+
 def get_stock_data(ticker):
+    """Fetch stock data with enhanced error handling"""
     try:
         stock = yf.Ticker(ticker)
         hist = stock.history(period="1d", prepost=True)
         
         if hist.empty:
-            return {
-                "symbol": ticker,
-                "valid": False,
-                "error": "No data"
-            }
+            logging.warning(f"⚠️ No data for {ticker}: Empty history")
+            return None
+            
+        open_price = hist['Open'].iloc[0]
+        close_price = hist['Close'].iloc[-1]
         
-        open_p = hist['Open'].iloc[0]
-        regular_close = hist['Close'].iloc[-1]
-        post_market = stock.fast_info.get('postMarketPrice', regular_close)
+        # Try to get after-hours price
+        try:
+            info = stock.fast_info
+            post_market_price = info.get('postMarketPrice', close_price)
+        except:
+            post_market_price = close_price
         
-        regular_pct = np.round((regular_close - open_p) / open_p * 100, 2)
-        post_pct = np.round((post_market - regular_close) / regular_close * 100, 2)
+        regular_change = ((close_price - open_price) / open_price) * 100
+        post_change = ((post_market_price - close_price) / close_price) * 100
         
         return {
             "symbol": ticker,
-            "valid": True,
-            "regular_change": float(regular_pct),
-            "post_change": float(post_pct),
-            "current_price": float(post_market)
+            "regular_change": round(float(regular_change), 2),
+            "post_change": round(float(post_change), 2),
+            "current_price": round(float(post_market_price), 2),
+            "open_price": round(float(open_price), 2),
+            "close_price": round(float(close_price), 2)
         }
+        
     except Exception as e:
-        return {
-            "symbol": ticker,
-            "valid": False,
-            "error": str(e)
-        }
+        logging.error(f"🚨 Failed to get data for {ticker}: {str(e)}")
+        return None
 
 def fetch_all_stocks():
+    """Fetch stock data for all configured tickers"""
+    all_tickers = list(set(CONFIG["top_50_stocks"] + CONFIG["elon_stocks"]))
+    logging.info(f"📊 Fetching data for {len(all_tickers)} stocks...")
+    
+    valid_stocks = {}
+    
+    # Use ThreadPoolExecutor for concurrent requests
     with ThreadPoolExecutor(max_workers=10) as executor:
-        results = list(executor.map(get_stock_data, CONFIG["top_50_stocks"] + CONFIG["elon_stocks"]))
-    return {r["symbol"]: r for r in results if r["valid"]}
+        results = list(executor.map(get_stock_data, all_tickers))
+    
+    for result in results:
+        if result:
+            valid_stocks[result["symbol"]] = result
+    
+    logging.info(f"✅ Successfully fetched data for {len(valid_stocks)} stocks")
+    return valid_stocks
 
 def fetch_news():
+    """Fetch news from multiple sources with fallbacks"""
     news_items = []
     
-    # Alpha Vantage
+    # Try Alpha Vantage first
     if CONFIG['api_keys']['alpha_vantage'] not in ['', 'demo']:
         try:
-            url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=TSLA,AAPL&apikey={CONFIG['api_keys']['alpha_vantage']}"
-            data = requests.get(url, timeout=10).json()
-            news_items.extend([{
-                "title": item["title"],
-                "source": item.get("source", "AlphaVantage"),
-                "tickers": [t["ticker"] for t in item.get("ticker_sentiment", [])]
-            } for item in data.get("feed", [])[:10]])
-        except:
-            pass
+            url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=TSLA,AAPL,MSFT&apikey={CONFIG['api_keys']['alpha_vantage']}"
+            response = requests.get(url, timeout=10)
+            data = response.json()
+            
+            for item in data.get("feed", [])[:10]:
+                tickers = [t["ticker"] for t in item.get("ticker_sentiment", [])]
+                news_items.append({
+                    "title": item.get("title", ""),
+                    "source": item.get("source", "AlphaVantage"),
+                    "tickers": tickers
+                })
+            logging.info(f"📰 Fetched {len(news_items)} news items from Alpha Vantage")
+        except Exception as e:
+            logging.warning(f"⚠️ Alpha Vantage API failed: {e}")
     
-    # NewsAPI Fallback
-    if CONFIG['api_keys']['newsapi'] and len(news_items) < 5:
+    # Try NewsAPI if we don't have enough news
+    if len(news_items) < 5 and CONFIG['api_keys']['newsapi']:
         try:
-            url = f"https://newsapi.org/v2/everything?q=stocks&apiKey={CONFIG['api_keys']['newsapi']}"
-            data = requests.get(url, timeout=10).json()
-            news_items.extend([{
-                "title": article["title"],
-                "source": article["source"]["name"],
-                "tickers": []
-            } for article in data.get("articles", [])[:5]])
-        except:
-            pass
+            url = f"https://newsapi.org/v2/everything?q=stocks&sortBy=publishedAt&apiKey={CONFIG['api_keys']['newsapi']}"
+            response = requests.get(url, timeout=10)
+            data = response.json()
+            
+            for article in data.get("articles", [])[:5]:
+                news_items.append({
+                    "title": article.get("title", ""),
+                    "source": article.get("source", {}).get("name", "NewsAPI"),
+                    "tickers": []  # NewsAPI doesn't provide ticker mapping
+                })
+            logging.info(f"📰 Added {len(news_items)} total news items with NewsAPI")
+        except Exception as e:
+            logging.warning(f"⚠️ NewsAPI failed: {e}")
     
-    # Hardcoded Fallback
+    # Fallback news for testing
     if not news_items:
-        news_items = [{
-            "title": "Tech stocks rally as AI boom continues",
-            "source": "Fallback",
-            "tickers": ["AAPL", "MSFT", "NVDA"]
-        }]
+        news_items = [
+            {
+                "title": "Tech stocks rally as AI investments surge",
+                "source": "Fallback",
+                "tickers": ["AAPL", "MSFT", "NVDA"]
+            },
+            {
+                "title": "Tesla reports strong quarterly delivery numbers",
+                "source": "Fallback", 
+                "tickers": ["TSLA"]
+            },
+            {
+                "title": "Market volatility continues amid economic uncertainty",
+                "source": "Fallback",
+                "tickers": ["SPY", "QQQ"]
+            }
+        ]
+        logging.info("📰 Using fallback news items")
     
-    return news_items[:15]
+    return news_items[:15]  # Limit to 15 items
+
+def analyze_sentiment(text):
+    """Analyze sentiment using available method"""
+    try:
+        if sentiment_pipeline:
+            result = sentiment_pipeline(text[:512])[0]
+            return result['label']
+        else:
+            return get_sentiment_fallback(text)
+    except Exception as e:
+        logging.warning(f"⚠️ Sentiment analysis failed: {e}")
+        return "NEUTRAL"
 
 def analyze_news(stock_data, news_items):
+    """Combine stock data with news sentiment"""
     results = []
     
     for item in news_items:
         try:
-            sentiment = (sentiment_pipeline(item["title"][:512])[0]['label'] 
-                       if sentiment_pipeline 
-                       else get_sentiment(item["title"]))
+            sentiment = analyze_sentiment(item["title"])
             
-            for ticker in set(item.get("tickers", [])):
+            # If tickers are provided, use them
+            tickers_to_process = item.get("tickers", [])
+            
+            # If no tickers, try to match with major stocks
+            if not tickers_to_process:
+                for ticker in ["AAPL", "MSFT", "TSLA", "GOOGL", "META"]:
+                    if ticker in stock_data:
+                        tickers_to_process.append(ticker)
+                        break
+            
+            for ticker in set(tickers_to_process):
                 if ticker in stock_data:
-                    results.append({
-                        "Ticker": ticker,
-                        "Company": yf.Ticker(ticker).info.get('shortName', ticker),
-                        "Headline": item["title"],
-                        "Sentiment": sentiment,
-                        "Regular Change": stock_data[ticker]["regular_change"],
-                        "After Hours": stock_data[ticker]["post_change"],
-                        "Source": item["source"],
-                        "Timestamp": datetime.now().isoformat()
-                    })
-        except:
+                    try:
+                        # Get company name
+                        company_name = ticker  # Default fallback
+                        try:
+                            company_name = yf.Ticker(ticker).info.get('shortName', ticker)
+                        except:
+                            pass
+                        
+                        results.append({
+                            "Ticker": ticker,
+                            "Company": company_name,
+                            "Headline": item["title"][:200],  # Truncate long headlines
+                            "Sentiment": sentiment,
+                            "Regular Change": stock_data[ticker]["regular_change"],
+                            "After Hours": stock_data[ticker]["post_change"],
+                            "Current Price": stock_data[ticker]["current_price"],
+                            "Source": item["source"],
+                            "Timestamp": datetime.now().isoformat()
+                        })
+                    except Exception as e:
+                        logging.warning(f"⚠️ Error processing {ticker}: {e}")
+                        continue
+        except Exception as e:
+            logging.warning(f"⚠️ Error processing news item: {e}")
             continue
     
     return pd.DataFrame(results) if results else None
 
 def save_outputs(df):
     """Save results in multiple formats"""
-    if df is not None:
-        # JSON for web consumption
-        df.to_json("results.json", orient="records")
+    if df is None or df.empty:
+        logging.error("❌ No data to save")
+        return False
+    
+    try:
+        # Save JSON
+        df.to_json("results.json", orient="records", indent=2)
+        logging.info("✅ Saved results.json")
         
-        # HTML for debugging
+        # Save HTML
         with open("results.html", "w") as f:
-            f.write(df.to_html())
+            f.write(f"""
+            <html>
+            <head><title>Stock Sentiment Analysis Results</title></head>
+            <body>
+            <h1>Stock Sentiment Analysis - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</h1>
+            {df.to_html(index=False)}
+            </body>
+            </html>
+            """)
+        logging.info("✅ Saved results.html")
         
-        # Simple text summary
+        # Save summary
         with open("summary.txt", "w") as f:
-            f.write(f"Last run: {datetime.now()}\n")
+            f.write(f"Stock Sentiment Analysis Summary\n")
+            f.write(f"Generated: {datetime.now()}\n")
             f.write(f"Stocks analyzed: {len(df['Ticker'].unique())}\n")
-            f.write(f"Positive headlines: {sum(df['Sentiment'] == 'POSITIVE')}\n")
+            f.write(f"Total headlines: {len(df)}\n")
+            f.write(f"Positive sentiment: {sum(df['Sentiment'] == 'POSITIVE')}\n")
+            f.write(f"Negative sentiment: {sum(df['Sentiment'] == 'NEGATIVE')}\n")
+            f.write(f"Neutral sentiment: {sum(df['Sentiment'] == 'NEUTRAL')}\n")
+        logging.info("✅ Saved summary.txt")
         
         return True
-    return False
+        
+    except Exception as e:
+        logging.error(f"❌ Failed to save outputs: {e}")
+        return False
 
 def run_analysis():
-    print("🚀 Starting analysis...")
-    stock_data = fetch_all_stocks()
-    news_items = fetch_news()
-    results_df = analyze_news(stock_data, news_items)
-    
-    if save_outputs(results_df):
-        print("✅ Analysis complete - results saved")
-        return results_df
-    else:
-        print("❌ Analysis failed")
+    """Main analysis function"""
+    try:
+        logging.info("🚀 Starting Stock Sentiment Analysis...")
+        
+        # Fetch stock data
+        stock_data = fetch_all_stocks()
+        if not stock_data:
+            logging.error("❌ No stock data available")
+            return None
+        
+        # Fetch news
+        news_items = fetch_news()
+        if not news_items:
+            logging.error("❌ No news data available")
+            return None
+        
+        # Analyze
+        results_df = analyze_news(stock_data, news_items)
+        
+        # Save results
+        if save_outputs(results_df):
+            logging.info("✅ Analysis completed successfully")
+            if results_df is not None and not results_df.empty:
+                print(f"\n📊 Analysis Results Summary:")
+                print(f"Stocks analyzed: {len(results_df['Ticker'].unique())}")
+                print(f"Headlines processed: {len(results_df)}")
+                print(f"\nTop movers:")
+                print(results_df.nlargest(5, 'Regular Change')[['Ticker', 'Regular Change', 'Sentiment']])
+            return results_df
+        else:
+            logging.error("❌ Failed to save analysis results")
+            return None
+            
+    except Exception as e:
+        logging.error(f"❌ Analysis failed with error: {e}")
         return None
 
 if __name__ == "__main__":
-    # Configure matplotlib for headless environments
-    import matplotlib
-    matplotlib.use('Agg')
-    
     results = run_analysis()
     if results is not None:
-        print("\nTop Movers:")
-        print(results.sort_values("Regular Change", ascending=False).head())
-
-if __name__ == "__main__":
-    results = run_analysis()
-    if results is not None:
-        save_results(results)
+        print("✅ Script completed successfully")
+    else:
+        print("❌ Script failed")
+        exit(1)
