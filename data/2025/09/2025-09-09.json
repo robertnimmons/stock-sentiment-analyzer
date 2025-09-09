@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-09-09T20:33:42.786119",
+    "generated_at": "2025-09-09T21:13:06.714714",
     "data_sources": [
       "AlphaVantage"
     ],
@@ -30,7 +30,7 @@
       "Current Price": 234.35,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-09-09T20:33:42.785084"
+      "Timestamp": "2025-09-09T21:13:06.713662"
     },
     {
       "Ticker": "MSFT",
@@ -42,7 +42,7 @@
       "Current Price": 498.41,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-09-09T20:33:42.785097"
+      "Timestamp": "2025-09-09T21:13:06.713678"
     },
     {
       "Ticker": "GOOGL",
@@ -54,7 +54,7 @@
       "Current Price": 239.63,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-09-09T20:33:42.785101"
+      "Timestamp": "2025-09-09T21:13:06.713684"
     },
     {
       "Ticker": "META",
@@ -66,7 +66,7 @@
       "Current Price": 765.7,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-09-09T20:33:42.785103"
+      "Timestamp": "2025-09-09T21:13:06.713688"
     },
     {
       "Ticker": "NVDA",
@@ -78,7 +78,7 @@
       "Current Price": 170.76,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-09-09T20:33:42.785106"
+      "Timestamp": "2025-09-09T21:13:06.713693"
     },
     {
       "Ticker": "TSLA",
@@ -90,7 +90,7 @@
       "Current Price": 346.97,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2025-09-09T20:33:42.785120"
+      "Timestamp": "2025-09-09T21:13:06.713711"
     },
     {
       "Ticker": "JPM",
@@ -102,19 +102,19 @@
       "Current Price": 297.83,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-09-09T20:33:42.785140"
+      "Timestamp": "2025-09-09T21:13:06.713728"
     },
     {
       "Ticker": "V",
       "Company": "Visa Inc.",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -0.27,
+      "Regular Change": 0.5,
       "After Hours": 0.0,
-      "Current Price": 342.3,
+      "Current Price": 344.02,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-09-09T20:33:42.785146"
+      "Timestamp": "2025-09-09T21:13:06.713734"
     },
     {
       "Ticker": "MA",
@@ -126,7 +126,7 @@
       "Current Price": 583.76,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-09-09T20:33:42.785151"
+      "Timestamp": "2025-09-09T21:13:06.713738"
     },
     {
       "Ticker": "MSFT",
@@ -138,7 +138,7 @@
       "Current Price": 498.41,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-09-09T20:33:42.785165"
+      "Timestamp": "2025-09-09T21:13:06.713753"
     },
     {
       "Ticker": "GOOGL",
@@ -150,7 +150,7 @@
       "Current Price": 239.63,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-09-09T20:33:42.785168"
+      "Timestamp": "2025-09-09T21:13:06.713757"
     },
     {
       "Ticker": "AMZN",
@@ -162,19 +162,19 @@
       "Current Price": 238.24,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-09-09T20:33:42.785173"
+      "Timestamp": "2025-09-09T21:13:06.713761"
     },
     {
       "Ticker": "V",
       "Company": "Visa Inc.",
       "Headline": "Consumer spending data shows resilience in digital payments",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.27,
+      "Regular Change": 0.5,
       "After Hours": 0.0,
-      "Current Price": 342.3,
+      "Current Price": 344.02,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-09-09T20:33:42.785186"
+      "Timestamp": "2025-09-09T21:13:06.713774"
     },
     {
       "Ticker": "MA",
@@ -186,7 +186,7 @@
       "Current Price": 583.76,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-09-09T20:33:42.785190"
+      "Timestamp": "2025-09-09T21:13:06.713778"
     }
   ]
 }
