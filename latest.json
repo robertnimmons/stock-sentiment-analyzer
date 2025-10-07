@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-10-07T09:26:13.481416",
+    "generated_at": "2025-10-07T21:13:09.853000",
     "data_sources": [
       "AlphaVantage"
     ],
@@ -25,168 +25,168 @@
       "Company": "Apple Inc.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.52,
+      "Regular Change": -0.08,
       "After Hours": 0.0,
-      "Current Price": 256.69,
+      "Current Price": 256.48,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-10-07T09:26:13.480367"
+      "Timestamp": "2025-10-07T21:13:09.851965"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.17,
+      "Regular Change": -0.87,
       "After Hours": 0.0,
-      "Current Price": 528.57,
+      "Current Price": 523.98,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-10-07T09:26:13.480381"
+      "Timestamp": "2025-10-07T21:13:09.851981"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.07,
+      "Regular Change": -1.86,
       "After Hours": 0.0,
-      "Current Price": 250.43,
+      "Current Price": 245.76,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-10-07T09:26:13.480385"
+      "Timestamp": "2025-10-07T21:13:09.851986"
     },
     {
       "Ticker": "META",
       "Company": "Meta Platforms",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.72,
+      "Regular Change": -0.36,
       "After Hours": 0.0,
-      "Current Price": 715.66,
+      "Current Price": 713.08,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-10-07T09:26:13.480389"
+      "Timestamp": "2025-10-07T21:13:09.851990"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.11,
+      "Regular Change": -0.27,
       "After Hours": 0.0,
-      "Current Price": 185.54,
+      "Current Price": 185.04,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-10-07T09:26:13.480393"
+      "Timestamp": "2025-10-07T21:13:09.851994"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
       "Headline": "Electric vehicle sales growth accelerates in Q4",
       "Sentiment": "POSITIVE",
-      "Regular Change": 5.45,
+      "Regular Change": -4.45,
       "After Hours": 0.0,
-      "Current Price": 453.25,
+      "Current Price": 433.09,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2025-10-07T09:26:13.480407"
+      "Timestamp": "2025-10-07T21:13:09.852009"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 0.21,
+      "Regular Change": -0.47,
       "After Hours": 0.0,
-      "Current Price": 309.18,
+      "Current Price": 307.74,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-10-07T09:26:13.480427"
+      "Timestamp": "2025-10-07T21:13:09.852025"
     },
     {
       "Ticker": "V",
       "Company": "Visa Inc.",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -0.16,
+      "Regular Change": 0.91,
       "After Hours": 0.0,
-      "Current Price": 349.28,
+      "Current Price": 352.46,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-10-07T09:26:13.480431"
+      "Timestamp": "2025-10-07T21:13:09.852031"
     },
     {
       "Ticker": "MA",
       "Company": "Mastercard Inc.",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -0.28,
+      "Regular Change": 0.07,
       "After Hours": 0.0,
-      "Current Price": 578.81,
+      "Current Price": 579.23,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-10-07T09:26:13.480435"
+      "Timestamp": "2025-10-07T21:13:09.852035"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.17,
+      "Regular Change": -0.87,
       "After Hours": 0.0,
-      "Current Price": 528.57,
+      "Current Price": 523.98,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-10-07T09:26:13.480451"
+      "Timestamp": "2025-10-07T21:13:09.852049"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.07,
+      "Regular Change": -1.86,
       "After Hours": 0.0,
-      "Current Price": 250.43,
+      "Current Price": 245.76,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-10-07T09:26:13.480455"
+      "Timestamp": "2025-10-07T21:13:09.852053"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.63,
+      "Regular Change": 0.4,
       "After Hours": 0.0,
-      "Current Price": 220.9,
+      "Current Price": 221.78,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-10-07T09:26:13.480460"
+      "Timestamp": "2025-10-07T21:13:09.852057"
     },
     {
       "Ticker": "V",
       "Company": "Visa Inc.",
       "Headline": "Consumer spending data shows resilience in digital payments",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.16,
+      "Regular Change": 0.91,
       "After Hours": 0.0,
-      "Current Price": 349.28,
+      "Current Price": 352.46,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-10-07T09:26:13.480474"
+      "Timestamp": "2025-10-07T21:13:09.852072"
     },
     {
       "Ticker": "MA",
       "Company": "Mastercard Inc.",
       "Headline": "Consumer spending data shows resilience in digital payments",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.28,
+      "Regular Change": 0.07,
       "After Hours": 0.0,
-      "Current Price": 578.81,
+      "Current Price": 579.23,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-10-07T09:26:13.480478"
+      "Timestamp": "2025-10-07T21:13:09.852075"
     }
   ]
 }
