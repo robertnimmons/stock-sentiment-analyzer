@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-11T09:28:36.497803",
+    "generated_at": "2025-11-11T21:14:32.023140",
     "data_sources": [
       "AlphaVantage"
     ],
@@ -30,7 +30,7 @@
       "Current Price": 269.43,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-11T09:28:36.496741"
+      "Timestamp": "2025-11-11T21:14:32.022099"
     },
     {
       "Ticker": "MSFT",
@@ -42,7 +42,7 @@
       "Current Price": 506.0,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-11T09:28:36.496755"
+      "Timestamp": "2025-11-11T21:14:32.022117"
     },
     {
       "Ticker": "GOOGL",
@@ -54,7 +54,7 @@
       "Current Price": 290.1,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-11T09:28:36.496758"
+      "Timestamp": "2025-11-11T21:14:32.022123"
     },
     {
       "Ticker": "META",
@@ -66,7 +66,7 @@
       "Current Price": 631.76,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-11T09:28:36.496762"
+      "Timestamp": "2025-11-11T21:14:32.022129"
     },
     {
       "Ticker": "NVDA",
@@ -78,7 +78,7 @@
       "Current Price": 199.05,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-11T09:28:36.496767"
+      "Timestamp": "2025-11-11T21:14:32.022135"
     },
     {
       "Ticker": "TSLA",
@@ -90,7 +90,7 @@
       "Current Price": 445.23,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2025-11-11T09:28:36.496789"
+      "Timestamp": "2025-11-11T21:14:32.022156"
     },
     {
       "Ticker": "JPM",
@@ -102,7 +102,7 @@
       "Current Price": 316.89,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-11T09:28:36.496810"
+      "Timestamp": "2025-11-11T21:14:32.022177"
     },
     {
       "Ticker": "V",
@@ -114,7 +114,7 @@
       "Current Price": 334.85,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-11T09:28:36.496817"
+      "Timestamp": "2025-11-11T21:14:32.022183"
     },
     {
       "Ticker": "MA",
@@ -126,7 +126,7 @@
       "Current Price": 552.96,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-11T09:28:36.496823"
+      "Timestamp": "2025-11-11T21:14:32.022188"
     },
     {
       "Ticker": "MSFT",
@@ -138,7 +138,7 @@
       "Current Price": 506.0,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-11T09:28:36.496841"
+      "Timestamp": "2025-11-11T21:14:32.022206"
     },
     {
       "Ticker": "GOOGL",
@@ -150,7 +150,7 @@
       "Current Price": 290.1,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-11T09:28:36.496846"
+      "Timestamp": "2025-11-11T21:14:32.022211"
     },
     {
       "Ticker": "AMZN",
@@ -162,7 +162,7 @@
       "Current Price": 248.4,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-11T09:28:36.496851"
+      "Timestamp": "2025-11-11T21:14:32.022216"
     },
     {
       "Ticker": "V",
@@ -174,7 +174,7 @@
       "Current Price": 334.85,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-11-11T09:28:36.496869"
+      "Timestamp": "2025-11-11T21:14:32.022233"
     },
     {
       "Ticker": "MA",
@@ -186,7 +186,7 @@
       "Current Price": 552.96,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-11-11T09:28:36.496873"
+      "Timestamp": "2025-11-11T21:14:32.022237"
     }
   ]
 }
