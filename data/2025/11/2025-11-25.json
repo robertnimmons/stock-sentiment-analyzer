@@ -1,9 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-11-25T09:29:56.888854",
+    "generated_at": "2025-11-25T21:15:16.083356",
     "data_sources": [
-      "AlphaVantage",
-      "YahooDirect"
+      "AlphaVantage"
     ],
     "total_records": 14,
     "real_data": true,
@@ -31,7 +30,7 @@
       "Current Price": 275.92,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-25T09:29:56.887825"
+      "Timestamp": "2025-11-25T21:15:16.082329"
     },
     {
       "Ticker": "MSFT",
@@ -43,7 +42,7 @@
       "Current Price": 474.0,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-25T09:29:56.887841"
+      "Timestamp": "2025-11-25T21:15:16.082344"
     },
     {
       "Ticker": "GOOGL",
@@ -55,7 +54,7 @@
       "Current Price": 318.58,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-25T09:29:56.887847"
+      "Timestamp": "2025-11-25T21:15:16.082349"
     },
     {
       "Ticker": "META",
@@ -67,7 +66,7 @@
       "Current Price": 613.05,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-25T09:29:56.887854"
+      "Timestamp": "2025-11-25T21:15:16.082353"
     },
     {
       "Ticker": "NVDA",
@@ -77,9 +76,9 @@
       "Regular Change": 2.05,
       "After Hours": 0.0,
       "Current Price": 182.55,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-11-25T09:29:56.887860"
+      "Timestamp": "2025-11-25T21:15:16.082357"
     },
     {
       "Ticker": "TSLA",
@@ -91,7 +90,7 @@
       "Current Price": 417.78,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2025-11-25T09:29:56.887881"
+      "Timestamp": "2025-11-25T21:15:16.082372"
     },
     {
       "Ticker": "JPM",
@@ -101,9 +100,9 @@
       "Regular Change": -0.01,
       "After Hours": 0.0,
       "Current Price": 298.0,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-25T09:29:56.887903"
+      "Timestamp": "2025-11-25T21:15:16.082390"
     },
     {
       "Ticker": "V",
@@ -113,9 +112,9 @@
       "Regular Change": 0.4,
       "After Hours": 0.0,
       "Current Price": 329.3,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-25T09:29:56.887910"
+      "Timestamp": "2025-11-25T21:15:16.082395"
     },
     {
       "Ticker": "MA",
@@ -125,9 +124,9 @@
       "Regular Change": -0.47,
       "After Hours": 0.0,
       "Current Price": 537.85,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-11-25T09:29:56.887914"
+      "Timestamp": "2025-11-25T21:15:16.082399"
     },
     {
       "Ticker": "MSFT",
@@ -139,7 +138,7 @@
       "Current Price": 474.0,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-25T09:29:56.887933"
+      "Timestamp": "2025-11-25T21:15:16.082415"
     },
     {
       "Ticker": "GOOGL",
@@ -151,7 +150,7 @@
       "Current Price": 318.58,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-25T09:29:56.887937"
+      "Timestamp": "2025-11-25T21:15:16.082419"
     },
     {
       "Ticker": "AMZN",
@@ -161,9 +160,9 @@
       "Regular Change": 2.53,
       "After Hours": 0.0,
       "Current Price": 226.28,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-11-25T09:29:56.887942"
+      "Timestamp": "2025-11-25T21:15:16.082423"
     },
     {
       "Ticker": "V",
@@ -173,9 +172,9 @@
       "Regular Change": 0.4,
       "After Hours": 0.0,
       "Current Price": 329.3,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-11-25T09:29:56.887959"
+      "Timestamp": "2025-11-25T21:15:16.082456"
     },
     {
       "Ticker": "MA",
@@ -185,9 +184,9 @@
       "Regular Change": -0.47,
       "After Hours": 0.0,
       "Current Price": 537.85,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-11-25T09:29:56.887963"
+      "Timestamp": "2025-11-25T21:15:16.082460"
     }
   ]
 }
