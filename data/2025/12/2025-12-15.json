@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-15T09:38:37.736235",
+    "generated_at": "2025-12-15T21:15:47.860817",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -31,31 +31,31 @@
       "Current Price": 278.28,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-12-15T09:38:37.735076"
+      "Timestamp": "2025-12-15T21:15:47.859798"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.02,
+      "Regular Change": -0.78,
       "After Hours": 0.0,
-      "Current Price": 478.53,
+      "Current Price": 474.82,
       "Data Source": "YahooDirect",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-12-15T09:38:37.735092"
+      "Timestamp": "2025-12-15T21:15:47.859813"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
       "Headline": "Tech stocks surge on AI optimism and strong earnings outlook",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.01,
+      "Regular Change": -0.35,
       "After Hours": 0.0,
-      "Current Price": 309.29,
+      "Current Price": 308.22,
       "Data Source": "YahooDirect",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-12-15T09:38:37.735098"
+      "Timestamp": "2025-12-15T21:15:47.859818"
     },
     {
       "Ticker": "META",
@@ -67,7 +67,7 @@
       "Current Price": 644.23,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-12-15T09:38:37.735102"
+      "Timestamp": "2025-12-15T21:15:47.859823"
     },
     {
       "Ticker": "NVDA",
@@ -79,7 +79,7 @@
       "Current Price": 175.02,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2025-12-15T09:38:37.735106"
+      "Timestamp": "2025-12-15T21:15:47.859828"
     },
     {
       "Ticker": "TSLA",
@@ -91,19 +91,19 @@
       "Current Price": 458.96,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2025-12-15T09:38:37.735125"
+      "Timestamp": "2025-12-15T21:15:47.859847"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 0.36,
+      "Regular Change": 0.47,
       "After Hours": 0.0,
-      "Current Price": 318.52,
+      "Current Price": 320.02,
       "Data Source": "YahooDirect",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-12-15T09:38:37.735146"
+      "Timestamp": "2025-12-15T21:15:47.859868"
     },
     {
       "Ticker": "V",
@@ -115,55 +115,55 @@
       "Current Price": 347.83,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-12-15T09:38:37.735152"
+      "Timestamp": "2025-12-15T21:15:47.859873"
     },
     {
       "Ticker": "MA",
       "Company": "Mastercard Inc.",
       "Headline": "Financial sector rallies as interest rate concerns ease",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 1.52,
+      "Regular Change": -0.49,
       "After Hours": 0.0,
-      "Current Price": 571.93,
+      "Current Price": 569.13,
       "Data Source": "YahooDirect",
       "News Source": "Bloomberg",
-      "Timestamp": "2025-12-15T09:38:37.735157"
+      "Timestamp": "2025-12-15T21:15:47.859877"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.02,
+      "Regular Change": -0.78,
       "After Hours": 0.0,
-      "Current Price": 478.53,
+      "Current Price": 474.82,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-12-15T09:38:37.735176"
+      "Timestamp": "2025-12-15T21:15:47.859891"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.01,
+      "Regular Change": -0.35,
       "After Hours": 0.0,
-      "Current Price": 309.29,
+      "Current Price": 308.22,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-12-15T09:38:37.735180"
+      "Timestamp": "2025-12-15T21:15:47.859894"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
       "Headline": "Cloud computing revenue beats expectations across major providers",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.78,
+      "Regular Change": -1.61,
       "After Hours": 0.0,
-      "Current Price": 226.19,
+      "Current Price": 222.54,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2025-12-15T09:38:37.735184"
+      "Timestamp": "2025-12-15T21:15:47.859898"
     },
     {
       "Ticker": "V",
@@ -175,19 +175,19 @@
       "Current Price": 347.83,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2025-12-15T09:38:37.735201"
+      "Timestamp": "2025-12-15T21:15:47.859911"
     },
     {
       "Ticker": "MA",
       "Company": "Mastercard Inc.",
       "Headline": "Consumer spending data shows resilience in digital payments",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.52,
+      "Regular Change": -0.49,
       "After Hours": 0.0,
-      "Current Price": 571.93,
+      "Current Price": 569.13,
       "Data Source": "YahooDirect",
       "News Source": "WSJ",
-      "Timestamp": "2025-12-15T09:38:37.735205"
+      "Timestamp": "2025-12-15T21:15:47.859914"
     }
   ]
 }
