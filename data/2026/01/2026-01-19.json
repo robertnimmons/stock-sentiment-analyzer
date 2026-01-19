@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-01-19T09:41:47.959471",
+    "generated_at": "2026-01-19T21:15:52.348185",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -31,7 +31,7 @@
       "Current Price": 255.53,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2026-01-19T09:41:47.958396"
+      "Timestamp": "2026-01-19T21:15:52.347118"
     },
     {
       "Ticker": "MSFT",
@@ -43,7 +43,7 @@
       "Current Price": 459.86,
       "Data Source": "YahooDirect",
       "News Source": "MarketWatch",
-      "Timestamp": "2026-01-19T09:41:47.958413"
+      "Timestamp": "2026-01-19T21:15:52.347135"
     },
     {
       "Ticker": "GOOGL",
@@ -55,7 +55,7 @@
       "Current Price": 330.0,
       "Data Source": "YahooDirect",
       "News Source": "MarketWatch",
-      "Timestamp": "2026-01-19T09:41:47.958419"
+      "Timestamp": "2026-01-19T21:15:52.347141"
     },
     {
       "Ticker": "META",
@@ -67,7 +67,7 @@
       "Current Price": 620.25,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2026-01-19T09:41:47.958424"
+      "Timestamp": "2026-01-19T21:15:52.347145"
     },
     {
       "Ticker": "NVDA",
@@ -79,7 +79,7 @@
       "Current Price": 186.23,
       "Data Source": "AlphaVantage",
       "News Source": "MarketWatch",
-      "Timestamp": "2026-01-19T09:41:47.958430"
+      "Timestamp": "2026-01-19T21:15:52.347149"
     },
     {
       "Ticker": "TSLA",
@@ -91,7 +91,7 @@
       "Current Price": 437.5,
       "Data Source": "AlphaVantage",
       "News Source": "Reuters",
-      "Timestamp": "2026-01-19T09:41:47.958451"
+      "Timestamp": "2026-01-19T21:15:52.347167"
     },
     {
       "Ticker": "JPM",
@@ -103,7 +103,7 @@
       "Current Price": 312.47,
       "Data Source": "YahooDirect",
       "News Source": "Bloomberg",
-      "Timestamp": "2026-01-19T09:41:47.958471"
+      "Timestamp": "2026-01-19T21:15:52.347189"
     },
     {
       "Ticker": "V",
@@ -115,7 +115,7 @@
       "Current Price": 328.3,
       "Data Source": "AlphaVantage",
       "News Source": "Bloomberg",
-      "Timestamp": "2026-01-19T09:41:47.958477"
+      "Timestamp": "2026-01-19T21:15:52.347195"
     },
     {
       "Ticker": "MA",
@@ -127,7 +127,7 @@
       "Current Price": 539.49,
       "Data Source": "YahooDirect",
       "News Source": "Bloomberg",
-      "Timestamp": "2026-01-19T09:41:47.958482"
+      "Timestamp": "2026-01-19T21:15:52.347200"
     },
     {
       "Ticker": "MSFT",
@@ -139,7 +139,7 @@
       "Current Price": 459.86,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-01-19T09:41:47.958500"
+      "Timestamp": "2026-01-19T21:15:52.347219"
     },
     {
       "Ticker": "GOOGL",
@@ -151,7 +151,7 @@
       "Current Price": 330.0,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-01-19T09:41:47.958504"
+      "Timestamp": "2026-01-19T21:15:52.347223"
     },
     {
       "Ticker": "AMZN",
@@ -163,7 +163,7 @@
       "Current Price": 239.12,
       "Data Source": "YahooDirect",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-01-19T09:41:47.958508"
+      "Timestamp": "2026-01-19T21:15:52.347228"
     },
     {
       "Ticker": "V",
@@ -175,7 +175,7 @@
       "Current Price": 328.3,
       "Data Source": "AlphaVantage",
       "News Source": "WSJ",
-      "Timestamp": "2026-01-19T09:41:47.958525"
+      "Timestamp": "2026-01-19T21:15:52.347245"
     },
     {
       "Ticker": "MA",
@@ -187,7 +187,7 @@
       "Current Price": 539.49,
       "Data Source": "YahooDirect",
       "News Source": "WSJ",
-      "Timestamp": "2026-01-19T09:41:47.958529"
+      "Timestamp": "2026-01-19T21:15:52.347249"
     }
   ]
 }
