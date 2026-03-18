@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-18T07:33:42.618556",
+    "generated_at": "2026-03-18T10:01:00.247324",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -31,7 +31,7 @@
       "Current Price": 254.23,
       "Data Source": "AlphaVantage",
       "News Source": "Applech2.com",
-      "Timestamp": "2026-03-18T07:33:42.617309"
+      "Timestamp": "2026-03-18T10:01:00.245931"
     },
     {
       "Ticker": "AAPL",
@@ -45,7 +45,7 @@
       "Current Price": 254.23,
       "Data Source": "AlphaVantage",
       "News Source": "Asymco.com",
-      "Timestamp": "2026-03-18T07:33:42.617326"
+      "Timestamp": "2026-03-18T10:01:00.245952"
     },
     {
       "Ticker": "AAPL",
@@ -59,7 +59,7 @@
       "Current Price": 254.23,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617338"
+      "Timestamp": "2026-03-18T10:01:00.245961"
     },
     {
       "Ticker": "MSFT",
@@ -73,7 +73,7 @@
       "Current Price": 399.41,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617350"
+      "Timestamp": "2026-03-18T10:01:00.245972"
     },
     {
       "Ticker": "MSFT",
@@ -87,7 +87,7 @@
       "Current Price": 399.41,
       "Data Source": "YahooDirect",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-18T07:33:42.617368"
+      "Timestamp": "2026-03-18T10:01:00.245988"
     },
     {
       "Ticker": "MSFT",
@@ -101,7 +101,21 @@
       "Current Price": 399.41,
       "Data Source": "YahooDirect",
       "News Source": "OilPrice.com",
-      "Timestamp": "2026-03-18T07:33:42.617379"
+      "Timestamp": "2026-03-18T10:01:00.245999"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Down 20% From Its High, Is Tesla Stock a Buy Right Now?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0ea22152-1b60-40d1-821f-e065db21fc57",
+      "Published At": "2026-03-16T23:20:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.94,
+      "After Hours": 0.0,
+      "Current Price": 399.27,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-18T10:01:00.246010"
     },
     {
       "Ticker": "TSLA",
@@ -115,7 +129,7 @@
       "Current Price": 399.27,
       "Data Source": "AlphaVantage",
       "News Source": "Dnyuz.com",
-      "Timestamp": "2026-03-18T07:33:42.617388"
+      "Timestamp": "2026-03-18T10:01:00.246019"
     },
     {
       "Ticker": "TSLA",
@@ -129,21 +143,7 @@
       "Current Price": 399.27,
       "Data Source": "AlphaVantage",
       "News Source": "Motley Fool Australia",
-      "Timestamp": "2026-03-18T07:33:42.617401"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Unmasks Joint Project Between Tesla (TSLA) and xAI, Reuters Reports",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bdb2bd61-adc4-49b1-93c5-562b6105920c",
-      "Published At": "2026-03-15T19:36:25Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.94,
-      "After Hours": 0.0,
-      "Current Price": 399.27,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617411"
+      "Timestamp": "2026-03-18T10:01:00.246030"
     },
     {
       "Ticker": "GOOGL",
@@ -157,7 +157,7 @@
       "Current Price": 310.92,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617421"
+      "Timestamp": "2026-03-18T10:01:00.246038"
     },
     {
       "Ticker": "GOOGL",
@@ -171,7 +171,7 @@
       "Current Price": 310.92,
       "Data Source": "YahooDirect",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-18T07:33:42.617445"
+      "Timestamp": "2026-03-18T10:01:00.246060"
     },
     {
       "Ticker": "GOOGL",
@@ -185,7 +185,21 @@
       "Current Price": 310.92,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617455"
+      "Timestamp": "2026-03-18T10:01:00.246067"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta Platforms Just Announced 4 New In-House AI Chips. Does That Make META Stock a Buy Here?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_da7d9453-1886-4b75-8273-d9052989c8ce",
+      "Published At": "2026-03-16T21:02:17Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.76,
+      "After Hours": 0.0,
+      "Current Price": 622.66,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-18T10:01:00.246074"
     },
     {
       "Ticker": "META",
@@ -199,7 +213,7 @@
       "Current Price": 622.66,
       "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-03-18T07:33:42.617467"
+      "Timestamp": "2026-03-18T10:01:00.246081"
     },
     {
       "Ticker": "META",
@@ -213,21 +227,21 @@
       "Current Price": 622.66,
       "Data Source": "AlphaVantage",
       "News Source": "The Times of India",
-      "Timestamp": "2026-03-18T07:33:42.617476"
+      "Timestamp": "2026-03-18T10:01:00.246087"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta shares jump 3% as Mark Zuckerberg reportedly mulls cutting 20% of workforce to offset AI spending",
-      "Headline URL": "https://nypost.com/2026/03/16/business/meta-shares-jump-as-zuckerberg-reportedly-mulls-layoffs-to-offset-ai-spending/",
-      "Published At": "2026-03-16T16:00:08Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.76,
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Universal 2025 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/universal-2025-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-03-17T07:46:11Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.63,
       "After Hours": 0.0,
-      "Current Price": 622.66,
-      "Data Source": "AlphaVantage",
-      "News Source": "New York Post",
-      "Timestamp": "2026-03-18T07:33:42.617488"
+      "Current Price": 215.2,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-18T10:01:00.246098"
     },
     {
       "Ticker": "AMZN",
@@ -241,7 +255,7 @@
       "Current Price": 215.2,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617526"
+      "Timestamp": "2026-03-18T10:01:00.246106"
     },
     {
       "Ticker": "AMZN",
@@ -255,63 +269,49 @@
       "Current Price": 215.2,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-18T07:33:42.617533"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Rhino 2025 1080p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/rhino-2025-1080p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-03-16T19:18:34Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.63,
-      "After Hours": 0.0,
-      "Current Price": 215.2,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-18T07:33:42.617537"
+      "Timestamp": "2026-03-18T10:01:00.246113"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Makes a $1T Prediction",
-      "Headline URL": "https://www.newser.com/story/385525/nvidia-makes-a-1t-prediction.html",
-      "Published At": "2026-03-17T07:00:00Z",
+      "Headline": "NVIDIA Stock Surges on AI Dominance as GTC 2026 Unveils New Chips and Partnerships",
+      "Headline URL": "https://www.ibtimes.com.au/nvidia-stock-surges-ai-dominance-gtc-2026-unveils-new-chips-partnerships-1863589",
+      "Published At": "2026-03-17T09:27:18Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.7,
+      "After Hours": 0.0,
+      "Current Price": 181.93,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-03-18T10:01:00.246124"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA DLSS 5 \u304c AI \u3092\u6d3b\u7528\u3057\u30b2\u30fc\u30e0\u306b\u304a\u3051\u308b\u8996\u899a\u7684\u5fe0\u5b9f\u5ea6\u306e\u753b\u671f\u7684\u306a\u5411\u4e0a\u3092\u5b9f\u73fe",
+      "Headline URL": "https://prtimes.jp/main/html/rd/p/000000600.000012662.html",
+      "Published At": "2026-03-17T08:51:32Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.7,
       "After Hours": 0.0,
       "Current Price": 181.93,
       "Data Source": "AlphaVantage",
-      "News Source": "Newser",
-      "Timestamp": "2026-03-18T07:33:42.617542"
+      "News Source": "Prtimes.jp",
+      "Timestamp": "2026-03-18T10:01:00.246131"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA (NVDA) Continues To See Analyst Optimism",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2a7910e4-eba9-4030-94eb-0c821df83857",
-      "Published At": "2026-03-17T06:56:07Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Nvidia Stock vs. Micron Stock: Billionaires Buy One and Sell the Other",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8c5e568e-eddd-47f3-bb50-c276608b8083",
+      "Published At": "2026-03-17T08:32:00Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -0.7,
       "After Hours": 0.0,
       "Current Price": 181.93,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617547"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Adobe and NVIDIA Announce Strategic Partnership to Deliver the Next Generation of Firefly Models and Creative, Marketing and Agentic Workflows",
-      "Headline URL": "https://www.morningstar.com/news/business-wire/20260316532073/adobe-and-nvidia-announce-strategic-partnership-to-deliver-the-next-generation-of-firefly-models-and-creative-marketing-and-agentic-workflows",
-      "Published At": "2026-03-17T05:32:53Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.7,
-      "After Hours": 0.0,
-      "Current Price": 181.93,
-      "Data Source": "AlphaVantage",
-      "News Source": "Morningstar.com",
-      "Timestamp": "2026-03-18T07:33:42.617557"
+      "Timestamp": "2026-03-18T10:01:00.246139"
     },
     {
       "Ticker": "JPM",
@@ -325,7 +325,7 @@
       "Current Price": 286.89,
       "Data Source": "YahooDirect",
       "News Source": "The Times of India",
-      "Timestamp": "2026-03-18T07:33:42.617563"
+      "Timestamp": "2026-03-18T10:01:00.246147"
     },
     {
       "Ticker": "JPM",
@@ -339,7 +339,7 @@
       "Current Price": 286.89,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-18T07:33:42.617569"
+      "Timestamp": "2026-03-18T10:01:00.246155"
     }
   ]
 }
