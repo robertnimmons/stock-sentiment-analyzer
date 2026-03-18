@@ -13,7 +13,6 @@ from datetime import datetime, timedelta
 import logging
 import time
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # ── Configuration ──────────────────────────────────────────────────────────────
@@ -23,7 +22,6 @@ CONFIG = {
         "alpha_vantage": os.getenv("ALPHAVANTAGE_KEY", "demo"),
         "newsapi":       os.getenv("NEWSAPI_KEY", ""),
     },
-    # How many NewsAPI articles to fetch per ticker (free tier = 100 req/day)
     "newsapi_articles_per_ticker": 3,
 }
 
@@ -40,8 +38,28 @@ COMPANY_NAMES = {
     "MA":   "Mastercard Inc.",
 }
 
+# ── Specific search queries to avoid irrelevant results ────────────────────────
+TICKER_SEARCH_TERMS = {
+    "AAPL":  '"AAPL" OR "Apple stock" OR "Apple earnings" OR "Apple shares"',
+    "MSFT":  '"MSFT" OR "Microsoft stock" OR "Microsoft earnings" OR "Microsoft shares"',
+    "TSLA":  '"TSLA" OR "Tesla stock" OR "Tesla earnings" OR "Tesla shares"',
+    "GOOGL": '"GOOGL" OR "Alphabet stock" OR "Google stock" OR "Alphabet earnings"',
+    "META":  '"META stock" OR "Meta Platforms stock" OR "Meta earnings" OR "Meta shares"',
+    "AMZN":  '"AMZN" OR "Amazon stock" OR "Amazon earnings" OR "Amazon shares"',
+    "NVDA":  '"NVDA" OR "Nvidia stock" OR "Nvidia earnings" OR "Nvidia shares"',
+    "JPM":   '"JPM" OR "JPMorgan stock" OR "JPMorgan earnings" OR "JPMorgan shares"',
+    "V":     '"Visa stock" OR "Visa Inc earnings" OR "Visa Inc shares" OR "Visa payment"',
+    "MA":    '"Mastercard stock" OR "Mastercard earnings" OR "Mastercard shares"',
+}
 
-# ── Stock price fetching (unchanged from your original) ────────────────────────
+# Low-quality domains to skip
+EXCLUDED_DOMAINS = {
+    "ozbargain.com.au", "naturalnews.com", "timesofindia.indiatimes.com",
+    "indianexpress.com", "theecologist.org", "notebookcheck.net",
+}
+
+
+# ── Stock price fetching ───────────────────────────────────────────────────────
 
 def fetch_alpha_vantage_data(ticker):
     api_key = CONFIG["api_keys"]["alpha_vantage"]
@@ -147,37 +165,54 @@ def fetch_real_stock_data():
     return stock_data
 
 
-# ── LIVE news fetching via NewsAPI ─────────────────────────────────────────────
+# ── Live news via NewsAPI ──────────────────────────────────────────────────────
 
-# Map tickers to search terms that return better NewsAPI results
-TICKER_SEARCH_TERMS = {
-    "AAPL":  "Apple stock",
-    "MSFT":  "Microsoft stock",
-    "TSLA":  "Tesla stock",
-    "GOOGL": "Alphabet Google stock",
-    "META":  "Meta Platforms stock",
-    "AMZN":  "Amazon stock",
-    "NVDA":  "NVIDIA stock",
-    "JPM":   "JPMorgan stock",
-    "V":     "Visa stock",
-    "MA":    "Mastercard stock",
-}
+def is_relevant_article(title, ticker):
+    """Reject articles that clearly aren't about the stock."""
+    title_lower = title.lower()
+
+    finance_words = {
+        "stock", "share", "shares", "earnings", "investor", "market", "trading",
+        "nasdaq", "nyse", "quarter", "revenue", "profit", "loss", "analyst",
+        "forecast", "dividend", "valuation", "ipo", "sec", "fund", "hedge",
+        "rally", "decline", "surge", "drop", "beat", "miss", "guidance",
+        "outlook", "upgrade", "downgrade", "buyback", "acquisition", "merger",
+        ticker.lower(),
+    }
+
+    company_fragments = {
+        "AAPL":  ["apple"],
+        "MSFT":  ["microsoft"],
+        "TSLA":  ["tesla", "musk", "elon"],
+        "GOOGL": ["google", "alphabet", "deepmind"],
+        "META":  ["meta", "facebook", "instagram", "zuckerberg", "whatsapp"],
+        "AMZN":  ["amazon", "aws", "bezos", "prime"],
+        "NVDA":  ["nvidia", "jensen huang", "gpu", "cuda"],
+        "JPM":   ["jpmorgan", "jamie dimon", "chase"],
+        "V":     ["visa"],
+        "MA":    ["mastercard"],
+    }
+
+    words_in_title = set(title_lower.replace(",", " ").replace("'", " ").split())
+    frags = set(company_fragments.get(ticker, []))
+
+    has_finance_word = bool(words_in_title & finance_words)
+    has_company_word = any(f in title_lower for f in frags)
+
+    return has_finance_word or has_company_word
 
 
-def fetch_news_for_ticker(ticker, api_key, page_size=3):
-    """
-    Fetch recent financial headlines for a single ticker from NewsAPI.
-    Returns a list of dicts: {title, source, url, published_at}
-    """
-    query = TICKER_SEARCH_TERMS.get(ticker, f"{ticker} stock")
+def fetch_news_for_ticker(ticker, api_key, page_size=5):
+    """Fetch and filter recent headlines for a single ticker."""
+    query = TICKER_SEARCH_TERMS.get(ticker, f'"{ticker}" stock')
     url   = "https://newsapi.org/v2/everything"
     params = {
-        "q":          query,
-        "language":   "en",
-        "sortBy":     "publishedAt",          # most recent first
-        "pageSize":   page_size,
-        "from":       (datetime.utcnow() - timedelta(days=3)).strftime("%Y-%m-%d"),
-        "apiKey":     api_key,
+        "q":        query,
+        "language": "en",
+        "sortBy":   "publishedAt",
+        "pageSize": page_size,
+        "from":     (datetime.utcnow() - timedelta(days=3)).strftime("%Y-%m-%d"),
+        "apiKey":   api_key,
     }
     try:
         resp = requests.get(url, params=params, timeout=10)
@@ -188,22 +223,35 @@ def fetch_news_for_ticker(ticker, api_key, page_size=3):
             logging.warning(f"⚠️  NewsAPI error for {ticker}: {data.get('message')}")
             return []
 
-        articles = data.get("articles", [])
-        results  = []
-        for art in articles:
-            title = art.get("title", "").strip()
-            # NewsAPI sometimes returns "[Removed]" for deleted articles
+        results = []
+        for art in data.get("articles", []):
+            title  = art.get("title", "").strip()
+            source = art.get("source", {}).get("name", "NewsAPI")
+            url_   = art.get("url", "")
+
             if not title or title.lower() == "[removed]":
                 continue
+
+            domain = url_.split("/")[2].replace("www.", "") if url_ else ""
+            if domain in EXCLUDED_DOMAINS:
+                continue
+
+            if not is_relevant_article(title, ticker):
+                logging.info(f"  ↳ Skipped irrelevant: {title[:60]}…")
+                continue
+
             results.append({
                 "title":        title,
-                "source":       art.get("source", {}).get("name", "NewsAPI"),
-                "url":          art.get("url", ""),
+                "source":       source,
+                "url":          url_,
                 "published_at": art.get("publishedAt", ""),
                 "tickers":      [ticker],
             })
 
-        logging.info(f"✅ NewsAPI: {len(results)} articles for {ticker}")
+            if len(results) >= CONFIG["newsapi_articles_per_ticker"]:
+                break
+
+        logging.info(f"✅ NewsAPI: {len(results)} relevant articles for {ticker}")
         return results
 
     except Exception as e:
@@ -212,59 +260,60 @@ def fetch_news_for_ticker(ticker, api_key, page_size=3):
 
 
 def fetch_live_news(tickers):
-    """
-    Fetch live headlines for every ticker.
-    Falls back to a single broad finance query if the key is missing.
-    Returns a flat list of news item dicts (same shape as original create_recent_news).
-    """
     api_key = CONFIG["api_keys"]["newsapi"]
-
     if not api_key:
-        logging.error(
-            "❌ NEWSAPI_KEY not set. Export it with:  export NEWSAPI_KEY=your_key_here"
-        )
+        logging.error("❌ NEWSAPI_KEY not set")
         return []
 
-    per_ticker = CONFIG["newsapi_articles_per_ticker"]
-    all_news   = []
-
+    all_news = []
     for ticker in tickers:
-        articles = fetch_news_for_ticker(ticker, api_key, page_size=per_ticker)
+        articles = fetch_news_for_ticker(ticker, api_key, page_size=5)
         all_news.extend(articles)
-        time.sleep(0.25)   # stay well under rate limits
+        time.sleep(0.25)
 
-    # De-duplicate by headline (same story can appear for multiple tickers)
     seen, unique = set(), []
     for item in all_news:
         if item["title"] not in seen:
             seen.add(item["title"])
             unique.append(item)
 
-    logging.info(f"✅ Total unique headlines fetched: {len(unique)}")
+    logging.info(f"✅ Total unique relevant headlines: {len(unique)}")
     return unique
 
 
 # ── Sentiment analysis ─────────────────────────────────────────────────────────
 
 POSITIVE_WORDS = {
-    "surge", "rally", "beat", "strong", "growth", "optimism", "accelerates",
-    "resilience", "beats", "rise", "gain", "bullish", "positive", "soar",
-    "record", "profit", "upgrade", "outperform", "buy", "boost", "expansion",
-    "momentum", "recovery", "breakthrough", "innovation", "exceed", "top",
+    "surge", "surges", "surging", "rally", "rallies", "rallying", "soar", "soars", "soaring",
+    "rise", "rises", "rising", "gain", "gains", "climb", "climbs", "jump", "jumps",
+    "rebound", "rebounds", "recover", "recovery",
+    "beat", "beats", "topped", "exceed", "exceeds", "outperform", "outperforms",
+    "record", "profit", "profits", "strong", "strength", "robust", "solid",
+    "growth", "grew", "accelerate", "accelerates", "expand", "expansion",
+    "upgrade", "upgrades", "upgraded", "buy", "overweight", "bullish",
+    "optimism", "optimistic", "confidence", "boost", "positive",
+    "deal", "partnership", "wins", "awarded", "launches", "breakthrough",
+    "innovation", "momentum", "resilience", "resilient",
 }
 
 NEGATIVE_WORDS = {
-    "fall", "drop", "decline", "weak", "concerns", "bearish", "down", "plunge",
-    "miss", "disappointing", "struggle", "challenges", "pressure", "negative",
-    "loss", "downgrade", "underperform", "sell", "risk", "slowdown", "cut",
-    "layoff", "investigation", "lawsuit", "recall", "warning", "crash",
+    "fall", "falls", "falling", "drop", "drops", "dropping", "decline", "declines",
+    "declining", "plunge", "plunges", "plunging", "sink", "sinks", "tumble", "tumbles",
+    "slide", "slides", "slump", "slumps", "crash", "crashes",
+    "miss", "misses", "missed", "disappoint", "disappoints", "disappointing",
+    "weak", "weakness", "loss", "losses", "struggle", "struggles", "shrink",
+    "slowdown", "slowing", "cut", "cuts", "reduce", "reduction",
+    "downgrade", "downgrades", "downgraded", "sell", "underweight", "bearish",
+    "concern", "concerns", "risk", "risks", "pressure", "negative", "warn", "warning",
+    "lawsuit", "investigation", "probe", "fine", "layoff", "layoffs", "recall",
+    "delay", "delays", "halt", "suspended", "breach", "hack",
 }
 
 
 def analyze_sentiment(text):
-    words = set(text.lower().split())
-    pos   = len(words & POSITIVE_WORDS)
-    neg   = len(words & NEGATIVE_WORDS)
+    tokens = set(t.strip(".,!?\"'();:-").lower() for t in text.split())
+    pos = len(tokens & POSITIVE_WORDS)
+    neg = len(tokens & NEGATIVE_WORDS)
     if pos > neg:
         return "POSITIVE"
     if neg > pos:
@@ -298,7 +347,7 @@ def create_analysis(stock_data, news_items):
                 "Timestamp":      datetime.now().isoformat(),
             })
     if not rows:
-        logging.error("❌ No analysis rows created — check API keys and network")
+        logging.error("❌ No analysis rows — check API keys and network")
         return None
     logging.info(f"✅ {len(rows)} analysis records created")
     return pd.DataFrame(rows)
@@ -322,7 +371,6 @@ def save_results(df):
             json.dump({"metadata": metadata, "results": df.to_dict("records")}, f, indent=2)
         logging.info("✅ Saved results.json")
 
-        # ── HTML report ──
         html = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -359,11 +407,11 @@ def save_results(df):
   <h2>📰 Live Results</h2>
 """
         for _, row in df.sort_values("Regular Change", ascending=False).iterrows():
-            cls    = row["Sentiment"].lower()
+            cls     = row["Sentiment"].lower()
             chg_cls = "pos-chg" if row["Regular Change"] >= 0 else "neg-chg"
-            sym    = "+" if row["Regular Change"] >= 0 else ""
-            link   = f'<a href="{row["Headline URL"]}" target="_blank">Read article →</a>' if row.get("Headline URL") else ""
-            pub    = f' | {row["Published At"][:10]}' if row.get("Published At") else ""
+            sym     = "+" if row["Regular Change"] >= 0 else ""
+            link    = f'<a href="{row["Headline URL"]}" target="_blank">Read article →</a>' if row.get("Headline URL") else ""
+            pub     = f' | {row["Published At"][:10]}' if row.get("Published At") else ""
             html += f"""
   <div class="card {cls}">
     <div style="display:flex;justify-content:space-between;align-items:center">
@@ -388,14 +436,14 @@ def save_results(df):
             f.write(html)
         logging.info("✅ Saved results.html")
 
-        # ── Text summary ──
         with open("summary.txt", "w") as f:
             f.write("LIVE STOCK SENTIMENT ANALYSIS\n" + "="*50 + "\n")
             f.write(f"Generated : {datetime.now()}\n")
-            f.write(f"Data sources: {', '.join(df['Data Source'].unique())}\n\n")
+            f.write(f"Sources   : {', '.join(df['Data Source'].unique())}\n\n")
             f.write(f"Records   : {len(df)}\n")
             f.write(f"Stocks    : {len(df['Ticker'].unique())}\n\n")
-            f.write(f"SENTIMENT\n  Positive : {(df['Sentiment']=='POSITIVE').sum()}\n")
+            f.write("SENTIMENT\n")
+            f.write(f"  Positive : {(df['Sentiment']=='POSITIVE').sum()}\n")
             f.write(f"  Negative : {(df['Sentiment']=='NEGATIVE').sum()}\n")
             f.write(f"  Neutral  : {(df['Sentiment']=='NEUTRAL').sum()}\n\n")
             f.write("TOP GAINERS\n")
@@ -421,7 +469,6 @@ def run_analysis():
         logging.error("❌ No stock price data — aborting")
         return None
 
-    # ── KEY CHANGE: fetch real headlines instead of hardcoded ones ──
     news_items = fetch_live_news(list(stock_data.keys()))
     if not news_items:
         logging.error("❌ No news articles fetched — check NEWSAPI_KEY")
