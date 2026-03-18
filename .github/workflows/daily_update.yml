@@ -72,7 +72,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase origin main   # prevent diverged history on repeat runs
-          git add data/ latest.json
+          git add data/ latest.json results.json results.html summary.txt index.html
           git diff --staged --quiet || git commit -m "Daily stock data: $(date)"
+          git fetch origin main
+          git merge origin/main --no-edit
           git push
