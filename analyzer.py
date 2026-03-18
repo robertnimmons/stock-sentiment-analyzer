@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 REAL STOCK DATA ANALYZER
-This version tries multiple methods to get current stock data
+Fetches live stock prices (Alpha Vantage / Yahoo Finance) and
+live financial headlines (NewsAPI) — no hardcoded data.
 """
 
 import os
@@ -11,508 +12,449 @@ import json
 from datetime import datetime, timedelta
 import logging
 import time
-import random
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Configuration
+# ── Configuration ──────────────────────────────────────────────────────────────
 CONFIG = {
     "stocks": ["AAPL", "MSFT", "TSLA", "GOOGL", "META", "AMZN", "NVDA", "JPM", "V", "MA"],
     "api_keys": {
-        "alpha_vantage": os.getenv('ALPHAVANTAGE_KEY', 'demo'),
-        "newsapi": os.getenv('NEWSAPI_KEY', '')
-    }
+        "alpha_vantage": os.getenv("ALPHAVANTAGE_KEY", "demo"),
+        "newsapi":       os.getenv("NEWSAPI_KEY", ""),
+    },
+    # How many NewsAPI articles to fetch per ticker (free tier = 100 req/day)
+    "newsapi_articles_per_ticker": 3,
 }
 
+COMPANY_NAMES = {
+    "AAPL": "Apple Inc.",
+    "MSFT": "Microsoft Corp.",
+    "TSLA": "Tesla Inc.",
+    "GOOGL": "Alphabet Inc.",
+    "META": "Meta Platforms",
+    "AMZN": "Amazon.com Inc.",
+    "NVDA": "NVIDIA Corp.",
+    "JPM": "JPMorgan Chase",
+    "V":    "Visa Inc.",
+    "MA":   "Mastercard Inc.",
+}
+
+
+# ── Stock price fetching (unchanged from your original) ────────────────────────
+
 def fetch_alpha_vantage_data(ticker):
-    """Fetch real stock data from Alpha Vantage API"""
-    api_key = CONFIG['api_keys']['alpha_vantage']
-    
-    if api_key in ['', 'demo']:
+    api_key = CONFIG["api_keys"]["alpha_vantage"]
+    if api_key in ("", "demo"):
         return None
-    
     try:
-        # Get current quote
-        url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={ticker}&apikey={api_key}"
-        response = requests.get(url, timeout=10)
-        data = response.json()
-        
-        if 'Global Quote' not in data:
-            logging.warning(f"⚠️ Alpha Vantage: No data for {ticker}")
+        url = (
+            f"https://www.alphavantage.co/query"
+            f"?function=GLOBAL_QUOTE&symbol={ticker}&apikey={api_key}"
+        )
+        data = requests.get(url, timeout=10).json()
+        if "Global Quote" not in data:
+            logging.warning(f"⚠️  Alpha Vantage: no data for {ticker}")
             return None
-        
-        quote = data['Global Quote']
-        current_price = float(quote['05. price'])
-        change_percent = float(quote['10. change percent'].replace('%', ''))
-        
-        logging.info(f"✅ Alpha Vantage: {ticker} = ${current_price:.2f} ({change_percent:+.2f}%)")
-        
-        return {
-            "symbol": ticker,
-            "current_price": round(current_price, 2),
-            "regular_change": round(change_percent, 2),
-            "post_change": 0.0,  # Alpha Vantage doesn't provide after-hours easily
-            "source": "AlphaVantage"
-        }
-        
+        q = data["Global Quote"]
+        price   = float(q["05. price"])
+        chg_pct = float(q["10. change percent"].replace("%", ""))
+        logging.info(f"✅ Alpha Vantage: {ticker} = ${price:.2f} ({chg_pct:+.2f}%)")
+        return {"symbol": ticker, "current_price": round(price, 2),
+                "regular_change": round(chg_pct, 2), "post_change": 0.0,
+                "source": "AlphaVantage"}
     except Exception as e:
-        logging.warning(f"⚠️ Alpha Vantage failed for {ticker}: {e}")
+        logging.warning(f"⚠️  Alpha Vantage failed for {ticker}: {e}")
         return None
+
 
 def fetch_yahoo_finance_direct(ticker):
-    """Direct Yahoo Finance API call (bypassing yfinance library)"""
     try:
-        # Use Yahoo's direct API endpoint
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-        
-        response = requests.get(url, headers=headers, timeout=10)
-        data = response.json()
-        
-        if 'chart' not in data or not data['chart']['result']:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        data = requests.get(url, headers=headers, timeout=10).json()
+        if "chart" not in data or not data["chart"]["result"]:
             return None
-        
-        result = data['chart']['result'][0]
-        meta = result['meta']
-        
-        current_price = meta['regularMarketPrice']
-        previous_close = meta['previousClose']
-        change_percent = ((current_price - previous_close) / previous_close) * 100
-        
-        # Try to get after-hours price
-        post_market_price = meta.get('postMarketPrice', current_price)
-        post_change = ((post_market_price - current_price) / current_price) * 100
-        
-        logging.info(f"✅ Yahoo Direct: {ticker} = ${current_price:.2f} ({change_percent:+.2f}%)")
-        
-        return {
-            "symbol": ticker,
-            "current_price": round(current_price, 2),
-            "regular_change": round(change_percent, 2),
-            "post_change": round(post_change, 2),
-            "source": "YahooDirect"
-        }
-        
+        meta  = data["chart"]["result"][0]["meta"]
+        price = meta["regularMarketPrice"]
+        prev  = meta["previousClose"]
+        chg   = ((price - prev) / prev) * 100
+        post  = meta.get("postMarketPrice", price)
+        post_chg = ((post - price) / price) * 100
+        logging.info(f"✅ Yahoo Direct: {ticker} = ${price:.2f} ({chg:+.2f}%)")
+        return {"symbol": ticker, "current_price": round(price, 2),
+                "regular_change": round(chg, 2), "post_change": round(post_chg, 2),
+                "source": "YahooDirect"}
     except Exception as e:
-        logging.warning(f"⚠️ Yahoo Direct failed for {ticker}: {e}")
+        logging.warning(f"⚠️  Yahoo Direct failed for {ticker}: {e}")
         return None
+
 
 def try_yfinance_careful(ticker):
-    """Try yfinance with careful rate limiting"""
     try:
         import yfinance as yf
-        
         stock = yf.Ticker(ticker)
-        
-        # Try fast_info first (lighter API call)
-        try:
-            fast_info = stock.fast_info
-            current_price = fast_info.get('lastPrice', fast_info.get('regularMarketPrice'))
-            
-            if current_price:
-                # Get previous close for change calculation
-                hist = stock.history(period="2d")
-                if len(hist) >= 2:
-                    previous_close = hist['Close'].iloc[-2]
-                    change_percent = ((current_price - previous_close) / previous_close) * 100
-                else:
-                    change_percent = 0.0
-                
-                post_market = fast_info.get('postMarketPrice', current_price)
-                post_change = ((post_market - current_price) / current_price) * 100
-                
-                logging.info(f"✅ yfinance: {ticker} = ${current_price:.2f} ({change_percent:+.2f}%)")
-                
-                return {
-                    "symbol": ticker,
-                    "current_price": round(float(current_price), 2),
-                    "regular_change": round(float(change_percent), 2),
-                    "post_change": round(float(post_change), 2),
-                    "source": "yfinance"
-                }
-        except Exception as e:
-            logging.warning(f"⚠️ yfinance fast_info failed for {ticker}: {e}")
-            
-        # Fallback to history method
+        fast  = stock.fast_info
+        price = fast.get("lastPrice") or fast.get("regularMarketPrice")
+        if price:
+            hist = stock.history(period="2d")
+            chg  = ((price - hist["Close"].iloc[-2]) / hist["Close"].iloc[-2]) * 100 if len(hist) >= 2 else 0.0
+            post = fast.get("postMarketPrice", price)
+            post_chg = ((post - price) / price) * 100
+            logging.info(f"✅ yfinance: {ticker} = ${price:.2f} ({chg:+.2f}%)")
+            return {"symbol": ticker, "current_price": round(float(price), 2),
+                    "regular_change": round(float(chg), 2), "post_change": round(float(post_chg), 2),
+                    "source": "yfinance"}
         hist = stock.history(period="1d", prepost=True)
         if not hist.empty:
-            current_price = hist['Close'].iloc[-1]
-            open_price = hist['Open'].iloc[0]
-            change_percent = ((current_price - open_price) / open_price) * 100
-            
-            logging.info(f"✅ yfinance (hist): {ticker} = ${current_price:.2f} ({change_percent:+.2f}%)")
-            
-            return {
-                "symbol": ticker,
-                "current_price": round(float(current_price), 2),
-                "regular_change": round(float(change_percent), 2),
-                "post_change": 0.0,
-                "source": "yfinance-history"
-            }
-            
+            price = hist["Close"].iloc[-1]
+            chg   = ((price - hist["Open"].iloc[0]) / hist["Open"].iloc[0]) * 100
+            return {"symbol": ticker, "current_price": round(float(price), 2),
+                    "regular_change": round(float(chg), 2), "post_change": 0.0,
+                    "source": "yfinance-history"}
     except Exception as e:
-        logging.warning(f"⚠️ yfinance completely failed for {ticker}: {e}")
-        return None
+        logging.warning(f"⚠️  yfinance failed for {ticker}: {e}")
+    return None
+
 
 def fetch_real_stock_data():
-    """Try multiple methods to get real stock data"""
-    logging.info("📊 Attempting to fetch REAL stock data...")
-    
-    stock_data = {}
-    failed_tickers = []
-    
+    logging.info("📊 Fetching live stock prices…")
+    stock_data, failed = {}, []
     for i, ticker in enumerate(CONFIG["stocks"]):
-        logging.info(f"Fetching {ticker} ({i+1}/{len(CONFIG['stocks'])})")
-        
-        # Try methods in order of preference
+        logging.info(f"  {ticker} ({i+1}/{len(CONFIG['stocks'])})")
         result = None
-        
-        # Method 1: Alpha Vantage (if API key provided)
-        if CONFIG['api_keys']['alpha_vantage'] not in ['', 'demo']:
+        if CONFIG["api_keys"]["alpha_vantage"] not in ("", "demo"):
             result = fetch_alpha_vantage_data(ticker)
             if result:
                 stock_data[ticker] = result
-                time.sleep(0.5)  # Rate limiting
+                time.sleep(0.5)
                 continue
-        
-        # Method 2: Yahoo Finance Direct API
         result = fetch_yahoo_finance_direct(ticker)
         if result:
             stock_data[ticker] = result
-            time.sleep(1)  # Rate limiting
+            time.sleep(1)
             continue
-            
-        # Method 3: yfinance library (careful)
         result = try_yfinance_careful(ticker)
         if result:
             stock_data[ticker] = result
-            time.sleep(2)  # More conservative rate limiting
+            time.sleep(2)
             continue
-        
-        # If all methods failed
-        failed_tickers.append(ticker)
+        failed.append(ticker)
         time.sleep(1)
-    
-    logging.info(f"✅ Successfully fetched real data for {len(stock_data)} stocks")
-    if failed_tickers:
-        logging.warning(f"⚠️ Failed to fetch: {failed_tickers}")
-    
+    logging.info(f"✅ Price data fetched for {len(stock_data)} stocks")
+    if failed:
+        logging.warning(f"⚠️  Could not fetch prices for: {failed}")
     return stock_data
 
-def create_recent_news():
-    """Create relevant news items for current analysis"""
-    news_items = [
-        {
-            "title": "Tech stocks surge on AI optimism and strong earnings outlook",
-            "source": "MarketWatch",
-            "tickers": ["AAPL", "MSFT", "GOOGL", "META", "NVDA"]
-        },
-        {
-            "title": "Electric vehicle sales growth accelerates in Q4",
-            "source": "Reuters",
-            "tickers": ["TSLA"]
-        },
-        {
-            "title": "Financial sector rallies as interest rate concerns ease",
-            "source": "Bloomberg",
-            "tickers": ["JPM", "V", "MA"]
-        },
-        {
-            "title": "Cloud computing revenue beats expectations across major providers",
-            "source": "TechCrunch",
-            "tickers": ["MSFT", "GOOGL", "AMZN"]
-        },
-        {
-            "title": "Consumer spending data shows resilience in digital payments",
-            "source": "WSJ",
-            "tickers": ["V", "MA"]
-        }
-    ]
-    
-    return news_items
+
+# ── LIVE news fetching via NewsAPI ─────────────────────────────────────────────
+
+# Map tickers to search terms that return better NewsAPI results
+TICKER_SEARCH_TERMS = {
+    "AAPL":  "Apple stock",
+    "MSFT":  "Microsoft stock",
+    "TSLA":  "Tesla stock",
+    "GOOGL": "Alphabet Google stock",
+    "META":  "Meta Platforms stock",
+    "AMZN":  "Amazon stock",
+    "NVDA":  "NVIDIA stock",
+    "JPM":   "JPMorgan stock",
+    "V":     "Visa stock",
+    "MA":    "Mastercard stock",
+}
+
+
+def fetch_news_for_ticker(ticker, api_key, page_size=3):
+    """
+    Fetch recent financial headlines for a single ticker from NewsAPI.
+    Returns a list of dicts: {title, source, url, published_at}
+    """
+    query = TICKER_SEARCH_TERMS.get(ticker, f"{ticker} stock")
+    url   = "https://newsapi.org/v2/everything"
+    params = {
+        "q":          query,
+        "language":   "en",
+        "sortBy":     "publishedAt",          # most recent first
+        "pageSize":   page_size,
+        "from":       (datetime.utcnow() - timedelta(days=3)).strftime("%Y-%m-%d"),
+        "apiKey":     api_key,
+    }
+    try:
+        resp = requests.get(url, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+
+        if data.get("status") != "ok":
+            logging.warning(f"⚠️  NewsAPI error for {ticker}: {data.get('message')}")
+            return []
+
+        articles = data.get("articles", [])
+        results  = []
+        for art in articles:
+            title = art.get("title", "").strip()
+            # NewsAPI sometimes returns "[Removed]" for deleted articles
+            if not title or title.lower() == "[removed]":
+                continue
+            results.append({
+                "title":        title,
+                "source":       art.get("source", {}).get("name", "NewsAPI"),
+                "url":          art.get("url", ""),
+                "published_at": art.get("publishedAt", ""),
+                "tickers":      [ticker],
+            })
+
+        logging.info(f"✅ NewsAPI: {len(results)} articles for {ticker}")
+        return results
+
+    except Exception as e:
+        logging.warning(f"⚠️  NewsAPI failed for {ticker}: {e}")
+        return []
+
+
+def fetch_live_news(tickers):
+    """
+    Fetch live headlines for every ticker.
+    Falls back to a single broad finance query if the key is missing.
+    Returns a flat list of news item dicts (same shape as original create_recent_news).
+    """
+    api_key = CONFIG["api_keys"]["newsapi"]
+
+    if not api_key:
+        logging.error(
+            "❌ NEWSAPI_KEY not set. Export it with:  export NEWSAPI_KEY=your_key_here"
+        )
+        return []
+
+    per_ticker = CONFIG["newsapi_articles_per_ticker"]
+    all_news   = []
+
+    for ticker in tickers:
+        articles = fetch_news_for_ticker(ticker, api_key, page_size=per_ticker)
+        all_news.extend(articles)
+        time.sleep(0.25)   # stay well under rate limits
+
+    # De-duplicate by headline (same story can appear for multiple tickers)
+    seen, unique = set(), []
+    for item in all_news:
+        if item["title"] not in seen:
+            seen.add(item["title"])
+            unique.append(item)
+
+    logging.info(f"✅ Total unique headlines fetched: {len(unique)}")
+    return unique
+
+
+# ── Sentiment analysis ─────────────────────────────────────────────────────────
+
+POSITIVE_WORDS = {
+    "surge", "rally", "beat", "strong", "growth", "optimism", "accelerates",
+    "resilience", "beats", "rise", "gain", "bullish", "positive", "soar",
+    "record", "profit", "upgrade", "outperform", "buy", "boost", "expansion",
+    "momentum", "recovery", "breakthrough", "innovation", "exceed", "top",
+}
+
+NEGATIVE_WORDS = {
+    "fall", "drop", "decline", "weak", "concerns", "bearish", "down", "plunge",
+    "miss", "disappointing", "struggle", "challenges", "pressure", "negative",
+    "loss", "downgrade", "underperform", "sell", "risk", "slowdown", "cut",
+    "layoff", "investigation", "lawsuit", "recall", "warning", "crash",
+}
+
 
 def analyze_sentiment(text):
-    """Enhanced sentiment analysis"""
-    positive_indicators = [
-        "surge", "rally", "beat", "strong", "growth", "optimism", "accelerates",
-        "resilience", "beats", "rise", "gain", "bullish", "positive", "up", "soar"
-    ]
-    
-    negative_indicators = [
-        "fall", "drop", "decline", "weak", "concerns", "bearish", "down", "plunge",
-        "miss", "disappointing", "struggle", "challenges", "pressure", "negative"
-    ]
-    
-    text_lower = text.lower()
-    
-    pos_score = sum(2 if word in text_lower else 0 for word in positive_indicators)
-    neg_score = sum(2 if word in text_lower else 0 for word in negative_indicators)
-    
-    # Boost score for multiple positive/negative words
-    pos_count = sum(1 for word in positive_indicators if word in text_lower)
-    neg_count = sum(1 for word in negative_indicators if word in text_lower)
-    
-    if pos_count > 1:
-        pos_score += pos_count
-    if neg_count > 1:
-        neg_score += neg_count
-    
-    if pos_score > neg_score:
+    words = set(text.lower().split())
+    pos   = len(words & POSITIVE_WORDS)
+    neg   = len(words & NEGATIVE_WORDS)
+    if pos > neg:
         return "POSITIVE"
-    elif neg_score > pos_score:
+    if neg > pos:
         return "NEGATIVE"
-    else:
-        return "NEUTRAL"
+    return "NEUTRAL"
+
+
+# ── Analysis assembly ──────────────────────────────────────────────────────────
 
 def create_analysis(stock_data, news_items):
-    """Create comprehensive analysis"""
-    logging.info("🔍 Creating sentiment analysis with real data...")
-    
-    results = []
-    
+    logging.info("🔍 Assembling sentiment analysis…")
+    rows = []
     for news in news_items:
         sentiment = analyze_sentiment(news["title"])
-        
         for ticker in news.get("tickers", []):
-            if ticker in stock_data:
-                stock_info = stock_data[ticker]
-                
-                results.append({
-                    "Ticker": ticker,
-                    "Company": get_company_name(ticker),
-                    "Headline": news["title"],
-                    "Sentiment": sentiment,
-                    "Regular Change": stock_info["regular_change"],
-                    "After Hours": stock_info["post_change"],
-                    "Current Price": stock_info["current_price"],
-                    "Data Source": stock_info["source"],
-                    "News Source": news["source"],
-                    "Timestamp": datetime.now().isoformat()
-                })
-    
-    if not results:
-        logging.error("❌ No analysis results created")
+            if ticker not in stock_data:
+                continue
+            info = stock_data[ticker]
+            rows.append({
+                "Ticker":         ticker,
+                "Company":        COMPANY_NAMES.get(ticker, ticker),
+                "Headline":       news["title"],
+                "Headline URL":   news.get("url", ""),
+                "Published At":   news.get("published_at", ""),
+                "Sentiment":      sentiment,
+                "Regular Change": info["regular_change"],
+                "After Hours":    info["post_change"],
+                "Current Price":  info["current_price"],
+                "Data Source":    info["source"],
+                "News Source":    news["source"],
+                "Timestamp":      datetime.now().isoformat(),
+            })
+    if not rows:
+        logging.error("❌ No analysis rows created — check API keys and network")
         return None
-        
-    logging.info(f"✅ Created {len(results)} analysis records with REAL data")
-    return pd.DataFrame(results)
+    logging.info(f"✅ {len(rows)} analysis records created")
+    return pd.DataFrame(rows)
 
-def get_company_name(ticker):
-    """Get company name mapping"""
-    names = {
-        "AAPL": "Apple Inc.",
-        "MSFT": "Microsoft Corp.",
-        "TSLA": "Tesla Inc.",
-        "GOOGL": "Alphabet Inc.",
-        "META": "Meta Platforms",
-        "AMZN": "Amazon.com Inc.",
-        "NVDA": "NVIDIA Corp.",
-        "JPM": "JPMorgan Chase",
-        "V": "Visa Inc.",
-        "MA": "Mastercard Inc."
-    }
-    return names.get(ticker, ticker)
+
+# ── Output saving ──────────────────────────────────────────────────────────────
 
 def save_results(df):
-    """Save results with real data indicators"""
     if df is None or df.empty:
-        logging.error("❌ No data to save")
+        logging.error("❌ Nothing to save")
         return False
-    
     try:
-        # Add metadata about data sources
         metadata = {
-            "generated_at": datetime.now().isoformat(),
-            "data_sources": list(df['Data Source'].unique()),
-            "total_records": len(df),
-            "real_data": True,
-            "stocks_analyzed": list(df['Ticker'].unique())
+            "generated_at":    datetime.now().isoformat(),
+            "data_sources":    list(df["Data Source"].unique()),
+            "total_records":   len(df),
+            "real_data":       True,
+            "stocks_analyzed": list(df["Ticker"].unique()),
         }
-        
-        # Save JSON with metadata
-        output = {
-            "metadata": metadata,
-            "results": df.to_dict('records')
-        }
-        
         with open("results.json", "w") as f:
-            json.dump(output, f, indent=2)
-        logging.info("✅ Saved results.json with metadata")
-        
-        # Enhanced HTML
-        html_content = f"""
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>LIVE Stock Sentiment Analysis</title>
-            <style>
-                body {{ font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }}
-                .container {{ max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }}
-                .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; margin: -20px -20px 20px -20px; border-radius: 8px 8px 0 0; }}
-                .metadata {{ background: #e8f5e8; padding: 15px; border-radius: 5px; margin: 20px 0; }}
-                .stock-card {{ border: 1px solid #ddd; margin: 10px 0; padding: 15px; border-radius: 5px; }}
-                .positive {{ border-left: 4px solid #28a745; background: #d4edda; }}
-                .negative {{ border-left: 4px solid #dc3545; background: #f8d7da; }}
-                .neutral {{ border-left: 4px solid #ffc107; background: #fff3cd; }}
-                .price {{ font-size: 18px; font-weight: bold; }}
-                .change {{ font-size: 16px; font-weight: bold; }}
-                .positive-change {{ color: #28a745; }}
-                .negative-change {{ color: #dc3545; }}
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <div class="header">
-                    <h1>📈 LIVE Stock Sentiment Analysis</h1>
-                    <p>Real-time data analysis generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
-                </div>
-                
-                <div class="metadata">
-                    <h3>📊 Analysis Summary</h3>
-                    <p><strong>Stocks Analyzed:</strong> {len(df['Ticker'].unique())}</p>
-                    <p><strong>Total Records:</strong> {len(df)}</p>
-                    <p><strong>Data Sources:</strong> {', '.join(df['Data Source'].unique())}</p>
-                    <p><strong>Sentiment Distribution:</strong> 
-                       {sum(df['Sentiment'] == 'POSITIVE')} Positive, 
-                       {sum(df['Sentiment'] == 'NEGATIVE')} Negative, 
-                       {sum(df['Sentiment'] == 'NEUTRAL')} Neutral
-                    </p>
-                </div>
-                
-                <h2>📰 Live Analysis Results</h2>
-        """
-        
-        # Sort by price change for better presentation
-        df_sorted = df.sort_values('Regular Change', ascending=False)
-        
-        for _, row in df_sorted.iterrows():
-            sentiment_class = row['Sentiment'].lower()
-            change_class = "positive-change" if row['Regular Change'] >= 0 else "negative-change"
-            change_symbol = "+" if row['Regular Change'] >= 0 else ""
-            
-            html_content += f"""
-                <div class="stock-card {sentiment_class}">
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <h3 style="margin: 0;">{row['Ticker']} - {row['Company']}</h3>
-                            <p style="margin: 5px 0; font-style: italic;">"{row['Headline']}"</p>
-                            <p style="margin: 5px 0; font-size: 14px; color: #666;">
-                                News: {row['News Source']} | Data: {row['Data Source']} | Sentiment: <strong>{row['Sentiment']}</strong>
-                            </p>
-                        </div>
-                        <div style="text-align: right;">
-                            <div class="price">${row['Current Price']:.2f}</div>
-                            <div class="change {change_class}">{change_symbol}{row['Regular Change']:.2f}%</div>
-                            {f'<div style="font-size: 12px;">AH: {row["After Hours"]:+.2f}%</div>' if abs(row['After Hours']) > 0.01 else ''}
-                        </div>
-                    </div>
-                </div>
-            """
-        
-        html_content += """
-            </div>
-        </body>
-        </html>
-        """
-        
+            json.dump({"metadata": metadata, "results": df.to_dict("records")}, f, indent=2)
+        logging.info("✅ Saved results.json")
+
+        # ── HTML report ──
+        html = f"""<!DOCTYPE html>
+<html>
+<head>
+  <title>LIVE Stock Sentiment Analysis</title>
+  <style>
+    body{{font-family:Arial,sans-serif;margin:20px;background:#f5f5f5}}
+    .container{{max-width:1200px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.1)}}
+    .header{{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;padding:20px;margin:-20px -20px 20px;border-radius:8px 8px 0 0}}
+    .meta{{background:#e8f5e8;padding:15px;border-radius:5px;margin:20px 0}}
+    .card{{border:1px solid #ddd;margin:10px 0;padding:15px;border-radius:5px}}
+    .positive{{border-left:4px solid #28a745;background:#d4edda}}
+    .negative{{border-left:4px solid #dc3545;background:#f8d7da}}
+    .neutral{{border-left:4px solid #ffc107;background:#fff3cd}}
+    .price{{font-size:18px;font-weight:bold}}
+    .pos-chg{{color:#28a745;font-weight:bold}}
+    .neg-chg{{color:#dc3545;font-weight:bold}}
+    a{{color:#555;font-size:12px}}
+  </style>
+</head>
+<body><div class="container">
+  <div class="header">
+    <h1>📈 LIVE Stock Sentiment Analysis</h1>
+    <p>Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
+  </div>
+  <div class="meta">
+    <h3>📊 Summary</h3>
+    <p><strong>Stocks:</strong> {len(df['Ticker'].unique())} &nbsp;
+       <strong>Headlines:</strong> {len(df)} &nbsp;
+       <strong>Sources:</strong> {', '.join(df['Data Source'].unique())}</p>
+    <p>Sentiment — Positive: {(df['Sentiment']=='POSITIVE').sum()} &nbsp;
+       Negative: {(df['Sentiment']=='NEGATIVE').sum()} &nbsp;
+       Neutral: {(df['Sentiment']=='NEUTRAL').sum()}</p>
+  </div>
+  <h2>📰 Live Results</h2>
+"""
+        for _, row in df.sort_values("Regular Change", ascending=False).iterrows():
+            cls    = row["Sentiment"].lower()
+            chg_cls = "pos-chg" if row["Regular Change"] >= 0 else "neg-chg"
+            sym    = "+" if row["Regular Change"] >= 0 else ""
+            link   = f'<a href="{row["Headline URL"]}" target="_blank">Read article →</a>' if row.get("Headline URL") else ""
+            pub    = f' | {row["Published At"][:10]}' if row.get("Published At") else ""
+            html += f"""
+  <div class="card {cls}">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div>
+        <h3 style="margin:0">{row['Ticker']} — {row['Company']}</h3>
+        <p style="margin:5px 0;font-style:italic">"{row['Headline']}"</p>
+        <p style="margin:5px 0;font-size:13px;color:#666">
+          {row['News Source']}{pub} | Data: {row['Data Source']} | Sentiment: <strong>{row['Sentiment']}</strong>
+          &nbsp;{link}
+        </p>
+      </div>
+      <div style="text-align:right;min-width:100px">
+        <div class="price">${row['Current Price']:.2f}</div>
+        <div class="{chg_cls}">{sym}{row['Regular Change']:.2f}%</div>
+        {'<div style="font-size:12px">AH: ' + f"{row['After Hours']:+.2f}%" + '</div>' if abs(row['After Hours']) > 0.01 else ''}
+      </div>
+    </div>
+  </div>"""
+
+        html += "\n</div></body></html>"
         with open("results.html", "w") as f:
-            f.write(html_content)
-        logging.info("✅ Saved enhanced results.html")
-        
-        # Detailed summary
+            f.write(html)
+        logging.info("✅ Saved results.html")
+
+        # ── Text summary ──
         with open("summary.txt", "w") as f:
-            f.write("LIVE STOCK SENTIMENT ANALYSIS\n")
-            f.write("=" * 50 + "\n")
-            f.write(f"Generated: {datetime.now()}\n")
-            f.write(f"Analysis Mode: REAL DATA\n")
-            f.write(f"Data Sources: {', '.join(df['Data Source'].unique())}\n\n")
-            
-            f.write(f"PORTFOLIO SUMMARY:\n")
-            f.write(f"Total Records: {len(df)}\n")
-            f.write(f"Unique Stocks: {len(df['Ticker'].unique())}\n\n")
-            
-            f.write("SENTIMENT ANALYSIS:\n")
-            f.write(f"Positive Headlines: {sum(df['Sentiment'] == 'POSITIVE')}\n")
-            f.write(f"Negative Headlines: {sum(df['Sentiment'] == 'NEGATIVE')}\n")
-            f.write(f"Neutral Headlines: {sum(df['Sentiment'] == 'NEUTRAL')}\n\n")
-            
-            f.write("TOP GAINERS:\n")
-            top_gainers = df.nlargest(5, 'Regular Change')
-            for _, row in top_gainers.iterrows():
-                f.write(f"{row['Ticker']}: {row['Regular Change']:+.2f}% (${row['Current Price']:.2f}) - {row['Sentiment']}\n")
-            
-            f.write("\nTOP LOSERS:\n")
-            top_losers = df.nsmallest(5, 'Regular Change')
-            for _, row in top_losers.iterrows():
-                f.write(f"{row['Ticker']}: {row['Regular Change']:+.2f}% (${row['Current Price']:.2f}) - {row['Sentiment']}\n")
-        
-        logging.info("✅ Saved detailed summary.txt")
+            f.write("LIVE STOCK SENTIMENT ANALYSIS\n" + "="*50 + "\n")
+            f.write(f"Generated : {datetime.now()}\n")
+            f.write(f"Data sources: {', '.join(df['Data Source'].unique())}\n\n")
+            f.write(f"Records   : {len(df)}\n")
+            f.write(f"Stocks    : {len(df['Ticker'].unique())}\n\n")
+            f.write(f"SENTIMENT\n  Positive : {(df['Sentiment']=='POSITIVE').sum()}\n")
+            f.write(f"  Negative : {(df['Sentiment']=='NEGATIVE').sum()}\n")
+            f.write(f"  Neutral  : {(df['Sentiment']=='NEUTRAL').sum()}\n\n")
+            f.write("TOP GAINERS\n")
+            for _, r in df.nlargest(5, "Regular Change").iterrows():
+                f.write(f"  {r['Ticker']}: {r['Regular Change']:+.2f}% (${r['Current Price']:.2f}) {r['Sentiment']}\n")
+            f.write("\nTOP LOSERS\n")
+            for _, r in df.nsmallest(5, "Regular Change").iterrows():
+                f.write(f"  {r['Ticker']}: {r['Regular Change']:+.2f}% (${r['Current Price']:.2f}) {r['Sentiment']}\n")
+        logging.info("✅ Saved summary.txt")
         return True
-        
     except Exception as e:
-        logging.error(f"❌ Failed to save results: {e}")
+        logging.error(f"❌ Save failed: {e}")
         return False
 
+
+# ── Entry point ────────────────────────────────────────────────────────────────
+
 def run_analysis():
-    """Main analysis with real data"""
-    try:
-        logging.info("🚀 Starting LIVE Stock Sentiment Analysis...")
-        
-        # Fetch REAL stock data
-        stock_data = fetch_real_stock_data()
-        
-        if not stock_data:
-            logging.error("❌ Could not fetch any real stock data")
-            return None
-        
-        # Get news
-        news_items = create_recent_news()
-        
-        # Create analysis
-        results_df = create_analysis(stock_data, news_items)
-        
-        if results_df is None:
-            logging.error("❌ Analysis failed")
-            return None
-        
-        # Save results
-        if save_results(results_df):
-            logging.info("✅ LIVE analysis completed successfully!")
-            
-            print(f"\n🎉 LIVE STOCK ANALYSIS COMPLETE")
-            print(f"📈 Real data sources: {', '.join(results_df['Data Source'].unique())}")
-            print(f"📊 Stocks analyzed: {len(results_df['Ticker'].unique())}")
-            print(f"📰 Headlines processed: {len(results_df)}")
-            
-            print(f"\n🏆 TODAY'S TOP MOVERS:")
-            top_movers = results_df.nlargest(3, 'Regular Change')
-            for _, row in top_movers.iterrows():
-                print(f"  {row['Ticker']}: {row['Regular Change']:+.2f}% - ${row['Current Price']:.2f} ({row['Sentiment']})")
-            
-            print(f"\n📉 TODAY'S BIGGEST DECLINES:")
-            bottom_movers = results_df.nsmallest(3, 'Regular Change')
-            for _, row in bottom_movers.iterrows():
-                print(f"  {row['Ticker']}: {row['Regular Change']:+.2f}% - ${row['Current Price']:.2f} ({row['Sentiment']})")
-            
-            return results_df
-        else:
-            return None
-            
-    except Exception as e:
-        logging.error(f"❌ Analysis failed: {e}")
-        import traceback
-        logging.error(traceback.format_exc())
+    logging.info("🚀 Starting LIVE Stock Sentiment Analysis…")
+
+    stock_data = fetch_real_stock_data()
+    if not stock_data:
+        logging.error("❌ No stock price data — aborting")
         return None
+
+    # ── KEY CHANGE: fetch real headlines instead of hardcoded ones ──
+    news_items = fetch_live_news(list(stock_data.keys()))
+    if not news_items:
+        logging.error("❌ No news articles fetched — check NEWSAPI_KEY")
+        return None
+
+    results_df = create_analysis(stock_data, news_items)
+    if results_df is None:
+        return None
+
+    if save_results(results_df):
+        logging.info("✅ Analysis complete!")
+        print(f"\n🎉 LIVE ANALYSIS COMPLETE")
+        print(f"📈 Price sources : {', '.join(results_df['Data Source'].unique())}")
+        print(f"📊 Stocks        : {len(results_df['Ticker'].unique())}")
+        print(f"📰 Headlines     : {len(results_df)}")
+
+        print("\n🏆 TOP MOVERS:")
+        for _, r in results_df.nlargest(3, "Regular Change").iterrows():
+            print(f"  {r['Ticker']}: {r['Regular Change']:+.2f}%  ${r['Current Price']:.2f}  ({r['Sentiment']})")
+
+        print("\n📉 BIGGEST DECLINES:")
+        for _, r in results_df.nsmallest(3, "Regular Change").iterrows():
+            print(f"  {r['Ticker']}: {r['Regular Change']:+.2f}%  ${r['Current Price']:.2f}  ({r['Sentiment']})")
+
+        return results_df
+    return None
+
 
 if __name__ == "__main__":
     results = run_analysis()
     if results is not None:
-        print("\n✅ SUCCESS: Real stock data analysis complete!")
-        print("📁 Check results.json, results.html, and summary.txt for detailed results")
+        print("\n✅ SUCCESS — check results.json, results.html, summary.txt")
         exit(0)
     else:
-        print("\n❌ FAILED: Could not complete real data analysis")
+        print("\n❌ FAILED — see log output above")
         exit(1)
