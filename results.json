@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T10:06:37.001562",
+    "generated_at": "2026-03-23T21:30:01.470887",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -14,11 +14,38 @@
       "GOOGL",
       "META",
       "AMZN",
-      "NVDA",
-      "JPM"
+      "NVDA"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "The stress-free ASX ETF portfolio built to weather market crashes",
+      "Headline URL": "https://www.fool.com.au/2026/03/23/the-stress-free-asx-etf-portfolio-built-to-weather-market-crashes/",
+      "Published At": "2026-03-22T19:00:00Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 1.41,
+      "After Hours": 0.0,
+      "Current Price": 251.49,
+      "Data Source": "AlphaVantage",
+      "News Source": "Motley Fool Australia",
+      "Timestamp": "2026-03-23T21:30:01.469670"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple Stock Is Doing Something It Hasn't Done Since 2022. Should You Buy or Run?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_26816250-4f71-41e4-ba81-beacb9e76664",
+      "Published At": "2026-03-22T18:19:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 1.41,
+      "After Hours": 0.0,
+      "Current Price": 251.49,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-23T21:30:01.469697"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -26,40 +53,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_36cd788c-9381-47b5-8941-a46324a0c93e",
       "Published At": "2026-03-21T23:20:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.39,
+      "Regular Change": 1.41,
       "After Hours": 0.0,
-      "Current Price": 247.99,
+      "Current Price": 251.49,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000398"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Coinbase to Launch Stock Futures, Why This Is Big For Crypto",
-      "Headline URL": "https://bitcoinist.com/coinbase-launch-stock-futures-is-big-for-crypto/",
-      "Published At": "2026-03-21T06:00:04Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.39,
-      "After Hours": 0.0,
-      "Current Price": 247.99,
-      "Data Source": "AlphaVantage",
-      "News Source": "Bitcoinist",
-      "Timestamp": "2026-03-23T10:06:37.000423"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Here\u2019s Why Apple (AAPL) Could Be The Best Tech Stock to Buy Now According to Warren Buffett",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_df254014-4692-4e9f-b9ef-2d5e3db4cb9a",
-      "Published At": "2026-03-20T20:16:47Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.39,
-      "After Hours": 0.0,
-      "Current Price": 247.99,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000443"
+      "Timestamp": "2026-03-23T21:30:01.469707"
     },
     {
       "Ticker": "MSFT",
@@ -68,12 +67,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3bcd571b-8187-4cc9-bef5-b6ae0435125d",
       "Published At": "2026-03-21T18:26:16Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.85,
+      "Regular Change": 0.3,
       "After Hours": 0.0,
-      "Current Price": 381.85,
+      "Current Price": 383.0,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000456"
+      "Timestamp": "2026-03-23T21:30:01.469718"
     },
     {
       "Ticker": "MSFT",
@@ -82,26 +81,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_60ec647e-9a0d-41ff-ba30-12c6bc04a307",
       "Published At": "2026-03-21T12:46:39Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.85,
+      "Regular Change": 0.3,
       "After Hours": 0.0,
-      "Current Price": 381.85,
+      "Current Price": 383.0,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000471"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Corporation (MSFT) Reorganizes Copilot Teams, Reuters Reports",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7257779a-d3ea-4037-918d-675b905caf44",
-      "Published At": "2026-03-21T10:25:07Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.85,
-      "After Hours": 0.0,
-      "Current Price": 381.85,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000480"
+      "Timestamp": "2026-03-23T21:30:01.469735"
     },
     {
       "Ticker": "TSLA",
@@ -110,12 +95,12 @@
       "Headline URL": "https://gizmodo.com/elon-musk-claims-he-would-like-to-offer-to-pay-tsa-workers-salaries-2000736517",
       "Published At": "2026-03-22T09:00:20Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.24,
+      "Regular Change": 3.5,
       "After Hours": 0.0,
-      "Current Price": 367.96,
+      "Current Price": 380.85,
       "Data Source": "AlphaVantage",
       "News Source": "Gizmodo.com",
-      "Timestamp": "2026-03-23T10:06:37.000493"
+      "Timestamp": "2026-03-23T21:30:01.469750"
     },
     {
       "Ticker": "TSLA",
@@ -124,12 +109,12 @@
       "Headline URL": "http://deadline.com/2026/03/elon-musk-found-liable-misleading-twitter-shareholders-1236762349/",
       "Published At": "2026-03-21T20:26:55Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.24,
+      "Regular Change": 3.5,
       "After Hours": 0.0,
-      "Current Price": 367.96,
+      "Current Price": 380.85,
       "Data Source": "AlphaVantage",
       "News Source": "Deadline",
-      "Timestamp": "2026-03-23T10:06:37.000504"
+      "Timestamp": "2026-03-23T21:30:01.469761"
     },
     {
       "Ticker": "TSLA",
@@ -138,12 +123,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2a25bba1-25a0-44ed-bb55-73b102b55e90",
       "Published At": "2026-03-21T20:11:01Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -3.24,
+      "Regular Change": 3.5,
       "After Hours": 0.0,
-      "Current Price": 367.96,
+      "Current Price": 380.85,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000515"
+      "Timestamp": "2026-03-23T21:30:01.469774"
     },
     {
       "Ticker": "GOOGL",
@@ -152,12 +137,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a86acabc-bb68-49a6-9a92-a83c8d477304",
       "Published At": "2026-03-21T20:03:23Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -2.0,
+      "Regular Change": 0.35,
       "After Hours": 0.0,
-      "Current Price": 301.0,
+      "Current Price": 302.06,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000523"
+      "Timestamp": "2026-03-23T21:30:01.469785"
     },
     {
       "Ticker": "GOOGL",
@@ -166,12 +151,26 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c509cf6d-3382-4f7b-8199-6d70889819ad",
       "Published At": "2026-03-21T18:19:42Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.0,
+      "Regular Change": 0.35,
       "After Hours": 0.0,
-      "Current Price": 301.0,
+      "Current Price": 302.06,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000544"
+      "Timestamp": "2026-03-23T21:30:01.469797"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Coinbase to Launch Stock Futures, Why This Is Big For Crypto",
+      "Headline URL": "https://bitcoinist.com/coinbase-launch-stock-futures-is-big-for-crypto/",
+      "Published At": "2026-03-21T06:00:04Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.35,
+      "After Hours": 0.0,
+      "Current Price": 302.06,
+      "Data Source": "YahooDirect",
+      "News Source": "Bitcoinist",
+      "Timestamp": "2026-03-23T21:30:01.469818"
     },
     {
       "Ticker": "META",
@@ -180,12 +179,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_25da8299-7ae9-41c6-b0e1-a9282113dcff",
       "Published At": "2026-03-21T20:23:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -2.15,
+      "Regular Change": 1.75,
       "After Hours": 0.0,
-      "Current Price": 593.66,
+      "Current Price": 604.06,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000549"
+      "Timestamp": "2026-03-23T21:30:01.469828"
     },
     {
       "Ticker": "META",
@@ -194,110 +193,96 @@
       "Headline URL": "https://www.mercurynews.com/2026/03/20/meta-older-workers-layoffs-lawsuit/",
       "Published At": "2026-03-20T19:14:43Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -2.15,
+      "Regular Change": 1.75,
       "After Hours": 0.0,
-      "Current Price": 593.66,
+      "Current Price": 604.06,
       "Data Source": "AlphaVantage",
       "News Source": "The Mercury News",
-      "Timestamp": "2026-03-23T10:06:37.000556"
+      "Timestamp": "2026-03-23T21:30:01.469839"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Celebrity Sabotage S01E01 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/celebrity-sabotage-s01e01-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-03-21T21:32:30Z",
+      "Headline": "She-Man A Story Of Fixation 1967 1080p AMZN WEB-DL H264-WELP",
+      "Headline URL": "https://post.rlsbb.to/she-man-a-story-of-fixation-1967-1080p-amzn-web-dl-h264-welp/",
+      "Published At": "2026-03-22T19:54:06Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.63,
+      "Regular Change": 2.32,
       "After Hours": 0.0,
-      "Current Price": 205.37,
+      "Current Price": 210.14,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-23T10:06:37.000562"
+      "Timestamp": "2026-03-23T21:30:01.469849"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Re-Election 2025 1080p AMZN WEB-DL H264-PTP",
-      "Headline URL": "https://post.rlsbb.to/re-election-2025-1080p-amzn-web-dl-h264-ptp/",
-      "Published At": "2026-03-21T21:19:17Z",
+      "Headline": "Iyanu S02E01 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/iyanu-s02e01-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-03-22T11:07:13Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.63,
+      "Regular Change": 2.32,
       "After Hours": 0.0,
-      "Current Price": 205.37,
+      "Current Price": 210.14,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-23T10:06:37.000567"
+      "Timestamp": "2026-03-23T21:30:01.469857"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon (AMZN): 10 Best AI Stocks to Buy for the Next 10 Years",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d76ea1c9-18e8-47c7-a5c8-d9793cb50d70",
-      "Published At": "2026-03-21T20:01:34Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.63,
-      "After Hours": 0.0,
-      "Current Price": 205.37,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000573"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Is NVIDIA Corporation (NVDA) A Good Stock To Buy Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d22341af-ccbe-4b5d-8d22-5c827b090660",
-      "Published At": "2026-03-21T21:05:39Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.28,
-      "After Hours": 0.0,
-      "Current Price": 172.7,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000579"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Elon Musk Is Still a \u2018Huge Admirer\u2019 of Jensen Huang and Plans to Keep Buying Nvidia Chips. Does That Make NVDA Stock a Buy on the Dip?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_741f289b-8335-442f-a67c-cb9037903a0d",
-      "Published At": "2026-03-21T16:00:02Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.28,
-      "After Hours": 0.0,
-      "Current Price": 172.7,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000593"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Could Nvidia Stock Turn $10,000 Into $1 Million This Decade?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_acb6d590-7c05-4139-b934-e5d8c5d9602f",
-      "Published At": "2026-03-21T15:22:03Z",
+      "Headline": "Snapped S36E07 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/snapped-s36e07-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-03-22T10:18:01Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.28,
+      "Regular Change": 2.32,
       "After Hours": 0.0,
-      "Current Price": 172.7,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T10:06:37.000598"
+      "Current Price": 210.14,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-23T21:30:01.469865"
     },
     {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan Chase CEO Jamie Dimon sees an end on the horizon. But not yet.",
-      "Headline URL": "https://www.livemint.com/companies/news/jpmorgan-chase-ceo-jamie-dimon-sees-an-end-on-the-horizon-but-not-yet-11774009706972.html",
-      "Published At": "2026-03-20T12:32:17Z",
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Goldman Sachs sends blunt message on Nvidia stock after GTC",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_feb471ed-aba2-4c7d-8276-ef89c8d33ea5",
+      "Published At": "2026-03-22T19:13:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.49,
+      "Regular Change": 1.7,
       "After Hours": 0.0,
-      "Current Price": 286.56,
-      "Data Source": "YahooDirect",
-      "News Source": "Livemint",
-      "Timestamp": "2026-03-23T10:06:37.000606"
+      "Current Price": 175.64,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-23T21:30:01.469875"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia Corp (NVDA) Sets Sights on Chinese Customers After H200 License Approval",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_437d176b-0fdf-48ca-95c7-e6d0c7a7e10c",
+      "Published At": "2026-03-22T16:52:11Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.7,
+      "After Hours": 0.0,
+      "Current Price": 175.64,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-23T21:30:01.469885"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now.",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_909e7c94-fe44-4e48-8186-dcda27e3e354",
+      "Published At": "2026-03-22T14:00:02Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 1.7,
+      "After Hours": 0.0,
+      "Current Price": 175.64,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-23T21:30:01.469896"
     }
   ]
 }
