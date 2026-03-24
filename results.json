@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T21:30:01.470887",
+    "generated_at": "2026-03-24T09:59:39.977769",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 19,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -30,7 +30,7 @@
       "Current Price": 251.49,
       "Data Source": "AlphaVantage",
       "News Source": "Motley Fool Australia",
-      "Timestamp": "2026-03-23T21:30:01.469670"
+      "Timestamp": "2026-03-24T09:59:39.976525"
     },
     {
       "Ticker": "AAPL",
@@ -44,7 +44,7 @@
       "Current Price": 251.49,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469697"
+      "Timestamp": "2026-03-24T09:59:39.976551"
     },
     {
       "Ticker": "AAPL",
@@ -58,7 +58,7 @@
       "Current Price": 251.49,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469707"
+      "Timestamp": "2026-03-24T09:59:39.976564"
     },
     {
       "Ticker": "MSFT",
@@ -72,7 +72,7 @@
       "Current Price": 383.0,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469718"
+      "Timestamp": "2026-03-24T09:59:39.976574"
     },
     {
       "Ticker": "MSFT",
@@ -86,7 +86,21 @@
       "Current Price": 383.0,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469735"
+      "Timestamp": "2026-03-24T09:59:39.976591"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk Announces Massive 'Terafab' Chip Factory in Austin to Power Tesla AI, SpaceX Satellites and Robotics",
+      "Headline URL": "https://www.ibtimes.com.au/elon-musk-announces-massive-terafab-chip-factory-austin-power-tesla-ai-spacex-satellites-1864123",
+      "Published At": "2026-03-23T08:57:48Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.5,
+      "After Hours": 0.0,
+      "Current Price": 380.85,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-03-24T09:59:39.976605"
     },
     {
       "Ticker": "TSLA",
@@ -100,7 +114,7 @@
       "Current Price": 380.85,
       "Data Source": "AlphaVantage",
       "News Source": "Gizmodo.com",
-      "Timestamp": "2026-03-23T21:30:01.469750"
+      "Timestamp": "2026-03-24T09:59:39.976616"
     },
     {
       "Ticker": "TSLA",
@@ -114,21 +128,7 @@
       "Current Price": 380.85,
       "Data Source": "AlphaVantage",
       "News Source": "Deadline",
-      "Timestamp": "2026-03-23T21:30:01.469761"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Is\u00a0Tesla, Inc. (TSLA)\u00a0\u00a0A\u00a0Good Stock\u00a0To\u00a0Buy Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2a25bba1-25a0-44ed-bb55-73b102b55e90",
-      "Published At": "2026-03-21T20:11:01Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.5,
-      "After Hours": 0.0,
-      "Current Price": 380.85,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469774"
+      "Timestamp": "2026-03-24T09:59:39.976628"
     },
     {
       "Ticker": "GOOGL",
@@ -142,7 +142,7 @@
       "Current Price": 302.06,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469785"
+      "Timestamp": "2026-03-24T09:59:39.976638"
     },
     {
       "Ticker": "GOOGL",
@@ -156,7 +156,7 @@
       "Current Price": 302.06,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469797"
+      "Timestamp": "2026-03-24T09:59:39.976651"
     },
     {
       "Ticker": "GOOGL",
@@ -170,7 +170,7 @@
       "Current Price": 302.06,
       "Data Source": "YahooDirect",
       "News Source": "Bitcoinist",
-      "Timestamp": "2026-03-23T21:30:01.469818"
+      "Timestamp": "2026-03-24T09:59:39.976676"
     },
     {
       "Ticker": "META",
@@ -184,63 +184,63 @@
       "Current Price": 604.06,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469828"
+      "Timestamp": "2026-03-24T09:59:39.976686"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta targeted older workers in layoffs, lawsuit by former senior director for company claims",
-      "Headline URL": "https://www.mercurynews.com/2026/03/20/meta-older-workers-layoffs-lawsuit/",
-      "Published At": "2026-03-20T19:14:43Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 1.75,
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Comeback S01-S02 1080p AMZN WEB-DL H264-MiXED",
+      "Headline URL": "https://post.rlsbb.to/the-comeback-s01-s02-1080p-amzn-web-dl-h264-mixed/",
+      "Published At": "2026-03-23T09:48:59Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.32,
       "After Hours": 0.0,
-      "Current Price": 604.06,
+      "Current Price": 210.14,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-24T09:59:39.976694"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Confessions Of A Female Serial Killer 2025 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/confessions-of-a-female-serial-killer-2025-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-03-23T08:16:38Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.32,
+      "After Hours": 0.0,
+      "Current Price": 210.14,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-24T09:59:39.976704"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Peripheral 2024 1080p AMZN WEB-DL H264-iCX",
+      "Headline URL": "https://post.rlsbb.to/peripheral-2024-1080p-amzn-web-dl-h264-icx/",
+      "Published At": "2026-03-22T23:44:44Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.32,
+      "After Hours": 0.0,
+      "Current Price": 210.14,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-24T09:59:39.976712"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA\u3001\u30aa\u30fc\u30d7\u30f3 \u30d5\u30ed\u30f3\u30c6\u30a3\u30a2 \u30e2\u30c7\u30eb\u3092\u63a8\u9032\u3059\u308b\u305f\u3081\u306b\u3001\u4e16\u754c\u6709\u6570\u306e AI \u30e9\u30dc\u3068\u5171\u306b Nemotron Coalition \u3092\u767a\u8db3",
+      "Headline URL": "https://prtimes.jp/main/html/rd/p/000000607.000012662.html",
+      "Published At": "2026-03-23T03:40:41Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.7,
+      "After Hours": 0.0,
+      "Current Price": 175.64,
       "Data Source": "AlphaVantage",
-      "News Source": "The Mercury News",
-      "Timestamp": "2026-03-23T21:30:01.469839"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "She-Man A Story Of Fixation 1967 1080p AMZN WEB-DL H264-WELP",
-      "Headline URL": "https://post.rlsbb.to/she-man-a-story-of-fixation-1967-1080p-amzn-web-dl-h264-welp/",
-      "Published At": "2026-03-22T19:54:06Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.32,
-      "After Hours": 0.0,
-      "Current Price": 210.14,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-23T21:30:01.469849"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Iyanu S02E01 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/iyanu-s02e01-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-03-22T11:07:13Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.32,
-      "After Hours": 0.0,
-      "Current Price": 210.14,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-23T21:30:01.469857"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Snapped S36E07 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/snapped-s36e07-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-03-22T10:18:01Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.32,
-      "After Hours": 0.0,
-      "Current Price": 210.14,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-23T21:30:01.469865"
+      "News Source": "Prtimes.jp",
+      "Timestamp": "2026-03-24T09:59:39.976725"
     },
     {
       "Ticker": "NVDA",
@@ -254,7 +254,7 @@
       "Current Price": 175.64,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469875"
+      "Timestamp": "2026-03-24T09:59:39.976734"
     },
     {
       "Ticker": "NVDA",
@@ -268,21 +268,7 @@
       "Current Price": 175.64,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469885"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Is an OpenClaw Partnership the Next Big Thing for Nvidia Stock? How to Position Now.",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_909e7c94-fe44-4e48-8186-dcda27e3e354",
-      "Published At": "2026-03-22T14:00:02Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.7,
-      "After Hours": 0.0,
-      "Current Price": 175.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-23T21:30:01.469896"
+      "Timestamp": "2026-03-24T09:59:39.976745"
     }
   ]
 }
