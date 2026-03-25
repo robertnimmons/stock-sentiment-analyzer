@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T21:31:34.207634",
+    "generated_at": "2026-03-25T09:58:14.692512",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 18,
+    "total_records": 14,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -21,44 +21,16 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "A High-Probability Iron Condor Trade on Apple Stock with 22% Return Potential",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f5b3caf6-725f-4381-8940-8c367152c6b4",
-      "Published At": "2026-03-23T11:00:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.06,
-      "After Hours": 0.0,
-      "Current Price": 251.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206384"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "The stress-free ASX ETF portfolio built to weather market crashes",
-      "Headline URL": "https://www.fool.com.au/2026/03/23/the-stress-free-asx-etf-portfolio-built-to-weather-market-crashes/",
-      "Published At": "2026-03-22T19:00:00Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 0.06,
-      "After Hours": 0.0,
-      "Current Price": 251.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "Motley Fool Australia",
-      "Timestamp": "2026-03-24T21:31:34.206405"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Stock Is Doing Something It Hasn't Done Since 2022. Should You Buy or Run?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_26816250-4f71-41e4-ba81-beacb9e76664",
-      "Published At": "2026-03-22T18:19:00Z",
+      "Headline": "Stocks Rally as President Trump Eases Iran Threats",
+      "Headline URL": "https://www.barchart.com/story/news/900181/stocks-rally-as-president-trump-eases-iran-threats",
+      "Published At": "2026-03-23T15:21:07Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 0.06,
       "After Hours": 0.0,
       "Current Price": 251.64,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206431"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-03-25T09:58:14.691325"
     },
     {
       "Ticker": "MSFT",
@@ -72,7 +44,21 @@
       "Current Price": 372.74,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206449"
+      "Timestamp": "2026-03-25T09:58:14.691355"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Stock Rises As Elon Musk Announces Terafab Project - Investor's Business Daily",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=181088780",
+      "Published At": "2026-03-23T21:32:33Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.57,
+      "After Hours": 0.0,
+      "Current Price": 383.03,
+      "Data Source": "AlphaVantage",
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-03-25T09:58:14.691370"
     },
     {
       "Ticker": "TSLA",
@@ -86,77 +72,49 @@
       "Current Price": 383.03,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206474"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Stock Index Futures Rally as Oil Prices Tumble on U.S.-Iran Talks",
-      "Headline URL": "https://www.barchart.com/story/news/893531/stocks-set-to-open-sharply-lower-as-trumps-strait-of-hormuz-deadline-nears",
-      "Published At": "2026-03-23T10:31:46Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.57,
-      "After Hours": 0.0,
-      "Current Price": 383.03,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-03-24T21:31:34.206489"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Announces Massive 'Terafab' Chip Factory in Austin to Power Tesla AI, SpaceX Satellites and Robotics",
-      "Headline URL": "https://www.ibtimes.com.au/elon-musk-announces-massive-terafab-chip-factory-austin-power-tesla-ai-spacex-satellites-1864123",
-      "Published At": "2026-03-23T08:57:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.57,
-      "After Hours": 0.0,
-      "Current Price": 383.03,
-      "Data Source": "AlphaVantage",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-24T21:31:34.206510"
+      "Timestamp": "2026-03-25T09:58:14.691389"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Alphabet (GOOGL): 10 Best AI Stocks to Buy for the Next 10 Years",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a86acabc-bb68-49a6-9a92-a83c8d477304",
-      "Published At": "2026-03-21T20:03:23Z",
+      "Headline": "Alphabet Inc. (GOOGL): Billionaire Seth Klarman Springs Major Surprise",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1ddfa21d-41e9-4a95-bff3-0f908844ea07",
+      "Published At": "2026-03-23T17:58:05Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.89,
+      "After Hours": 0.0,
+      "Current Price": 290.44,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-25T09:58:14.691405"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Stock Forecast: Can GOOGL Deliver Nearly 40% Gains in 12 Months?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cde33652-22af-4d39-8237-b497f9903b25",
+      "Published At": "2026-03-23T16:58:17Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -3.89,
       "After Hours": 0.0,
       "Current Price": 290.44,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206526"
+      "Timestamp": "2026-03-25T09:58:14.691419"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Needham Confident of Alphabet Stock (GOOGL) Free Cash Flow Generation Capabilities Amid AI Disruption",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c509cf6d-3382-4f7b-8199-6d70889819ad",
-      "Published At": "2026-03-21T18:19:42Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Oppenheimer Reiterates Perform Rating on\u00a0Meta Platforms (META) Stock",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_df879cf5-9240-4ec9-8989-882712c5a0c8",
+      "Published At": "2026-03-23T18:29:59Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.89,
+      "Regular Change": -1.84,
       "After Hours": 0.0,
-      "Current Price": 290.44,
-      "Data Source": "YahooDirect",
+      "Current Price": 592.92,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206540"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Coinbase to Launch Stock Futures, Why This Is Big For Crypto",
-      "Headline URL": "https://bitcoinist.com/coinbase-launch-stock-futures-is-big-for-crypto/",
-      "Published At": "2026-03-21T06:00:04Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -3.89,
-      "After Hours": 0.0,
-      "Current Price": 290.44,
-      "Data Source": "YahooDirect",
-      "News Source": "Bitcoinist",
-      "Timestamp": "2026-03-24T21:31:34.206553"
+      "Timestamp": "2026-03-25T09:58:14.691432"
     },
     {
       "Ticker": "META",
@@ -170,63 +128,49 @@
       "Current Price": 592.92,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206574"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Slips Below $600. Time to Buy?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_25da8299-7ae9-41c6-b0e1-a9282113dcff",
-      "Published At": "2026-03-21T20:23:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.84,
-      "After Hours": 0.0,
-      "Current Price": 592.92,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206584"
+      "Timestamp": "2026-03-25T09:58:14.691445"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Seeking Persephone S01 1080p AMZN WEB-DL H264-HONE",
-      "Headline URL": "https://post.rlsbb.to/seeking-persephone-s01-1080p-amzn-web-dl-h264-hone/",
-      "Published At": "2026-03-23T20:43:46Z",
+      "Headline": "Velvet 2022 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/velvet-2022-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-03-24T06:22:01Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.43,
       "After Hours": 0.0,
       "Current Price": 207.24,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-24T21:31:34.206595"
+      "Timestamp": "2026-03-25T09:58:14.691455"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Black Men Dont Cheat 3 Outplayed 2026 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/black-men-dont-cheat-3-outplayed-2026-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-03-23T18:11:53Z",
+      "Headline": "Mister Gates 2024 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/mister-gates-2024-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-03-24T04:14:15Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.43,
       "After Hours": 0.0,
       "Current Price": 207.24,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-24T21:31:34.206608"
+      "Timestamp": "2026-03-25T09:58:14.691465"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Ayran Papers 2026 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/ayran-papers-2026-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-03-23T18:11:12Z",
+      "Headline": "Anacoreta 2022 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/anacoreta-2022-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-03-24T04:05:40Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.43,
       "After Hours": 0.0,
       "Current Price": 207.24,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-24T21:31:34.206620"
+      "Timestamp": "2026-03-25T09:58:14.691487"
     },
     {
       "Ticker": "NVDA",
@@ -240,7 +184,7 @@
       "Current Price": 175.2,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206629"
+      "Timestamp": "2026-03-25T09:58:14.691497"
     },
     {
       "Ticker": "NVDA",
@@ -254,7 +198,7 @@
       "Current Price": 175.2,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-03-24T21:31:34.206637"
+      "Timestamp": "2026-03-25T09:58:14.691510"
     },
     {
       "Ticker": "NVDA",
@@ -268,7 +212,7 @@
       "Current Price": 175.2,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-24T21:31:34.206645"
+      "Timestamp": "2026-03-25T09:58:14.691520"
     }
   ]
 }
