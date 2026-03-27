@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T21:25:07.520539",
+    "generated_at": "2026-03-27T09:58:12.622366",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 23,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -31,7 +31,7 @@
       "Current Price": 252.89,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-26T21:25:07.519200"
+      "Timestamp": "2026-03-27T09:58:12.621118"
     },
     {
       "Ticker": "AAPL",
@@ -45,7 +45,7 @@
       "Current Price": 252.89,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519225"
+      "Timestamp": "2026-03-27T09:58:12.621144"
     },
     {
       "Ticker": "AAPL",
@@ -59,7 +59,21 @@
       "Current Price": 252.89,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519235"
+      "Timestamp": "2026-03-27T09:58:12.621156"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "OpenAI Lists Dependence on Microsoft as a \u2018Risk'. MSFT Should Perhaps Say the Same",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_23932e03-edcc-4dc3-b99d-a574d333e6dc",
+      "Published At": "2026-03-25T18:25:18Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.37,
+      "After Hours": 0.0,
+      "Current Price": 365.97,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-27T09:58:12.621173"
     },
     {
       "Ticker": "MSFT",
@@ -73,7 +87,7 @@
       "Current Price": 365.97,
       "Data Source": "YahooDirect",
       "News Source": "CNBC",
-      "Timestamp": "2026-03-26T21:25:07.519247"
+      "Timestamp": "2026-03-27T09:58:12.621186"
     },
     {
       "Ticker": "MSFT",
@@ -87,21 +101,35 @@
       "Current Price": 365.97,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519260"
+      "Timestamp": "2026-03-27T09:58:12.621198"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft (MSFT) Declines Amid Investor Concerns Over Guidance and Capital Expenditure Intensity",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7982ee38-172a-4f41-82e5-ef88358e2582",
-      "Published At": "2026-03-25T15:10:25Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.37,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla\u00a0(TSLA) Accelerates Its Autonomous Driving Roadmap By Vertically Integrating Its Semiconductor Production",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bf939958-c179-4f3a-b417-52e4cbcdac2b",
+      "Published At": "2026-03-25T19:51:22Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -3.59,
       "After Hours": 0.0,
-      "Current Price": 365.97,
-      "Data Source": "YahooDirect",
+      "Current Price": 372.11,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519272"
+      "Timestamp": "2026-03-27T09:58:12.621210"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk Just Announced a \u2018Herculean Task\u2019 for Tesla. Can TSLA Stock Survive and Thrive?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_02c06d85-d54f-4d0f-9a73-387cf698f894",
+      "Published At": "2026-03-25T16:10:44Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.59,
+      "After Hours": 0.0,
+      "Current Price": 372.11,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-27T09:58:12.621224"
     },
     {
       "Ticker": "TSLA",
@@ -115,35 +143,21 @@
       "Current Price": 372.11,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-03-26T21:25:07.519289"
+      "Timestamp": "2026-03-27T09:58:12.621239"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Stock Index Futures Jump as Hopes for End to Middle East Conflict Boost Sentiment",
-      "Headline URL": "https://www.barchart.com/story/news/938914/stock-index-futures-jump-as-hopes-for-end-to-middle-east-conflict-boost-sentiment",
-      "Published At": "2026-03-25T10:35:14Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.59,
-      "After Hours": 0.0,
-      "Current Price": 372.11,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-03-26T21:25:07.519300"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Gary Black Warns Tesla-SpaceX Merger Could Reduce TSLA Value By 25%: '...Looking For A Problem",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9577028d-f386-4437-8c9e-d611e7fce172",
-      "Published At": "2026-03-24T16:31:10Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Stock Drops, But Huge Unusual Call GOOG Options Activity Highlights Its Value",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4ec08c7d-ad02-456d-b00c-39960f469e34",
+      "Published At": "2026-03-25T17:30:02Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -3.59,
+      "Regular Change": -3.44,
       "After Hours": 0.0,
-      "Current Price": 372.11,
-      "Data Source": "AlphaVantage",
+      "Current Price": 280.92,
+      "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519313"
+      "Timestamp": "2026-03-27T09:58:12.621249"
     },
     {
       "Ticker": "GOOGL",
@@ -157,7 +171,7 @@
       "Current Price": 280.92,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519328"
+      "Timestamp": "2026-03-27T09:58:12.621267"
     },
     {
       "Ticker": "GOOGL",
@@ -171,21 +185,21 @@
       "Current Price": 280.92,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519355"
+      "Timestamp": "2026-03-27T09:58:12.621278"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet\u00a0(GOOGL): Best Wide Moat Stock To Buy For Long-Term Growth?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5d3d8c7c-6239-4b1d-b6bb-d6fdf44dd893",
-      "Published At": "2026-03-24T20:14:58Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.44,
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta\u2019s new pay plan could hand top executives billions \u2014 but there\u2019s a catch",
+      "Headline URL": "https://www.livemint.com/companies/news/metas-new-pay-plan-could-hand-top-executives-billions-but-there-s-a-catch-11774513368689.html",
+      "Published At": "2026-03-26T09:27:24Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -7.96,
       "After Hours": 0.0,
-      "Current Price": 280.92,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519366"
+      "Current Price": 547.54,
+      "Data Source": "AlphaVantage",
+      "News Source": "Livemint",
+      "Timestamp": "2026-03-27T09:58:12.621290"
     },
     {
       "Ticker": "META",
@@ -199,7 +213,7 @@
       "Current Price": 547.54,
       "Data Source": "AlphaVantage",
       "News Source": "The Times of India",
-      "Timestamp": "2026-03-26T21:25:07.519386"
+      "Timestamp": "2026-03-27T09:58:12.621306"
     },
     {
       "Ticker": "META",
@@ -213,91 +227,91 @@
       "Current Price": 547.54,
       "Data Source": "AlphaVantage",
       "News Source": "ABC News (AU)",
-      "Timestamp": "2026-03-26T21:25:07.519396"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta offers stock options to \u2018retain, compensate\u2019 top execs for first time since IPO as AI race heats up",
-      "Headline URL": "https://www.livemint.com/companies/news/meta-offers-stock-options-to-retain-compensate-top-execs-for-first-time-since-ipo-as-ai-race-heats-up-11774406339586.html",
-      "Published At": "2026-03-25T02:47:18Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -7.96,
-      "After Hours": 0.0,
-      "Current Price": 547.54,
-      "Data Source": "AlphaVantage",
-      "News Source": "Livemint",
-      "Timestamp": "2026-03-26T21:25:07.519412"
+      "Timestamp": "2026-03-27T09:58:12.621345"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Wondrous Oblivion 2003 1080p AMZN WEB-DL H264-WELP",
-      "Headline URL": "https://post.rlsbb.to/wondrous-oblivion-2003-1080p-amzn-web-dl-h264-welp/",
-      "Published At": "2026-03-25T18:32:00Z",
+      "Headline": "Magnolia 1999 1080p AMZN WEB-DL H264-GPRS",
+      "Headline URL": "https://post.rlsbb.to/magnolia-1999-1080p-amzn-web-dl-h264-gprs/",
+      "Published At": "2026-03-26T07:37:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.97,
       "After Hours": 0.0,
       "Current Price": 207.54,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-26T21:25:07.519421"
+      "Timestamp": "2026-03-27T09:58:12.621355"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Mayday S26E10 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.to/mayday-s26e10-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-03-25T18:11:35Z",
+      "Headline": "Phantom Thread 2017 1080p AMZN WEB-DL H264-SiGMA",
+      "Headline URL": "https://post.rlsbb.to/phantom-thread-2017-1080p-amzn-web-dl-h264-sigma/",
+      "Published At": "2026-03-26T07:37:28Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.97,
       "After Hours": 0.0,
       "Current Price": 207.54,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-26T21:25:07.519429"
+      "Timestamp": "2026-03-27T09:58:12.621360"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "As Demand for AWS\u2019 AI Surges, Citi and JPMorgan Raise Amazon Price Targets",
-      "Headline URL": "https://247wallst.com/investing/2026/03/25/as-demand-for-aws-ai-surges-citi-and-jpmorgan-raise-amazon-price-targets/",
-      "Published At": "2026-03-25T16:34:46Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Hunt for the Missing Chicago S01E04 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/hunt-for-the-missing-chicago-s01e04-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-03-26T07:22:39Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -1.97,
       "After Hours": 0.0,
       "Current Price": 207.54,
       "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-03-26T21:25:07.519440"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-27T09:58:12.621366"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia CEO Jensen Huang Declares 'We Have Achieved AGI,' Sparking Debate Over Definition",
-      "Headline URL": "https://www.ibtimes.com.au/nvidia-ceo-jensen-huang-declares-we-have-achieved-agi-sparking-debate-over-definition-1864396",
-      "Published At": "2026-03-25T07:23:19Z",
+      "Headline": "Nvidia to Face Class Action Lawsuit Over Alleged Crypto Mining Revenue Gaps",
+      "Headline URL": "https://decrypt.co/362410/nvidia-class-action-lawsuit-alleged-crypto-mining-revenue-gaps",
+      "Published At": "2026-03-26T04:56:00Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -4.16,
+      "After Hours": 0.0,
+      "Current Price": 171.24,
+      "Data Source": "AlphaVantage",
+      "News Source": "Decrypt",
+      "Timestamp": "2026-03-27T09:58:12.621372"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "US Stock Market | Wall Street advances as investors bet on Mideast de-escalation",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-wall-street-advances-as-investors-bet-on-mideast-de-escalation/articleshow/129814146.cms",
+      "Published At": "2026-03-26T01:11:52Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -4.16,
       "After Hours": 0.0,
       "Current Price": 171.24,
       "Data Source": "AlphaVantage",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-26T21:25:07.519452"
+      "News Source": "The Times of India",
+      "Timestamp": "2026-03-27T09:58:12.621378"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "As Trump Signals De-Escalation in the Iran War, Should You Buy Nvidia Stock?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_67d10881-b77d-439b-8c5f-07d0d8ad17bd",
-      "Published At": "2026-03-24T20:32:35Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Nvidia Stock Has Had a Monster Run. This Bear Call Strategy Pays You If the Party Is Over.",
+      "Headline URL": "https://www.barchart.com/story/news/947381/nvidia-stock-has-had-a-monster-run-this-bear-call-strategy-pays-you-if-the-party-is-over",
+      "Published At": "2026-03-25T14:53:06Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -4.16,
       "After Hours": 0.0,
       "Current Price": 171.24,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-26T21:25:07.519463"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-03-27T09:58:12.621390"
     },
     {
       "Ticker": "JPM",
@@ -311,7 +325,7 @@
       "Current Price": 291.66,
       "Data Source": "YahooDirect",
       "News Source": "Rigzone",
-      "Timestamp": "2026-03-26T21:25:07.519473"
+      "Timestamp": "2026-03-27T09:58:12.621396"
     },
     {
       "Ticker": "JPM",
@@ -325,7 +339,7 @@
       "Current Price": 291.66,
       "Data Source": "YahooDirect",
       "News Source": "MarketBeat",
-      "Timestamp": "2026-03-26T21:25:07.519482"
+      "Timestamp": "2026-03-27T09:58:12.621401"
     }
   ]
 }
