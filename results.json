@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T21:35:52.649291",
+    "generated_at": "2026-03-31T10:09:04.691621",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,6 +22,20 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "3 brilliant ASX ETFs to buy after the market selloff",
+      "Headline URL": "https://www.fool.com.au/2026/03/30/3-brilliant-asx-etfs-to-buy-after-the-market-selloff/",
+      "Published At": "2026-03-29T23:10:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.87,
+      "After Hours": 0.0,
+      "Current Price": 246.63,
+      "Data Source": "AlphaVantage",
+      "News Source": "Motley Fool Australia",
+      "Timestamp": "2026-03-31T10:09:04.690374"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Apple Inc.\u2019s (AAPL) Siri to Get Powerful AI Features and a Standalone App",
       "Headline URL": "https://finance.yahoo.com/sectors/technology/articles/apple-inc-aapl-siri-powerful-201501407.html",
       "Published At": "2026-03-29T20:15:01Z",
@@ -31,7 +45,7 @@
       "Current Price": 246.63,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648049"
+      "Timestamp": "2026-03-31T10:09:04.690399"
     },
     {
       "Ticker": "MSFT",
@@ -45,21 +59,7 @@
       "Current Price": 358.96,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648069"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Jim Cramer drops unexpected take on Microsoft stock",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f94acc7a-be31-4585-a30a-ef23cc5c171f",
-      "Published At": "2026-03-27T22:33:00Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 0.61,
-      "After Hours": 0.0,
-      "Current Price": 358.96,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648088"
+      "Timestamp": "2026-03-31T10:09:04.690410"
     },
     {
       "Ticker": "TSLA",
@@ -73,7 +73,7 @@
       "Current Price": 355.28,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-03-30T21:35:52.648103"
+      "Timestamp": "2026-03-31T10:09:04.690420"
     },
     {
       "Ticker": "TSLA",
@@ -87,21 +87,7 @@
       "Current Price": 355.28,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648123"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Braclays Points Out CapEx Concerns for Tesla (TSLA) Stock",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2e05b5c0-24d7-41ff-a7a4-718f14dd2599",
-      "Published At": "2026-03-28T15:18:45Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.81,
-      "After Hours": 0.0,
-      "Current Price": 355.28,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648135"
+      "Timestamp": "2026-03-31T10:09:04.690441"
     },
     {
       "Ticker": "GOOGL",
@@ -115,7 +101,21 @@
       "Current Price": 273.5,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648152"
+      "Timestamp": "2026-03-31T10:09:04.690460"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Cathie Wood Going Cold On Big Tech? Ark Sells Nvidia, AMD, Meta And Google Stock \u2014 AI Darlings Get The Dump",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_089181d3-89f3-4528-bb5f-eab17b8067ad",
+      "Published At": "2026-03-29T13:31:22Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.31,
+      "After Hours": 0.0,
+      "Current Price": 273.5,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-03-31T10:09:04.690481"
     },
     {
       "Ticker": "GOOGL",
@@ -129,21 +129,21 @@
       "Current Price": 273.5,
       "Data Source": "YahooDirect",
       "News Source": "Seeking Alpha",
-      "Timestamp": "2026-03-30T21:35:52.648163"
+      "Timestamp": "2026-03-31T10:09:04.690495"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Google Stock Is Almost in Bear Market Territory. Should You Buy the Dip?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cd509cef-fed3-4193-8c38-bff3feea9aa1",
-      "Published At": "2026-03-27T20:18:19Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Is Meta Platforms, Inc. (META) Stock A Good Buy?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cc5ebd59-84a1-4465-be2f-9501ced2a587",
+      "Published At": "2026-03-29T23:45:59Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.31,
+      "Regular Change": 2.03,
       "After Hours": 0.0,
-      "Current Price": 273.5,
-      "Data Source": "YahooDirect",
+      "Current Price": 536.38,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648176"
+      "Timestamp": "2026-03-31T10:09:04.690508"
     },
     {
       "Ticker": "META",
@@ -157,7 +157,7 @@
       "Current Price": 536.38,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648191"
+      "Timestamp": "2026-03-31T10:09:04.690523"
     },
     {
       "Ticker": "META",
@@ -171,63 +171,49 @@
       "Current Price": 536.38,
       "Data Source": "AlphaVantage",
       "News Source": "9to5google.com",
-      "Timestamp": "2026-03-30T21:35:52.648211"
+      "Timestamp": "2026-03-31T10:09:04.690535"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Slips 30% Below Highs. Should You Buy, Hold, or Sell Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0eaf5c8c-75f2-4db9-91ee-19be424a94ce",
-      "Published At": "2026-03-27T18:45:38Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Bold And The Beautiful S39E134 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/the-bold-and-the-beautiful-s39e134-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-03-30T09:20:11Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.03,
+      "Regular Change": 0.81,
       "After Hours": 0.0,
-      "Current Price": 536.38,
+      "Current Price": 200.95,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-31T10:09:04.690561"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Summer Is Crazy 2025 720p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/summer-is-crazy-2025-720p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-03-30T01:22:32Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.81,
+      "After Hours": 0.0,
+      "Current Price": 200.95,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-03-31T10:09:04.690570"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA (NVDA) Backed Start-up Reflection AI To Raise $2.5 Billion",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-backed-start-reflection-231639007.html",
+      "Published At": "2026-03-29T23:16:39Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.4,
+      "After Hours": 0.0,
+      "Current Price": 165.17,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648224"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "The Secrets 2007 1080p AMZN WEB-DL x264-NTb",
-      "Headline URL": "https://post.rlsbb.to/the-secrets-2007-1080p-amzn-web-dl-x264-ntb/",
-      "Published At": "2026-03-29T20:55:55Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.81,
-      "After Hours": 0.0,
-      "Current Price": 200.95,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-30T21:35:52.648236"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Mock The Week S22E09 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/mock-the-week-s22e09-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-03-29T20:55:19Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.81,
-      "After Hours": 0.0,
-      "Current Price": 200.95,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-30T21:35:52.648245"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "In The Mood For Love 2000 1080p AMZN WEB-DL H264-ZimaBlue",
-      "Headline URL": "https://post.rlsbb.to/in-the-mood-for-love-2000-1080p-amzn-web-dl-h264-zimablue/",
-      "Published At": "2026-03-29T18:05:31Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.81,
-      "After Hours": 0.0,
-      "Current Price": 200.95,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-03-30T21:35:52.648252"
+      "Timestamp": "2026-03-31T10:09:04.690582"
     },
     {
       "Ticker": "NVDA",
@@ -241,35 +227,35 @@
       "Current Price": 165.17,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648267"
+      "Timestamp": "2026-03-31T10:09:04.690602"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia stock sends valuation signal for first time in 13 years",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_54430403-2d02-4eaf-bab9-192da447f7ab",
-      "Published At": "2026-03-29T17:17:00Z",
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "MEXC Lists 20 New Ondo Tokenized Stocks with Zero-Fee Trading",
+      "Headline URL": "https://www.globenewswire.com/news-release/2026/03/30/3264419/0/en/MEXC-Lists-20-New-Ondo-Tokenized-Stocks-with-Zero-Fee-Trading.html",
+      "Published At": "2026-03-30T10:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.4,
+      "Regular Change": 0.33,
       "After Hours": 0.0,
-      "Current Price": 165.17,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648275"
+      "Current Price": 283.77,
+      "Data Source": "YahooDirect",
+      "News Source": "GlobeNewswire",
+      "Timestamp": "2026-03-31T10:09:04.690613"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "POET Technologies: A Scalable Alternative To Nvidia's Laser Supply Lock-Up",
-      "Headline URL": "https://seekingalpha.com/article/4886906-poet-technologies-scalable-alternative-to-nvidia-laser-supply-lock-up",
-      "Published At": "2026-03-29T10:54:08Z",
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPM Warns of Vulnerability That Could Add $20 to Oil Price",
+      "Headline URL": "https://www.rigzone.com/news/jpm_warns_of_vulnerability_that_could_add_20_to_oil_price-30-mar-2026-183325-article/",
+      "Published At": "2026-03-30T09:49:35Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.4,
+      "Regular Change": 0.33,
       "After Hours": 0.0,
-      "Current Price": 165.17,
-      "Data Source": "AlphaVantage",
-      "News Source": "Seeking Alpha",
-      "Timestamp": "2026-03-30T21:35:52.648282"
+      "Current Price": 283.77,
+      "Data Source": "YahooDirect",
+      "News Source": "Rigzone",
+      "Timestamp": "2026-03-31T10:09:04.690625"
     },
     {
       "Ticker": "JPM",
@@ -283,21 +269,7 @@
       "Current Price": 283.77,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648290"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Tightening Credit Conditions and Evolving Regulatory Tailwinds Shaping Analyst Narrative Around JPMorgan Chase\u00a0(JPM)",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_87b8c7af-74aa-4f42-9eab-c1aca6cb7ed8",
-      "Published At": "2026-03-28T20:58:57Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.33,
-      "After Hours": 0.0,
-      "Current Price": 283.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-03-30T21:35:52.648299"
+      "Timestamp": "2026-03-31T10:09:04.690637"
     }
   ]
 }
