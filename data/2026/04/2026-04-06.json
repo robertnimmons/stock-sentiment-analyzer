@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T10:13:52.214269",
+    "generated_at": "2026-04-06T21:32:12.348375",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 17,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -21,44 +21,30 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Show HN: Genetic algorithm engine that evolves trading strategies",
+      "Headline URL": "https://github.com/NeuZhou/finclaw",
+      "Published At": "2026-04-05T20:21:06Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.15,
+      "After Hours": 0.0,
+      "Current Price": 258.86,
+      "Data Source": "AlphaVantage",
+      "News Source": "Github.com",
+      "Timestamp": "2026-04-06T21:32:12.346993"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Jim Cramer Thinks New Apple (AAPL) CFO Is Settling Well In His Role",
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e9c9fb27-7cb0-4732-ab67-e6ec4fab56cf",
       "Published At": "2026-04-04T18:27:41Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.11,
+      "Regular Change": 1.15,
       "After Hours": 0.0,
-      "Current Price": 255.92,
+      "Current Price": 258.86,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213129"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Warren Buffett Says Berkshire Hathaway Sold Apple Stock \u2018Too Soon\u2019, Signals When Firm Would Buy Again",
-      "Headline URL": "https://dailyhodl.com/2026/04/04/warren-buffett-says-berkshire-hathaway-sold-apple-stock-too-soon-signals-when-firm-would-buy-again/",
-      "Published At": "2026-04-04T09:15:07Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.11,
-      "After Hours": 0.0,
-      "Current Price": 255.92,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Daily Hodl",
-      "Timestamp": "2026-04-06T10:13:52.213168"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "iPod Classic\u306bBluetooth\u63a5\u7d9a\u3084Qi\u30ef\u30a4\u30e4\u30ec\u30b9\u5145\u96fb\u3001USB-C\u30c7\u30fc\u30bf\u540c\u671f\u3001Haptic Feedback\u6a5f\u80fd\u3092\u8ffd\u52a0\u3059\u308bMod Kit\u300cmoonlit market Classic Connect 2\u300d\u304c\u767a\u58f2\u3002",
-      "Headline URL": "https://applech2.com/archives/20260404-classic-connect-2-for-ipod-classic.html",
-      "Published At": "2026-04-04T08:26:57Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.11,
-      "After Hours": 0.0,
-      "Current Price": 255.92,
-      "Data Source": "AlphaVantage",
-      "News Source": "Applech2.com",
-      "Timestamp": "2026-04-06T10:13:52.213190"
+      "Timestamp": "2026-04-06T21:32:12.347011"
     },
     {
       "Ticker": "MSFT",
@@ -67,12 +53,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0990eccd-7f8a-40eb-b384-aee2f3702f46",
       "Published At": "2026-04-03T21:03:03Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.11,
+      "Regular Change": -0.16,
       "After Hours": 0.0,
-      "Current Price": 373.46,
+      "Current Price": 372.88,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213203"
+      "Timestamp": "2026-04-06T21:32:12.347021"
     },
     {
       "Ticker": "MSFT",
@@ -81,26 +67,26 @@
       "Headline URL": "https://247wallst.com/investing/2026/04/03/after-microsofts-q1-slide-are-the-bulls-still-on-board/",
       "Published At": "2026-04-03T16:15:58Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 1.11,
+      "Regular Change": -0.16,
       "After Hours": 0.0,
-      "Current Price": 373.46,
+      "Current Price": 372.88,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-04-06T10:13:52.213222"
+      "Timestamp": "2026-04-06T21:32:12.347040"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Corp (MSFT) Partners with Victoria University on Datacenter Community Pledge",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corp-msft-partners-victoria-154547160.html",
-      "Published At": "2026-04-03T15:45:47Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.11,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Stock Keeps Falling - But 10% Lower TSLA Puts Yield 2.0% for One Month Out",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_149c715e-64db-4e6a-a05c-84008a4cca49",
+      "Published At": "2026-04-05T14:30:02Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -2.15,
       "After Hours": 0.0,
-      "Current Price": 373.46,
-      "Data Source": "YahooDirect",
+      "Current Price": 352.82,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213233"
+      "Timestamp": "2026-04-06T21:32:12.347062"
     },
     {
       "Ticker": "TSLA",
@@ -109,40 +95,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fad6d055-4192-4452-949d-61085f047544",
       "Published At": "2026-04-04T20:11:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -5.42,
+      "Regular Change": -2.15,
       "After Hours": 0.0,
-      "Current Price": 360.59,
+      "Current Price": 352.82,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213241"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Eyes on AI! Wedbush Keeps $600 Tesla Stock Price Target despite Q1 Miss",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1f4316d7-50e1-4e6f-a084-ce4d75e16afb",
-      "Published At": "2026-04-04T19:12:00Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -5.42,
-      "After Hours": 0.0,
-      "Current Price": 360.59,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213250"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "BNP Paribas warns stakes 'couldn't be higher' for Tesla stock investors",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_49000be2-5237-4cbd-86ef-5d5e70cf28a8",
-      "Published At": "2026-04-04T03:17:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -5.42,
-      "After Hours": 0.0,
-      "Current Price": 360.59,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213257"
+      "Timestamp": "2026-04-06T21:32:12.347079"
     },
     {
       "Ticker": "GOOGL",
@@ -151,12 +109,12 @@
       "Headline URL": "https://www.barchart.com/story/news/1144966/ai-stocks-are-exiting-an-era-of-blind-faith-and-entering-a-year-of-strict-numbers-what-investors-need-to-watch-this-earnings-season",
       "Published At": "2026-04-04T14:00:02Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.54,
+      "Regular Change": 1.43,
       "After Hours": 0.0,
-      "Current Price": 295.77,
+      "Current Price": 299.99,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-06T10:13:52.213269"
+      "Timestamp": "2026-04-06T21:32:12.347102"
     },
     {
       "Ticker": "GOOGL",
@@ -165,12 +123,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fe25bd88-d31a-4fad-ae3d-c78a0e531b4d",
       "Published At": "2026-04-04T13:30:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.54,
+      "Regular Change": 1.43,
       "After Hours": 0.0,
-      "Current Price": 295.77,
+      "Current Price": 299.99,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213276"
+      "Timestamp": "2026-04-06T21:32:12.347117"
     },
     {
       "Ticker": "GOOGL",
@@ -179,12 +137,12 @@
       "Headline URL": "https://www.barchart.com/story/news/1139111/no-bottom-in-sight-for-the-s-p-500-why-sandisk-stock-has-staged-a-major-rally-while-the-rest-of-the-index-is-down-bad",
       "Published At": "2026-04-03T19:12:46Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.54,
+      "Regular Change": 1.43,
       "After Hours": 0.0,
-      "Current Price": 295.77,
+      "Current Price": 299.99,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-06T10:13:52.213296"
+      "Timestamp": "2026-04-06T21:32:12.347136"
     },
     {
       "Ticker": "META",
@@ -193,12 +151,12 @@
       "Headline URL": "https://nypost.com/2026/04/03/business/meta-lays-off-hundreds-after-ceo-mark-zuckerberg-said-ai-can-replace-teams/",
       "Published At": "2026-04-03T13:54:28Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.82,
+      "Regular Change": -0.25,
       "After Hours": 0.0,
-      "Current Price": 574.46,
+      "Current Price": 573.02,
       "Data Source": "AlphaVantage",
       "News Source": "New York Post",
-      "Timestamp": "2026-04-06T10:13:52.213302"
+      "Timestamp": "2026-04-06T21:32:12.347147"
     },
     {
       "Ticker": "META",
@@ -207,54 +165,68 @@
       "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-slid-mixed-131745101.html",
       "Published At": "2026-04-03T13:17:45Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.82,
+      "Regular Change": -0.25,
       "After Hours": 0.0,
-      "Current Price": 574.46,
+      "Current Price": 573.02,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213308"
+      "Timestamp": "2026-04-06T21:32:12.347157"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "How We Ended Us 2023 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/how-we-ended-us-2023-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-05T09:20:06Z",
+      "Headline": "Saraswathi 2026 1080p AMZN WEB-DL H264-Rummy",
+      "Headline URL": "https://post.rlsbb.to/saraswathi-2026-1080p-amzn-web-dl-h264-rummy/",
+      "Published At": "2026-04-05T19:56:46Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.38,
+      "Regular Change": 1.44,
       "After Hours": 0.0,
-      "Current Price": 209.77,
+      "Current Price": 212.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T10:13:52.213313"
+      "Timestamp": "2026-04-06T21:32:12.347174"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Protos Experiment 2025 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/the-protos-experiment-2025-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-05T07:52:51Z",
+      "Headline": "Alpha And Omega 2010 1080p AMZN WEB-DL H264-BiOMA",
+      "Headline URL": "https://post.rlsbb.to/alpha-and-omega-2010-1080p-amzn-web-dl-h264-bioma/",
+      "Published At": "2026-04-05T19:35:11Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.38,
+      "Regular Change": 1.44,
       "After Hours": 0.0,
-      "Current Price": 209.77,
+      "Current Price": 212.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T10:13:52.213318"
+      "Timestamp": "2026-04-06T21:32:12.347183"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Grace 2021 S06E02 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/grace-2021-s06e02-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-04-05T07:38:15Z",
+      "Headline": "Sister-In-Law Act 2025 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/sister-in-law-act-2025-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-04-05T17:53:10Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.38,
+      "Regular Change": 1.44,
       "After Hours": 0.0,
-      "Current Price": 209.77,
+      "Current Price": 212.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T10:13:52.213323"
+      "Timestamp": "2026-04-06T21:32:12.347192"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA Stock in 2026: Analysts Urge Buy as AI Demand Powers Growth Despite Valuation Concerns",
+      "Headline URL": "https://www.ibtimes.com.au/nvidia-stock-2026-analysts-urge-buy-ai-demand-powers-growth-despite-valuation-concerns-1865473",
+      "Published At": "2026-04-05T14:09:56Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.14,
+      "After Hours": 0.0,
+      "Current Price": 177.64,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-04-06T21:32:12.347206"
     },
     {
       "Ticker": "NVDA",
@@ -263,12 +235,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a96e4f7d-62fc-46c9-9b41-ba9881b3c509",
       "Published At": "2026-04-05T08:50:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.93,
+      "Regular Change": 0.14,
       "After Hours": 0.0,
-      "Current Price": 177.39,
+      "Current Price": 177.64,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213330"
+      "Timestamp": "2026-04-06T21:32:12.347222"
     },
     {
       "Ticker": "NVDA",
@@ -277,26 +249,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_43ea94ae-3988-42cf-942e-7a9a8da5f84e",
       "Published At": "2026-04-04T12:25:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.93,
+      "Regular Change": 0.14,
       "After Hours": 0.0,
-      "Current Price": 177.39,
+      "Current Price": 177.64,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213335"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "5-Star Analyst Raises Nvidia Stock (NVDA) Forecast as Demand for \u2018Hopper and Blackwell AI-Chips Likely to Outstrip Supply\u2019",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_db90ce28-898c-491e-aa00-acbfe3c23b9b",
-      "Published At": "2026-04-04T10:09:27Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.93,
-      "After Hours": 0.0,
-      "Current Price": 177.39,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T10:13:52.213343"
+      "Timestamp": "2026-04-06T21:32:12.347233"
     }
   ]
 }
