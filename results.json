@@ -1,23 +1,35 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T21:32:12.348375",
+    "generated_at": "2026-04-07T10:10:33.002109",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 11,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
-      "MSFT",
       "TSLA",
       "GOOGL",
-      "META",
       "AMZN",
       "NVDA"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "If You Invested In Apple Stock Instead Of Buying iPhones Each Year, Here's How Much You'd Have Today",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/invested-apple-stock-instead-buying-003111005.html",
+      "Published At": "2026-04-06T00:31:11Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.15,
+      "After Hours": 0.0,
+      "Current Price": 258.86,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-07T10:10:33.001028"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -30,49 +42,7 @@
       "Current Price": 258.86,
       "Data Source": "AlphaVantage",
       "News Source": "Github.com",
-      "Timestamp": "2026-04-06T21:32:12.346993"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Jim Cramer Thinks New Apple (AAPL) CFO Is Settling Well In His Role",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e9c9fb27-7cb0-4732-ab67-e6ec4fab56cf",
-      "Published At": "2026-04-04T18:27:41Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.15,
-      "After Hours": 0.0,
-      "Current Price": 258.86,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347011"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Corporation (MSFT): Billionaire Steve Cohen Trims Position",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0990eccd-7f8a-40eb-b384-aee2f3702f46",
-      "Published At": "2026-04-03T21:03:03Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.16,
-      "After Hours": 0.0,
-      "Current Price": 372.88,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347021"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "After Microsoft\u2019s Q1 Slide, Are the Bulls Still On Board?",
-      "Headline URL": "https://247wallst.com/investing/2026/04/03/after-microsofts-q1-slide-are-the-bulls-still-on-board/",
-      "Published At": "2026-04-03T16:15:58Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -0.16,
-      "After Hours": 0.0,
-      "Current Price": 372.88,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-04-06T21:32:12.347040"
+      "Timestamp": "2026-04-07T10:10:33.001046"
     },
     {
       "Ticker": "TSLA",
@@ -86,7 +56,7 @@
       "Current Price": 352.82,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347062"
+      "Timestamp": "2026-04-07T10:10:33.001055"
     },
     {
       "Ticker": "TSLA",
@@ -100,7 +70,7 @@
       "Current Price": 352.82,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347079"
+      "Timestamp": "2026-04-07T10:10:33.001069"
     },
     {
       "Ticker": "GOOGL",
@@ -114,7 +84,7 @@
       "Current Price": 299.99,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-06T21:32:12.347102"
+      "Timestamp": "2026-04-07T10:10:33.001091"
     },
     {
       "Ticker": "GOOGL",
@@ -128,49 +98,21 @@
       "Current Price": 299.99,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347117"
+      "Timestamp": "2026-04-07T10:10:33.001104"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "No Bottom in Sight for the S&P 500: Why Sandisk Stock Has Staged a Major Rally While the Rest of the Index Is Down Bad",
-      "Headline URL": "https://www.barchart.com/story/news/1139111/no-bottom-in-sight-for-the-s-p-500-why-sandisk-stock-has-staged-a-major-rally-while-the-rest-of-the-index-is-down-bad",
-      "Published At": "2026-04-03T19:12:46Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.43,
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Maa Ka Sum S01 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/maa-ka-sum-s01-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-04-06T07:13:10Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.44,
       "After Hours": 0.0,
-      "Current Price": 299.99,
+      "Current Price": 212.79,
       "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-04-06T21:32:12.347136"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta lays off hundreds as tech giant continues AI investment",
-      "Headline URL": "https://nypost.com/2026/04/03/business/meta-lays-off-hundreds-after-ceo-mark-zuckerberg-said-ai-can-replace-teams/",
-      "Published At": "2026-04-03T13:54:28Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.25,
-      "After Hours": 0.0,
-      "Current Price": 573.02,
-      "Data Source": "AlphaVantage",
-      "News Source": "New York Post",
-      "Timestamp": "2026-04-06T21:32:12.347147"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Platforms (META) Slid on Mixed Quarterly Results",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-slid-mixed-131745101.html",
-      "Published At": "2026-04-03T13:17:45Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.25,
-      "After Hours": 0.0,
-      "Current Price": 573.02,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347157"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-07T10:10:33.001113"
     },
     {
       "Ticker": "AMZN",
@@ -184,7 +126,7 @@
       "Current Price": 212.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T21:32:12.347174"
+      "Timestamp": "2026-04-07T10:10:33.001123"
     },
     {
       "Ticker": "AMZN",
@@ -198,21 +140,21 @@
       "Current Price": 212.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T21:32:12.347183"
+      "Timestamp": "2026-04-07T10:10:33.001131"
     },
     {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Sister-In-Law Act 2025 1080p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/sister-in-law-act-2025-1080p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-04-05T17:53:10Z",
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA\u3001\u30aa\u30fc\u30d7\u30f3 \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u958b\u767a\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3067\u30ca\u30ec\u30c3\u30b8 \u30ef\u30fc\u30af\u306b\u304a\u3051\u308b\u6b21\u306e\u7523\u696d\u9769\u547d\u3092\u727d\u5f15",
+      "Headline URL": "https://prtimes.jp/main/html/rd/p/000000611.000012662.html",
+      "Published At": "2026-04-06T07:41:06Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.44,
+      "Regular Change": 0.14,
       "After Hours": 0.0,
-      "Current Price": 212.79,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-06T21:32:12.347192"
+      "Current Price": 177.64,
+      "Data Source": "AlphaVantage",
+      "News Source": "Prtimes.jp",
+      "Timestamp": "2026-04-07T10:10:33.001143"
     },
     {
       "Ticker": "NVDA",
@@ -226,35 +168,7 @@
       "Current Price": 177.64,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-06T21:32:12.347206"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock vs. Broadcom Stock: A Wall Street Analyst Says Buy One and Sell the Other",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a96e4f7d-62fc-46c9-9b41-ba9881b3c509",
-      "Published At": "2026-04-05T08:50:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.14,
-      "After Hours": 0.0,
-      "Current Price": 177.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347222"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Where Will Nvidia Stock Be in 5 Years?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_43ea94ae-3988-42cf-942e-7a9a8da5f84e",
-      "Published At": "2026-04-04T12:25:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.14,
-      "After Hours": 0.0,
-      "Current Price": 177.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-06T21:32:12.347233"
+      "Timestamp": "2026-04-07T10:10:33.001153"
     }
   ]
 }
