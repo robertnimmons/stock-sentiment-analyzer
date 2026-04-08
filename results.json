@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-07T21:37:04.324051",
+    "generated_at": "2026-04-08T10:12:06.555900",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 14,
+    "total_records": 12,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -13,11 +13,24 @@
       "TSLA",
       "GOOGL",
       "AMZN",
-      "NVDA",
       "JPM"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Here\u2019s Why Warren Buffett and Ken Griffin Love Apple (AAPL)",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a97a69e4-5bfb-4da6-b80f-e7dc35634fe5",
+      "Published At": "2026-04-06T21:19:03Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.07,
+      "After Hours": 0.0,
+      "Current Price": 253.5,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-08T10:12:06.554742"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -30,49 +43,49 @@
       "Current Price": 253.5,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-07T21:37:04.322970"
+      "Timestamp": "2026-04-08T10:12:06.554767"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "The Motley Fool asks: Where Will Apple Stock Be in 5 Years?",
-      "Headline URL": "https://asymco.com/2026/04/06/the-motley-fool-asks-where-will-apple-stock-be-in-5-years/",
-      "Published At": "2026-04-06T19:33:40Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "2 reasons why Microsoft stock has been shredded",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_18d64fd9-665d-4dfd-962b-262444100fa1",
+      "Published At": "2026-04-06T19:38:20Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.07,
+      "Regular Change": -0.16,
       "After Hours": 0.0,
-      "Current Price": 253.5,
+      "Current Price": 372.29,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-08T10:12:06.554775"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "TSLA Stock Bull Run Ahead? Eric Jackson Says Signal That Preceded Tesla's Biggest Runs Has Fired Again",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5ec0799c-016d-40d9-80c2-0d731ff0e821",
+      "Published At": "2026-04-06T22:31:54Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.75,
+      "After Hours": 0.0,
+      "Current Price": 346.65,
       "Data Source": "AlphaVantage",
-      "News Source": "Asymco.com",
-      "Timestamp": "2026-04-07T21:37:04.322988"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Is Microsoft (MSFT) The Best AI Stock to Buy on the Dip?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_23a079ae-5f9d-43c9-a71b-ed5f72add397",
-      "Published At": "2026-04-06T13:11:25Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.16,
-      "After Hours": 0.0,
-      "Current Price": 372.29,
-      "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-07T21:37:04.322995"
+      "Timestamp": "2026-04-08T10:12:06.554785"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Big Tech's second quarter just started, and it's already facing major challenges",
-      "Headline URL": "https://finance.yahoo.com/sectors/technology/article/big-techs-second-quarter-just-started-and-its-already-facing-major-challenges-103340081.html",
-      "Published At": "2026-04-06T10:33:40Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Could Be Headed for Third Year of Degrowth: How to Play TSLA Stock Now?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_fb695128-443c-4116-8a07-aeb7952cfcc3",
+      "Published At": "2026-04-06T19:05:33Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.16,
+      "Regular Change": -1.75,
       "After Hours": 0.0,
-      "Current Price": 372.29,
-      "Data Source": "YahooDirect",
+      "Current Price": 346.65,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-07T21:37:04.323003"
+      "Timestamp": "2026-04-08T10:12:06.554800"
     },
     {
       "Ticker": "TSLA",
@@ -86,35 +99,7 @@
       "Current Price": 346.65,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-04-07T21:37:04.323016"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "US stock market today: US stocks rise as Dow, S&P 500 and Nasdaq stay in green, while Nvidia and Tesla stocks continue to slip",
-      "Headline URL": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-us-stocks-rise-as-dow-sp-500-and-nasdaq-stay-in-green-while-nvidia-and-tesla-stocks-continue-to-slip/articleshow/130064313.cms",
-      "Published At": "2026-04-06T15:11:09Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.75,
-      "After Hours": 0.0,
-      "Current Price": 346.65,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-04-07T21:37:04.323027"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla just pulled off an EV shocker no one saw coming",
-      "Headline URL": "https://www.thestreet.com/investing/tesla-just-pulled-off-an-ev-shocker-no-one-saw-coming",
-      "Published At": "2026-04-06T14:37:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.75,
-      "After Hours": 0.0,
-      "Current Price": 346.65,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-04-07T21:37:04.323033"
+      "Timestamp": "2026-04-08T10:12:06.554817"
     },
     {
       "Ticker": "GOOGL",
@@ -128,77 +113,63 @@
       "Current Price": 305.46,
       "Data Source": "YahooDirect",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-07T21:37:04.323043"
+      "Timestamp": "2026-04-08T10:12:06.554829"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet (GOOGL) is a Top AI Stock Pick of Billionaire Ken Griffin in 2026 \u2013 Should You Buy?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_220018f4-5d61-418c-8ef3-a4f3c60b8026",
-      "Published At": "2026-04-06T13:47:21Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Can a $25B Investment Surge Sustain Micron\u2019s 20% AI Memory Grab?",
+      "Headline URL": "https://www.trefis.com/articles/595941/can-a-25b-investment-surge-sustain-microns-20-ai-memory-grab/2026-04-07",
+      "Published At": "2026-04-07T09:57:19Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.82,
+      "Regular Change": 0.46,
       "After Hours": 0.0,
-      "Current Price": 305.46,
+      "Current Price": 213.77,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-07T21:37:04.323061"
+      "News Source": "Trefis",
+      "Timestamp": "2026-04-08T10:12:06.554842"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Black Pirate 1926 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/the-black-pirate-1926-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-06T18:40:02Z",
+      "Headline": "Psycho Killer 2026 720p AMZN WEB-DL H264-SCOPE",
+      "Headline URL": "https://post.rlsbb.to/psycho-killer-2026-720p-amzn-web-dl-h264-scope/",
+      "Published At": "2026-04-07T08:53:05Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.46,
       "After Hours": 0.0,
       "Current Price": 213.77,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-07T21:37:04.323069"
+      "Timestamp": "2026-04-08T10:12:06.554850"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Atentado 2020 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.to/atentado-2020-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-04-06T18:34:38Z",
+      "Headline": "Unexpected S07E08 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/unexpected-s07e08-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-07T08:05:44Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.46,
       "After Hours": 0.0,
       "Current Price": 213.77,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-07T21:37:04.323076"
+      "Timestamp": "2026-04-08T10:12:06.554858"
     },
     {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "You Have No Idea 2023 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/you-have-no-idea-2023-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-04-06T18:23:38Z",
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Lilly vs JPMorgan: Which Hits a $1 Trillion Market Cap First?",
+      "Headline URL": "https://247wallst.com/investing/2026/04/06/lilly-vs-jpmorgan-which-hits-a-1-trillion-market-cap-first/",
+      "Published At": "2026-04-06T15:50:28Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.46,
+      "Regular Change": 0.66,
       "After Hours": 0.0,
-      "Current Price": 213.77,
+      "Current Price": 297.4,
       "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-07T21:37:04.323096"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Is NVIDIA (NVDA) Still The Best AI Stock to Buy in 2026?",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-still-best-ai-124721952.html",
-      "Published At": "2026-04-06T12:47:21Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.26,
-      "After Hours": 0.0,
-      "Current Price": 178.1,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-07T21:37:04.323105"
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-04-08T10:12:06.554868"
     },
     {
       "Ticker": "JPM",
@@ -212,7 +183,7 @@
       "Current Price": 297.4,
       "Data Source": "YahooDirect",
       "News Source": "CoinDesk",
-      "Timestamp": "2026-04-07T21:37:04.323112"
+      "Timestamp": "2026-04-08T10:12:06.554958"
     }
   ]
 }
