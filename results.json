@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T21:40:58.832142",
+    "generated_at": "2026-04-10T10:10:17.510428",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 23,
+    "total_records": 22,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -31,7 +31,7 @@
       "Current Price": 260.49,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-09T21:40:58.830916"
+      "Timestamp": "2026-04-10T10:10:17.509195"
     },
     {
       "Ticker": "AAPL",
@@ -45,21 +45,7 @@
       "Current Price": 260.49,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-09T21:40:58.830945"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple\u2019s stock pares losses. Here\u2019s how to think about the latest saga with foldable iPhones. - MarketWatch",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=181419366",
-      "Published At": "2026-04-08T18:52:25Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 0.61,
-      "After Hours": 0.0,
-      "Current Price": 260.49,
-      "Data Source": "AlphaVantage",
-      "News Source": "Slashdot.org",
-      "Timestamp": "2026-04-09T21:40:58.830962"
+      "Timestamp": "2026-04-10T10:10:17.509221"
     },
     {
       "Ticker": "MSFT",
@@ -73,63 +59,91 @@
       "Current Price": 373.07,
       "Data Source": "YahooDirect",
       "News Source": "Crweworld.com",
-      "Timestamp": "2026-04-09T21:40:58.830996"
+      "Timestamp": "2026-04-10T10:10:17.509241"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Is Microsoft (MSFT) One of the Hedge Fund Favorites with Strong Setup in 2026?",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-one-hedge-fund-142324839.html",
-      "Published At": "2026-04-08T14:23:24Z",
+      "Headline": "Analysts See Massive Upside in Microsoft: Time to Buy MSFT Stock?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f483484b-03cc-444e-979c-fd0d4edfecd8",
+      "Published At": "2026-04-08T18:21:28Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -0.34,
       "After Hours": 0.0,
       "Current Price": 373.07,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831010"
+      "Timestamp": "2026-04-10T10:10:17.509253"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Mixed Analyst Sentiment on Tesla (TSLA) Amid Valuation Concerns",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e92a7a48-e758-4015-9772-94a368e235fd",
-      "Published At": "2026-04-08T14:34:03Z",
+      "Headline": "TSLA stock slides, Supercharger prices, and who\u2019s REALLY behind Elon\u2019s big chip fab",
+      "Headline URL": "http://electrek.co/2026/04/08/tsla-stock-slides-supercharger-prices-and-whos-really-behind-elons-big-chip-fab/",
+      "Published At": "2026-04-08T22:10:16Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": 0.69,
       "After Hours": 0.0,
       "Current Price": 345.62,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831020"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla (TSLA) down 20% in 2026 \u2014 JPMorgan sees another 60% downside",
-      "Headline URL": "http://electrek.co/2026/04/08/tesla-jpmorgan-145-price-target-60-percent-downside/",
-      "Published At": "2026-04-08T13:18:28Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.69,
-      "After Hours": 0.0,
-      "Current Price": 345.62,
-      "Data Source": "AlphaVantage",
       "News Source": "Electrek",
-      "Timestamp": "2026-04-09T21:40:58.831031"
+      "Timestamp": "2026-04-10T10:10:17.509272"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Retail investors are buying the dip in Tesla stock",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5894d191-b834-4202-8395-36b376f747d8",
-      "Published At": "2026-04-08T11:33:41Z",
+      "Headline": "JPMorgan Is Still Betting That Tesla Stock Will Plunge 60% from Here",
+      "Headline URL": "https://www.barchart.com/story/news/1205534/jpmorgan-is-still-betting-that-tesla-stock-will-plunge-60-from-here",
+      "Published At": "2026-04-08T19:16:27Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.69,
+      "After Hours": 0.0,
+      "Current Price": 345.62,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-10T10:10:17.509286"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Must Reckon with a \u2018Material Collapse\u2019 in Performance Ahead of Earnings. What Will the Outcome Be for TSLA Stock?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f00edd7b-a746-4362-b12e-6f222c1ea8d4",
+      "Published At": "2026-04-08T17:06:23Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.69,
       "After Hours": 0.0,
       "Current Price": 345.62,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831041"
+      "Timestamp": "2026-04-10T10:10:17.509304"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Inc. (GOOGL): Driving AI Growth and Expanding Cybersecurity Capabilities",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_dddb0669-093f-40a2-8d15-a5dc1570ce61",
+      "Published At": "2026-04-08T20:38:33Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.37,
+      "After Hours": 0.0,
+      "Current Price": 318.49,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-10T10:10:17.509319"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Climbs 4% on Waymo\u2019s Nashville Expansion: The Self-Driving Bet Is Starting to Pay Off",
+      "Headline URL": "https://247wallst.com/investing/2026/04/08/alphabet-climbs-4-on-waymos-nashville-expansion-the-self-driving-bet-is-starting-to-pay-off/",
+      "Published At": "2026-04-08T19:35:39Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.37,
+      "After Hours": 0.0,
+      "Current Price": 318.49,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-04-10T10:10:17.509333"
     },
     {
       "Ticker": "GOOGL",
@@ -143,35 +157,7 @@
       "Current Price": 318.49,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831049"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Class C Shares Surge 3.3% to $313.96 on AI Momentum and Broadcom Partnership",
-      "Headline URL": "https://www.ibtimes.com.au/alphabet-class-c-shares-surge-33-31396-ai-momentum-broadcom-partnership-1865834",
-      "Published At": "2026-04-08T15:32:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.37,
-      "After Hours": 0.0,
-      "Current Price": 318.49,
-      "Data Source": "YahooDirect",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-09T21:40:58.831059"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Dear Google Stock Fans, Mark Your Calendars for April 23",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_20823845-b3d8-463c-896d-8de50f6fce36",
-      "Published At": "2026-04-08T13:46:22Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.37,
-      "After Hours": 0.0,
-      "Current Price": 318.49,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831067"
+      "Timestamp": "2026-04-10T10:10:17.509343"
     },
     {
       "Ticker": "META",
@@ -185,7 +171,7 @@
       "Current Price": 628.39,
       "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-04-09T21:40:58.831088"
+      "Timestamp": "2026-04-10T10:10:17.509358"
     },
     {
       "Ticker": "META",
@@ -199,7 +185,7 @@
       "Current Price": 628.39,
       "Data Source": "AlphaVantage",
       "News Source": "The Times of India",
-      "Timestamp": "2026-04-09T21:40:58.831098"
+      "Timestamp": "2026-04-10T10:10:17.509380"
     },
     {
       "Ticker": "META",
@@ -213,49 +199,63 @@
       "Current Price": 628.39,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-04-09T21:40:58.831106"
+      "Timestamp": "2026-04-10T10:10:17.509389"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Kadhal Reset Repeat 2026 1080p AMZN WEB-DL H264-DX-BOT-DUS",
-      "Headline URL": "https://post.rlsbb.to/kadhal-reset-repeat-2026-1080p-amzn-web-dl-h264-dx-bot-dus/",
-      "Published At": "2026-04-08T21:38:23Z",
+      "Headline": "Whisper Of The Heart 1995 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/whisper-of-the-heart-1995-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-04-09T07:18:27Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 5.6,
       "After Hours": 0.0,
       "Current Price": 233.65,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-09T21:40:58.831112"
+      "Timestamp": "2026-04-10T10:10:17.509396"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Something About Her 2021 1080p AMZN WEB-DL H264-SNAKE",
-      "Headline URL": "https://post.rlsbb.to/something-about-her-2021-1080p-amzn-web-dl-h264-snake/",
-      "Published At": "2026-04-08T20:52:56Z",
+      "Headline": "My Tennis Maestro 2025 720p AMZN WEB-DL H264-cinepth",
+      "Headline URL": "https://post.rlsbb.to/my-tennis-maestro-2025-720p-amzn-web-dl-h264-cinepth/",
+      "Published At": "2026-04-09T07:14:52Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 5.6,
       "After Hours": 0.0,
       "Current Price": 233.65,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-09T21:40:58.831117"
+      "Timestamp": "2026-04-10T10:10:17.509401"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Customize Amazon Nova models with Amazon Bedrock fine-tuning",
-      "Headline URL": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-nova-models-with-amazon-bedrock-fine-tuning/",
-      "Published At": "2026-04-08T19:51:50Z",
+      "Headline": "Timur 2025 1080p AMZN WEB-DL H264-ZYOZYO",
+      "Headline URL": "https://post.rlsbb.to/timur-2025-1080p-amzn-web-dl-h264-zyozyo/",
+      "Published At": "2026-04-09T05:54:05Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 5.6,
       "After Hours": 0.0,
       "Current Price": 233.65,
       "Data Source": "YahooDirect",
-      "News Source": "Amazon.com",
-      "Timestamp": "2026-04-09T21:40:58.831122"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-10T10:10:17.509406"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Morgan Stanley Just Downgraded Arm Stock on Chipmaking Pivot. Why, and Should You Sell ARM Now?",
+      "Headline URL": "https://www.barchart.com/story/news/1201910/morgan-stanley-just-downgraded-arm-stock-on-chipmaking-pivot-why-and-should-you-sell-arm-now",
+      "Published At": "2026-04-08T16:05:01Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 1.01,
+      "After Hours": 0.0,
+      "Current Price": 183.91,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-10T10:10:17.509415"
     },
     {
       "Ticker": "NVDA",
@@ -269,7 +269,7 @@
       "Current Price": 183.91,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831129"
+      "Timestamp": "2026-04-10T10:10:17.509422"
     },
     {
       "Ticker": "NVDA",
@@ -283,21 +283,21 @@
       "Current Price": 183.91,
       "Data Source": "AlphaVantage",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-09T21:40:58.831136"
+      "Timestamp": "2026-04-10T10:10:17.509429"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Is Nvidia stock still the safest AI bet in 2026? Why is Nvidia (NVDA) stock surging 3.5% in today\u2019s premarket \u2014 and what\u2019s next for NVDA shares?",
-      "Headline URL": "https://economictimes.indiatimes.com/news/international/us/is-nvidia-stock-still-the-safest-ai-bet-in-2026-why-is-nvidia-nvda-stock-surging-3-5-in-todays-premarket-and-whats-next-for-nvda-shares/articleshow/130112457.cms",
-      "Published At": "2026-04-08T11:53:47Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.01,
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPMorgan CEO Says Bank Must Build Its Own Blockchain To Counter Crypto Threats",
+      "Headline URL": "http://www.newsbtc.com/crypto/jpmorgan-ceo-says-bank-must-build-its-own-blockchain-to-counter-crypto-threats/",
+      "Published At": "2026-04-09T05:00:25Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.77,
       "After Hours": 0.0,
-      "Current Price": 183.91,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-04-09T21:40:58.831148"
+      "Current Price": 310.33,
+      "Data Source": "YahooDirect",
+      "News Source": "newsBTC",
+      "Timestamp": "2026-04-10T10:10:17.509437"
     },
     {
       "Ticker": "JPM",
@@ -311,7 +311,7 @@
       "Current Price": 310.33,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-09T21:40:58.831155"
+      "Timestamp": "2026-04-10T10:10:17.509443"
     },
     {
       "Ticker": "JPM",
@@ -325,21 +325,7 @@
       "Current Price": 310.33,
       "Data Source": "YahooDirect",
       "News Source": "CoinDesk",
-      "Timestamp": "2026-04-09T21:40:58.831164"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Jamie Dimon warns of growing crypto competition in annual letter: \u2018We need to roll out our own blockchain technology\u2019",
-      "Headline URL": "https://fortune.com/2026/04/07/jamie-dimon-warns-growing-crypto-competition-jpmorgan-shareholder-letter-we-need-to-roll-out-blockchain-technology/",
-      "Published At": "2026-04-07T22:44:41Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.77,
-      "After Hours": 0.0,
-      "Current Price": 310.33,
-      "Data Source": "YahooDirect",
-      "News Source": "Fortune",
-      "Timestamp": "2026-04-09T21:40:58.831173"
+      "Timestamp": "2026-04-10T10:10:17.509452"
     }
   ]
 }

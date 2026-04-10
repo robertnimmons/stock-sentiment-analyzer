@@ -1,15 +1,15 @@
 LIVE STOCK SENTIMENT ANALYSIS
 ==================================================
-Generated : 2026-04-09 21:40:58.837629
+Generated : 2026-04-10 10:10:17.516297
 Sources   : AlphaVantage, YahooDirect
 
-Records   : 23
+Records   : 22
 Stocks    : 8
 
 SENTIMENT
   Positive : 8
-  Negative : 2
-  Neutral  : 13
+  Negative : 3
+  Neutral  : 11
 
 TOP GAINERS
   AMZN: +5.60% ($233.65) NEUTRAL
@@ -21,6 +21,6 @@ TOP GAINERS
 TOP LOSERS
   MSFT: -0.34% ($373.07) POSITIVE
   MSFT: -0.34% ($373.07) POSITIVE
-  GOOGL: +0.37% ($318.49) NEUTRAL
+  GOOGL: +0.37% ($318.49) POSITIVE
   GOOGL: +0.37% ($318.49) POSITIVE
   GOOGL: +0.37% ($318.49) NEUTRAL
