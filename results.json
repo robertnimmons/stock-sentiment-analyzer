@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T21:41:13.613845",
+    "generated_at": "2026-04-14T10:18:52.343785",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 19,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -31,7 +31,7 @@
       "Current Price": 259.2,
       "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-04-13T21:41:13.612693"
+      "Timestamp": "2026-04-14T10:18:52.342659"
     },
     {
       "Ticker": "AAPL",
@@ -45,7 +45,7 @@
       "Current Price": 259.2,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-13T21:41:13.612715"
+      "Timestamp": "2026-04-14T10:18:52.342691"
     },
     {
       "Ticker": "MSFT",
@@ -59,21 +59,21 @@
       "Current Price": 384.37,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612728"
+      "Timestamp": "2026-04-14T10:18:52.342708"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Upgrades Its WSL2 Kernel Against Linux 6.18 LTS",
-      "Headline URL": "https://www.phoronix.com/news/Linux-6.18-LTS-Microsoft-WSL2",
-      "Published At": "2026-04-11T11:21:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Microsoft\u2019s Copilot Problem Isn\u2019t What You Think",
+      "Headline URL": "https://www.marketbeat.com/originals/microsofts-copilot-problem-isnt-what-you-think/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "Published At": "2026-04-12T13:30:00Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 3.64,
       "After Hours": 0.0,
       "Current Price": 384.37,
       "Data Source": "YahooDirect",
-      "News Source": "Phoronix",
-      "Timestamp": "2026-04-13T21:41:13.612737"
+      "News Source": "MarketBeat",
+      "Timestamp": "2026-04-14T10:18:52.342721"
     },
     {
       "Ticker": "TSLA",
@@ -87,7 +87,7 @@
       "Current Price": 352.42,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612751"
+      "Timestamp": "2026-04-14T10:18:52.342735"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +101,7 @@
       "Current Price": 352.42,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612760"
+      "Timestamp": "2026-04-14T10:18:52.342744"
     },
     {
       "Ticker": "TSLA",
@@ -115,7 +115,7 @@
       "Current Price": 352.42,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612770"
+      "Timestamp": "2026-04-14T10:18:52.342753"
     },
     {
       "Ticker": "GOOGL",
@@ -129,7 +129,7 @@
       "Current Price": 321.31,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612783"
+      "Timestamp": "2026-04-14T10:18:52.342764"
     },
     {
       "Ticker": "GOOGL",
@@ -143,7 +143,7 @@
       "Current Price": 321.31,
       "Data Source": "YahooDirect",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-13T21:41:13.612796"
+      "Timestamp": "2026-04-14T10:18:52.342774"
     },
     {
       "Ticker": "GOOGL",
@@ -157,7 +157,7 @@
       "Current Price": 321.31,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612805"
+      "Timestamp": "2026-04-14T10:18:52.342780"
     },
     {
       "Ticker": "META",
@@ -171,105 +171,91 @@
       "Current Price": 634.53,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612820"
+      "Timestamp": "2026-04-14T10:18:52.342791"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Down 5% in 2026, Is Muse Spark What META Stock Needs to Finally Recover?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_77910e31-fb08-423d-85cd-6bd2a4d34631",
-      "Published At": "2026-04-10T19:29:02Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Amazon (AMZN): Top High-Flying AI Stock to Buy",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8b3c0403-9894-4ead-ae07-f87bf039d020",
+      "Published At": "2026-04-13T09:05:35Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.74,
+      "Regular Change": 0.63,
       "After Hours": 0.0,
-      "Current Price": 634.53,
-      "Data Source": "AlphaVantage",
+      "Current Price": 239.89,
+      "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612844"
+      "Timestamp": "2026-04-14T10:18:52.342806"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Into The Rising Sun S01 1080p AMZN WEB-DL H264-FFG",
-      "Headline URL": "https://post.rlsbb.to/into-the-rising-sun-s01-1080p-amzn-web-dl-h264-ffg/",
-      "Published At": "2026-04-12T20:06:40Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.63,
-      "After Hours": 0.0,
-      "Current Price": 239.89,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-13T21:41:13.612852"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "April Skies 2022 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/april-skies-2022-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-04-12T19:23:50Z",
+      "Headline": "Home Town S10E13 720p AMZN WEB-DL H264-NTb",
+      "Headline URL": "https://post.rlsbb.to/home-town-s10e13-720p-amzn-web-dl-h264-ntb/",
+      "Published At": "2026-04-13T08:24:17Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.63,
       "After Hours": 0.0,
       "Current Price": 239.89,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-13T21:41:13.612860"
+      "Timestamp": "2026-04-14T10:18:52.342811"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "A Little Park Music 2026 1080p AMZN WEB-DL H264-MADSKY",
-      "Headline URL": "https://post.rlsbb.to/a-little-park-music-2026-1080p-amzn-web-dl-h264-madsky/",
-      "Published At": "2026-04-12T17:50:10Z",
+      "Headline": "Renovation Resort S03E02 720p AMZN WEB-DL H264-NTb",
+      "Headline URL": "https://post.rlsbb.to/renovation-resort-s03e02-720p-amzn-web-dl-h264-ntb/",
+      "Published At": "2026-04-13T08:24:17Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.63,
       "After Hours": 0.0,
       "Current Price": 239.89,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-13T21:41:13.612866"
+      "Timestamp": "2026-04-14T10:18:52.342816"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan's former quant chief predicts tech stocks will 'crash' after the blistering post-ceasefire rally",
-      "Headline URL": "https://www.businessinsider.com/tech-stocks-market-crash-trump-iran-ex-jpm-quant-head-2026-4",
-      "Published At": "2026-04-10T16:41:17Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "More than a quarter of private colleges are at risk of closing, a new projection shows",
+      "Headline URL": "https://www.npr.org/2026/04/13/nx-s1-5777582/many-private-colleges-at-risk-of-closing",
+      "Published At": "2026-04-13T09:00:00Z",
+      "Sentiment": "NEGATIVE",
       "Regular Change": 1.23,
       "After Hours": 0.0,
       "Current Price": 313.68,
       "Data Source": "YahooDirect",
-      "News Source": "Business Insider",
-      "Timestamp": "2026-04-13T21:41:13.612874"
+      "News Source": "NPR",
+      "Timestamp": "2026-04-14T10:18:52.342823"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
-      "Headline": "Stock Market Highlights: Closing bell: Sensex settles 918 points higher at 7,550, Nifty 50 up 275 points at 24,050",
-      "Headline URL": "https://www.thehindubusinessline.com/markets/stock-market-highlights-april-10-2026/article70843139.ece",
-      "Published At": "2026-04-10T10:56:30Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Stock market today: Dow, S&P 500, Nasdaq futures fall as the US and Iran fail to agree to peace, US blockades Hormuz",
+      "Headline URL": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-fall-as-the-us-and-iran-fail-to-agree-to-peace-us-blockades-hormuz-225150283.html",
+      "Published At": "2026-04-12T22:51:50Z",
+      "Sentiment": "NEGATIVE",
       "Regular Change": 1.23,
       "After Hours": 0.0,
       "Current Price": 313.68,
       "Data Source": "YahooDirect",
-      "News Source": "BusinessLine",
-      "Timestamp": "2026-04-13T21:41:13.612882"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-14T10:18:52.342832"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
-      "Headline": "Oil to Test Wartime Highs If Hormuz Standstill Drags, JPM Warns",
-      "Headline URL": "https://financialpost.com/pmn/business-pmn/oil-to-test-wartime-highs-if-hormuz-standstill-drags-jpm-warns",
-      "Published At": "2026-04-10T09:55:50Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Stock market today: Dow, S&P 500, Nasdaq futures slide after Iran war talks fail, Trump orders Hormuz blockade",
+      "Headline URL": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slide-after-iran-war-talks-fail-trump-orders-hormuz-blockade-225150847.html",
+      "Published At": "2026-04-12T22:51:50Z",
+      "Sentiment": "NEGATIVE",
       "Regular Change": 1.23,
       "After Hours": 0.0,
       "Current Price": 313.68,
       "Data Source": "YahooDirect",
-      "News Source": "Financial Post",
-      "Timestamp": "2026-04-13T21:41:13.612888"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-14T10:18:52.342839"
     },
     {
       "Ticker": "MA",
@@ -283,7 +269,7 @@
       "Current Price": 508.58,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-13T21:41:13.612896"
+      "Timestamp": "2026-04-14T10:18:52.342847"
     }
   ]
 }
