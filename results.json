@@ -1,22 +1,19 @@
 {
   "metadata": {
-    "generated_at": "2026-04-14T21:43:44.085032",
+    "generated_at": "2026-04-15T10:19:45.680918",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 16,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
       "MSFT",
       "TSLA",
       "GOOGL",
-      "META",
       "AMZN",
-      "NVDA",
-      "JPM",
-      "MA"
+      "JPM"
     ]
   },
   "results": [
@@ -32,77 +29,63 @@
       "Current Price": 258.83,
       "Data Source": "AlphaVantage",
       "News Source": "Applech2.com",
-      "Timestamp": "2026-04-14T21:43:44.083863"
+      "Timestamp": "2026-04-15T10:19:45.679669"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "\u2018Apple\u2019s true achievement is the culture Steve Jobs instilled\u2019 \u2013 Gene Munster",
-      "Headline URL": "https://macdailynews.com/2026/04/13/apples-true-achievement-is-the-culture-steve-jobs-instilled-gene-munster/",
-      "Published At": "2026-04-13T20:01:53Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft (MSFT) Price Target Lowered by $103 Ahead of Q3 Report",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_95bdbb5c-5675-4450-ab77-42d955c769c0",
+      "Published At": "2026-04-14T02:16:46Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.14,
-      "After Hours": 0.0,
-      "Current Price": 258.83,
-      "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-14T21:43:44.083897"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Warren Buffett reveals the real reason why Berkshire cut its Apple stake in half",
-      "Headline URL": "https://macdailynews.com/2026/04/13/warren-buffett-reveals-the-real-reason-why-berkshire-cut-its-apple-stake-in-half/",
-      "Published At": "2026-04-13T18:30:27Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -0.14,
-      "After Hours": 0.0,
-      "Current Price": 258.83,
-      "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-14T21:43:44.083913"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Stock Rises 1.7% as AI Cloud Momentum Builds Ahead of Key Q3 Earnings Report",
-      "Headline URL": "https://www.ibtimes.com.au/microsoft-stock-rises-17-ai-cloud-momentum-builds-ahead-key-q3-earnings-report-1866400",
-      "Published At": "2026-04-13T14:51:27Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 2.27,
-      "After Hours": 0.0,
-      "Current Price": 393.11,
-      "Data Source": "YahooDirect",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-14T21:43:44.083926"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Investors\u2019 Concerns Hurt Microsoft (MSFT) in Q1",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2c93fc90-6950-4e01-b503-8c4b3b64c82d",
-      "Published At": "2026-04-13T13:52:14Z",
-      "Sentiment": "NEGATIVE",
       "Regular Change": 2.27,
       "After Hours": 0.0,
       "Current Price": 393.11,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.083938"
+      "Timestamp": "2026-04-15T10:19:45.679701"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Goldman Sachs Maintains Bullish Stance on Microsoft (MSFT) Stock",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-maintains-bullish-stance-210330588.html",
-      "Published At": "2026-04-12T21:03:30Z",
+      "Headline": "Why Microsoft Stock Topped the Market Today",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9d983b78-91a4-4753-8e95-e54e807480cb",
+      "Published At": "2026-04-13T23:05:38Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 2.27,
       "After Hours": 0.0,
       "Current Price": 393.11,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.083947"
+      "Timestamp": "2026-04-15T10:19:45.679746"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "A $21 Billion Reason to Buy CoreWeave Stock Now",
+      "Headline URL": "https://www.barchart.com/story/news/1281201/a-21-billion-reason-to-buy-coreweave-stock-now",
+      "Published At": "2026-04-13T20:00:37Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 2.27,
+      "After Hours": 0.0,
+      "Current Price": 393.11,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-15T10:19:45.679763"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "On Semiconductor Pops on Analyst Upgrade. Should You Buy ON Stock Here?",
+      "Headline URL": "https://www.barchart.com/story/news/1281664/on-semiconductor-pops-on-analyst-upgrade-should-you-buy-on-stock-here",
+      "Published At": "2026-04-13T20:16:49Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 3.34,
+      "After Hours": 0.0,
+      "Current Price": 364.2,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-15T10:19:45.679787"
     },
     {
       "Ticker": "TSLA",
@@ -116,133 +99,105 @@
       "Current Price": 364.2,
       "Data Source": "AlphaVantage",
       "News Source": "Next Big Future",
-      "Timestamp": "2026-04-14T21:43:44.083956"
+      "Timestamp": "2026-04-15T10:19:45.679796"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Edges Higher Amid Cheaper EV Plans and Robotaxi Hopes Despite Q1 Delivery Miss",
-      "Headline URL": "https://www.ibtimes.com.au/tesla-stock-edges-higher-amid-cheaper-ev-plans-robotaxi-hopes-despite-q1-delivery-miss-1866398",
-      "Published At": "2026-04-13T14:48:28Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Tesla Is Allegedly Working on a Cheaper EV (Finally). Does That Make TSLA Stock a Buy Here?",
+      "Headline URL": "https://www.barchart.com/story/news/1280275/tesla-is-allegedly-working-on-a-cheaper-ev-finally-does-that-make-tsla-stock-a-buy-here",
+      "Published At": "2026-04-13T18:49:40Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 3.34,
       "After Hours": 0.0,
       "Current Price": 364.2,
       "Data Source": "AlphaVantage",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-14T21:43:44.083968"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla's Full Self-Driving gets Dutch sign-off, paving the way for future European approval",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/article/teslas-full-self-driving-gets-dutch-sign-off-paving-the-way-for-future-european-approval-142240356.html",
-      "Published At": "2026-04-13T14:22:40Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.34,
-      "After Hours": 0.0,
-      "Current Price": 364.2,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.083978"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-15T10:19:45.679807"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Stock Dips in Pre-Market as AI Spending and Antitrust Pressures Weigh on GOOG",
-      "Headline URL": "https://www.ibtimes.com.au/alphabet-stock-dips-pre-market-ai-spending-antitrust-pressures-weigh-goog-1866375",
-      "Published At": "2026-04-13T13:13:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.63,
-      "After Hours": 0.0,
-      "Current Price": 332.91,
-      "Data Source": "YahooDirect",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-14T21:43:44.083988"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Is Alphabet (GOOGL) One of the Best Long Term Growth Stocks to Invest In According to Billionaires?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_069e2e8c-5db2-4d7d-aa5f-9c5eb906049e",
-      "Published At": "2026-04-12T21:02:27Z",
+      "Headline": "Is Alphabet (GOOGL) One of The Best Multibagger Stocks to Buy for Long Term?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_008aa6eb-d308-43c2-b29c-1ee8a9ad141a",
+      "Published At": "2026-04-14T10:01:20Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 3.63,
       "After Hours": 0.0,
       "Current Price": 332.91,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084000"
+      "Timestamp": "2026-04-15T10:19:45.679819"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Needs to Show How Much Cash It Can Squeeze Out of Its New AI Tools before Q1; Barclays Reiterates Buy Forecast",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0e6d2dd0-3467-4784-9f68-a171aba0dc93",
-      "Published At": "2026-04-11T13:34:14Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Here is why Alphabet (GOOGL) Is Among the High-Flying AI Stocks to Buy",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ba5a5f34-c349-487a-8b3e-6ec3e99d589f",
+      "Published At": "2026-04-13T20:07:37Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 4.41,
+      "Regular Change": 3.63,
       "After Hours": 0.0,
-      "Current Price": 662.49,
-      "Data Source": "AlphaVantage",
+      "Current Price": 332.91,
+      "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084032"
+      "Timestamp": "2026-04-15T10:19:45.679828"
     },
     {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Wisdom Of Happiness 2024 REPACK 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/wisdom-of-happiness-2024-repack-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-13T21:35:44Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.81,
-      "After Hours": 0.0,
-      "Current Price": 249.02,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-14T21:43:44.084038"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Death Hunt 1981 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/death-hunt-1981-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-13T20:36:50Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.81,
-      "After Hours": 0.0,
-      "Current Price": 249.02,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-14T21:43:44.084043"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Wisdom Of Happiness 2024 1080p AMZN WEB-DL H264-BiOMA",
-      "Headline URL": "https://post.rlsbb.to/wisdom-of-happiness-2024-1080p-amzn-web-dl-h264-bioma/",
-      "Published At": "2026-04-13T20:09:03Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.81,
-      "After Hours": 0.0,
-      "Current Price": 249.02,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-14T21:43:44.084048"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "A $1.3 Trillion Reason to Buy Nvidia Stock Here",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9dbe2d72-bcb4-4591-ad9e-eebcb279cacd",
-      "Published At": "2026-04-13T11:30:02Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "As Waymo Launches in Nashville, Should You Buy, Sell, or Hold GOOGL Stock?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_185943b0-4d30-451d-ac6c-3e1e4db18cab",
+      "Published At": "2026-04-13T19:20:01Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 3.8,
+      "Regular Change": 3.63,
       "After Hours": 0.0,
-      "Current Price": 196.51,
-      "Data Source": "AlphaVantage",
+      "Current Price": 332.91,
+      "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084054"
+      "Timestamp": "2026-04-15T10:19:45.679838"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Arctic Is Calling 1984 1080p AMZN WEB-DL H264-ETHiCS",
+      "Headline URL": "https://post.rlsbb.to/the-arctic-is-calling-1984-1080p-amzn-web-dl-h264-ethics/",
+      "Published At": "2026-04-14T10:05:54Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.81,
+      "After Hours": 0.0,
+      "Current Price": 249.02,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-15T10:19:45.679846"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "ALL YOU NEED IS KILL 2025 1080p AMZN WEB-DL H264-SCOPE",
+      "Headline URL": "https://post.rlsbb.to/all-you-need-is-kill-2025-1080p-amzn-web-dl-h264-scope/",
+      "Published At": "2026-04-14T09:13:05Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.81,
+      "After Hours": 0.0,
+      "Current Price": 249.02,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-15T10:19:45.679859"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Reussir Sa Vie 2012 1080p AMZN WEB-DL H264-cinepth",
+      "Headline URL": "https://post.rlsbb.to/reussir-sa-vie-2012-1080p-amzn-web-dl-h264-cinepth/",
+      "Published At": "2026-04-14T09:12:51Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.81,
+      "After Hours": 0.0,
+      "Current Price": 249.02,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-15T10:19:45.679866"
     },
     {
       "Ticker": "JPM",
@@ -256,7 +211,7 @@
       "Current Price": 311.12,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084062"
+      "Timestamp": "2026-04-15T10:19:45.679875"
     },
     {
       "Ticker": "JPM",
@@ -270,7 +225,7 @@
       "Current Price": 311.12,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084069"
+      "Timestamp": "2026-04-15T10:19:45.679883"
     },
     {
       "Ticker": "JPM",
@@ -284,21 +239,7 @@
       "Current Price": 311.12,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084077"
-    },
-    {
-      "Ticker": "MA",
-      "Company": "Mastercard Inc.",
-      "Headline": "Stanley Druckenmiller Says Stablecoins Will Dominate Global Payments Within 15 Years. Are Visa and Mastercard Stock in Trouble?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_32170650-a333-45c0-a4b3-019bc6f473cb",
-      "Published At": "2026-04-11T02:25:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.9,
-      "After Hours": 0.0,
-      "Current Price": 513.16,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-14T21:43:44.084085"
+      "Timestamp": "2026-04-15T10:19:45.679893"
     }
   ]
 }
