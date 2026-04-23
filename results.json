@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-22T21:43:57.576060",
+    "generated_at": "2026-04-23T10:24:00.015865",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 23,
+    "total_records": 25,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,44 +23,72 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "US stocks today: US markets fall as Middle East concerns offset earnings optimism",
-      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/u-s-markets-falls-as-middle-east-concerns-offset-earnings-optimism/articleshow/130427205.cms",
-      "Published At": "2026-04-21T20:02:39Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 2.63,
-      "After Hours": 0.0,
-      "Current Price": 273.17,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-04-22T21:43:57.574836"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Wall Street on red alert as Warren Buffett's favorite stock market gauge hits the worst reading EVER",
-      "Headline URL": "https://www.dailymail.com/yourmoney/article-15752335/warren-buffett-stock-market-warning.html",
-      "Published At": "2026-04-21T19:07:45Z",
+      "Headline": "5 stats that explain Apple's stock-market dominance during the Tim Cook era",
+      "Headline URL": "https://www.businessinsider.com/apple-stock-price-returns-explained-under-ceo-tim-cook-buybacks-2026-4",
+      "Published At": "2026-04-22T09:50:02Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.63,
       "After Hours": 0.0,
       "Current Price": 273.17,
       "Data Source": "AlphaVantage",
-      "News Source": "Dailymail.com",
-      "Timestamp": "2026-04-22T21:43:57.574866"
+      "News Source": "Business Insider",
+      "Timestamp": "2026-04-23T10:24:00.014773"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple\u2019s CEO Transition Signals Strength, Not Uncertainty",
-      "Headline URL": "https://insights.som.yale.edu/insights/apples-ceo-transition-signals-strength-not-uncertainty",
-      "Published At": "2026-04-21T18:56:51Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "The Tim Cook era at Apple is defined by 5 achievements",
+      "Headline URL": "https://me.mashable.com/tech/70201/the-tim-cook-era-at-apple-is-defined-by-5-achievements",
+      "Published At": "2026-04-22T09:15:04Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 2.63,
       "After Hours": 0.0,
       "Current Price": 273.17,
       "Data Source": "AlphaVantage",
-      "News Source": "Yale.edu",
-      "Timestamp": "2026-04-22T21:43:57.574881"
+      "News Source": "Mashable",
+      "Timestamp": "2026-04-23T10:24:00.014789"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Is Apple Better Off Without Tim Cook as CEO? Debate Intensifies After 15 Years at the Helm",
+      "Headline URL": "https://www.ibtimes.com.au/apple-better-off-without-tim-cook-ceo-debate-intensifies-after-15-years-helm-1867240",
+      "Published At": "2026-04-22T04:51:23Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.63,
+      "After Hours": 0.0,
+      "Current Price": 273.17,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-04-23T10:24:00.014805"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Is Microsoft Stock a Buy Before Q3? Cloud and AI Trends Point to Strong Growth",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f2aa0c99-a3ca-45a8-804d-fa22aad0b9d1",
+      "Published At": "2026-04-21T15:30:48Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 2.07,
+      "After Hours": 0.0,
+      "Current Price": 432.92,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-23T10:24:00.014816"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Magnificent Seven Back, Lead Market Higher",
+      "Headline URL": "https://247wallst.com/investing/2026/04/21/magnificent-seven-back-lead-market-higher/",
+      "Published At": "2026-04-21T13:42:38Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.07,
+      "After Hours": 0.0,
+      "Current Price": 432.92,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-04-23T10:24:00.014826"
     },
     {
       "Ticker": "MSFT",
@@ -74,35 +102,35 @@
       "Current Price": 432.92,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-22T21:43:57.574894"
+      "Timestamp": "2026-04-23T10:24:00.014843"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Should You Sell Microsoft (MSFT) on AI Disruption Fears?",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/sell-microsoft-msft-ai-disruption-230227049.html",
-      "Published At": "2026-04-20T23:02:27Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 2.07,
-      "After Hours": 0.0,
-      "Current Price": 432.92,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.574905"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Bank of America resets Microsoft stock forecast ahead of earnings",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9583277a-7913-432b-8e93-e33db2b0f746",
-      "Published At": "2026-04-20T23:00:00Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Questions about Tesla spending binge ahead of earnings",
+      "Headline URL": "https://www.digitaljournal.com/world/questions-about-tesla-spending-binge-ahead-of-earnings/article",
+      "Published At": "2026-04-22T01:12:34Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.07,
+      "Regular Change": 0.28,
       "After Hours": 0.0,
-      "Current Price": 432.92,
-      "Data Source": "YahooDirect",
+      "Current Price": 387.51,
+      "Data Source": "AlphaVantage",
+      "News Source": "Digital Journal",
+      "Timestamp": "2026-04-23T10:24:00.014851"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Is Ramping Up Hiring for Its Taiwan Terafab. Does That Make TSLA Stock a Buy Now?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2f83e7ba-293e-4742-bcf5-e145289f03d1",
+      "Published At": "2026-04-21T19:49:46Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.28,
+      "After Hours": 0.0,
+      "Current Price": 387.51,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.574915"
+      "Timestamp": "2026-04-23T10:24:00.014865"
     },
     {
       "Ticker": "TSLA",
@@ -116,35 +144,35 @@
       "Current Price": 387.51,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-04-22T21:43:57.574929"
+      "Timestamp": "2026-04-23T10:24:00.014880"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Dips Slightly in Early Trading as Investors Brace for Crucial Q1 Earnings Report",
-      "Headline URL": "https://www.ibtimes.com.au/tesla-stock-dips-slightly-early-trading-investors-brace-crucial-q1-earnings-report-1867176",
-      "Published At": "2026-04-21T13:42:57Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.28,
-      "After Hours": 0.0,
-      "Current Price": 387.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-22T21:43:57.574940"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Is Tesla Or Rivian Stock The Better Buy?",
-      "Headline URL": "https://www.forbes.com/sites/investor-hub/article/tesla-tsla-vs-rivian-rivn-stock-better-buy/",
-      "Published At": "2026-04-21T10:00:00Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Broadcom & Meta Extend AI Pact Into 2029 as Shares Climb to $400",
+      "Headline URL": "https://www.marketbeat.com/originals/broadcom-and-meta-extend-ai-pact-into-2029-as-shares-climb-to-400/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "Published At": "2026-04-21T17:35:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.28,
+      "Regular Change": 2.12,
       "After Hours": 0.0,
-      "Current Price": 387.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "Forbes",
-      "Timestamp": "2026-04-22T21:43:57.574948"
+      "Current Price": 339.32,
+      "Data Source": "YahooDirect",
+      "News Source": "MarketBeat",
+      "Timestamp": "2026-04-23T10:24:00.014891"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Here's Why the AI Infrastructure Story Is Just Getting Bigger for GOOGL",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cdcacd72-e6b4-4263-9735-27563305fe8c",
+      "Published At": "2026-04-21T15:50:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.12,
+      "After Hours": 0.0,
+      "Current Price": 339.32,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-23T10:24:00.014913"
     },
     {
       "Ticker": "GOOGL",
@@ -158,35 +186,21 @@
       "Current Price": 339.32,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.574958"
+      "Timestamp": "2026-04-23T10:24:00.014922"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Stock Rises Modestly as Investors Await Q1 Earnings on AI Momentum",
-      "Headline URL": "https://www.ibtimes.com.au/alphabet-stock-rises-modestly-investors-await-q1-earnings-ai-momentum-1867192",
-      "Published At": "2026-04-21T14:28:25Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 2.12,
-      "After Hours": 0.0,
-      "Current Price": 339.32,
-      "Data Source": "YahooDirect",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-22T21:43:57.574977"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Q1 Earnings Preview: Is GOOGL Stock a Buy, Sell, or Hold?",
-      "Headline URL": "https://www.barchart.com/story/news/1405778/alphabet-q1-earnings-preview-is-googl-stock-a-buy-sell-or-hold",
-      "Published At": "2026-04-20T17:50:09Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Dear Meta Platforms Stock Fans, Mark Your Calendars for May 20",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8dbdbef6-abac-4ae3-bdfe-03037459a957",
+      "Published At": "2026-04-21T13:54:27Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.12,
+      "Regular Change": 0.88,
       "After Hours": 0.0,
-      "Current Price": 339.32,
-      "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-04-22T21:43:57.574985"
+      "Current Price": 674.72,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-23T10:24:00.014928"
     },
     {
       "Ticker": "META",
@@ -200,7 +214,7 @@
       "Current Price": 674.72,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.574993"
+      "Timestamp": "2026-04-23T10:24:00.014932"
     },
     {
       "Ticker": "META",
@@ -214,35 +228,77 @@
       "Current Price": 674.72,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-22T21:43:57.575003"
+      "Timestamp": "2026-04-23T10:24:00.014939"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Renovation Resort S03E03 720p AMZN WEB-DL H264-NTb",
-      "Headline URL": "https://post.rlsbb.to/renovation-resort-s03e03-720p-amzn-web-dl-h264-ntb/",
-      "Published At": "2026-04-21T19:09:36Z",
+      "Headline": "Jeff Dunhams The Cars That Drove Us S01E08 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/jeff-dunhams-the-cars-that-drove-us-s01e08-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-22T08:40:34Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.18,
       "After Hours": 0.0,
       "Current Price": 255.36,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-22T21:43:57.575011"
+      "Timestamp": "2026-04-23T10:24:00.014945"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Outlet Automotive Deals: Up to 85% off + free shipping w/ Prime",
-      "Headline URL": "https://www.dealnews.com/Amazon-Outlet-Automotive-Deals-Up-to-85-off-free-shipping-w-Prime/21823308.html",
-      "Published At": "2026-04-21T18:47:09Z",
+      "Headline": "Jeff Dunhams The Cars That Drove Us S01E07 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/jeff-dunhams-the-cars-that-drove-us-s01e07-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-22T08:40:34Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.18,
       "After Hours": 0.0,
       "Current Price": 255.36,
       "Data Source": "YahooDirect",
-      "News Source": "Dealnews.com",
-      "Timestamp": "2026-04-22T21:43:57.575021"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-23T10:24:00.014951"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Moonshiners S15E16 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/moonshiners-s15e16-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-22T08:22:43Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.18,
+      "After Hours": 0.0,
+      "Current Price": 255.36,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-23T10:24:00.014955"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA CEO Jensen Huang Says Manufacturing Bottlenecks Are a \u20182\u20133 Year Problem.\u2019 Here\u2019s What That Means for Investors",
+      "Headline URL": "https://247wallst.com/investing/2026/04/21/nvidia-ceo-jensen-huang-says-manufacturing-bottlenecks-are-a-2-3-year-problem-heres-what-that-means-for-investors/",
+      "Published At": "2026-04-21T20:01:54Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.31,
+      "After Hours": 0.0,
+      "Current Price": 202.5,
+      "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-04-23T10:24:00.014965"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Missed Nvidia? AMD Could Be Your Second Chance to Earn Massive AI Gains",
+      "Headline URL": "https://www.barchart.com/story/news/1431810/missed-nvidia-amd-could-be-your-second-chance-to-earn-massive-ai-gains",
+      "Published At": "2026-04-21T19:01:31Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.31,
+      "After Hours": 0.0,
+      "Current Price": 202.5,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-23T10:24:00.014971"
     },
     {
       "Ticker": "NVDA",
@@ -256,35 +312,7 @@
       "Current Price": 202.5,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.575035"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock-Split: 2 Years and $1.5 Trillion Later, Can It Reach $1,200 Again?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_224bba08-6cbe-4e1b-9028-6143b35b64dd",
-      "Published At": "2026-04-21T16:10:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.31,
-      "After Hours": 0.0,
-      "Current Price": 202.5,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.575046"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA Corporation (NVDA): Nancy Pelosi Is Bullish on This Chip Giant",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_89011d77-0cf0-4392-b1f8-14dd56fc699d",
-      "Published At": "2026-04-21T14:47:09Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.31,
-      "After Hours": 0.0,
-      "Current Price": 202.5,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.575054"
+      "Timestamp": "2026-04-23T10:24:00.014978"
     },
     {
       "Ticker": "JPM",
@@ -298,7 +326,7 @@
       "Current Price": 313.02,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.575064"
+      "Timestamp": "2026-04-23T10:24:00.014985"
     },
     {
       "Ticker": "JPM",
@@ -312,7 +340,7 @@
       "Current Price": 313.02,
       "Data Source": "YahooDirect",
       "News Source": "GlobeNewswire",
-      "Timestamp": "2026-04-22T21:43:57.575076"
+      "Timestamp": "2026-04-23T10:24:00.014994"
     },
     {
       "Ticker": "JPM",
@@ -326,7 +354,7 @@
       "Current Price": 313.02,
       "Data Source": "YahooDirect",
       "News Source": "pymnts.com",
-      "Timestamp": "2026-04-22T21:43:57.575085"
+      "Timestamp": "2026-04-23T10:24:00.014999"
     },
     {
       "Ticker": "MA",
@@ -340,7 +368,7 @@
       "Current Price": 510.16,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-22T21:43:57.575095"
+      "Timestamp": "2026-04-23T10:24:00.015005"
     }
   ]
 }
