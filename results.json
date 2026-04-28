@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-27T21:49:46.641388",
+    "generated_at": "2026-04-28T11:07:54.028749",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 16,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,6 +22,20 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple (AAPL) Appoints Johny Srouji as Chief Hardware Officer",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_594f05e0-9fcf-44bb-837d-392f1d9c2024",
+      "Published At": "2026-04-27T06:20:54Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.27,
+      "After Hours": 0.0,
+      "Current Price": 267.61,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-28T11:07:54.027532"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "John Ternus could borrow from Microsoft\u2019s playbook to reinvigorate Apple",
       "Headline URL": "https://9to5mac.com/2026/04/26/john-ternus-reinvigorate-apple-engineering-early-retirement/",
       "Published At": "2026-04-26T17:28:00Z",
@@ -31,49 +45,63 @@
       "Current Price": 267.61,
       "Data Source": "AlphaVantage",
       "News Source": "9to5Mac",
-      "Timestamp": "2026-04-27T21:49:46.640215"
+      "Timestamp": "2026-04-28T11:07:54.027561"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Is\u00a0GitLab Inc. (GTLB)\u00a0A Good Stock\u00a0To\u00a0Buy Now?",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/gitlab-inc-gtlb-good-stock-195433444.html",
-      "Published At": "2026-04-26T19:54:33Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.05,
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Mega-Cap Earnings, FOMC and Other Key Things to Watch this Week",
+      "Headline URL": "https://www.barchart.com/story/news/1525397/mega-cap-earnings-fomc-and-other-key-things-to-watch-this-week",
+      "Published At": "2026-04-26T17:00:02Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.27,
       "After Hours": 0.0,
-      "Current Price": 424.82,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640242"
+      "Current Price": 267.61,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-04-28T11:07:54.027572"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Michael Burry buys beaten-down mega tech stock",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/michael-burry-buys-beaten-down-mega-tech-stock-microsoft",
-      "Published At": "2026-04-25T21:03:00Z",
+      "Headline": "What To Expect For Microsoft Stock's 2026 Outlook, According To Experts",
+      "Headline URL": "https://www.forbes.com/sites/investor-hub/article/microsoft-msft-stock-outlook-2026/",
+      "Published At": "2026-04-27T10:30:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.05,
       "After Hours": 0.0,
       "Current Price": 424.82,
       "Data Source": "YahooDirect",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-04-27T21:49:46.640252"
+      "News Source": "Forbes",
+      "Timestamp": "2026-04-28T11:07:54.027582"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Cloud Titans Battle 2026: Microsoft Azure vs AWS vs Google Cloud - Which Stock to Buy?",
-      "Headline URL": "https://www.ibtimes.com.au/cloud-titans-battle-2026-microsoft-azure-vs-aws-vs-google-cloud-which-stock-buy-1867488",
-      "Published At": "2026-04-25T13:07:44Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Microsoft (MSFT), Meta (META) Announce Significant Job Reductions Amid Industry Pivot to AI",
+      "Headline URL": "https://finance.yahoo.com/sectors/technology/articles/microsoft-msft-meta-meta-announce-062043000.html",
+      "Published At": "2026-04-27T06:20:43Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 0.05,
       "After Hours": 0.0,
       "Current Price": 424.82,
       "Data Source": "YahooDirect",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-27T21:49:46.640266"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-28T11:07:54.027594"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft Corporation (MSFT) Partners With Stellantis",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3e4193a5-a833-4393-aaed-4617b83373f2",
+      "Published At": "2026-04-26T22:31:29Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.05,
+      "After Hours": 0.0,
+      "Current Price": 424.82,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-28T11:07:54.027602"
     },
     {
       "Ticker": "TSLA",
@@ -87,7 +115,7 @@
       "Current Price": 378.67,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-04-27T21:49:46.640278"
+      "Timestamp": "2026-04-28T11:07:54.027611"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +129,7 @@
       "Current Price": 378.67,
       "Data Source": "AlphaVantage",
       "News Source": "Ubergizmo",
-      "Timestamp": "2026-04-27T21:49:46.640287"
+      "Timestamp": "2026-04-28T11:07:54.027622"
     },
     {
       "Ticker": "TSLA",
@@ -115,7 +143,21 @@
       "Current Price": 378.67,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640300"
+      "Timestamp": "2026-04-28T11:07:54.027634"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Buckle up: JPMorgan warns the stock market is headed for a volatile earnings week",
+      "Headline URL": "https://www.businessinsider.com/stock-market-earnings-meta-msft-amzn-goog-car-aapl-sndk-2026-4",
+      "Published At": "2026-04-27T09:35:01Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.72,
+      "After Hours": 0.0,
+      "Current Price": 350.34,
+      "Data Source": "YahooDirect",
+      "News Source": "Business Insider",
+      "Timestamp": "2026-04-28T11:07:54.027646"
     },
     {
       "Ticker": "GOOGL",
@@ -129,21 +171,7 @@
       "Current Price": 350.34,
       "Data Source": "YahooDirect",
       "News Source": "TheStreet",
-      "Timestamp": "2026-04-27T21:49:46.640309"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Marvell Shares Rise on Reports of Talks with Alphabet Inc\u2019s (GOOGL) Google to Create Two AI Chips",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/marvell-shares-rise-reports-talks-055737487.html",
-      "Published At": "2026-04-25T05:57:37Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.72,
-      "After Hours": 0.0,
-      "Current Price": 350.34,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640320"
+      "Timestamp": "2026-04-28T11:07:54.027669"
     },
     {
       "Ticker": "META",
@@ -157,63 +185,77 @@
       "Current Price": 678.62,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640336"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "As Meta Platforms Preps to Lay Off 10% of Its Staff, Should You Buy, Sell, or Hold META Stock?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_41c7a899-7149-4658-a675-b2ba1ff0d104",
-      "Published At": "2026-04-24T11:30:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.53,
-      "After Hours": 0.0,
-      "Current Price": 678.62,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640359"
+      "Timestamp": "2026-04-28T11:07:54.027709"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Jade Warrior 2006 1080p AMZN WEB-DL H264-HoneyG",
-      "Headline URL": "https://post.rlsbb.to/jade-warrior-2006-1080p-amzn-web-dl-h264-honeyg/",
-      "Published At": "2026-04-26T21:11:24Z",
+      "Headline": "Sullivans Crossing S04E06 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/sullivans-crossing-s04e06-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-27T10:50:02Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.09,
       "After Hours": 0.0,
       "Current Price": 261.12,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-27T21:49:46.640366"
+      "Timestamp": "2026-04-28T11:07:54.027717"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Stock Just Keeps Rising. Here's the Latest Catalyst Driving Shares Higher -- and a Close Look at the Stock.",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_67bba57c-3fe3-4a0b-ab36-10f6bcd60498",
-      "Published At": "2026-04-26T20:46:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "The Only Way Is Essex S37E02 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/the-only-way-is-essex-s37e02-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-27T09:50:03Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -1.09,
       "After Hours": 0.0,
       "Current Price": 261.12,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640376"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-28T11:07:54.027725"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "24 In 24 Last Chef Standing S03E01 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/24-in-24-last-chef-standing-s03e01-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-04-27T09:50:03Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.09,
+      "After Hours": 0.0,
+      "Current Price": 261.12,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-28T11:07:54.027733"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Show HN: A free ESG stock screener that publishes its losses and methodology",
-      "Headline URL": "https://jumpstartsignal.com/",
-      "Published At": "2026-04-26T09:50:21Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "NVIDIA (NVDA), Adobe (ADBE), WPP Expand Partnership to Integrate Agentic AI into Marketing",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_152c3b8a-945d-4ac7-a128-55c41bade953",
+      "Published At": "2026-04-27T06:21:02Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 4.0,
       "After Hours": 0.0,
       "Current Price": 216.61,
       "Data Source": "AlphaVantage",
-      "News Source": "Jumpstartsignal.com",
-      "Timestamp": "2026-04-27T21:49:46.640386"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-28T11:07:54.027744"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Cerebras Systems Close to IPO, Here\u2019s What It Means For Nvidia (NVDA)",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/cerebras-systems-close-ipo-means-223222531.html",
+      "Published At": "2026-04-26T22:32:22Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 4.0,
+      "After Hours": 0.0,
+      "Current Price": 216.61,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-28T11:07:54.027755"
     },
     {
       "Ticker": "JPM",
@@ -227,21 +269,7 @@
       "Current Price": 311.63,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-27T21:49:46.640394"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Aluminum Market Faces Largest Supply Shock Since 2000, Mercuria Warns",
-      "Headline URL": "https://oilprice.com/Energy/Energy-General/Aluminum-Market-Faces-Largest-Supply-Shock-Since-2000-Mercuria-Warns.html",
-      "Published At": "2026-04-24T20:00:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.09,
-      "After Hours": 0.0,
-      "Current Price": 311.63,
-      "Data Source": "YahooDirect",
-      "News Source": "OilPrice.com",
-      "Timestamp": "2026-04-27T21:49:46.640402"
+      "Timestamp": "2026-04-28T11:07:54.027764"
     }
   ]
 }
