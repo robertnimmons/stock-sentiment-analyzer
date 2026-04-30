@@ -1,15 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-04-29T21:54:34.260591",
+    "generated_at": "2026-04-30T10:58:36.482059",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 17,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
-      "MSFT",
       "TSLA",
       "GOOGL",
       "META",
@@ -23,142 +22,100 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "UBS boosts Apple price target to $287 ahead of earnings",
-      "Headline URL": "https://macdailynews.com/2026/04/28/ubs-boosts-apple-price-target-to-287-ahead-of-earnings/",
-      "Published At": "2026-04-28T21:15:50Z",
+      "Headline": "International stock investment gets safer with Vested Finance as IFSCA grants it GAP license; Know what it means for Indian investors",
+      "Headline URL": "https://economictimes.indiatimes.com/wealth/invest/international-stock-investment-gets-safer-with-vested-finance-as-ifsca-grants-it-gap-license-know-what-it-means-for-indian-investors/articleshow/130603617.cms",
+      "Published At": "2026-04-29T10:27:47Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.2,
       "After Hours": 0.0,
       "Current Price": 270.17,
       "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-04-29T21:54:34.259164"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Readies Photo-Editing Overhaul With New AI Tools in iOS 27 - Bloomberg.com",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=183033458",
-      "Published At": "2026-04-28T20:13:05Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.2,
-      "After Hours": 0.0,
-      "Current Price": 270.17,
-      "Data Source": "AlphaVantage",
-      "News Source": "Slashdot.org",
-      "Timestamp": "2026-04-29T21:54:34.259195"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "UBS raises Apple price target ahead of earnings, keeps neutral rating",
-      "Headline URL": "https://9to5mac.com/2026/04/28/ubs-raises-apple-price-target-ahead-of-earnings-keeps-neutral-rating/",
-      "Published At": "2026-04-28T19:50:40Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.2,
-      "After Hours": 0.0,
-      "Current Price": 270.17,
-      "Data Source": "AlphaVantage",
-      "News Source": "9to5Mac",
-      "Timestamp": "2026-04-29T21:54:34.259209"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Wall Street Bullish on Microsoft Corporation (MSFT) Ahead of FQ3 Earnings, Here\u2019s What Analysts Expect",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_aca60fcb-9105-49c8-99ec-87acdc7b55d1",
-      "Published At": "2026-04-28T17:50:01Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.12,
-      "After Hours": 0.0,
-      "Current Price": 424.46,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-29T21:54:34.259228"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla\u2019s Down 16% This Year But Analysts See Upside With a $420 Price Target",
-      "Headline URL": "https://247wallst.com/investing/2026/04/28/teslas-down-16-this-year-but-analysts-see-upside-with-a-420-price-target/",
-      "Published At": "2026-04-28T12:59:06Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.86,
-      "After Hours": 0.0,
-      "Current Price": 372.8,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-04-29T21:54:34.259247"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Climbs 0.63% to $378.67 as Robotaxi Optimism Builds",
-      "Headline URL": "https://www.ibtimes.com.au/tesla-stock-climbs-063-37867-robotaxi-optimism-builds-1867648",
-      "Published At": "2026-04-28T06:14:22Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.86,
-      "After Hours": 0.0,
-      "Current Price": 372.8,
-      "Data Source": "AlphaVantage",
-      "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-04-29T21:54:34.259260"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock: Is Wall Street Bullish or Bearish?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2ce85251-73a6-47e1-b122-533f950a3e60",
-      "Published At": "2026-04-28T00:23:07Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.86,
-      "After Hours": 0.0,
-      "Current Price": 372.8,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-29T21:54:34.259271"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "SpaceX IPO: Can you buy the stock before it goes public? The answer may surprise you",
-      "Headline URL": "https://economictimes.indiatimes.com/news/international/us/spacex-ipo-can-you-buy-the-stock-before-it-goes-public-the-answer-may-surprise-you/articleshow/130580699.cms",
-      "Published At": "2026-04-28T16:11:33Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.04,
-      "After Hours": 0.0,
-      "Current Price": 349.94,
-      "Data Source": "YahooDirect",
       "News Source": "The Times of India",
-      "Timestamp": "2026-04-29T21:54:34.259288"
+      "Timestamp": "2026-04-30T10:58:36.480912"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Bitcoin rally falters as AI industry weakens and CLARITY Act approval odds fall",
+      "Headline URL": "https://cointelegraph.com/markets/bitcoin-rally-falters-as-ai-industry-weakens-and-clarity-act-approval-odds-fall",
+      "Published At": "2026-04-28T23:47:37Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.2,
+      "After Hours": 0.0,
+      "Current Price": 270.17,
+      "Data Source": "AlphaVantage",
+      "News Source": "Cointelegraph",
+      "Timestamp": "2026-04-30T10:58:36.480937"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Inside SpaceX's IPO: Musk's most ambitious plan yet",
+      "Headline URL": "https://economictimes.indiatimes.com/tech/technology/inside-spacexs-ipo-musks-most-ambitious-plan-yet/articleshow/130603680.cms",
+      "Published At": "2026-04-29T10:20:50Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.86,
+      "After Hours": 0.0,
+      "Current Price": 372.8,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-04-30T10:58:36.480948"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Baird Lowers PT on Tesla (TSLA), Remains Bullish on the Stocks Long-Term Potential",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_51d3164d-103d-4f28-8b15-dd3dc3c779ab",
+      "Published At": "2026-04-28T17:51:19Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.86,
+      "After Hours": 0.0,
+      "Current Price": 372.8,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-04-30T10:58:36.480958"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Is Alphabet Stock a Buy, Sell, or Hold Ahead of Q1 Earnings?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2bf4833e-47da-4c83-87f0-1d451f1bd62b",
-      "Published At": "2026-04-28T13:00:02Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Google Faces a Rising Bar to Impress Investors With Its Results",
+      "Headline URL": "https://www.investopedia.com/google-faces-a-rising-bar-to-impress-investors-with-its-results-11960342",
+      "Published At": "2026-04-28T21:38:46Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 0.04,
       "After Hours": 0.0,
       "Current Price": 349.94,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-29T21:54:34.259300"
+      "News Source": "Investopedia",
+      "Timestamp": "2026-04-30T10:58:36.480971"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "What Are Wall Street Analysts' Target Price for Alphabet Stock?",
-      "Headline URL": "https://www.barchart.com/story/news/1557616/what-are-wall-street-analysts-target-price-for-alphabet-stock",
-      "Published At": "2026-04-28T12:02:02Z",
+      "Headline": "Apple\u2019s Strategic Pivot: Trading Optimization for Engineering Mastery",
+      "Headline URL": "https://www.barchart.com/story/news/1568837/apples-strategic-pivot-trading-optimization-for-engineering-mastery",
+      "Published At": "2026-04-28T19:27:56Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.04,
       "After Hours": 0.0,
       "Current Price": 349.94,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-04-29T21:54:34.259311"
+      "Timestamp": "2026-04-30T10:58:36.480984"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta is paying top executives to hit a $9.5 trillion valuation\u2014and no one\u2019s ever done it before - Fortune",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=183049004",
+      "Published At": "2026-04-29T06:12:21Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.33,
+      "After Hours": 0.0,
+      "Current Price": 669.12,
+      "Data Source": "AlphaVantage",
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-04-30T10:58:36.480999"
     },
     {
       "Ticker": "META",
@@ -172,7 +129,7 @@
       "Current Price": 669.12,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-04-29T21:54:34.259340"
+      "Timestamp": "2026-04-30T10:58:36.481012"
     },
     {
       "Ticker": "META",
@@ -186,63 +143,49 @@
       "Current Price": 669.12,
       "Data Source": "AlphaVantage",
       "News Source": "CNBC",
-      "Timestamp": "2026-04-29T21:54:34.259351"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Platforms Stock: Analyst Estimates & Ratings",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bca4dc6b-5fbc-4b5f-8c2b-1796f9d88d7c",
-      "Published At": "2026-04-28T09:17:44Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.33,
-      "After Hours": 0.0,
-      "Current Price": 669.12,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-29T21:54:34.259361"
+      "Timestamp": "2026-04-30T10:58:36.481021"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Silent Noise S01 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/the-silent-noise-s01-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-04-28T18:50:11Z",
+      "Headline": "Once Upon A Time In The West 1968 1080p AMZN WEB-DL H264-BLOOM",
+      "Headline URL": "https://post.rlsbb.to/once-upon-a-time-in-the-west-1968-1080p-amzn-web-dl-h264-bloom/",
+      "Published At": "2026-04-29T09:24:43Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.29,
       "After Hours": 0.0,
       "Current Price": 263.04,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-29T21:54:34.259371"
+      "Timestamp": "2026-04-30T10:58:36.481031"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "All eyes are on AWS ahead of Amazon earnings as Wall Street looks to see AI spending pay off",
-      "Headline URL": "https://www.businessinsider.com/amazon-q1-earnings-preview-aws-amzn-stock-ai-capex-2026-4",
-      "Published At": "2026-04-28T18:49:01Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.29,
-      "After Hours": 0.0,
-      "Current Price": 263.04,
-      "Data Source": "YahooDirect",
-      "News Source": "Business Insider",
-      "Timestamp": "2026-04-29T21:54:34.259389"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Zombie House Flipping S07E09 720p AMZN WEB-DL H264-NTb",
-      "Headline URL": "https://post.rlsbb.to/zombie-house-flipping-s07e09-720p-amzn-web-dl-h264-ntb/",
-      "Published At": "2026-04-28T18:36:49Z",
+      "Headline": "Sea Of Love 1989 1080p AMZN PCOK WEB-DL H264-PiRaTeS",
+      "Headline URL": "https://post.rlsbb.to/sea-of-love-1989-1080p-amzn-pcok-web-dl-h264-pirates/",
+      "Published At": "2026-04-29T09:22:51Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.29,
       "After Hours": 0.0,
       "Current Price": 263.04,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-04-29T21:54:34.259399"
+      "Timestamp": "2026-04-30T10:58:36.481048"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The House of the Spirits S01E02 720p AMZN WEB-DL H264-FLUX",
+      "Headline URL": "https://post.rlsbb.to/the-house-of-the-spirits-s01e02-720p-amzn-web-dl-h264-flux/",
+      "Published At": "2026-04-29T09:10:07Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.29,
+      "After Hours": 0.0,
+      "Current Price": 263.04,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-04-30T10:58:36.481053"
     },
     {
       "Ticker": "NVDA",
@@ -256,21 +199,21 @@
       "Current Price": 209.25,
       "Data Source": "AlphaVantage",
       "News Source": "CNBC",
-      "Timestamp": "2026-04-29T21:54:34.259410"
+      "Timestamp": "2026-04-30T10:58:36.481060"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA Stock Outlook: Is Wall Street Bullish or Bearish?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9da0ee78-eae2-4505-b0eb-622921ea4869",
-      "Published At": "2026-04-28T13:40:23Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.84,
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Sensex today | Stock Market Highlights: Sensex settled with 609.45 pts or 0.79% gains at 77,496.36, and Nifty 50 was up 181.95 pts or 0.76% to 24,177.65.",
+      "Headline URL": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-29th-april-2026/article70916125.ece",
+      "Published At": "2026-04-29T10:32:50Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.71,
       "After Hours": 0.0,
-      "Current Price": 209.25,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-04-29T21:54:34.259423"
+      "Current Price": 309.25,
+      "Data Source": "YahooDirect",
+      "News Source": "BusinessLine",
+      "Timestamp": "2026-04-30T10:58:36.481072"
     },
     {
       "Ticker": "JPM",
@@ -284,7 +227,7 @@
       "Current Price": 309.25,
       "Data Source": "YahooDirect",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-04-29T21:54:34.259469"
+      "Timestamp": "2026-04-30T10:58:36.481079"
     },
     {
       "Ticker": "JPM",
@@ -298,21 +241,7 @@
       "Current Price": 309.25,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-04-29T21:54:34.259490"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPMorganChase Named First-Ever Global Banking Partner of the Olympic Games",
-      "Headline URL": "https://financialpost.com/pmn/business-wire-news-releases-pmn/jpmorganchase-named-first-ever-global-banking-partner-of-the-olympic-games",
-      "Published At": "2026-04-28T13:11:12Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.71,
-      "After Hours": 0.0,
-      "Current Price": 309.25,
-      "Data Source": "YahooDirect",
-      "News Source": "Financial Post",
-      "Timestamp": "2026-04-29T21:54:34.259506"
+      "Timestamp": "2026-04-30T10:58:36.481089"
     },
     {
       "Ticker": "V",
@@ -321,12 +250,12 @@
       "Headline URL": "https://investorshub.advfn.com/market-news/article/27344/markets-search-for-direction-as-geopolitics-and-earnings-dominate-focus-dow-jones-sp-nasdaq-wall-street-futures",
       "Published At": "2026-04-28T09:26:18Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 8.3,
+      "Regular Change": 8.26,
       "After Hours": 0.0,
-      "Current Price": 334.97,
+      "Current Price": 334.86,
       "Data Source": "AlphaVantage",
       "News Source": "Advfn.com",
-      "Timestamp": "2026-04-29T21:54:34.259522"
+      "Timestamp": "2026-04-30T10:58:36.481097"
     }
   ]
 }
