@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-04T21:54:46.151177",
+    "generated_at": "2026-05-05T10:49:12.320286",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -14,11 +14,24 @@
       "GOOGL",
       "META",
       "AMZN",
-      "NVDA",
-      "JPM"
+      "NVDA"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple Held The Line On MacBook Pricing While Microsoft Hiked Surface Prices, But The iPhone 18 Is Where The Streak Reportedly Breaks",
+      "Headline URL": "https://wccftech.com/apple-held-the-line-on-macbook-pricing-while-microsoft-hiked-surface-prices-but-the-iphone-18-is-where-the-streak-reportedly-breaks/",
+      "Published At": "2026-05-04T05:36:52Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.18,
+      "After Hours": 0.0,
+      "Current Price": 276.83,
+      "Data Source": "AlphaVantage",
+      "News Source": "Wccftech",
+      "Timestamp": "2026-05-05T10:49:12.319192"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -31,7 +44,7 @@
       "Current Price": 276.83,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149527"
+      "Timestamp": "2026-05-05T10:49:12.319209"
     },
     {
       "Ticker": "AAPL",
@@ -45,27 +58,13 @@
       "Current Price": 276.83,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-04T21:54:46.149552"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Jim Cramer on Apple: \u201cYou Had a Chance to Buy It After They Reported\u201d",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-had-chance-155114267.html",
-      "Published At": "2026-05-03T15:51:14Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.18,
-      "After Hours": 0.0,
-      "Current Price": 276.83,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149568"
+      "Timestamp": "2026-05-05T10:49:12.319221"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
       "Headline": "I've Tested Every Major Antivirus. Please Don't Rely on Just Microsoft Defender",
-      "Headline URL": "https://uk.pcmag.com/antivirus/164743/ive-tested-every-major-antivirus-please-dont-rely-on-just-microsoft-defender",
+      "Headline URL": "https://me.pcmag.com/en/antivirus/36913/ive-tested-every-major-antivirus-please-dont-rely-on-just-microsoft-defender",
       "Published At": "2026-05-03T13:28:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.14,
@@ -73,7 +72,7 @@
       "Current Price": 413.62,
       "Data Source": "YahooDirect",
       "News Source": "PCMag.com",
-      "Timestamp": "2026-05-04T21:54:46.149581"
+      "Timestamp": "2026-05-05T10:49:12.319229"
     },
     {
       "Ticker": "MSFT",
@@ -87,7 +86,21 @@
       "Current Price": 413.62,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149597"
+      "Timestamp": "2026-05-05T10:49:12.319238"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tech stocks today: Semiconductor company earnings in focus amid AI boom, Musk vs. Altman fight continues",
+      "Headline URL": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-semiconductor-earnings-ai-boom-musk-altman-fight-100000447.html",
+      "Published At": "2026-05-04T10:00:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.43,
+      "After Hours": 0.0,
+      "Current Price": 392.51,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-05T10:49:12.319247"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +114,7 @@
       "Current Price": 392.51,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149611"
+      "Timestamp": "2026-05-05T10:49:12.319253"
     },
     {
       "Ticker": "TSLA",
@@ -115,21 +128,7 @@
       "Current Price": 392.51,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-05-04T21:54:46.149627"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Here\u2019s What Jim Cramer Thinks You Should Do With Tesla (TSLA) Shares",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d99ea045-7373-4062-ae97-0d3182c83cf4",
-      "Published At": "2026-05-02T06:09:09Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.43,
-      "After Hours": 0.0,
-      "Current Price": 392.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149643"
+      "Timestamp": "2026-05-05T10:49:12.319262"
     },
     {
       "Ticker": "GOOGL",
@@ -143,7 +142,7 @@
       "Current Price": 383.25,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149654"
+      "Timestamp": "2026-05-05T10:49:12.319268"
     },
     {
       "Ticker": "GOOGL",
@@ -157,91 +156,91 @@
       "Current Price": 383.25,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149668"
+      "Timestamp": "2026-05-05T10:49:12.319274"
     },
     {
       "Ticker": "META",
       "Company": "Meta Platforms",
-      "Headline": "Meta stock poised for $740 target by April 2026 after Q1 earnings beat",
-      "Headline URL": "https://cryptobriefing.com/meta-stock-poised-for-740-target-by-april-2026-after-q1-earnings-beat/",
-      "Published At": "2026-05-03T13:25:03Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.27,
-      "After Hours": 0.0,
-      "Current Price": 610.41,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-04T21:54:46.149687"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Why Meta Platforms Stock Plummeted This Week",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f41b65d2-dd1d-4277-9b1e-eade719684fc",
-      "Published At": "2026-05-03T10:50:00Z",
+      "Headline": "Google Earnings, Meta Earnings",
+      "Headline URL": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+      "Published At": "2026-05-04T10:00:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.27,
       "After Hours": 0.0,
       "Current Price": 610.41,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149697"
+      "News Source": "Stratechery.com",
+      "Timestamp": "2026-05-05T10:49:12.319290"
     },
     {
       "Ticker": "META",
       "Company": "Meta Platforms",
-      "Headline": "China blocks Meta\u2019s $2B Manus AI deal amid US-China tech tensions",
-      "Headline URL": "https://cryptobriefing.com/china-blocks-metas-2b-manus-ai-deal-amid-us-china-tech-tensions/",
-      "Published At": "2026-05-03T08:50:42Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Meta faces New Mexico lawsuit over child safety on Facebook, Instagram",
+      "Headline URL": "https://cryptobriefing.com/meta-faces-new-mexico-lawsuit-over-child-safety-on-facebook-instagram/",
+      "Published At": "2026-05-04T08:00:46Z",
+      "Sentiment": "NEGATIVE",
       "Regular Change": 0.27,
       "After Hours": 0.0,
       "Current Price": 610.41,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-04T21:54:46.149710"
+      "Timestamp": "2026-05-05T10:49:12.319296"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Stock index rule changes may expedite SpaceX IPO by March 2026",
+      "Headline URL": "https://cryptobriefing.com/stock-index-rule-changes-may-expedite-spacex-ipo-by-march-2026/",
+      "Published At": "2026-05-04T06:39:01Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.27,
+      "After Hours": 0.0,
+      "Current Price": 610.41,
+      "Data Source": "AlphaVantage",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-05-05T10:49:12.319302"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Caravaggio 2025 1080p AMZN WEB-DL H264-MADSKY",
-      "Headline URL": "https://post.rlsbb.to/caravaggio-2025-1080p-amzn-web-dl-h264-madsky/",
-      "Published At": "2026-05-03T21:37:07Z",
+      "Headline": "Hustlers 2019 1080p AMZN PCOK WEB-DL H264-PiRaTeS",
+      "Headline URL": "https://post.rlsbb.to/hustlers-2019-1080p-amzn-pcok-web-dl-h264-pirates/",
+      "Published At": "2026-05-04T10:40:27Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.35,
       "After Hours": 0.0,
       "Current Price": 272.05,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-04T21:54:46.149719"
+      "Timestamp": "2026-05-05T10:49:12.319307"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Is Amazon.com, Inc. (AMZN) A Good Stock To Buy Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_70961d24-d137-45d5-bfff-72f44759d427",
-      "Published At": "2026-05-03T17:36:11Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Sullivans Crossing S04E07 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/sullivans-crossing-s04e07-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-05-04T10:38:50Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 1.35,
       "After Hours": 0.0,
       "Current Price": 272.05,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149728"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-05-05T10:49:12.319311"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Prediction: Amazon Stock Is Still a Buy After Hitting All-Time Highs as AWS Revenue Accelerates",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1dbbd001-4d11-4e8a-a3da-0689a5995e06",
-      "Published At": "2026-05-03T15:20:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "The Future Of Climbing 2025 1080p AMZN WEB-DL H264-CHORTLE",
+      "Headline URL": "https://post.rlsbb.to/the-future-of-climbing-2025-1080p-amzn-web-dl-h264-chortle/",
+      "Published At": "2026-05-04T09:18:36Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 1.35,
       "After Hours": 0.0,
       "Current Price": 272.05,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149739"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-05-05T10:49:12.319316"
     },
     {
       "Ticker": "NVDA",
@@ -255,7 +254,21 @@
       "Current Price": 198.48,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149748"
+      "Timestamp": "2026-05-05T10:49:12.319322"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Palantir Q1 revenue jumps 85% on booming US business",
+      "Headline URL": "https://finance.yahoo.com/markets/article/palantir-q1-revenue-jumps-85-on-booming-us-business-141825352.html",
+      "Published At": "2026-05-03T14:18:25Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.02,
+      "After Hours": 0.0,
+      "Current Price": 198.48,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-05T10:49:12.319327"
     },
     {
       "Ticker": "NVDA",
@@ -269,35 +282,7 @@
       "Current Price": 198.48,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-05-04T21:54:46.149761"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA (NVDA): Among the Best American Stocks to Buy in the Technology Sector",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e2e57894-b6b1-4379-819b-a9e4379046ad",
-      "Published At": "2026-05-02T22:39:37Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.02,
-      "After Hours": 0.0,
-      "Current Price": 198.48,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-04T21:54:46.149771"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Breaking Down the Viral JPMorgan Harassment Lawsuit Scandal",
-      "Headline URL": "https://www.usmagazine.com/celebrity-news/news/breaking-down-viral-jpmorgan-harassment-lawsuit-scandal/",
-      "Published At": "2026-05-01T17:55:06Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.54,
-      "After Hours": 0.0,
-      "Current Price": 307.65,
-      "Data Source": "YahooDirect",
-      "News Source": "Us Weekly",
-      "Timestamp": "2026-05-04T21:54:46.149780"
+      "Timestamp": "2026-05-05T10:49:12.319335"
     }
   ]
 }
