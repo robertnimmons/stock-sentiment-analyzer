@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-07T21:49:58.275597",
+    "generated_at": "2026-05-08T10:26:56.024519",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -22,6 +22,34 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple Stock Buy or Sell in 2026? Strong Earnings Fuel Bullish Consensus as AI and iPhone Momentum Build",
+      "Headline URL": "https://www.ibtimes.com.au/apple-stock-buy-sell-2026-strong-earnings-fuel-bullish-consensus-ai-iphone-momentum-build-1868350",
+      "Published At": "2026-05-07T09:33:23Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.02,
+      "After Hours": 0.0,
+      "Current Price": 287.44,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-05-08T10:26:56.023335"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple shares hit new all-time closing high",
+      "Headline URL": "https://macdailynews.com/2026/05/06/apple-shares-hit-new-all-time-closing-high-32/",
+      "Published At": "2026-05-07T00:48:01Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.02,
+      "After Hours": 0.0,
+      "Current Price": 287.44,
+      "Data Source": "AlphaVantage",
+      "News Source": "Macdailynews.com",
+      "Timestamp": "2026-05-08T10:26:56.023357"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Apple agrees to $250M settlement over iPhone AI marketing claims",
       "Headline URL": "https://www.foxbusiness.com/fox-news-tech/how-you-can-get-slice-apples-250m-iphone-settlement",
       "Published At": "2026-05-06T20:09:58Z",
@@ -31,49 +59,49 @@
       "Current Price": 287.44,
       "Data Source": "AlphaVantage",
       "News Source": "Fox Business",
-      "Timestamp": "2026-05-07T21:49:58.274600"
+      "Timestamp": "2026-05-08T10:26:56.023368"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Corporation (MSFT) Slid Amid Broad-Based Sell-Off in Software Companies",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d46184f3-8d40-43f7-a505-9b3ac1b401e2",
-      "Published At": "2026-05-06T15:11:16Z",
+      "Headline": "WW 982: Don't Lick the Manta Rays - Breaking Down Microsoft's Earnings",
+      "Headline URL": "https://twit.tv/shows/windows-weekly/episodes/982",
+      "Published At": "2026-05-07T00:15:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.67,
+      "After Hours": 0.0,
+      "Current Price": 420.77,
+      "Data Source": "YahooDirect",
+      "News Source": "Twit.tv",
+      "Timestamp": "2026-05-08T10:26:56.023380"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Is Microsoft Corp (MSFT) Stock More Enticing After FYQ3 Report?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6e396cbd-ae37-4909-8c2d-92f427a214dc",
+      "Published At": "2026-05-06T19:01:33Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.67,
       "After Hours": 0.0,
       "Current Price": 420.77,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-07T21:49:58.274617"
+      "Timestamp": "2026-05-08T10:26:56.023391"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "3 Reasons Why Microsoft Stock Looks Cheap and Has a Strong Buy Case",
-      "Headline URL": "https://247wallst.com/investing/2026/05/06/3-reasons-why-microsoft-stock-looks-cheap-and-has-a-strong-buy-case/",
-      "Published At": "2026-05-06T11:30:17Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Stock Surges Past $398 as Bulls Bet on AI, Robotaxi and Optimus Momentum",
+      "Headline URL": "https://www.ibtimes.com.au/tesla-stock-surges-past-398-bulls-bet-ai-robotaxi-optimus-momentum-1868330",
+      "Published At": "2026-05-06T23:05:05Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.67,
+      "Regular Change": 3.28,
       "After Hours": 0.0,
-      "Current Price": 420.77,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-07T21:49:58.274626"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Earnings, Apple Earnings",
-      "Headline URL": "https://stratechery.com/2026/microsoft-earnings-apple-earnings/",
-      "Published At": "2026-05-06T10:00:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.67,
-      "After Hours": 0.0,
-      "Current Price": 420.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Stratechery.com",
-      "Timestamp": "2026-05-07T21:49:58.274631"
+      "Current Price": 411.79,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-05-08T10:26:56.023401"
     },
     {
       "Ticker": "TSLA",
@@ -87,63 +115,35 @@
       "Current Price": 411.79,
       "Data Source": "AlphaVantage",
       "News Source": "CNBC",
-      "Timestamp": "2026-05-07T21:49:58.274641"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Musk\u2019s AI empire is unraveling \u2014 the trial is just the beginning",
-      "Headline URL": "http://electrek.co/2026/05/06/musk-obsession-controlling-ai-tesla-agi-openai-trial/",
-      "Published At": "2026-05-06T17:36:58Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.28,
-      "After Hours": 0.0,
-      "Current Price": 411.79,
-      "Data Source": "AlphaVantage",
-      "News Source": "Electrek",
-      "Timestamp": "2026-05-07T21:49:58.274651"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Intel Stock Is Up 190% in 2026 and Trump Says the U.S. Has Made $30 Billion. The Early Innings for INTC May Be Over.",
-      "Headline URL": "https://www.barchart.com/story/news/1742194/intel-stock-is-up-190-in-2026-and-trump-says-the-u-s-has-made-30-billion-the-early-innings-for-intc-may-be-over",
-      "Published At": "2026-05-06T13:15:01Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.28,
-      "After Hours": 0.0,
-      "Current Price": 411.79,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-05-07T21:49:58.274662"
+      "Timestamp": "2026-05-08T10:26:56.023410"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "OG&E Just Landed a Google Data Center Deal. Buy OGE Stock Here.",
-      "Headline URL": "https://www.barchart.com/story/news/1742567/og-e-just-landed-a-google-data-center-deal-buy-oge-stock-here",
-      "Published At": "2026-05-06T13:30:02Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Alphabet is about to surpass Nvidia as the world's most valuable company. How did we get here?",
+      "Headline URL": "https://www.businessinsider.com/alphabet-nvidia-stock-prices-most-valuable-company-googl-nvda-2026-5",
+      "Published At": "2026-05-07T09:50:01Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 0.04,
       "After Hours": 0.0,
       "Current Price": 397.99,
       "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-05-07T21:49:58.274670"
+      "News Source": "Business Insider",
+      "Timestamp": "2026-05-08T10:26:56.023423"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "So Much for the Software Apocalypse: Atlassian Stock Surges as Data Center Revenue Grows 44%",
-      "Headline URL": "https://www.barchart.com/story/news/1741369/so-much-for-the-software-apocalypse-atlassian-stock-surges-as-data-center-revenue-grows-44",
-      "Published At": "2026-05-06T13:00:02Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "What Does Alphabet Inc (GOOGL)\u2019s Q1 Say About Cloud Business?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_79a8ff7c-2497-496e-ae6a-b7d0d2aecb87",
+      "Published At": "2026-05-06T19:00:32Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 0.04,
       "After Hours": 0.0,
       "Current Price": 397.99,
       "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-05-07T21:49:58.274678"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-08T10:26:56.023435"
     },
     {
       "Ticker": "META",
@@ -157,7 +157,7 @@
       "Current Price": 616.81,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-07T21:49:58.274684"
+      "Timestamp": "2026-05-08T10:26:56.023445"
     },
     {
       "Ticker": "META",
@@ -171,7 +171,7 @@
       "Current Price": 616.81,
       "Data Source": "AlphaVantage",
       "News Source": "pymnts.com",
-      "Timestamp": "2026-05-07T21:49:58.274699"
+      "Timestamp": "2026-05-08T10:26:56.023468"
     },
     {
       "Ticker": "META",
@@ -185,91 +185,91 @@
       "Current Price": 616.81,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-07T21:49:58.274706"
+      "Timestamp": "2026-05-08T10:26:56.023477"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Death Does Not Exist 2025 720p AMZN WEB-DL H264-MADSKY",
-      "Headline URL": "https://post.rlsbb.to/death-does-not-exist-2025-720p-amzn-web-dl-h264-madsky/",
-      "Published At": "2026-05-06T20:37:23Z",
+      "Headline": "The Trepidation Deadest Night 2026 1080p AMZN WEB-DL H264-CHORTLE",
+      "Headline URL": "https://post.rlsbb.to/the-trepidation-deadest-night-2026-1080p-amzn-web-dl-h264-chortle/",
+      "Published At": "2026-05-07T10:21:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.38,
       "After Hours": 0.0,
       "Current Price": 271.17,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-07T21:49:58.274711"
+      "Timestamp": "2026-05-08T10:26:56.023485"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Border Control Sweden S08E11 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/border-control-sweden-s08e11-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-06T18:43:55Z",
+      "Headline": "Bad Girl Sunday School 2025 1080p AMZN WEB-DL H264-CHORTLE",
+      "Headline URL": "https://post.rlsbb.to/bad-girl-sunday-school-2025-1080p-amzn-web-dl-h264-chortle/",
+      "Published At": "2026-05-07T10:21:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.38,
       "After Hours": 0.0,
       "Current Price": 271.17,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-07T21:49:58.274716"
+      "Timestamp": "2026-05-08T10:26:56.023492"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Border Control Sweden S08E10 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/border-control-sweden-s08e10-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-06T18:43:45Z",
+      "Headline": "Dont Make Me Bless You 2026 1080p AMZN WEB-DL H264-CHORTLE",
+      "Headline URL": "https://post.rlsbb.to/dont-make-me-bless-you-2026-1080p-amzn-web-dl-h264-chortle/",
+      "Published At": "2026-05-07T10:21:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.38,
       "After Hours": 0.0,
       "Current Price": 271.17,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-07T21:49:58.274720"
+      "Timestamp": "2026-05-08T10:26:56.023499"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia stock falls behind as Big Tech rivals enter its territory",
-      "Headline URL": "https://financialpost.com/investing/nvidia-stock-falls-behind-big-tech-rivals",
-      "Published At": "2026-05-06T16:29:07Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Stock Surge on Robust Tech Earnings and US-Iran Peace Hopes",
+      "Headline URL": "https://www.barchart.com/story/news/1753264/stock-surge-on-robust-tech-earnings-and-us-iran-peace-hopes",
+      "Published At": "2026-05-06T20:37:03Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 1.77,
       "After Hours": 0.0,
       "Current Price": 211.5,
       "Data Source": "AlphaVantage",
-      "News Source": "Financial Post",
-      "Timestamp": "2026-05-07T21:49:58.274726"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-05-08T10:26:56.023508"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Corning stock surges to intraday high after company lands $500 million Nvidia deal",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/article/corning-stock-surges-to-intraday-high-after-company-lands-500-million-nvidia-deal-144931492.html",
-      "Published At": "2026-05-06T14:49:31Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "NVIDIA Corp (NVDA) Invests in Legora. What Is It Getting?",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corp-nvda-invests-legora-190142923.html",
+      "Published At": "2026-05-06T19:01:42Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 1.77,
       "After Hours": 0.0,
       "Current Price": 211.5,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-07T21:49:58.274732"
+      "Timestamp": "2026-05-08T10:26:56.023516"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Corning stock rockets 17% on major AI manufacturing deal with Nvidia",
-      "Headline URL": "https://www.businessinsider.com/corning-stock-price-ai-optics-partnership-nvidia-us-manufacturing-glw-2026-5",
-      "Published At": "2026-05-06T13:42:27Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.77,
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Shell plc First Quarter 2026 Interim Dividend",
+      "Headline URL": "https://financialpost.com/globe-newswire/shell-plc-first-quarter-2026-interim-dividend",
+      "Published At": "2026-05-07T06:03:14Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.74,
       "After Hours": 0.0,
-      "Current Price": 211.5,
-      "Data Source": "AlphaVantage",
-      "News Source": "Business Insider",
-      "Timestamp": "2026-05-07T21:49:58.274738"
+      "Current Price": 306.27,
+      "Data Source": "YahooDirect",
+      "News Source": "Financial Post",
+      "Timestamp": "2026-05-08T10:26:56.023524"
     },
     {
       "Ticker": "JPM",
@@ -283,7 +283,7 @@
       "Current Price": 306.27,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-07T21:49:58.274744"
+      "Timestamp": "2026-05-08T10:26:56.023533"
     }
   ]
 }
