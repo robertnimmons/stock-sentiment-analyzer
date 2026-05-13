@@ -1,26 +1,26 @@
 LIVE STOCK SENTIMENT ANALYSIS
 ==================================================
-Generated : 2026-05-13 11:32:16.277340
+Generated : 2026-05-13 22:05:39.750895
 Sources   : AlphaVantage, YahooDirect
 
-Records   : 19
-Stocks    : 7
+Records   : 17
+Stocks    : 8
 
 SENTIMENT
-  Positive : 7
-  Negative : 1
-  Neutral  : 11
+  Positive : 9
+  Negative : 0
+  Neutral  : 8
 
 TOP GAINERS
-  JPM: +1.63% ($304.88) POSITIVE
-  JPM: +1.63% ($304.88) NEUTRAL
-  AAPL: +0.72% ($294.80) POSITIVE
-  AAPL: +0.72% ($294.80) NEUTRAL
-  AAPL: +0.72% ($294.80) NEUTRAL
+  GOOGL: +3.94% ($402.62) POSITIVE
+  GOOGL: +3.94% ($402.62) NEUTRAL
+  TSLA: +2.73% ($445.27) POSITIVE
+  TSLA: +2.73% ($445.27) POSITIVE
+  NVDA: +2.29% ($225.83) POSITIVE
 
 TOP LOSERS
-  TSLA: -2.60% ($433.45) POSITIVE
-  TSLA: -2.60% ($433.45) NEUTRAL
-  TSLA: -2.60% ($433.45) NEUTRAL
-  MSFT: -1.18% ($407.77) POSITIVE
-  MSFT: -1.18% ($407.77) NEUTRAL
+  JPM: -1.52% ($300.25) NEUTRAL
+  JPM: -1.52% ($300.25) NEUTRAL
+  JPM: -1.52% ($300.25) NEUTRAL
+  MSFT: -0.63% ($405.21) POSITIVE
+  MSFT: -0.63% ($405.21) POSITIVE
