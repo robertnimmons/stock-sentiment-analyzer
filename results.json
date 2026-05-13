@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-12T22:06:35.351560",
+    "generated_at": "2026-05-13T11:32:16.271688",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 18,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -21,6 +21,20 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple (AAPL) Gains Wall Street Confidence on Supply Chain Strength and AI Services Potential",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d9df8c75-7edd-4f4c-8c3c-3d5edadb724f",
+      "Published At": "2026-05-11T23:56:55Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.72,
+      "After Hours": 0.0,
+      "Current Price": 294.8,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-13T11:32:16.270517"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Apple shares recordings and research from recent privacy-focused AI and ML workshop",
       "Headline URL": "https://9to5mac.com/2026/05/11/apple-shares-recordings-and-research-from-recent-privacy-focused-ai-and-ml-workshop/",
       "Published At": "2026-05-11T20:59:32Z",
@@ -30,7 +44,7 @@
       "Current Price": 294.8,
       "Data Source": "AlphaVantage",
       "News Source": "9to5Mac",
-      "Timestamp": "2026-05-12T22:06:35.350217"
+      "Timestamp": "2026-05-13T11:32:16.270534"
     },
     {
       "Ticker": "AAPL",
@@ -44,21 +58,21 @@
       "Current Price": 294.8,
       "Data Source": "AlphaVantage",
       "News Source": "Applech2.com",
-      "Timestamp": "2026-05-12T22:06:35.350250"
+      "Timestamp": "2026-05-13T11:32:16.270545"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Releases tvOS 26.5",
-      "Headline URL": "https://www.macrumors.com/2026/05/11/apple-releases-tvos-26-5/",
-      "Published At": "2026-05-11T17:02:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.72,
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Unusual Call Options in Microsoft Shows Investors are Bullish on MSFT",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_19e66686-96a1-420d-b629-17fb7b60f9a8",
+      "Published At": "2026-05-11T17:30:02Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.18,
       "After Hours": 0.0,
-      "Current Price": 294.8,
-      "Data Source": "AlphaVantage",
-      "News Source": "MacRumors",
-      "Timestamp": "2026-05-12T22:06:35.350262"
+      "Current Price": 407.77,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-13T11:32:16.270553"
     },
     {
       "Ticker": "MSFT",
@@ -72,7 +86,7 @@
       "Current Price": 407.77,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-12T22:06:35.350284"
+      "Timestamp": "2026-05-13T11:32:16.270572"
     },
     {
       "Ticker": "MSFT",
@@ -86,21 +100,35 @@
       "Current Price": 407.77,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-12T22:06:35.350300"
+      "Timestamp": "2026-05-13T11:32:16.270586"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Cathie Wood buys $12.9 million of tumbling tech stock",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-12-9-million-of-tumbling-tech-stock-coreweave-crwv",
-      "Published At": "2026-05-10T22:32:34Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.18,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Stock Surges 3.89% to $445 as China Sales Jump and Optimus Bets Fuel AI Optimism",
+      "Headline URL": "https://www.ibtimes.com.au/tesla-stock-surges-389-445-china-sales-jump-optimus-bets-fuel-ai-optimism-1868637",
+      "Published At": "2026-05-12T08:13:17Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -2.6,
       "After Hours": 0.0,
-      "Current Price": 407.77,
-      "Data Source": "YahooDirect",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-05-12T22:06:35.350313"
+      "Current Price": 433.45,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-05-13T11:32:16.270600"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "A Major Catalyst for AAPL Stock Is Just a Month Away: Apple Is a \u2018Sleep Tech Giant\u2019 Says Wedbush",
+      "Headline URL": "https://www.barchart.com/story/news/1858245/a-major-catalyst-for-aapl-stock-is-just-a-month-away-apple-is-a-sleep-tech-giant-says-wedbush",
+      "Published At": "2026-05-11T20:25:26Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.6,
+      "After Hours": 0.0,
+      "Current Price": 433.45,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-05-13T11:32:16.270616"
     },
     {
       "Ticker": "TSLA",
@@ -114,21 +142,7 @@
       "Current Price": 433.45,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-12T22:06:35.350326"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Is on a Winning Streak with China-Made EVs. Its Imports to Europe Are Increasing.",
-      "Headline URL": "https://www.barchart.com/story/news/1836982/tesla-stock-is-on-a-winning-streak-with-china-made-evs-its-imports-to-europe-are-increasing",
-      "Published At": "2026-05-10T15:00:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.6,
-      "After Hours": 0.0,
-      "Current Price": 433.45,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-05-12T22:06:35.350343"
+      "Timestamp": "2026-05-13T11:32:16.270627"
     },
     {
       "Ticker": "GOOGL",
@@ -142,7 +156,7 @@
       "Current Price": 387.35,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-12T22:06:35.350355"
+      "Timestamp": "2026-05-13T11:32:16.270635"
     },
     {
       "Ticker": "GOOGL",
@@ -156,91 +170,91 @@
       "Current Price": 387.35,
       "Data Source": "YahooDirect",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-12T22:06:35.350366"
+      "Timestamp": "2026-05-13T11:32:16.270644"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "90 Day Diaries S08E01 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/90-day-diaries-s08e01-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-11T20:55:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.18,
-      "After Hours": 0.0,
-      "Current Price": 265.82,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-12T22:06:35.350378"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Home Town Inn This Together S01E01 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.to/home-town-inn-this-together-s01e01-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-05-11T20:08:43Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.18,
-      "After Hours": 0.0,
-      "Current Price": 265.82,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-12T22:06:35.350388"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Claude Platform on AWS \u304cGA\u3002\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7\u3068API\u547c\u3073\u51fa\u3057\u3092\u8a66\u3057\u3066\u307f\u305f",
-      "Headline URL": "https://dev.classmethod.jp/articles/claude-platform-on-aws-ga-setup/",
-      "Published At": "2026-05-11T20:06:30Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.18,
-      "After Hours": 0.0,
-      "Current Price": 265.82,
-      "Data Source": "YahooDirect",
-      "News Source": "Classmethod.jp",
-      "Timestamp": "2026-05-12T22:06:35.350399"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Elon Musk and Tim Cook Join US President Trump\u2019s China Trip This Week, Yet NVIDIA\u2019s Jensen Wasn\u2019t On The List",
-      "Headline URL": "https://wccftech.com/elon-musk-tim-cook-join-us-president-trump-china-trip-this-week-nvidia-jensen-not-on-list/",
-      "Published At": "2026-05-11T16:50:06Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.61,
-      "After Hours": 0.0,
-      "Current Price": 220.78,
-      "Data Source": "AlphaVantage",
-      "News Source": "Wccftech",
-      "Timestamp": "2026-05-12T22:06:35.350422"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "JPMorgan Hikes IREN Price Target to $46 but Stays Underweight on Circular NVIDIA Deal Concerns",
-      "Headline URL": "https://247wallst.com/investing/2026/05/11/jpmorgan-hikes-iren-price-target-to-46-but-stays-underweight-on-circular-nvidia-deal-concerns/",
-      "Published At": "2026-05-11T15:13:40Z",
+      "Headline": "GameStop stock trims losses after eBay rejects takeover bid",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/article/gamestop-stock-trims-losses-after-ebay-rejects-takeover-bid-111237281.html",
+      "Published At": "2026-05-12T11:12:37Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 0.61,
+      "Regular Change": -1.18,
       "After Hours": 0.0,
-      "Current Price": 220.78,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-12T22:06:35.350440"
+      "Current Price": 265.82,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-13T11:32:16.270654"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Real Housewives Of Cheshire S19E04 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/the-real-housewives-of-cheshire-s19e04-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-05-12T09:39:59Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.18,
+      "After Hours": 0.0,
+      "Current Price": 265.82,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-05-13T11:32:16.270662"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Alls Fair In Love And Mahjong 2026 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/alls-fair-in-love-and-mahjong-2026-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-05-12T08:23:31Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.18,
+      "After Hours": 0.0,
+      "Current Price": 265.82,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-05-13T11:32:16.270671"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA (NVDA): The Best American Semiconductor Stock to Buy According to Analysts",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e9212572-aadd-4ee3-a990-6de86c35f2a3",
-      "Published At": "2026-05-11T14:38:57Z",
+      "Headline": "Why JPMorgan Equity Premium Income ETF Limits Upside While JPMorgan Nasdaq Equity Premium Income ETF Sacrifices Growth for 11.98% Yields",
+      "Headline URL": "https://247wallst.com/investing/2026/05/12/why-jpmorgan-equity-premium-income-etf-limits-upside-while-jpmorgan-nasdaq-equity-premium-income-etf-sacrifices-growth-for-11-98-yields/",
+      "Published At": "2026-05-12T09:40:37Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 0.61,
       "After Hours": 0.0,
       "Current Price": 220.78,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-12T22:06:35.350457"
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-05-13T11:32:16.270683"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Jensen Huang skips Trump\u2019s China business delegation",
+      "Headline URL": "https://thenextweb.com/news/jensen-huang-skips-trumps-china-business-delegation/",
+      "Published At": "2026-05-12T08:56:36Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.61,
+      "After Hours": 0.0,
+      "Current Price": 220.78,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Next Web",
+      "Timestamp": "2026-05-13T11:32:16.270691"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA Stock Hits Record $219.44 as AI Demand Powers Gains Ahead of May 20 Earnings",
+      "Headline URL": "https://www.ibtimes.com.au/nvidia-stock-hits-record-21944-ai-demand-powers-gains-ahead-may-20-earnings-1868638",
+      "Published At": "2026-05-12T08:25:08Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.61,
+      "After Hours": 0.0,
+      "Current Price": 220.78,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-05-13T11:32:16.270701"
     },
     {
       "Ticker": "JPM",
@@ -254,7 +268,7 @@
       "Current Price": 304.88,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-05-12T22:06:35.350487"
+      "Timestamp": "2026-05-13T11:32:16.270723"
     },
     {
       "Ticker": "JPM",
@@ -268,7 +282,7 @@
       "Current Price": 304.88,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-05-12T22:06:35.350513"
+      "Timestamp": "2026-05-13T11:32:16.270737"
     }
   ]
 }
