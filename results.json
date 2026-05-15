@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-14T22:03:56.790910",
+    "generated_at": "2026-05-15T11:24:03.280960",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,44 +22,72 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "At The Money: Is SpaceX IPO Breaking Capitalism?",
-      "Headline URL": "https://ritholtz.com/2026/05/atm-spacex-ipo/",
-      "Published At": "2026-05-13T21:00:03Z",
+      "Headline": "CME and Nasdaq to launch crypto index futures featuring BTC, ETH, SOL and XRP",
+      "Headline URL": "https://cointelegraph.com/news/cme-nasdaq-crypto-index-futures-btc-eth-sol-xrp",
+      "Published At": "2026-05-14T07:00:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.22,
       "After Hours": 0.0,
       "Current Price": 298.21,
       "Data Source": "AlphaVantage",
-      "News Source": "Ritholtz.com",
-      "Timestamp": "2026-05-14T22:03:56.789638"
+      "News Source": "Cointelegraph",
+      "Timestamp": "2026-05-15T11:24:03.279871"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple shares hit new all-time intraday and closing highs",
-      "Headline URL": "https://macdailynews.com/2026/05/13/apple-shares-hit-new-all-time-intraday-and-closing-highs-260513/",
-      "Published At": "2026-05-13T20:24:26Z",
+      "Headline": "Apple\u3001\u53e4\u3044Mac\u5411\u3051\u306b\u8907\u6570\u306e\u8106\u5f31\u6027\u3092\u4fee\u6b63\u3057\u305f\u300cmacOS 15.7.7 Sequoia\u300d\u3068\u300cmacOS 14.8.7 Sonoma\u300d\u3001\u300cSafari v26.5\u300d\u3092\u30ea\u30ea\u30fc\u30b9\u3002",
+      "Headline URL": "https://applech2.com/archives/20260514-macos-1577-sequoia-and-1487-sonoma-security-update.html",
+      "Published At": "2026-05-14T05:56:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.22,
       "After Hours": 0.0,
       "Current Price": 298.21,
       "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-05-14T22:03:56.789659"
+      "News Source": "Applech2.com",
+      "Timestamp": "2026-05-15T11:24:03.279891"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple stock breaks $300, on track for record close",
-      "Headline URL": "https://macdailynews.com/2026/05/13/apple-stock-breaks-300-on-track-for-record-close/",
-      "Published At": "2026-05-13T18:11:49Z",
+      "Headline": "Stock market today: Dow, S&P 500, Nasdaq futures climb as high-stakes Trump-Xi summit kicks off",
+      "Headline URL": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-climb-as-high-stakes-trump-xi-summit-kicks-off-223230887.html",
+      "Published At": "2026-05-13T22:32:30Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -0.22,
       "After Hours": 0.0,
       "Current Price": 298.21,
       "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-05-14T22:03:56.789671"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-15T11:24:03.279900"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Portfolio Update \u2013 April Dividend Income Report",
+      "Headline URL": "https://thedividendguyblog.com/portfolio-update-april-dividend-income-report/",
+      "Published At": "2026-05-14T10:30:09Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.04,
+      "After Hours": 0.0,
+      "Current Price": 409.43,
+      "Data Source": "YahooDirect",
+      "News Source": "Thedividendguyblog.com",
+      "Timestamp": "2026-05-15T11:24:03.279907"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "S&P 500 and Nasdaq 100 Post New Record Highs on Chip Stock Strength",
+      "Headline URL": "https://www.barchart.com/story/news/1914958/s-p-500-and-nasdaq-100-post-new-record-highs-on-chip-stock-strength",
+      "Published At": "2026-05-13T20:37:40Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 1.04,
+      "After Hours": 0.0,
+      "Current Price": 409.43,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-05-15T11:24:03.279916"
     },
     {
       "Ticker": "MSFT",
@@ -73,77 +101,49 @@
       "Current Price": 409.43,
       "Data Source": "YahooDirect",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-05-14T22:03:56.789690"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Is GDS Holdings Limited (GDS) A Good Stock To Buy Now?",
-      "Headline URL": "https://finance.yahoo.com/news/gds-holdings-limited-gds-good-164220263.html",
-      "Published At": "2026-05-13T16:42:20Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.04,
-      "After Hours": 0.0,
-      "Current Price": 409.43,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-14T22:03:56.789704"
+      "Timestamp": "2026-05-15T11:24:03.279925"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "US stocks today: S&P 500, Nasdaq boosted by chips to record closing highs; hot inflation report kills rate-cut hopes",
-      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-sp-500-nasdaq-boosted-by-chips-to-record-closing-highs-hot-inflation-report-kills-rate-cut-hopes/articleshow/131076710.cms",
-      "Published At": "2026-05-13T20:04:20Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.44,
-      "After Hours": 0.0,
-      "Current Price": 443.3,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-05-14T22:03:56.789720"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Price Prediction: The Stock Looks Fairly Valued With Limited Upside From Current Levels",
-      "Headline URL": "https://247wallst.com/investing/2026/05/13/tesla-price-prediction-the-stock-looks-fairly-valued-with-limited-upside-from-current-levels/",
-      "Published At": "2026-05-13T12:29:10Z",
+      "Headline": "Apple shares hit new all-time intraday and closing highs",
+      "Headline URL": "https://macdailynews.com/2026/05/13/apple-shares-hit-new-all-time-intraday-and-closing-highs-260513/",
+      "Published At": "2026-05-13T20:24:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.44,
       "After Hours": 0.0,
       "Current Price": 443.3,
       "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-14T22:03:56.789731"
+      "News Source": "Macdailynews.com",
+      "Timestamp": "2026-05-15T11:24:03.279932"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Inc. (GOOGL) Poised to Usurp Nvidia as Valuable Company on AI Boom",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6095971f-3e93-4c82-8953-93db696c645b",
-      "Published At": "2026-05-13T17:01:47Z",
+      "Headline": "Alphabet Inc. (GOOGL): Chris Rokos Is Loading Up on This Tech Stock",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1033047e-dbc2-44d5-84d0-2bd48bc34e41",
+      "Published At": "2026-05-13T21:18:29Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.38,
+      "Regular Change": -0.39,
       "After Hours": 0.0,
       "Current Price": 401.07,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-14T22:03:56.789743"
+      "Timestamp": "2026-05-15T11:24:03.279940"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "460 Billion Reasons to Buy Alphabet Stock Hand Over Fist",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_002554f9-16c9-4c24-823b-68853d740082",
-      "Published At": "2026-05-13T15:20:00Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta\u2019s New Reality: Record High Profits. Record Low Morale",
+      "Headline URL": "https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/",
+      "Published At": "2026-05-14T09:00:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.38,
+      "Regular Change": 0.29,
       "After Hours": 0.0,
-      "Current Price": 401.07,
+      "Current Price": 618.43,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-14T22:03:56.789752"
+      "News Source": "Wired",
+      "Timestamp": "2026-05-15T11:24:03.279946"
     },
     {
       "Ticker": "META",
@@ -155,65 +155,79 @@
       "Regular Change": 0.29,
       "After Hours": 0.0,
       "Current Price": 618.43,
-      "Data Source": "AlphaVantage",
+      "Data Source": "YahooDirect",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-05-14T22:03:56.789764"
+      "Timestamp": "2026-05-15T11:24:03.279953"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Kika 2025 1080p AMZN WEB-DL H264-Phallus",
-      "Headline URL": "https://post.rlsbb.to/kika-2025-1080p-amzn-web-dl-h264-phallus/",
-      "Published At": "2026-05-13T21:37:14Z",
+      "Headline": "After 25 years of writing the cheques himself, Bezos is opening Blue Origin to outsiders",
+      "Headline URL": "https://thenextweb.com/news/blue-origin-external-funding-spacex-ipo-bezos/",
+      "Published At": "2026-05-14T11:20:18Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.08,
       "After Hours": 0.0,
       "Current Price": 267.22,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-14T22:03:56.789771"
+      "Data Source": "AlphaVantage",
+      "News Source": "The Next Web",
+      "Timestamp": "2026-05-15T11:24:03.279960"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Legend Of Hei II 2025 1080p AMZN WEB-DL H264-HeiHei",
-      "Headline URL": "https://post.rlsbb.to/the-legend-of-hei-ii-2025-1080p-amzn-web-dl-h264-heihei/",
-      "Published At": "2026-05-13T21:09:23Z",
+      "Headline": "The Old Stories Moses S01E01 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/the-old-stories-moses-s01e01-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-05-14T10:51:21Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.08,
       "After Hours": 0.0,
       "Current Price": 267.22,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-14T22:03:56.789780"
+      "Timestamp": "2026-05-15T11:24:03.279965"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "9.11 Escape From The Towers 2018 1080p AMZN WEB-DL H264-MRKT",
+      "Headline URL": "https://post.rlsbb.to/9-11-escape-from-the-towers-2018-1080p-amzn-web-dl-h264-mrkt/",
+      "Published At": "2026-05-14T10:25:17Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.08,
+      "After Hours": 0.0,
+      "Current Price": 267.22,
+      "Data Source": "AlphaVantage",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-05-15T11:24:03.279970"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia stock hits an all-time high on new AI bullishness from Wall Street analysts",
-      "Headline URL": "https://www.businessinsider.com/nvidia-stock-price-record-high-ai-trade-jensen-huang-markets-investing-2026-5",
-      "Published At": "2026-05-13T17:17:21Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Susquehanna raises Nvidia price target to $275 on AI demand surge",
+      "Headline URL": "https://cryptobriefing.com/susquehanna-nvidia-price-target-275-ai/",
+      "Published At": "2026-05-14T06:07:24Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 4.39,
       "After Hours": 0.0,
       "Current Price": 235.74,
-      "Data Source": "AlphaVantage",
-      "News Source": "Business Insider",
-      "Timestamp": "2026-05-14T22:03:56.789791"
+      "Data Source": "YahooDirect",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-05-15T11:24:03.279977"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Why Nvidia Bulls Are Suddenly Watching Nebius Ahead Of NVDA Earnings",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0df0ca65-8cdc-4bc9-8bfa-9dfa9b83dbf6",
-      "Published At": "2026-05-13T17:07:07Z",
+      "Headline": "Why is this ASX tech stock rocketing 35% today?",
+      "Headline URL": "https://www.fool.com.au/2026/05/14/why-is-this-asx-tech-stock-rocketing-35-today/",
+      "Published At": "2026-05-14T03:21:31Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.39,
       "After Hours": 0.0,
       "Current Price": 235.74,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-14T22:03:56.789800"
+      "Data Source": "YahooDirect",
+      "News Source": "Motley Fool Australia",
+      "Timestamp": "2026-05-15T11:24:03.279986"
     },
     {
       "Ticker": "JPM",
@@ -225,9 +239,9 @@
       "Regular Change": -0.11,
       "After Hours": 0.0,
       "Current Price": 299.91,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-05-14T22:03:56.789811"
+      "Timestamp": "2026-05-15T11:24:03.279995"
     },
     {
       "Ticker": "JPM",
@@ -239,9 +253,9 @@
       "Regular Change": -0.11,
       "After Hours": 0.0,
       "Current Price": 299.91,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-14T22:03:56.789820"
+      "Timestamp": "2026-05-15T11:24:03.280003"
     },
     {
       "Ticker": "JPM",
@@ -253,9 +267,9 @@
       "Regular Change": -0.11,
       "After Hours": 0.0,
       "Current Price": 299.91,
-      "Data Source": "YahooDirect",
+      "Data Source": "AlphaVantage",
       "News Source": "CoinDesk",
-      "Timestamp": "2026-05-14T22:03:56.789831"
+      "Timestamp": "2026-05-15T11:24:03.280011"
     }
   ]
 }
