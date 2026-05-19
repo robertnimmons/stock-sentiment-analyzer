@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-18T21:59:05.371221",
+    "generated_at": "2026-05-19T12:13:24.432417",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,10 +15,24 @@
       "META",
       "AMZN",
       "NVDA",
-      "V"
+      "JPM"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple's MacBook Neo Surges Past Expectations With Massive Early Demand and 10 Million Unit Target",
+      "Headline URL": "https://www.ibtimes.com.au/apples-macbook-neo-game-changer-affordable-laptops-1869090",
+      "Published At": "2026-05-18T09:56:06Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.8,
+      "After Hours": 0.0,
+      "Current Price": 297.84,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-05-19T12:13:24.431220"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -31,35 +45,49 @@
       "Current Price": 297.84,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370053"
+      "Timestamp": "2026-05-19T12:13:24.431249"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Gates' foundation sold all of its Microsoft shares. Bill Ackman is loading up on the stock. What is Wall Street missing?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4a4eda75-d760-4f95-8df0-c36c94eb697e",
-      "Published At": "2026-05-17T14:15:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.38,
-      "After Hours": 0.0,
-      "Current Price": 423.54,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370081"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Bill Gates Foundation fully exits Microsoft, sells final $3.2 billion stake",
-      "Headline URL": "https://economictimes.indiatimes.com/tech/technology/bill-gates-foundation-fully-exits-microsoft-sells-final-3-2-billion-stake/articleshow/131155464.cms",
-      "Published At": "2026-05-17T13:37:28Z",
+      "Headline": "A founder, a fortune, and Microsoft\u2019s final separation from the Bill Gates empire",
+      "Headline URL": "https://economictimes.indiatimes.com/news/international/business/a-founder-a-fortune-and-microsofts-final-separation-from-the-bill-gates-empire/articleshow/131168171.cms",
+      "Published At": "2026-05-18T07:17:33Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.38,
       "After Hours": 0.0,
       "Current Price": 423.54,
       "Data Source": "YahooDirect",
       "News Source": "The Times of India",
-      "Timestamp": "2026-05-18T21:59:05.370096"
+      "Timestamp": "2026-05-19T12:13:24.431266"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Billionaire Bill Gates Dumps $2,228,403,000 in Microsoft and Warren Buffett\u2019s Berkshire Hathaway",
+      "Headline URL": "https://dailyhodl.com/2026/05/18/billionaire-bill-gates-dumps-2228403000-in-microsoft-and-warren-buffetts-berkshire-hathaway/",
+      "Published At": "2026-05-18T07:00:43Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.38,
+      "After Hours": 0.0,
+      "Current Price": 423.54,
+      "Data Source": "YahooDirect",
+      "News Source": "The Daily Hodl",
+      "Timestamp": "2026-05-19T12:13:24.431277"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft Stock Is an AI Bargain That Investors Are Missing",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_609403c3-b424-4ea1-95e8-34c9c4f53a5e",
+      "Published At": "2026-05-17T19:00:02Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.38,
+      "After Hours": 0.0,
+      "Current Price": 423.54,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-19T12:13:24.431288"
     },
     {
       "Ticker": "TSLA",
@@ -73,7 +101,7 @@
       "Current Price": 409.99,
       "Data Source": "AlphaVantage",
       "News Source": "The Times of India",
-      "Timestamp": "2026-05-18T21:59:05.370122"
+      "Timestamp": "2026-05-19T12:13:24.431313"
     },
     {
       "Ticker": "TSLA",
@@ -87,7 +115,7 @@
       "Current Price": 409.99,
       "Data Source": "AlphaVantage",
       "News Source": "TheStreet",
-      "Timestamp": "2026-05-18T21:59:05.370134"
+      "Timestamp": "2026-05-19T12:13:24.431321"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +129,35 @@
       "Current Price": 409.99,
       "Data Source": "AlphaVantage",
       "News Source": "Electrek",
-      "Timestamp": "2026-05-18T21:59:05.370150"
+      "Timestamp": "2026-05-19T12:13:24.431335"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Greg Abel Channeled His Inner Warren Buffett With Legacy and Dividend Stock Buys in Q1",
+      "Headline URL": "https://247wallst.com/investing/2026/05/18/greg-abel-channeled-his-inner-warren-buffett-with-legacy-and-dividend-stock-buys-in-q1/",
+      "Published At": "2026-05-18T12:10:50Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.04,
+      "After Hours": 0.0,
+      "Current Price": 396.94,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-05-19T12:13:24.431345"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Tech stocks today: Tech stocks fall as investors gear up for Nvidia earnings, OpenAI v. Elon Musk trial decision",
+      "Headline URL": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-tech-stocks-fall-as-investors-gear-up-for-nvidia-earnings-openai-v-elon-musk-trial-decision-111103131.html",
+      "Published At": "2026-05-18T11:11:03Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.04,
+      "After Hours": 0.0,
+      "Current Price": 396.94,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-19T12:13:24.431357"
     },
     {
       "Ticker": "GOOGL",
@@ -115,35 +171,21 @@
       "Current Price": 396.94,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370160"
+      "Timestamp": "2026-05-19T12:13:24.431366"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Is Alphabet (GOOGL) One of the Best Fundamentally Strong Stocks to Buy Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_16aa5a47-f6eb-4d1c-9e24-fdf38467f9db",
-      "Published At": "2026-05-17T16:38:39Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.04,
-      "After Hours": 0.0,
-      "Current Price": 396.94,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370172"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Warren Buffett\u2019s Berkshire Hathaway Just More Than Tripled Its Stake in Alphabet",
-      "Headline URL": "https://247wallst.com/investing/2026/05/17/warren-buffetts-berkshire-hathaway-just-more-than-tripled-its-stake-in-alphabet/",
-      "Published At": "2026-05-17T16:16:47Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Prediction: Meta Stock Will Reach $1,000 Per Share By the End of 2026",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3434fc1d-5f1c-4300-9989-27ca4256b014",
+      "Published At": "2026-05-18T11:48:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.04,
+      "Regular Change": -0.49,
       "After Hours": 0.0,
-      "Current Price": 396.94,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-18T21:59:05.370183"
+      "Current Price": 611.21,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-19T12:13:24.431376"
     },
     {
       "Ticker": "META",
@@ -157,105 +199,91 @@
       "Current Price": 611.21,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-05-18T21:59:05.370193"
+      "Timestamp": "2026-05-19T12:13:24.431383"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Regular Show The Lost Tapes S01E09 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/regular-show-the-lost-tapes-s01e09-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-17T21:08:25Z",
+      "Headline": "Best Served Cold A Hannah Swensen Mystery 2026 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.to/best-served-cold-a-hannah-swensen-mystery-2026-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-05-18T11:35:03Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.27,
       "After Hours": 0.0,
       "Current Price": 264.86,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-18T21:59:05.370202"
+      "Timestamp": "2026-05-19T12:13:24.431389"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Regular Show The Lost Tapes S01E08 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/regular-show-the-lost-tapes-s01e08-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-17T21:08:07Z",
+      "Headline": "Sullivans Crossing S04E08 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/sullivans-crossing-s04e08-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-05-18T10:22:56Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.27,
       "After Hours": 0.0,
       "Current Price": 264.86,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-18T21:59:05.370211"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Regular Show The Lost Tapes S01E07 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/regular-show-the-lost-tapes-s01e07-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-17T21:07:40Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
-      "After Hours": 0.0,
-      "Current Price": 264.86,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-18T21:59:05.370218"
+      "Timestamp": "2026-05-19T12:13:24.431394"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "AMD buys $6.5 million of surging tech stock",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/amd-buys-6-5-million-of-marvell-stock",
-      "Published At": "2026-05-17T20:07:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.33,
-      "After Hours": 0.0,
-      "Current Price": 222.32,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-05-18T21:59:05.370228"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA (NVDA): UBS Sees More Upside as AI Demand Stays Healthy",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-ubs-sees-more-164910799.html",
-      "Published At": "2026-05-17T16:49:10Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.33,
-      "After Hours": 0.0,
-      "Current Price": 222.32,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370237"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Hers\u2019s Why NVIDIA (NVDA) Is One of the Best Fundamentally Strong Stocks to Buy Now",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/hers-why-nvidia-nvda-one-163849863.html",
-      "Published At": "2026-05-17T16:38:49Z",
+      "Headline": "Earnings live updates: Home Depot beats earnings estimates as small DIY projects remain a 'real source of strength'",
+      "Headline URL": "https://finance.yahoo.com/markets/live/earnings-live-updates-home-depot-beats-earnings-estimates-as-small-diy-projects-remain-a-real-source-of-strength-115413520.html",
+      "Published At": "2026-05-18T11:54:13Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -1.33,
       "After Hours": 0.0,
       "Current Price": 222.32,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-18T21:59:05.370246"
+      "Timestamp": "2026-05-19T12:13:24.431403"
     },
     {
-      "Ticker": "V",
-      "Company": "Visa Inc.",
-      "Headline": "Solayer launches Visa-compatible card for USDC payments",
-      "Headline URL": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments",
-      "Published At": "2026-05-15T21:11:19Z",
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Michael Burry says 'the end is nigh' as top stocks surge 784% \u2014 dwarfing the dot-com boom",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-end-nigh-113500094.html",
+      "Published At": "2026-05-18T11:35:00Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.16,
+      "Regular Change": -1.33,
       "After Hours": 0.0,
-      "Current Price": 332.78,
+      "Current Price": 222.32,
       "Data Source": "AlphaVantage",
-      "News Source": "Cointelegraph",
-      "Timestamp": "2026-05-18T21:59:05.370251"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-19T12:13:24.431411"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Tech stocks today: Investors gear up for Nvidia earnings, OpenAI v. Elon Musk trial decision",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8517feb1-477b-4693-b53e-65df8a050ac1",
+      "Published At": "2026-05-18T11:11:03Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.33,
+      "After Hours": 0.0,
+      "Current Price": 222.32,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-19T12:13:24.431418"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Sensex today | Stock Market Highlights: Sensex closes flat, Nifty ends at 23,650 as Iran war worries offset IT gains",
+      "Headline URL": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-18th-may-2026/article70990074.ece",
+      "Published At": "2026-05-18T10:32:45Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.98,
+      "After Hours": 0.0,
+      "Current Price": 300.73,
+      "Data Source": "YahooDirect",
+      "News Source": "BusinessLine",
+      "Timestamp": "2026-05-19T12:13:24.431428"
     }
   ]
 }
