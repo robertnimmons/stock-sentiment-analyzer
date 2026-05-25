@@ -1,17 +1,18 @@
 {
   "metadata": {
-    "generated_at": "2026-05-25T12:35:32.189473",
+    "generated_at": "2026-05-25T22:03:39.862763",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 15,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
       "MSFT",
       "TSLA",
       "GOOGL",
+      "META",
       "AMZN",
       "NVDA",
       "JPM"
@@ -30,7 +31,7 @@
       "Current Price": 308.82,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-25T12:35:32.188185"
+      "Timestamp": "2026-05-25T22:03:39.861483"
     },
     {
       "Ticker": "AAPL",
@@ -44,21 +45,77 @@
       "Current Price": 308.82,
       "Data Source": "AlphaVantage",
       "News Source": "Applech2.com",
-      "Timestamp": "2026-05-25T12:35:32.188216"
+      "Timestamp": "2026-05-25T22:03:39.861519"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "We\u2019re Not in a Bubble. Wall Street Just Hasn\u2019t Caught Up With the New \u2018Physics\u2019 of the Stock Market.",
-      "Headline URL": "https://www.barchart.com/story/news/2101982/were-not-in-a-bubble-wall-street-just-hasnt-caught-up-with-the-new-physics-of-the-stock-market",
-      "Published At": "2026-05-23T13:30:02Z",
+      "Headline": "Is Microsoft Stock a Steal Right Now?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_de569b06-819d-4744-a7ad-83f2af6e1778",
+      "Published At": "2026-05-24T16:02:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.12,
       "After Hours": 0.0,
       "Current Price": 418.57,
       "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-05-25T12:35:32.188241"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-25T22:03:39.861534"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft (MSFT): One of the Best Long-Term Stocks to Buy Now for High Returns",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3c15f8bb-56dd-48db-ae78-146152c6f281",
+      "Published At": "2026-05-24T13:30:20Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.12,
+      "After Hours": 0.0,
+      "Current Price": 418.57,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-25T22:03:39.861552"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Gates' foundation sold all of its Microsoft shares. Bill Ackman is loading up on the stock. What is Wall Street missing?",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3deab7a4-2e4e-49c3-9dbe-2c602594d0b3",
+      "Published At": "2026-05-24T12:15:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.12,
+      "After Hours": 0.0,
+      "Current Price": 418.57,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-25T22:03:39.861574"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Did SpaceX\u2019s $28.5 Trillion Bombshell Reveal Elon Musk\u2019s Genius \u2014 or Peak Galaxy Brain?",
+      "Headline URL": "https://247wallst.com/investing/2026/05/24/did-spacexs-28-5-trillion-bombshell-reveal-elon-musks-genius-or-peak-galaxy-brain/",
+      "Published At": "2026-05-24T14:59:22Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.95,
+      "After Hours": 0.0,
+      "Current Price": 426.01,
+      "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-05-25T22:03:39.861592"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Model S Sparked Elon Musk's AI, Robotics And Space Revolution: 'Little Did We Know,' Says Cathie Wood",
+      "Headline URL": "https://finance.yahoo.com/sectors/technology/articles/tesla-model-sparked-elon-musks-113132838.html",
+      "Published At": "2026-05-24T11:31:32Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.95,
+      "After Hours": 0.0,
+      "Current Price": 426.01,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-25T22:03:39.861606"
     },
     {
       "Ticker": "TSLA",
@@ -72,49 +129,63 @@
       "Current Price": 426.01,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-05-25T12:35:32.188258"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Is Tesla, Inc. (TSLA) One of the Best ARK Stocks to Buy Right Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_eb7c8e06-c73e-4df3-a39d-3eda0320280b",
-      "Published At": "2026-05-23T04:48:56Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.95,
-      "After Hours": 0.0,
-      "Current Price": 426.01,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-25T12:35:32.188280"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "SEC delays innovation exception for US equity token trading after pushback from traditional exchanges",
-      "Headline URL": "https://cryptobriefing.com/sec-delays-equity-token-trading-exception/",
-      "Published At": "2026-05-23T01:11:45Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.95,
-      "After Hours": 0.0,
-      "Current Price": 426.01,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-25T12:35:32.188300"
+      "Timestamp": "2026-05-25T22:03:39.861619"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Google Just Triggered a $1 Billion AI Price War: Does It Make Alphabet Stock a Buy Right Now?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0af4ea18-5027-4e15-8c85-7cc78c556673",
-      "Published At": "2026-05-22T23:05:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "XOVR ETF: Watch Hyperscaler AI Capex Before Summer 2026 Earnings Season",
+      "Headline URL": "https://247wallst.com/investing/2026/05/24/xovr-etf-watch-hyperscaler-ai-capex-before-summer-2026-earnings-season/",
+      "Published At": "2026-05-24T18:30:52Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -1.21,
       "After Hours": 0.0,
       "Current Price": 382.97,
       "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-05-25T22:03:39.861631"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "We\u2019re Not in a Bubble. Wall Street Just Hasn\u2019t Caught Up With the New \u2018Physics\u2019 of the Stock Market.",
+      "Headline URL": "https://www.barchart.com/story/news/2101982/were-not-in-a-bubble-wall-street-just-hasnt-caught-up-with-the-new-physics-of-the-stock-market",
+      "Published At": "2026-05-23T13:30:02Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.21,
+      "After Hours": 0.0,
+      "Current Price": 382.97,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-05-25T22:03:39.861647"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Wells Fargo Reduces PT on Meta Platforms (META) Stock",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9560b0c7-5a39-4e16-8958-b568749a62b1",
+      "Published At": "2026-05-24T13:30:32Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.47,
+      "After Hours": 0.0,
+      "Current Price": 610.26,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-25T12:35:32.188320"
+      "Timestamp": "2026-05-25T22:03:39.861657"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Morgan Stanley resets Walmart forecast on high inflation",
+      "Headline URL": "https://www.thestreet.com/investing/stocks/morgan-stanley-sends-stark-walmart-stock-message-on-high-inflation",
+      "Published At": "2026-05-24T21:03:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.8,
+      "After Hours": 0.0,
+      "Current Price": 266.32,
+      "Data Source": "YahooDirect",
+      "News Source": "TheStreet",
+      "Timestamp": "2026-05-25T22:03:39.861668"
     },
     {
       "Ticker": "AMZN",
@@ -128,7 +199,7 @@
       "Current Price": 266.32,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-25T12:35:32.188336"
+      "Timestamp": "2026-05-25T22:03:39.861678"
     },
     {
       "Ticker": "AMZN",
@@ -142,63 +213,49 @@
       "Current Price": 266.32,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-25T12:35:32.188348"
+      "Timestamp": "2026-05-25T22:03:39.861687"
     },
     {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "The Bowens A Portrait Of An American Family 2026 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.to/the-bowens-a-portrait-of-an-american-family-2026-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-05-24T11:22:22Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.8,
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Is It Too Late to Buy Nvidia Stock? Here's What the Numbers Say.",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6ffbfabe-301a-4500-84c2-69ade647bc5d",
+      "Published At": "2026-05-24T18:45:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.9,
       "After Hours": 0.0,
-      "Current Price": 266.32,
+      "Current Price": 215.33,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-25T22:03:39.861700"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "What Nvidia\u2019s CFO Just Revealed About GPU Demand Should Have Every AI Investor Paying Attention",
+      "Headline URL": "https://247wallst.com/investing/2026/05/24/what-nvidias-cfo-just-revealed-about-gpu-demand-should-have-every-ai-investor-paying-attention/",
+      "Published At": "2026-05-24T16:43:22Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.9,
+      "After Hours": 0.0,
+      "Current Price": 215.33,
+      "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-05-25T22:03:39.861713"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPMorgan Chase & Co. (JPM) Declares Quarterly Dividend of $1.50 per Share",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-declares-172140604.html",
+      "Published At": "2026-05-24T17:21:40Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.12,
+      "After Hours": 0.0,
+      "Current Price": 306.38,
       "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-25T12:35:32.188364"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Here\u2019s What Jim Cramer Had Said About NVIDIA (NVDA) Ahead Of Earnings",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5d1858f9-aeed-49fa-b855-2b58b12d9044",
-      "Published At": "2026-05-23T23:19:15Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.9,
-      "After Hours": 0.0,
-      "Current Price": 215.33,
-      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-25T12:35:32.188381"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia CEO Jensen Huang highlights China as long-term opportunity despite US tech tensions",
-      "Headline URL": "https://cryptobriefing.com/nvidia-huang-china-long-term-opportunity/",
-      "Published At": "2026-05-23T21:57:45Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.9,
-      "After Hours": 0.0,
-      "Current Price": 215.33,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-25T12:35:32.188398"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "JPMorgan resets Nvidia stock price target after earnings",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2fcf1e00-6e9e-4564-be3e-e1244362206c",
-      "Published At": "2026-05-23T21:03:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.9,
-      "After Hours": 0.0,
-      "Current Price": 215.33,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-25T12:35:32.188410"
+      "Timestamp": "2026-05-25T22:03:39.861726"
     },
     {
       "Ticker": "JPM",
@@ -212,7 +269,7 @@
       "Current Price": 306.38,
       "Data Source": "YahooDirect",
       "News Source": "TheStreet",
-      "Timestamp": "2026-05-25T12:35:32.188422"
+      "Timestamp": "2026-05-25T22:03:39.861736"
     },
     {
       "Ticker": "JPM",
@@ -226,7 +283,7 @@
       "Current Price": 306.38,
       "Data Source": "YahooDirect",
       "News Source": "TheStreet",
-      "Timestamp": "2026-05-25T12:35:32.188436"
+      "Timestamp": "2026-05-25T22:03:39.861749"
     }
   ]
 }
