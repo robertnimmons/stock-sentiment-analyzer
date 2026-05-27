@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-26T22:15:24.256211",
+    "generated_at": "2026-05-27T12:23:17.472257",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 15,
+    "total_records": 18,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,6 +22,34 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Stock market today: Dow wavers, S&P 500 and Nasdaq rise on Iran peace prospects",
+      "Headline URL": "https://finance.yahoo.com/markets/live/stock-market-today-dow-wavers-sp-500-and-nasdaq-rise-on-iran-peace-prospects-112100135.html",
+      "Published At": "2026-05-26T11:21:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.16,
+      "After Hours": 0.0,
+      "Current Price": 308.33,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-27T12:23:17.471157"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Dear Apple Stock Fans, Mark Your Calendars for June 18",
+      "Headline URL": "https://www.barchart.com/story/news/2117440/dear-apple-stock-fans-mark-your-calendars-for-june-18",
+      "Published At": "2026-05-25T17:00:02Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.16,
+      "After Hours": 0.0,
+      "Current Price": 308.33,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-05-27T12:23:17.471183"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Why Apple and Microsoft\u2019s Capex Wars Will Make or Break Your MGK Income This Year",
       "Headline URL": "https://247wallst.com/investing/2026/05/25/why-apple-and-microsofts-capex-wars-will-make-or-break-your-mgk-income-this-year/",
       "Published At": "2026-05-25T11:00:54Z",
@@ -31,21 +59,21 @@
       "Current Price": 308.33,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-26T22:15:24.255055"
+      "Timestamp": "2026-05-27T12:23:17.471200"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Ugreen\u3001Apple\u306e\u63a2\u3059\u6a5f\u80fd\u306b\u5bfe\u5fdc\u3057\u305f\u30b9\u30de\u30fc\u30c8\u30c8\u30e9\u30c3\u30ab\u30fcFineTrack\u30b7\u30ea\u30fc\u30ba\u304b\u3089\u30b5\u30c3\u30ab\u30fc\u30dc\u30fc\u30eb\u578b\u306e\u300cUGREEN FineTrack 2 Smart Finder\u300d\u3092\u767a\u58f2\u3002",
-      "Headline URL": "https://applech2.com/archives/20260525-ugreen-finetrack-2-smart-finder-world-cup.html",
-      "Published At": "2026-05-25T06:59:10Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.16,
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Near-term Concerns Open Door for Diamond Hill Large Cap Strategy\u2019s Microsoft (MSFT) Purchase",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/near-term-concerns-open-door-114501909.html",
+      "Published At": "2026-05-26T11:45:01Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -0.61,
       "After Hours": 0.0,
-      "Current Price": 308.33,
-      "Data Source": "AlphaVantage",
-      "News Source": "Applech2.com",
-      "Timestamp": "2026-05-26T22:15:24.255081"
+      "Current Price": 416.03,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-27T12:23:17.471214"
     },
     {
       "Ticker": "MSFT",
@@ -59,7 +87,21 @@
       "Current Price": 416.03,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255093"
+      "Timestamp": "2026-05-27T12:23:17.471228"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft Stock Discount May Be Ending as AI Catalysts Build",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9e3068f0-3bac-4a23-b7cc-543f6238b2b2",
+      "Published At": "2026-05-25T14:20:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.61,
+      "After Hours": 0.0,
+      "Current Price": 416.03,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-05-27T12:23:17.471235"
     },
     {
       "Ticker": "TSLA",
@@ -73,7 +115,7 @@
       "Current Price": 433.59,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-05-26T22:15:24.255104"
+      "Timestamp": "2026-05-27T12:23:17.471242"
     },
     {
       "Ticker": "TSLA",
@@ -87,7 +129,7 @@
       "Current Price": 433.59,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255126"
+      "Timestamp": "2026-05-27T12:23:17.471256"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +143,7 @@
       "Current Price": 433.59,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-26T22:15:24.255138"
+      "Timestamp": "2026-05-27T12:23:17.471265"
     },
     {
       "Ticker": "GOOGL",
@@ -115,7 +157,7 @@
       "Current Price": 388.88,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255148"
+      "Timestamp": "2026-05-27T12:23:17.471272"
     },
     {
       "Ticker": "GOOGL",
@@ -129,7 +171,7 @@
       "Current Price": 388.88,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-05-26T22:15:24.255159"
+      "Timestamp": "2026-05-27T12:23:17.471279"
     },
     {
       "Ticker": "META",
@@ -143,63 +185,63 @@
       "Current Price": 612.34,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255168"
+      "Timestamp": "2026-05-27T12:23:17.471285"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Palu Family Under A Dark Spell S01E03 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.to/the-palu-family-under-a-dark-spell-s01e03-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-05-25T20:38:31Z",
+      "Headline": "The Dog Who Saved Summer 2015 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/the-dog-who-saved-summer-2015-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-05-26T11:20:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.39,
       "After Hours": 0.0,
       "Current Price": 265.29,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-26T22:15:24.255177"
+      "Timestamp": "2026-05-27T12:23:17.471291"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Mermaid 2026 1080p AMZN WEB-DL H264-KHN",
-      "Headline URL": "https://post.rlsbb.to/mermaid-2026-1080p-amzn-web-dl-h264-khn/",
-      "Published At": "2026-05-25T19:35:38Z",
+      "Headline": "Paris Trout 1991 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/paris-trout-1991-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-05-26T11:09:31Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.39,
       "After Hours": 0.0,
       "Current Price": 265.29,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-26T22:15:24.255184"
+      "Timestamp": "2026-05-27T12:23:17.471296"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Grannfejden 2026 1080p AMZN WEB-DL H264-LiVED",
-      "Headline URL": "https://post.rlsbb.to/grannfejden-2026-1080p-amzn-web-dl-h264-lived/",
-      "Published At": "2026-05-25T15:37:07Z",
+      "Headline": "Jesse Stone Night Passage 2006 1080p AMZN WEB-DL H264-PiRaTeS",
+      "Headline URL": "https://post.rlsbb.to/jesse-stone-night-passage-2006-1080p-amzn-web-dl-h264-pirates/",
+      "Published At": "2026-05-26T08:40:32Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.39,
       "After Hours": 0.0,
       "Current Price": 265.29,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-05-26T22:15:24.255192"
+      "Timestamp": "2026-05-27T12:23:17.471302"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Is Nvidia Stock a Buy as Revenue Continues to Surge?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_733f5a55-e1a5-4451-831a-5ee1aeb81045",
-      "Published At": "2026-05-25T14:05:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Nvidia Earnings, The AI Stack, Nvidia\u2019s New Reporting",
+      "Headline URL": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "Published At": "2026-05-26T10:00:00Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -0.22,
       "After Hours": 0.0,
       "Current Price": 214.86,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255202"
+      "News Source": "Stratechery.com",
+      "Timestamp": "2026-05-27T12:23:17.471308"
     },
     {
       "Ticker": "JPM",
@@ -213,7 +255,7 @@
       "Current Price": 306.74,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-05-26T22:15:24.255213"
+      "Timestamp": "2026-05-27T12:23:17.471316"
     },
     {
       "Ticker": "JPM",
@@ -227,7 +269,7 @@
       "Current Price": 306.74,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-05-26T22:15:24.255223"
+      "Timestamp": "2026-05-27T12:23:17.471323"
     }
   ]
 }
