@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-01T15:25:57.714975",
+    "generated_at": "2026-06-01T22:58:17.661049",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 18,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -27,26 +27,12 @@
       "Headline URL": "https://seekingalpha.com/article/4910375-apple-we-dont-need-no-engineering-we-dont-need-no-fold-a-phone",
       "Published At": "2026-05-31T11:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.14,
+      "Regular Change": -1.84,
       "After Hours": 0.0,
-      "Current Price": 312.06,
+      "Current Price": 306.31,
       "Data Source": "AlphaVantage",
       "News Source": "Seeking Alpha",
-      "Timestamp": "2026-06-01T15:25:57.713795"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Cathie Wood buys $6.5 million of megacap tech stock",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-6-5-million-of-megacap-tech-stock-amazon-amzn",
-      "Published At": "2026-05-30T21:10:03Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.14,
-      "After Hours": 0.0,
-      "Current Price": 312.06,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-06-01T15:25:57.713812"
+      "Timestamp": "2026-06-01T22:58:17.659902"
     },
     {
       "Ticker": "MSFT",
@@ -55,12 +41,12 @@
       "Headline URL": "https://seekingalpha.com/article/4910391-microsoft-this-price-makes-no-sense",
       "Published At": "2026-05-31T13:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.27,
+      "Regular Change": 2.28,
       "After Hours": 0.0,
-      "Current Price": 460.46,
+      "Current Price": 460.52,
       "Data Source": "YahooDirect",
       "News Source": "Seeking Alpha",
-      "Timestamp": "2026-06-01T15:25:57.713826"
+      "Timestamp": "2026-06-01T22:58:17.659921"
     },
     {
       "Ticker": "TSLA",
@@ -69,12 +55,26 @@
       "Headline URL": "http://electrek.co/2026/05/31/a-spacex-tesla-merger-could-trigger-musks-1t-pay-package-automatically/",
       "Published At": "2026-05-31T15:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.43,
+      "Regular Change": -4.57,
       "After Hours": 0.0,
-      "Current Price": 435.79,
+      "Current Price": 415.88,
       "Data Source": "AlphaVantage",
       "News Source": "Electrek",
-      "Timestamp": "2026-06-01T15:25:57.713843"
+      "Timestamp": "2026-06-01T22:58:17.659941"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Cathie Wood buys $6.5 million of megacap tech stock",
+      "Headline URL": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-6-5-million-of-megacap-tech-stock-amazon-amzn",
+      "Published At": "2026-05-30T21:10:03Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -4.57,
+      "After Hours": 0.0,
+      "Current Price": 415.88,
+      "Data Source": "AlphaVantage",
+      "News Source": "TheStreet",
+      "Timestamp": "2026-06-01T22:58:17.659951"
     },
     {
       "Ticker": "TSLA",
@@ -83,12 +83,12 @@
       "Headline URL": "https://investorshub.advfn.com/market-news/article/29323/teslas-next-act-wall-street-begins-weighing-a-spacex-combination",
       "Published At": "2026-05-30T14:57:45Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.43,
+      "Regular Change": -4.57,
       "After Hours": 0.0,
-      "Current Price": 435.79,
+      "Current Price": 415.88,
       "Data Source": "AlphaVantage",
       "News Source": "Advfn.com",
-      "Timestamp": "2026-06-01T15:25:57.713858"
+      "Timestamp": "2026-06-01T22:58:17.659965"
     },
     {
       "Ticker": "GOOGL",
@@ -97,26 +97,26 @@
       "Headline URL": "https://seekingalpha.com/article/4910311-the-1-minute-market-report-may-31-2026",
       "Published At": "2026-05-31T13:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.24,
+      "Regular Change": -1.04,
       "After Hours": 0.0,
-      "Current Price": 375.61,
+      "Current Price": 376.37,
       "Data Source": "YahooDirect",
       "News Source": "Seeking Alpha",
-      "Timestamp": "2026-06-01T15:25:57.713870"
+      "Timestamp": "2026-06-01T22:58:17.659975"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Dropbox Gets A New CEO. The Payoff for DBX Stock Could Take a Long Time.",
-      "Headline URL": "https://www.barchart.com/story/news/2217193/dropbox-gets-a-new-ceo-the-payoff-for-dbx-stock-could-take-a-long-time",
-      "Published At": "2026-05-30T15:00:02Z",
+      "Headline": "What to Expect in Markets This Week: The May Jobs Report, Plus Tech and Retailer Earnings",
+      "Headline URL": "https://www.investopedia.com/what-to-expect-in-markets-this-week-the-may-jobs-report-plus-tech-and-retailer-earnings-11985188",
+      "Published At": "2026-05-31T10:00:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.24,
+      "Regular Change": -1.04,
       "After Hours": 0.0,
-      "Current Price": 375.61,
+      "Current Price": 376.37,
       "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-06-01T15:25:57.713884"
+      "News Source": "Investopedia",
+      "Timestamp": "2026-06-01T22:58:17.659987"
     },
     {
       "Ticker": "META",
@@ -125,12 +125,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1155fb83-7fd9-41b8-adc6-59ba573d745b",
       "Published At": "2026-05-30T19:13:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.44,
+      "Regular Change": -5.07,
       "After Hours": 0.0,
-      "Current Price": 632.51,
+      "Current Price": 600.47,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713896"
+      "Timestamp": "2026-06-01T22:58:17.659998"
     },
     {
       "Ticker": "META",
@@ -139,12 +139,12 @@
       "Headline URL": "https://www.ibtimes.com.au/meta-vs-alphabet-ai-investment-2026-1869764",
       "Published At": "2026-05-30T12:31:49Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.44,
+      "Regular Change": -5.07,
       "After Hours": 0.0,
-      "Current Price": 632.51,
+      "Current Price": 600.47,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-06-01T15:25:57.713908"
+      "Timestamp": "2026-06-01T22:58:17.660009"
     },
     {
       "Ticker": "META",
@@ -153,12 +153,40 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0bda8745-dd7a-4041-b00f-085644766390",
       "Published At": "2026-05-29T14:44:26Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.44,
+      "Regular Change": -5.07,
       "After Hours": 0.0,
-      "Current Price": 632.51,
+      "Current Price": 600.47,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713916"
+      "Timestamp": "2026-06-01T22:58:17.660016"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Traslados 2024 1080p AMZN WEB-DL H264-THR",
+      "Headline URL": "https://post.rlsbb.to/traslados-2024-1080p-amzn-web-dl-h264-thr/",
+      "Published At": "2026-05-31T19:37:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.47,
+      "After Hours": 0.0,
+      "Current Price": 261.26,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-01T22:58:17.660023"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "DitO 2024 720p AMZN WEB-DL H264-GMRRH",
+      "Headline URL": "https://post.rlsbb.to/dito-2024-720p-amzn-web-dl-h264-gmrrh/",
+      "Published At": "2026-05-31T19:28:45Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.47,
+      "After Hours": 0.0,
+      "Current Price": 261.26,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-01T22:58:17.660031"
     },
     {
       "Ticker": "AMZN",
@@ -167,40 +195,26 @@
       "Headline URL": "https://post.rlsbb.to/exophoria-2025-1080p-amzn-web-dl-h264-bobdobbs/",
       "Published At": "2026-05-31T13:52:40Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.43,
+      "Regular Change": -3.47,
       "After Hours": 0.0,
-      "Current Price": 264.06,
+      "Current Price": 261.26,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-01T15:25:57.713925"
+      "Timestamp": "2026-06-01T22:58:17.660038"
     },
     {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Blades In The Darkness 2 2026 1080p AMZN WEB-DL H264-BobDobbs",
-      "Headline URL": "https://post.rlsbb.to/blades-in-the-darkness-2-2026-1080p-amzn-web-dl-h264-bobdobbs/",
-      "Published At": "2026-05-31T12:21:05Z",
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA Corporation (NVDA): Leopold Aschenbrenner Is Betting Against This AI Giant",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_140eb354-d8aa-4b99-a030-0ad67138e6d1",
+      "Published At": "2026-05-31T21:21:21Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.43,
+      "Regular Change": 6.26,
       "After Hours": 0.0,
-      "Current Price": 264.06,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-01T15:25:57.713934"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Viyaah Kartaare Da 2026 720p AMZN WEB-DL H264-KHN",
-      "Headline URL": "https://post.rlsbb.to/viyaah-kartaare-da-2026-720p-amzn-web-dl-h264-khn/",
-      "Published At": "2026-05-31T12:21:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.43,
-      "After Hours": 0.0,
-      "Current Price": 264.06,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-01T15:25:57.713942"
+      "Current Price": 224.36,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-01T22:58:17.660047"
     },
     {
       "Ticker": "NVDA",
@@ -209,12 +223,26 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7907e4d6-bd8d-46e2-afaf-3867c68710b6",
       "Published At": "2026-05-31T14:39:37Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.45,
+      "Regular Change": 6.26,
       "After Hours": 0.0,
-      "Current Price": 211.14,
+      "Current Price": 224.36,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713953"
+      "Timestamp": "2026-06-01T22:58:17.660057"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPMorgan (JPM): The Best Undervalued Financial Stock to Buy Now",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f326c516-e93e-4985-8678-dfcb70c02f95",
+      "Published At": "2026-05-31T09:44:54Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.91,
+      "After Hours": 0.0,
+      "Current Price": 296.58,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-01T22:58:17.660065"
     },
     {
       "Ticker": "JPM",
@@ -223,12 +251,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2bb50b4e-8b2a-4149-ac6f-e7de52c651d7",
       "Published At": "2026-05-30T01:44:41Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.87,
+      "Regular Change": -0.91,
       "After Hours": 0.0,
-      "Current Price": 296.7,
+      "Current Price": 296.58,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713963"
+      "Timestamp": "2026-06-01T22:58:17.660076"
     },
     {
       "Ticker": "MA",
@@ -237,12 +265,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_06cceae7-0be7-4eb8-84c2-4c0812a85e01",
       "Published At": "2026-05-31T15:12:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.73,
+      "Regular Change": 0.26,
       "After Hours": 0.0,
-      "Current Price": 490.37,
+      "Current Price": 495.25,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713974"
+      "Timestamp": "2026-06-01T22:58:17.660085"
     },
     {
       "Ticker": "MA",
@@ -251,12 +279,12 @@
       "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/mastercard-stock-climbed-nearly-12-113000038.html",
       "Published At": "2026-05-30T11:30:00Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.73,
+      "Regular Change": 0.26,
       "After Hours": 0.0,
-      "Current Price": 490.37,
+      "Current Price": 495.25,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.713992"
+      "Timestamp": "2026-06-01T22:58:17.660097"
     },
     {
       "Ticker": "MA",
@@ -265,12 +293,12 @@
       "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d336bbb0-8c4b-4a91-a8cc-9ceab36b02af",
       "Published At": "2026-05-29T23:00:02Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.73,
+      "Regular Change": 0.26,
       "After Hours": 0.0,
-      "Current Price": 490.37,
+      "Current Price": 495.25,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-01T15:25:57.714002"
+      "Timestamp": "2026-06-01T22:58:17.660103"
     }
   ]
 }
