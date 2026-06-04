@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-03T22:59:35.975208",
+    "generated_at": "2026-06-04T12:01:03.114715",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 18,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -32,7 +32,7 @@
       "Current Price": 310.26,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-06-03T22:59:35.973978"
+      "Timestamp": "2026-06-04T12:01:03.113517"
     },
     {
       "Ticker": "AAPL",
@@ -46,7 +46,7 @@
       "Current Price": 310.26,
       "Data Source": "AlphaVantage",
       "News Source": "GlobeNewswire",
-      "Timestamp": "2026-06-03T22:59:35.974008"
+      "Timestamp": "2026-06-04T12:01:03.113553"
     },
     {
       "Ticker": "AAPL",
@@ -60,7 +60,21 @@
       "Current Price": 310.26,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-06-03T22:59:35.974020"
+      "Timestamp": "2026-06-04T12:01:03.113566"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft Stock Just Hit a 3-Month High. Investors Can Thank a \u2018New Era of PC.\u2019",
+      "Headline URL": "https://www.barchart.com/story/news/2268056/microsoft-stock-just-hit-a-3-month-high-investors-can-thank-a-new-era-of-pc",
+      "Published At": "2026-06-02T20:35:30Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.17,
+      "After Hours": 0.0,
+      "Current Price": 427.34,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-06-04T12:01:03.113578"
     },
     {
       "Ticker": "MSFT",
@@ -74,21 +88,21 @@
       "Current Price": 427.34,
       "Data Source": "YahooDirect",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-06-03T22:59:35.974029"
+      "Timestamp": "2026-06-04T12:01:03.113590"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Stock Is Up Nearly 30% From Its March Lows, But You Shouldn\u2019t Sell MSFT Just Yet",
-      "Headline URL": "https://www.barchart.com/story/news/2260003/microsoft-stock-is-up-nearly-30-from-its-march-lows-but-you-shouldnt-sell-msft-just-yet",
-      "Published At": "2026-06-02T13:45:02Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -3.17,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Oracle Stock's Rally Vaults Larry Ellison Past Bezos to World's Third-Richest Person",
+      "Headline URL": "https://www.investopedia.com/oracle-s-stock-surge-propels-larry-ellison-s-net-worth-orcl-stock-11989066",
+      "Published At": "2026-06-02T19:57:12Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.01,
       "After Hours": 0.0,
-      "Current Price": 427.34,
-      "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-06-03T22:59:35.974041"
+      "Current Price": 423.7,
+      "Data Source": "AlphaVantage",
+      "News Source": "Investopedia",
+      "Timestamp": "2026-06-04T12:01:03.113600"
     },
     {
       "Ticker": "TSLA",
@@ -102,35 +116,49 @@
       "Current Price": 423.7,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-03T22:59:35.974051"
+      "Timestamp": "2026-06-04T12:01:03.113609"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Why is Google stock (GOOG) down today? Investors react to Alphabet's $80 billion equity raise for AI expansion - here's everything you need to know",
-      "Headline URL": "https://economictimes.indiatimes.com/news/international/us/why-is-google-stock-goog-down-today-investors-react-to-alphabets-80-billion-equity-raise-for-ai-expansion-heres-everything-you-need-to-know/articleshow/131466498.cms",
-      "Published At": "2026-06-02T15:06:16Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.79,
-      "After Hours": 0.0,
-      "Current Price": 358.99,
-      "Data Source": "YahooDirect",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-06-03T22:59:35.974065"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "GOOGL Drops Premarket: $80B Equity Raise For AI Buildout Sparks Dilution Fears - Yahoo Finance",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=183552848",
-      "Published At": "2026-06-02T13:52:58Z",
+      "Headline": "Google keeps finding new ways to crash the stock market's AI party",
+      "Headline URL": "https://www.businessinsider.com/google-alphabet-stock-offering-shows-ai-trade-openai-anthropic-spacex-2026-6",
+      "Published At": "2026-06-03T09:50:01Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": -0.79,
       "After Hours": 0.0,
       "Current Price": 358.99,
       "Data Source": "YahooDirect",
+      "News Source": "Business Insider",
+      "Timestamp": "2026-06-04T12:01:03.113620"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "New Berkshire Hathaway CEO Greg Abel Has Now Plowed $26.6 Billion Into This Artificial Intelligence (AI) Stock - Yahoo Finance",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=183572442",
+      "Published At": "2026-06-03T05:12:34Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.79,
+      "After Hours": 0.0,
+      "Current Price": 358.99,
+      "Data Source": "YahooDirect",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-06-03T22:59:35.974074"
+      "Timestamp": "2026-06-04T12:01:03.113634"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Breaking Traditional Financial Barriers: HTX Launches U.S. Stock Futures TradFi Trading Contest with a Massive 50,000 USDT Prize Pool",
+      "Headline URL": "https://www.prnewswire.com/news-releases/breaking-traditional-financial-barriers-htx-launches-us-stock-futures-tradfi-trading-contest-with-a-massive-50-000-usdt-prize-pool-302789463.html",
+      "Published At": "2026-06-03T02:31:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.79,
+      "After Hours": 0.0,
+      "Current Price": 358.99,
+      "Data Source": "YahooDirect",
+      "News Source": "PRNewswire",
+      "Timestamp": "2026-06-04T12:01:03.113646"
     },
     {
       "Ticker": "META",
@@ -144,7 +172,7 @@
       "Current Price": 622.98,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-03T22:59:35.974082"
+      "Timestamp": "2026-06-04T12:01:03.113657"
     },
     {
       "Ticker": "META",
@@ -158,91 +186,91 @@
       "Current Price": 622.98,
       "Data Source": "AlphaVantage",
       "News Source": "Advfn.com",
-      "Timestamp": "2026-06-03T22:59:35.974090"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Can Meta Stock Reach $1,500 by 2030?",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7d068eed-62fc-4ddf-916e-df25231437fc",
-      "Published At": "2026-05-31T14:38:37Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 4.24,
-      "After Hours": 0.0,
-      "Current Price": 622.98,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-03T22:59:35.974095"
+      "Timestamp": "2026-06-04T12:01:03.113667"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Le Colonel Chabert 1994 1080p AMZN REPACK WEB-DL H264-BULiTT",
-      "Headline URL": "https://post.rlsbb.to/le-colonel-chabert-1994-1080p-amzn-repack-web-dl-h264-bulitt/",
-      "Published At": "2026-06-02T21:15:54Z",
+      "Headline": "Chopped Castaways S01E04 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/chopped-castaways-s01e04-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-06-03T09:11:02Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.53,
       "After Hours": 0.0,
       "Current Price": 250.02,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-03T22:59:35.974103"
+      "Timestamp": "2026-06-04T12:01:03.113675"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Daggers Inn 2025 1080p AMZN WEB-DL H264-BobDobbs",
-      "Headline URL": "https://post.rlsbb.to/daggers-inn-2025-1080p-amzn-web-dl-h264-bobdobbs/",
-      "Published At": "2026-06-02T20:11:05Z",
+      "Headline": "Arctics Edge 2025 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.to/arctics-edge-2025-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-06-03T08:40:19Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.53,
       "After Hours": 0.0,
       "Current Price": 250.02,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-03T22:59:35.974108"
+      "Timestamp": "2026-06-04T12:01:03.113681"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Renovation Aloha S03E10 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.to/renovation-aloha-s03e10-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-06-03T08:08:31Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.53,
+      "After Hours": 0.0,
+      "Current Price": 250.02,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-04T12:01:03.113687"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "US technology sector surges 42% in two months, biggest rally in 24 years",
-      "Headline URL": "https://cryptobriefing.com/us-tech-sector-42-percent-rally-semiconductors/",
-      "Published At": "2026-06-02T21:25:33Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Arm vs. NVIDIA: Which Semiconductor Stock Belongs in Your 10-Year Portfolio?",
+      "Headline URL": "https://247wallst.com/investing/2026/06/03/arm-vs-nvidia-which-semiconductor-stock-belongs-in-your-10-year-portfolio/",
+      "Published At": "2026-06-03T11:30:25Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -3.62,
       "After Hours": 0.0,
       "Current Price": 214.75,
       "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-06-03T22:59:35.974117"
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-06-04T12:01:03.113696"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "'We \u2060have supply for very, very robust growth, but we're still supply constrained': Jensen Huang says Nvidia has enough CPU and GPU supply to grow AI",
-      "Headline URL": "https://www.techradar.com/pro/we-have-supply-for-very-very-robust-growth-but-were-still-supply-constrained-jensen-huang-says-nvidia-has-enough-cpu-and-gpu-supply-to-grow-ai",
-      "Published At": "2026-06-02T16:05:00Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Nvidia or Amazon Stock: Which Tech Giant Offers Better Value for Investors in 2026?",
+      "Headline URL": "https://www.ibtimes.com.au/nvidia-vs-amazon-ai-investment-2026-1870020",
+      "Published At": "2026-06-03T06:47:50Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -3.62,
       "After Hours": 0.0,
       "Current Price": 214.75,
       "Data Source": "AlphaVantage",
-      "News Source": "TechRadar",
-      "Timestamp": "2026-06-03T22:59:35.974129"
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-06-04T12:01:03.113705"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan (JPM): The Best Undervalued Financial Stock to Buy Now",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f326c516-e93e-4985-8678-dfcb70c02f95",
-      "Published At": "2026-05-31T09:44:54Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Dear Future Quantinuum Stock Investors, Mark Your Calendars for June 3",
+      "Headline URL": "https://www.barchart.com/story/news/2262493/dear-future-quantinuum-stock-investors-mark-your-calendars-for-june-3",
+      "Published At": "2026-06-02T15:41:39Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -0.04,
       "After Hours": 0.0,
       "Current Price": 300.85,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-03T22:59:35.974137"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-06-04T12:01:03.113714"
     },
     {
       "Ticker": "MA",
@@ -256,21 +284,7 @@
       "Current Price": 471.55,
       "Data Source": "YahooDirect",
       "News Source": "TheStreet",
-      "Timestamp": "2026-06-03T22:59:35.974146"
-    },
-    {
-      "Ticker": "MA",
-      "Company": "Mastercard Inc.",
-      "Headline": "Greg Abel Just Sold Both Visa and Mastercard Stock but Kept This Top Buffett Favorite",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_06cceae7-0be7-4eb8-84c2-4c0812a85e01",
-      "Published At": "2026-05-31T15:12:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.28,
-      "After Hours": 0.0,
-      "Current Price": 471.55,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-03T22:59:35.974154"
+      "Timestamp": "2026-06-04T12:01:03.113722"
     }
   ]
 }
