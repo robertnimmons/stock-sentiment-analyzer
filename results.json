@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-04T22:16:47.634680",
+    "generated_at": "2026-06-05T12:10:55.444543",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 23,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,6 +23,20 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple Stock Has Been Hot Lately. New AI Features Could Provide the Next Boost",
+      "Headline URL": "https://www.investopedia.com/apple-stock-has-been-hot-lately-new-ai-features-could-provide-the-next-boost-aapl-11988191",
+      "Published At": "2026-06-03T21:02:24Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.31,
+      "After Hours": 0.0,
+      "Current Price": 311.23,
+      "Data Source": "AlphaVantage",
+      "News Source": "Investopedia",
+      "Timestamp": "2026-06-05T12:10:55.443186"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Incoming Apple CEO John Ternus has focused Apple\u2019s Vision products roadmap \u2013 Ming-Chi Kuo",
       "Headline URL": "https://macdailynews.com/2026/06/03/incoming-apple-ceo-john-ternus-has-focused-apples-vision-products-roadmap-ming-chi-kuo/",
       "Published At": "2026-06-03T20:00:55Z",
@@ -32,7 +46,7 @@
       "Current Price": 311.23,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-06-04T22:16:47.633535"
+      "Timestamp": "2026-06-05T12:10:55.443223"
     },
     {
       "Ticker": "AAPL",
@@ -46,105 +60,105 @@
       "Current Price": 311.23,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-06-04T22:16:47.633556"
+      "Timestamp": "2026-06-05T12:10:55.443239"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
       "Headline": "Dear Amazon Stock Fans, Mark Your Calendars for June 23",
       "Headline URL": "https://www.barchart.com/story/news/2283729/dear-amazon-stock-fans-mark-your-calendars-for-june-23",
       "Published At": "2026-06-03T14:24:53Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.31,
+      "Regular Change": 0.17,
       "After Hours": 0.0,
-      "Current Price": 311.23,
-      "Data Source": "AlphaVantage",
+      "Current Price": 428.05,
+      "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-06-04T22:16:47.633568"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft (MSFT) Slid Despite Top and Bottom-Line Beats",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b923d40f-831a-4a24-bacb-8b8b1637baae",
-      "Published At": "2026-06-03T13:46:15Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.17,
-      "After Hours": 0.0,
-      "Current Price": 428.05,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633578"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Navigating Microsoft Corporation (MSFT) Delivered Positive Results Against Market Skepticism",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/navigating-microsoft-corporation-msft-delivered-132745725.html",
-      "Published At": "2026-06-03T13:27:45Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.17,
-      "After Hours": 0.0,
-      "Current Price": 428.05,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633591"
+      "Timestamp": "2026-06-05T12:10:55.443253"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "3 Common Sense Reasons to Sell Tesla Stock and Buy the SpaceX IPO",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1a1a636e-25ad-458c-9a19-83d1f2bae5a5",
-      "Published At": "2026-06-03T14:25:02Z",
+      "Headline": "SpaceX targets record $75 billion IPO as bitcoin treasury and liquidity risks draw focus",
+      "Headline URL": "https://www.coindesk.com/markets/2026/06/03/spacex-targets-record-usd75-billion-ipo-as-bitcoin-treasury-and-liquidity-risks-draw-focus",
+      "Published At": "2026-06-03T22:31:12Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.24,
       "After Hours": 0.0,
       "Current Price": 418.45,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633604"
+      "News Source": "CoinDesk",
+      "Timestamp": "2026-06-05T12:10:55.443273"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Broadcom stock sinks nearly 15% as AI chip forecast disappoints",
-      "Headline URL": "https://finance.yahoo.com/markets/article/broadcom-stock-sinks-15-as-ai-chip-forecast-disappoints-165602704.html",
-      "Published At": "2026-06-03T16:56:02Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 3.68,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Stock Tests Short-Term Moving Averages Amid Surging Scandinavian Demand",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b7f3155d-e3ae-45c2-8ef0-62ca9a93286a",
+      "Published At": "2026-06-03T22:01:59Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.24,
       "After Hours": 0.0,
-      "Current Price": 372.19,
-      "Data Source": "YahooDirect",
+      "Current Price": 418.45,
+      "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633615"
+      "Timestamp": "2026-06-05T12:10:55.443286"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Registrations Surge 655% In France: What Prediction Markets Say It Means For TSLA",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_77debc73-3b1a-44b5-83af-842dbb18e98c",
+      "Published At": "2026-06-03T15:30:45Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.24,
+      "After Hours": 0.0,
+      "Current Price": 418.45,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-05T12:10:55.443298"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Broadcom stock hovers at all-time highs ahead of earnings",
-      "Headline URL": "https://finance.yahoo.com/markets/article/broadcom-stock-hovers-at-all-time-highs-ahead-of-earnings-165602217.html",
-      "Published At": "2026-06-03T16:56:02Z",
+      "Headline": "Ark Invest buys 267,582 shares of Google in $96M bet on Alphabet\u2019s AI future",
+      "Headline URL": "https://cryptobriefing.com/ark-invest-buys-google-shares-96-million/",
+      "Published At": "2026-06-04T07:50:36Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 3.68,
       "After Hours": 0.0,
       "Current Price": 372.19,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633625"
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-06-05T12:10:55.443315"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "\u2018IPL is done, get back to business\u2019: Why Uday Kotak thinks Google\u2019s $80 billion raise is a wake-up call for India Inc",
-      "Headline URL": "https://economictimes.indiatimes.com/tech/technology/ipl-is-done-get-back-to-business-why-uday-kotak-thinks-googles-80-billion-raise-is-a-wake-up-call-for-india-inc/articleshow/131486803.cms",
-      "Published At": "2026-06-03T14:48:33Z",
+      "Headline": "Warren Buffett's Berkshire Hathaway doubles down on Google",
+      "Headline URL": "https://www.thestreet.com/investing/warren-buffetts-berkshire-hathaway-doubles-down-on-google",
+      "Published At": "2026-06-03T23:17:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 3.68,
       "After Hours": 0.0,
       "Current Price": 372.19,
       "Data Source": "YahooDirect",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-06-04T22:16:47.633642"
+      "News Source": "TheStreet",
+      "Timestamp": "2026-06-05T12:10:55.443326"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Nvidia CEO Jensen Huang Says Marvell Could Be the Next $1 Trillion Chip Company, Fueling a Rally in MRVL Stock.",
+      "Headline URL": "https://www.barchart.com/story/news/2289096/nvidia-ceo-jensen-huang-says-marvell-could-be-the-next-1-trillion-chip-company-fueling-a-rally-in-mrvl-stock",
+      "Published At": "2026-06-03T19:06:00Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 3.68,
+      "After Hours": 0.0,
+      "Current Price": 372.19,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-06-05T12:10:55.443345"
     },
     {
       "Ticker": "META",
@@ -158,7 +172,7 @@
       "Current Price": 627.57,
       "Data Source": "AlphaVantage",
       "News Source": "Trefis",
-      "Timestamp": "2026-06-04T22:16:47.633651"
+      "Timestamp": "2026-06-05T12:10:55.443355"
     },
     {
       "Ticker": "META",
@@ -172,7 +186,7 @@
       "Current Price": 627.57,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-06-04T22:16:47.633661"
+      "Timestamp": "2026-06-05T12:10:55.443367"
     },
     {
       "Ticker": "META",
@@ -186,49 +200,119 @@
       "Current Price": 627.57,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-04T22:16:47.633670"
+      "Timestamp": "2026-06-05T12:10:55.443378"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Speed Demon 2026 720p AMZN WEB-DL H264-KHN",
-      "Headline URL": "https://post.rlsbb.to/speed-demon-2026-720p-amzn-web-dl-h264-khn/",
-      "Published At": "2026-06-03T19:50:46Z",
+      "Headline": "Really Happy Someday 2026 1080p AMZN WEB-DL H264-Phallus",
+      "Headline URL": "https://post.rlsbb.to/really-happy-someday-2026-1080p-amzn-web-dl-h264-phallus/",
+      "Published At": "2026-06-04T12:05:38Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.51,
       "After Hours": 0.0,
       "Current Price": 253.79,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-04T22:16:47.633679"
+      "Timestamp": "2026-06-05T12:10:55.443388"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "This Magnificent 7 Stock Is the Ultimate \u201cSet-It-and-Forget-It\u201d Buy",
-      "Headline URL": "https://247wallst.com/investing/2026/06/03/this-magnificent-7-stock-is-the-ultimate-set-it-and-forget-it-buy/",
-      "Published At": "2026-06-03T15:12:15Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Lola And The Sea 2019 1080p AMZN WEB-DL H264-ROADKiLL",
+      "Headline URL": "https://post.rlsbb.to/lola-and-the-sea-2019-1080p-amzn-web-dl-h264-roadkill/",
+      "Published At": "2026-06-04T11:51:08Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 1.51,
       "After Hours": 0.0,
       "Current Price": 253.79,
       "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-06-04T22:16:47.633688"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-05T12:10:55.443398"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Premarital 2025 1080p AMZN WEB-DL H264-Phallus",
+      "Headline URL": "https://post.rlsbb.to/premarital-2025-1080p-amzn-web-dl-h264-phallus/",
+      "Published At": "2026-06-04T11:51:08Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.51,
+      "After Hours": 0.0,
+      "Current Price": 253.79,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-05T12:10:55.443406"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Elizabeth Warren corners Bessent on Trump's stock trading: 'He is enriching himself'",
-      "Headline URL": "https://www.rawstory.com/warren-bessent-trump-stocks/",
-      "Published At": "2026-06-03T17:26:09Z",
+      "Headline": "Elizabeth Warren Puts Bessent On The Hot Seat Over Trump's Insider Stock Trades",
+      "Headline URL": "https://crooksandliars.com/2026/06/elizabeth-warren-puts-bessent-spot-over",
+      "Published At": "2026-06-04T10:17:17Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.82,
+      "Regular Change": 1.94,
       "After Hours": 0.0,
       "Current Price": 218.66,
       "Data Source": "AlphaVantage",
-      "News Source": "Raw Story",
-      "Timestamp": "2026-06-04T22:16:47.633698"
+      "News Source": "Crooksandliars.com",
+      "Timestamp": "2026-06-05T12:10:55.443422"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA DRIVE Hyperion\u3001\u30ed\u30dc\u30bf\u30af\u30b7\u30fc\u5bfe\u5fdc\u306e\u4e16\u754c\u306b\u5411\u3051\u305f\u30b0\u30ed\u30fc\u30d0\u30eb \u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3078",
+      "Headline URL": "https://prtimes.jp/main/html/rd/p/000000627.000012662.html",
+      "Published At": "2026-06-04T05:40:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.94,
+      "After Hours": 0.0,
+      "Current Price": 218.66,
+      "Data Source": "AlphaVantage",
+      "News Source": "Prtimes.jp",
+      "Timestamp": "2026-06-05T12:10:55.443434"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "'Big Short' Star Steve Eisman Warns SpaceX Will Be A 'Retail Cult Stock' With A 'Crazy' Valuation Compared To NVDA",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e9f13655-6c6f-4f3d-9e01-51c658cd796d",
+      "Published At": "2026-06-03T23:31:12Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.94,
+      "After Hours": 0.0,
+      "Current Price": 218.66,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-05T12:10:55.443454"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPMorgan warns time is running short for crypto market structure bill",
+      "Headline URL": "https://www.coindesk.com/policy/2026/06/04/jpmorgan-warns-time-is-running-short-for-crypto-market-structure-bill",
+      "Published At": "2026-06-04T11:10:16Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.34,
+      "After Hours": 0.0,
+      "Current Price": 310.89,
+      "Data Source": "YahooDirect",
+      "News Source": "CoinDesk",
+      "Timestamp": "2026-06-05T12:10:55.443469"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Why Jim Cramer Says Newly Public FedEx Freight Stock Could Be a \u2018True Winner\u2019",
+      "Headline URL": "https://www.barchart.com/story/news/2285224/why-jim-cramer-says-newly-public-fedex-freight-stock-could-be-a-true-winner",
+      "Published At": "2026-06-03T15:26:20Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.34,
+      "After Hours": 0.0,
+      "Current Price": 310.89,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-06-05T12:10:55.443486"
     },
     {
       "Ticker": "JPM",
@@ -242,7 +326,7 @@
       "Current Price": 310.89,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-06-04T22:16:47.633707"
+      "Timestamp": "2026-06-05T12:10:55.443495"
     },
     {
       "Ticker": "MA",
@@ -256,7 +340,7 @@
       "Current Price": 481.76,
       "Data Source": "YahooDirect",
       "News Source": "TheStreet",
-      "Timestamp": "2026-06-04T22:16:47.633716"
+      "Timestamp": "2026-06-05T12:10:55.443505"
     }
   ]
 }
