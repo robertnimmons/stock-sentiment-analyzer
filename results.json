@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-11T22:47:31.895741",
+    "generated_at": "2026-06-12T12:22:19.995905",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -23,6 +23,34 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple Shares Massive List of Over 250 Changes Across iOS 27, macOS Golden Gate, and More - MacRumors",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=183748532",
+      "Published At": "2026-06-11T01:52:52Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.39,
+      "After Hours": 0.0,
+      "Current Price": 295.63,
+      "Data Source": "AlphaVantage",
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-06-12T12:22:19.994654"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Morgan Stanley revamps Apple stock target after key event",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_625cf762-9793-4f9b-8ad5-bc5553921592",
+      "Published At": "2026-06-10T22:07:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.39,
+      "After Hours": 0.0,
+      "Current Price": 295.63,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-12T12:22:19.994678"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Apple\u2019s AI could usher in a historic upgrade cycle, and Wall Street is missing it \u2013 Morgan Stanley",
       "Headline URL": "https://macdailynews.com/2026/06/10/apples-ai-could-usher-in-a-historic-upgrade-cycle-and-wall-street-is-missing-it-morgan-stanley/",
       "Published At": "2026-06-10T21:15:33Z",
@@ -32,35 +60,7 @@
       "Current Price": 295.63,
       "Data Source": "AlphaVantage",
       "News Source": "Macdailynews.com",
-      "Timestamp": "2026-06-11T22:47:31.894228"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Shares Massive List of Over 250 Changes Across iOS 27, macOS Golden Gate, and More",
-      "Headline URL": "https://www.macrumors.com/2026/06/10/apple-lists-250-changes-ios-27-and-more/",
-      "Published At": "2026-06-10T20:34:07Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.39,
-      "After Hours": 0.0,
-      "Current Price": 295.63,
-      "Data Source": "AlphaVantage",
-      "News Source": "MacRumors",
-      "Timestamp": "2026-06-11T22:47:31.894251"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Gate expands stock futures offering, following Binance\u2019s $400M AUM growth",
-      "Headline URL": "https://cryptobriefing.com/gate-stock-futures-binance-aum-growth/",
-      "Published At": "2026-06-10T19:15:13Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.39,
-      "After Hours": 0.0,
-      "Current Price": 295.63,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-06-11T22:47:31.894261"
+      "Timestamp": "2026-06-12T12:22:19.994697"
     },
     {
       "Ticker": "MSFT",
@@ -74,7 +74,7 @@
       "Current Price": 390.34,
       "Data Source": "YahooDirect",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-06-11T22:47:31.894267"
+      "Timestamp": "2026-06-12T12:22:19.994705"
     },
     {
       "Ticker": "MSFT",
@@ -88,7 +88,7 @@
       "Current Price": 390.34,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-11T22:47:31.894285"
+      "Timestamp": "2026-06-12T12:22:19.994719"
     },
     {
       "Ticker": "MSFT",
@@ -102,49 +102,77 @@
       "Current Price": 390.34,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-06-11T22:47:31.894296"
+      "Timestamp": "2026-06-12T12:22:19.994731"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "The SpaceX IPO will make lots of people rich. Just not you",
-      "Headline URL": "https://www.fool.com.au/2026/06/11/the-spacex-ipo-will-make-lots-of-people-rich-just-not-you/",
-      "Published At": "2026-06-10T19:58:31Z",
+      "Headline": "Short seller Jim Chanos doubts SpaceX valuation, says IPO fueled by 'hopes and dreams'",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/short-seller-jim-chanos-doubts-spacex-valuation-says-ipo-fueled-by-hopes-and-dreams/articleshow/131655117.cms",
+      "Published At": "2026-06-11T09:43:38Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.6,
       "After Hours": 0.0,
       "Current Price": 399.15,
       "Data Source": "AlphaVantage",
-      "News Source": "Motley Fool Australia",
-      "Timestamp": "2026-06-11T22:47:31.894305"
+      "News Source": "The Times of India",
+      "Timestamp": "2026-06-12T12:22:19.994742"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "An Analyst Just Raised Tesla's Price Target by 227%\u2014Here's Why",
-      "Headline URL": "https://www.marketbeat.com/originals/an-analyst-just-raised-teslas-price-target-by-227-heres-why/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-      "Published At": "2026-06-10T15:00:00Z",
+      "Headline": "Elon Musk\u2019s promise achievement rate over the years",
+      "Headline URL": "https://flowingdata.com/2026/06/11/elon-musks-promise-achievement-rate-over-the-years/",
+      "Published At": "2026-06-11T09:38:07Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.6,
       "After Hours": 0.0,
       "Current Price": 399.15,
       "Data Source": "AlphaVantage",
-      "News Source": "MarketBeat",
-      "Timestamp": "2026-06-11T22:47:31.894316"
+      "News Source": "Flowingdata.com",
+      "Timestamp": "2026-06-12T12:22:19.994752"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla vs Toyota Stock Showdown: Which Automaker Offers Better Buy Opportunity in 2026",
-      "Headline URL": "https://www.ibtimes.com.au/tesla-vs-toyota-2026-investment-analysis-1870430",
-      "Published At": "2026-06-10T06:11:23Z",
+      "Headline": "Tesla Shares Fall Nearly 4% to $381.59 as Investors Take Profits After Recent Rally",
+      "Headline URL": "https://www.ibtimes.com.au/tesla-shares-dip-profit-taking-ev-market-challenges-1870497",
+      "Published At": "2026-06-11T07:28:16Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 4.6,
       "After Hours": 0.0,
       "Current Price": 399.15,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-06-11T22:47:31.894326"
+      "Timestamp": "2026-06-12T12:22:19.994764"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Intel Is the Market's Most Mispriced AI Hedge",
+      "Headline URL": "https://www.marketbeat.com/originals/intel-is-the-markets-most-mispriced-ai-hedge/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "Published At": "2026-06-10T18:55:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.39,
+      "After Hours": 0.0,
+      "Current Price": 357.77,
+      "Data Source": "YahooDirect",
+      "News Source": "MarketBeat",
+      "Timestamp": "2026-06-12T12:22:19.994773"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Supermicro Said It Wants to Raise $7B to Meet AI Demand. The Stock Is Tumbling",
+      "Headline URL": "https://www.investopedia.com/supermicro-said-it-wants-to-raise-usd7b-to-meet-ai-demand-the-stock-is-tumbling-11994709",
+      "Published At": "2026-06-10T18:39:59Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.39,
+      "After Hours": 0.0,
+      "Current Price": 357.77,
+      "Data Source": "YahooDirect",
+      "News Source": "Investopedia",
+      "Timestamp": "2026-06-12T12:22:19.994783"
     },
     {
       "Ticker": "GOOGL",
@@ -158,35 +186,7 @@
       "Current Price": 357.77,
       "Data Source": "YahooDirect",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-06-11T22:47:31.894336"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Jim Cramer Says \u201cThe Ease With Which Google Raised the Cash Was Incredible\u201d",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-ease-google-153852678.html",
-      "Published At": "2026-06-10T15:38:52Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.39,
-      "After Hours": 0.0,
-      "Current Price": 357.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-11T22:47:31.894346"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Mizuho Doubles Down on WDC Stock as AI Storage Demand Shows No Signs of Slowing Down",
-      "Headline URL": "https://www.barchart.com/story/news/2402785/mizuho-doubles-down-on-wdc-stock-as-ai-storage-demand-shows-no-signs-of-slowing-down",
-      "Published At": "2026-06-10T14:54:09Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 0.39,
-      "After Hours": 0.0,
-      "Current Price": 357.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-06-11T22:47:31.894356"
+      "Timestamp": "2026-06-12T12:22:19.994793"
     },
     {
       "Ticker": "META",
@@ -200,77 +200,77 @@
       "Current Price": 568.43,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-06-11T22:47:31.894367"
+      "Timestamp": "2026-06-12T12:22:19.994805"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Butterfly Kiss 2018 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.to/butterfly-kiss-2018-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-06-10T22:05:08Z",
+      "Headline": "Human Resources 1999 1080p AMZN WEB-DL H264-Phallus",
+      "Headline URL": "https://post.rlsbb.to/human-resources-1999-1080p-amzn-web-dl-h264-phallus/",
+      "Published At": "2026-06-11T11:23:57Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.47,
       "After Hours": 0.0,
       "Current Price": 241.51,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.to",
-      "Timestamp": "2026-06-11T22:47:31.894374"
+      "Timestamp": "2026-06-12T12:22:19.994815"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon secures $17.5 billion loan facility for AI spending",
-      "Headline URL": "https://qz.com/amazon-175-billion-loan-ai-capex-061026",
-      "Published At": "2026-06-10T13:36:41Z",
+      "Headline": "Empire Of Lies 2026 1080p AMZN WEB-DL H264-Phallus",
+      "Headline URL": "https://post.rlsbb.to/empire-of-lies-2026-1080p-amzn-web-dl-h264-phallus/",
+      "Published At": "2026-06-11T10:56:03Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.47,
       "After Hours": 0.0,
       "Current Price": 241.51,
       "Data Source": "YahooDirect",
-      "News Source": "Quartz India",
-      "Timestamp": "2026-06-11T22:47:31.894382"
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-12T12:22:19.994823"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Story Of Everything 2026 1080p AMZN WEB-DL H264-Phallus",
+      "Headline URL": "https://post.rlsbb.to/the-story-of-everything-2026-1080p-amzn-web-dl-h264-phallus/",
+      "Published At": "2026-06-11T10:56:03Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.47,
+      "After Hours": 0.0,
+      "Current Price": 241.51,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.to",
+      "Timestamp": "2026-06-12T12:22:19.994832"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA\u2019s (NVDA) CEO and South Korea\u2019s SK Group Expected to Announce Collaboration Plans",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-ceo-south-korea-171533481.html",
-      "Published At": "2026-06-10T17:15:33Z",
+      "Headline": "Nvidia Corp (NVDA) Strengthens AI Platform with Micron HBM4",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1f2f8d52-2a1a-4437-b71a-40eb649a576f",
+      "Published At": "2026-06-11T00:58:24Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.22,
       "After Hours": 0.0,
       "Current Price": 204.87,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-11T22:47:31.894393"
+      "Timestamp": "2026-06-12T12:22:19.994842"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "5-star analyst revisits Nvidia stock on peculiar GPU demand situation",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/5-star-analyst-revisits-nvidia-stock-on-peculiar-gpu-demand-situation",
-      "Published At": "2026-06-10T16:37:21Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.22,
-      "After Hours": 0.0,
-      "Current Price": 204.87,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-06-11T22:47:31.894402"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Jim Cramer Says He Is Not Changing His \u201cOwn NVIDIA, Don\u2019t Trade It\u201d View",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-not-changing-153910392.html",
-      "Published At": "2026-06-10T15:39:10Z",
+      "Headline": "SpaceX Just Announced Fantastic News to Nvidia Stock Investors",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ab7ef3b0-ddff-4ff1-b553-56bae49b169e",
+      "Published At": "2026-06-10T20:45:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.22,
       "After Hours": 0.0,
       "Current Price": 204.87,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-11T22:47:31.894412"
+      "Timestamp": "2026-06-12T12:22:19.994852"
     },
     {
       "Ticker": "JPM",
@@ -284,7 +284,7 @@
       "Current Price": 313.49,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-06-11T22:47:31.894422"
+      "Timestamp": "2026-06-12T12:22:19.994863"
     },
     {
       "Ticker": "JPM",
@@ -298,7 +298,21 @@
       "Current Price": 313.49,
       "Data Source": "YahooDirect",
       "News Source": "Wccftech",
-      "Timestamp": "2026-06-11T22:47:31.894432"
+      "Timestamp": "2026-06-12T12:22:19.994879"
+    },
+    {
+      "Ticker": "V",
+      "Company": "Visa Inc.",
+      "Headline": "Visa Stock: Where Compounding Could Take The Price",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1ed3adad-929d-4a56-af3b-32207c684ebd",
+      "Published At": "2026-06-10T23:54:23Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.21,
+      "After Hours": 0.0,
+      "Current Price": 319.05,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-06-12T12:22:19.994888"
     },
     {
       "Ticker": "V",
@@ -312,7 +326,7 @@
       "Current Price": 319.05,
       "Data Source": "AlphaVantage",
       "News Source": "Quartz India",
-      "Timestamp": "2026-06-11T22:47:31.894438"
+      "Timestamp": "2026-06-12T12:22:19.994897"
     },
     {
       "Ticker": "V",
@@ -326,21 +340,7 @@
       "Current Price": 319.05,
       "Data Source": "AlphaVantage",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-06-11T22:47:31.894445"
-    },
-    {
-      "Ticker": "V",
-      "Company": "Visa Inc.",
-      "Headline": "Obama-appointed judge who blocked Trump birthright citizenship order strikes again, throws out visa overhaul",
-      "Headline URL": "https://www.foxnews.com/politics/obama-appointed-judge-blocked-trump-birthright-citizenship-order-strikes-throws-visa-overhaul",
-      "Published At": "2026-06-08T21:02:49Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.21,
-      "After Hours": 0.0,
-      "Current Price": 319.05,
-      "Data Source": "AlphaVantage",
-      "News Source": "Fox News",
-      "Timestamp": "2026-06-11T22:47:31.894452"
+      "Timestamp": "2026-06-12T12:22:19.994910"
     }
   ]
 }
