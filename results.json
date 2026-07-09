@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T22:00:18.304313",
+    "generated_at": "2026-07-09T12:09:21.066387",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 21,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,10 +15,39 @@
       "META",
       "AMZN",
       "NVDA",
-      "JPM"
+      "JPM",
+      "V"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple says it will spend $30 billion to design US-made Broadcom chips | CNN Business",
+      "Headline URL": "https://www.cnn.com/2026/07/08/business/apple-broadcom-chips",
+      "Published At": "2026-07-08T11:52:58Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.88,
+      "After Hours": 0.0,
+      "Current Price": 313.39,
+      "Data Source": "AlphaVantage",
+      "News Source": "CNN",
+      "Timestamp": "2026-07-09T12:09:21.065127"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple Commits Over $30 Billion to Broadcom Supply Deal as Colorado Plant Expands (AAPL)",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/31522/apple-commits-over-30-billion-to-broadcom-supply-deal-as-colorado-plant-expands-aapl",
+      "Published At": "2026-07-08T10:58:53Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.88,
+      "After Hours": 0.0,
+      "Current Price": 313.39,
+      "Data Source": "AlphaVantage",
+      "News Source": "Advfn.com",
+      "Timestamp": "2026-07-09T12:09:21.065152"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -31,105 +60,63 @@
       "Current Price": 313.39,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-07-08T22:00:18.302921"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple is closing in on Nvidia as it looks to reclaim title of largest U.S. company",
-      "Headline URL": "https://biztoc.com/x/709de36607275f24",
-      "Published At": "2026-07-07T21:26:58Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.88,
-      "After Hours": 0.0,
-      "Current Price": 313.39,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.302949"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple closes valuation gap with Nvidia in race for largest US company",
-      "Headline URL": "https://cryptobriefing.com/apple-nvidia-valuation-gap-largest-us-company/",
-      "Published At": "2026-07-07T21:26:54Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.88,
-      "After Hours": 0.0,
-      "Current Price": 313.39,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-07-08T22:00:18.302963"
+      "Timestamp": "2026-07-09T12:09:21.065160"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in\u00a0Microsoft Corporation of Class Action Lawsuit and Upcoming Deadlines \u2013 MSFT",
-      "Headline URL": "https://www.globenewswire.com/news-release/2026/07/07/3323686/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Reminds-Investors-with-Losses-on-their-Investment-in-Microsoft-Corporation-of-Class-Action-Lawsuit-and-Upcoming-Deadlines-MSFT.html",
-      "Published At": "2026-07-07T21:19:00Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.41,
-      "After Hours": 0.0,
-      "Current Price": 383.34,
-      "Data Source": "YahooDirect",
-      "News Source": "GlobeNewswire",
-      "Timestamp": "2026-07-08T22:00:18.302984"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "ROSEN, A HIGHLY RECOGNIZED LAW FIRM, Encourages Microsoft Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 MSFT",
-      "Headline URL": "https://www.globenewswire.com/news-release/2026/07/07/3323658/673/en/ROSEN-A-HIGHLY-RECOGNIZED-LAW-FIRM-Encourages-Microsoft-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-MSFT.html",
-      "Published At": "2026-07-07T20:41:00Z",
+      "Headline": "Here\u2019s Why the Fund Increased Microsoft (MSFT) Holdings in Q2",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/why-fund-increased-microsoft-msft-115930618.html",
+      "Published At": "2026-07-08T11:59:30Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.41,
       "After Hours": 0.0,
       "Current Price": 383.34,
       "Data Source": "YahooDirect",
-      "News Source": "GlobeNewswire",
-      "Timestamp": "2026-07-08T22:00:18.303004"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-07-09T12:09:21.065172"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Xbox Is the Biggest Casualty in a New Round of Microsoft Layoffs. What This Means for MSFT Stock",
-      "Headline URL": "https://biztoc.com/x/4a9bf044ce809dba",
-      "Published At": "2026-07-07T18:55:22Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Is AI Unlocking New Pathways for Microsoft Corporation (MSFT)?",
+      "Headline URL": "https://biztoc.com/x/5c75f49878fb5183",
+      "Published At": "2026-07-08T11:25:22Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -1.41,
       "After Hours": 0.0,
       "Current Price": 383.34,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303018"
+      "Timestamp": "2026-07-09T12:09:21.065181"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Elon Musk\u2019s net worth drops $50bn as SpaceX shares tumble again",
-      "Headline URL": "https://punchng.com/elon-musks-net-worth-drops-50bn-as-spacex-shares-tumble-again/",
-      "Published At": "2026-07-07T20:10:37Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "SpaceX Trading Frenzy Sends Tokenized Equity Volume to Record $3.86B",
+      "Headline URL": "https://www.cryptoprowl.com/releases/spacex-trading-frenzy-sends-tokenized-equity-volume-to-record-386b-6092",
+      "Published At": "2026-07-08T01:18:00Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": -2.19,
       "After Hours": 0.0,
       "Current Price": 394.06,
       "Data Source": "AlphaVantage",
-      "News Source": "The Punch",
-      "Timestamp": "2026-07-08T22:00:18.303033"
+      "News Source": "Cryptoprowl.com",
+      "Timestamp": "2026-07-09T12:09:21.065188"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Elon Musk\u2019s Net Worth Drops $50 Billion In Latest SpaceX Selloff",
-      "Headline URL": "https://www.forbes.com/sites/tylerroush/2026/07/07/elon-musks-net-worth-drops-50-billion-in-latest-spacex-selloff/",
-      "Published At": "2026-07-07T19:38:55Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "SpaceX stock now enters the post-honeymoon faith phase",
+      "Headline URL": "https://finance.yahoo.com/technology/article/spacex-stock-now-enters-the-post-honeymoon-faith-phase-002636880.html",
+      "Published At": "2026-07-08T00:26:36Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -2.19,
       "After Hours": 0.0,
       "Current Price": 394.06,
       "Data Source": "AlphaVantage",
-      "News Source": "Forbes",
-      "Timestamp": "2026-07-08T22:00:18.303047"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-07-09T12:09:21.065194"
     },
     {
       "Ticker": "GOOGL",
@@ -143,7 +130,21 @@
       "Current Price": 361.92,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-07-08T22:00:18.303104"
+      "Timestamp": "2026-07-09T12:09:21.065203"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Facing Potential Smartphone Weakness and Tough Competition, Qualcomm Stock\u2019s Outlook Is Not Particularly Strong",
+      "Headline URL": "https://www.barchart.com/story/news/3165922/facing-potential-smartphone-weakness-and-tough-competition-qualcomm-stocks-outlook-is-not-particularly-strong",
+      "Published At": "2026-07-07T15:19:07Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.39,
+      "After Hours": 0.0,
+      "Current Price": 361.92,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-07-09T12:09:21.065210"
     },
     {
       "Ticker": "GOOGL",
@@ -157,7 +158,7 @@
       "Current Price": 361.92,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303116"
+      "Timestamp": "2026-07-09T12:09:21.065224"
     },
     {
       "Ticker": "META",
@@ -171,7 +172,7 @@
       "Current Price": 603.12,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303127"
+      "Timestamp": "2026-07-09T12:09:21.065229"
     },
     {
       "Ticker": "META",
@@ -185,91 +186,91 @@
       "Current Price": 603.12,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303138"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta says it\u2019s facing $1.4T in penalties in teen mental health case \u2014 a sum equal to tech giant\u2019s valuation",
-      "Headline URL": "https://nypost.com/2026/07/07/business/meta-says-its-facing-1-4t-in-penalties-in-teen-mental-health-case-sum-equal-to-tech-giants-valuation/",
-      "Published At": "2026-07-07T20:21:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.02,
-      "After Hours": 0.0,
-      "Current Price": 603.12,
-      "Data Source": "AlphaVantage",
-      "News Source": "New York Post",
-      "Timestamp": "2026-07-08T22:00:18.303159"
+      "Timestamp": "2026-07-09T12:09:21.065235"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon's Stock Is Historically Cheap. Now Is Your Perfect Buying Opportunity",
-      "Headline URL": "https://biztoc.com/x/e97576d4d6152576",
-      "Published At": "2026-07-07T21:44:57Z",
+      "Headline": "Blue Origin raises $10B in outside capital at $130B valuation",
+      "Headline URL": "https://cryptobriefing.com/blue-origin-raises-10b-outside-capital-130b-valuation/",
+      "Published At": "2026-07-08T12:06:34Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.96,
       "After Hours": 0.0,
       "Current Price": 243.62,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303170"
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-07-09T12:09:21.065240"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Forevers End 2013 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/forevers-end-2013-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-07-07T21:09:41Z",
+      "Headline": "Amazon (AMZN) Deepens AWS Security Offering in Europe",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_43966ff1-0bcc-4549-aaad-488de01df80a",
+      "Published At": "2026-07-08T12:00:48Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.96,
+      "After Hours": 0.0,
+      "Current Price": 243.62,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-07-09T12:09:21.065245"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Amazing Race Canada S12E01 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/the-amazing-race-canada-s12e01-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-07-08T11:10:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.96,
       "After Hours": 0.0,
       "Current Price": 243.62,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-08T22:00:18.303180"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Is Borrowing Another $25 Billion for AI, and Promises This Is the Last Time This Year",
-      "Headline URL": "https://biztoc.com/x/325d4a26ca746494",
-      "Published At": "2026-07-07T19:10:25Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.96,
-      "After Hours": 0.0,
-      "Current Price": 243.62,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303193"
+      "Timestamp": "2026-07-09T12:09:21.065250"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Jim Cramer sends strong signal to Nvidia stock investors amid rumors",
-      "Headline URL": "https://biztoc.com/x/7bf48935717a4c40",
-      "Published At": "2026-07-07T21:29:32Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.65,
-      "After Hours": 0.0,
-      "Current Price": 204.12,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303207"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "A Circuit Board Problem Just Delayed Nvidia\u2019s Next AI System to 2028 And Chip Stocks Are Already Feeling the Fallout",
-      "Headline URL": "https://biztoc.com/x/c4851a7f10af1458",
-      "Published At": "2026-07-07T21:26:41Z",
+      "Headline": "NVIDIA (NVDA) Opens New Doors for Robotics Developers \u2013 Here\u2019s How",
+      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-opens-doors-robotics-120038440.html",
+      "Published At": "2026-07-08T12:00:38Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 3.65,
       "After Hours": 0.0,
       "Current Price": 204.12,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303225"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-07-09T12:09:21.065264"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Hyperliquid burns 16% of HYPE supply as US stock perpetuals drive volume",
+      "Headline URL": "https://cryptobriefing.com/hyperliquid-burns-16-of-hype-supply-as-us-stock-perpetuals-drive-volume/",
+      "Published At": "2026-07-08T10:58:34Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.65,
+      "After Hours": 0.0,
+      "Current Price": 204.12,
+      "Data Source": "AlphaVantage",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-07-09T12:09:21.065271"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia shares fall below Hershey\u2019s valuation in market comparison",
+      "Headline URL": "https://cryptobriefing.com/nvidia-hershey-share-price-comparison/",
+      "Published At": "2026-07-08T10:46:39Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 3.65,
+      "After Hours": 0.0,
+      "Current Price": 204.12,
+      "Data Source": "AlphaVantage",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-07-09T12:09:21.065278"
     },
     {
       "Ticker": "JPM",
@@ -278,40 +279,26 @@
       "Headline URL": "https://biztoc.com/x/818754cf92eb6af3",
       "Published At": "2026-07-07T13:21:08Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.57,
+      "Regular Change": -2.54,
       "After Hours": 0.0,
-      "Current Price": 330.51,
-      "Data Source": "AlphaVantage",
+      "Current Price": 330.62,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303237"
+      "Timestamp": "2026-07-09T12:09:21.065287"
     },
     {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan Chase & Co. (JPM)\u2019s Shares Are Flat Since Cramer Commented On Them",
-      "Headline URL": "https://biztoc.com/x/c5318da14a1bf568",
-      "Published At": "2026-07-07T10:06:28Z",
+      "Ticker": "V",
+      "Company": "Visa Inc.",
+      "Headline": "Visa shares slip as banks reportedly consider acquiring Fiserv debit network (V)",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/31471/visa-shares-slip-as-banks-reportedly-consider-acquiring-fiserv-debit-network-v",
+      "Published At": "2026-07-07T13:01:07Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.57,
+      "Regular Change": -1.33,
       "After Hours": 0.0,
-      "Current Price": 330.51,
+      "Current Price": 347.53,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-08T22:00:18.303251"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Uzbekistan\u2019s AKFA Picks Citi, JPM to Sound Out Bond Investors",
-      "Headline URL": "https://financialpost.com/pmn/business-pmn/uzbekistans-akfa-picks-citi-jpm-to-sound-out-bond-investors",
-      "Published At": "2026-07-07T09:51:50Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.57,
-      "After Hours": 0.0,
-      "Current Price": 330.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "Financial Post",
-      "Timestamp": "2026-07-08T22:00:18.303264"
+      "News Source": "Advfn.com",
+      "Timestamp": "2026-07-09T12:09:21.065308"
     }
   ]
 }
