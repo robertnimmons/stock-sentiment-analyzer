@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T22:15:52.914658",
+    "generated_at": "2026-07-10T11:55:40.025206",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 23,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,44 +23,44 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Robinhood CEO Vlad Tenev shares guide to bridge assets from Solana to Robinhood Chain",
-      "Headline URL": "https://cryptobriefing.com/robinhood-ceo-tenev-solana-bridge-guide/",
-      "Published At": "2026-07-08T21:51:32Z",
+      "Headline": "Show HN: Stockoscope \u2013 5-dimension stock analysis where you set the weights",
+      "Headline URL": "https://stockoscope.com",
+      "Published At": "2026-07-09T07:11:14Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.9,
       "After Hours": 0.0,
       "Current Price": 316.22,
       "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-07-09T22:15:52.913227"
+      "News Source": "Stockoscope.com",
+      "Timestamp": "2026-07-10T11:55:40.023812"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Broadcom Vs. Apple: AVGO Just Locked in Apple Through 2031 Which is Why You Should Buy it Over AAPL",
-      "Headline URL": "https://biztoc.com/x/5aecbc89a0839db8",
-      "Published At": "2026-07-08T19:16:24Z",
+      "Headline": "Apple Edges Closer to Dethroning Nvidia After $30B Broadcom Chips Deal",
+      "Headline URL": "https://biztoc.com/x/ebc5ee54ce0f8bb3",
+      "Published At": "2026-07-09T04:06:52Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 0.9,
       "After Hours": 0.0,
       "Current Price": 316.22,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913264"
+      "Timestamp": "2026-07-10T11:55:40.023836"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Dinari and tZERO partner to build unified tokenized US stock framework for broker-dealers",
-      "Headline URL": "https://cryptobriefing.com/dinari-tzero-tokenized-stock-framework/",
-      "Published At": "2026-07-08T18:40:14Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Economic Moats: How Switching Costs and Network Effects Protect Your Dividend",
+      "Headline URL": "https://thedividendguyblog.com/economic-moats-switching-costs-network-effect/",
+      "Published At": "2026-07-09T10:30:50Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.9,
+      "Regular Change": 0.27,
       "After Hours": 0.0,
-      "Current Price": 316.22,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-07-09T22:15:52.913282"
+      "Current Price": 384.36,
+      "Data Source": "YahooDirect",
+      "News Source": "Thedividendguyblog.com",
+      "Timestamp": "2026-07-10T11:55:40.023848"
     },
     {
       "Ticker": "MSFT",
@@ -74,7 +74,7 @@
       "Current Price": 384.36,
       "Data Source": "YahooDirect",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-07-09T22:15:52.913295"
+      "Timestamp": "2026-07-10T11:55:40.023858"
     },
     {
       "Ticker": "MSFT",
@@ -88,49 +88,49 @@
       "Current Price": 384.36,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913314"
+      "Timestamp": "2026-07-10T11:55:40.023875"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Betashares Nasdaq 100 ETF: What stocks are actually in NDQ?",
-      "Headline URL": "https://www.fool.com.au/2026/07/09/betashares-nasdaq-100-etf-what-stocks-are-actually-in-ndq/",
-      "Published At": "2026-07-08T16:00:00Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Judge approves Musk\u2019s $1.5m SEC Twitter settlement despite \u2018red flags\u2019",
+      "Headline URL": "https://thenextweb.com/news/musk-sec-twitter-settlement-approved-red-flags/",
+      "Published At": "2026-07-09T07:09:42Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
+      "Regular Change": 3.17,
       "After Hours": 0.0,
-      "Current Price": 384.36,
-      "Data Source": "YahooDirect",
-      "News Source": "Motley Fool Australia",
-      "Timestamp": "2026-07-09T22:15:52.913327"
+      "Current Price": 406.55,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Next Web",
+      "Timestamp": "2026-07-10T11:55:40.023891"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Sank 7% Despite Record Deliveries",
-      "Headline URL": "https://biztoc.com/x/daad27cc81f67c69",
-      "Published At": "2026-07-08T20:35:25Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Tesla stock gets a surprising SpaceX reset",
+      "Headline URL": "https://biztoc.com/x/57deae3dbb839c1f",
+      "Published At": "2026-07-09T06:08:34Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 3.17,
       "After Hours": 0.0,
       "Current Price": 406.55,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913337"
+      "Timestamp": "2026-07-10T11:55:40.023901"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Is Tesla Stock a Buy as Deliveries Come in Ahead of Expectations and Its Robotaxis Launch in Miami?",
-      "Headline URL": "https://biztoc.com/x/5ecb335ffd2f9628",
-      "Published At": "2026-07-08T18:03:49Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Elon Musk\u2019s judge has \u2018significant misgivings\u2019 about $1.5 million Twitter settlement\u2014but approves it anyway",
+      "Headline URL": "https://fortune.com/2026/07/09/elon-musk-judge-twitter-red-flags-misgivings/",
+      "Published At": "2026-07-09T05:58:00Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 3.17,
       "After Hours": 0.0,
       "Current Price": 406.55,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913352"
+      "News Source": "Fortune",
+      "Timestamp": "2026-07-10T11:55:40.023919"
     },
     {
       "Ticker": "GOOGL",
@@ -144,21 +144,35 @@
       "Current Price": 358.89,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913366"
+      "Timestamp": "2026-07-10T11:55:40.023932"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Google vs. Microsoft: The AI Economics War Has a Clear Winner (and a Clear Buy)",
-      "Headline URL": "https://247wallst.com/investing/2026/07/08/google-vs-microsoft-the-ai-economics-war-has-a-clear-winner-and-a-clear-buy/",
-      "Published At": "2026-07-08T14:47:03Z",
+      "Headline": "From Rockets to Red Flags: Here Is How to Play SPCX Stock After AI Safety Controversy",
+      "Headline URL": "https://www.barchart.com/story/news/3190338/from-rockets-to-red-flags-here-is-how-to-play-spcx-stock-after-ai-safety-controversy",
+      "Published At": "2026-07-08T18:25:45Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.84,
+      "After Hours": 0.0,
+      "Current Price": 358.89,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-07-10T11:55:40.023968"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Broadcom\u2019s $30 Billion Jackpot: Why Apple Admitting Defeat Makes This Stock an Automatic Buy",
+      "Headline URL": "https://www.barchart.com/story/news/3188176/broadcoms-30-billion-jackpot-why-apple-admitting-defeat-makes-this-stock-an-automatic-buy",
+      "Published At": "2026-07-08T16:07:29Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -0.84,
       "After Hours": 0.0,
       "Current Price": 358.89,
       "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-07-09T22:15:52.913394"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-07-10T11:55:40.023982"
     },
     {
       "Ticker": "META",
@@ -172,7 +186,7 @@
       "Current Price": 631.48,
       "Data Source": "AlphaVantage",
       "News Source": "Deadline",
-      "Timestamp": "2026-07-09T22:15:52.913416"
+      "Timestamp": "2026-07-10T11:55:40.024002"
     },
     {
       "Ticker": "META",
@@ -186,7 +200,7 @@
       "Current Price": 631.48,
       "Data Source": "AlphaVantage",
       "News Source": "Forbes",
-      "Timestamp": "2026-07-09T22:15:52.913425"
+      "Timestamp": "2026-07-10T11:55:40.024015"
     },
     {
       "Ticker": "META",
@@ -200,77 +214,105 @@
       "Current Price": 631.48,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913434"
+      "Timestamp": "2026-07-10T11:55:40.024026"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Big Fish 2003 1080p AMZN CORE WEB-DL H264-PiRaTeS",
-      "Headline URL": "https://post.rlsbb.cc/big-fish-2003-1080p-amzn-core-web-dl-h264-pirates/",
-      "Published At": "2026-07-08T21:06:54Z",
+      "Headline": "My Stepmother And Stepsisters Arent Wicked S01E01 1080p AMZN WEB-DL H264-VARYG",
+      "Headline URL": "https://post.rlsbb.cc/my-stepmother-and-stepsisters-arent-wicked-s01e01-1080p-amzn-web-dl-h264-varyg/",
+      "Published At": "2026-07-09T11:35:43Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.4,
       "After Hours": 0.0,
       "Current Price": 247.04,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-09T22:15:52.913442"
+      "Timestamp": "2026-07-10T11:55:40.024038"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Milk 2023 720p AMZN WEB-DL H264-MADSKY",
-      "Headline URL": "https://post.rlsbb.cc/milk-2023-720p-amzn-web-dl-h264-madsky/",
-      "Published At": "2026-07-08T20:32:03Z",
+      "Headline": "Love Begins 2011 1080p AMZN WEB-DL H264-ISA",
+      "Headline URL": "https://post.rlsbb.cc/love-begins-2011-1080p-amzn-web-dl-h264-isa/",
+      "Published At": "2026-07-09T08:23:22Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.4,
       "After Hours": 0.0,
       "Current Price": 247.04,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-09T22:15:52.913449"
+      "Timestamp": "2026-07-10T11:55:40.024047"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Drag Race France S04E01 1080p AMZN WEB-DL DUAL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/drag-race-france-s04e01-1080p-amzn-web-dl-dual-h264-kitsune/",
-      "Published At": "2026-07-08T19:50:04Z",
+      "Headline": "Ghost Rider Spirit Of Vengeance 2011 1080p AMZN CORE WEB-DL H264-PiRaTeS",
+      "Headline URL": "https://post.rlsbb.cc/ghost-rider-spirit-of-vengeance-2011-1080p-amzn-core-web-dl-h264-pirates/",
+      "Published At": "2026-07-09T07:53:21Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.4,
       "After Hours": 0.0,
       "Current Price": 247.04,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-09T22:15:52.913456"
+      "Timestamp": "2026-07-10T11:55:40.024058"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Is Cheaper Than It's Been Since the AI Boom Began",
-      "Headline URL": "https://biztoc.com/x/a3f3839d1abee84a",
-      "Published At": "2026-07-08T19:49:55Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "China to let AI firms buy Nvidia H200s, Information says",
+      "Headline URL": "https://www.straitstimes.com/business/china-to-let-ai-firms-buy-nvidia-h200s-information-says",
+      "Published At": "2026-07-09T00:41:00Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": -0.66,
       "After Hours": 0.0,
       "Current Price": 202.78,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913467"
+      "News Source": "The Straits Times",
+      "Timestamp": "2026-07-10T11:55:40.024071"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Slides. DeepSeek Develops Its Own AI Chip",
-      "Headline URL": "https://biztoc.com/x/2cfacbcff47b38ca",
-      "Published At": "2026-07-08T19:49:44Z",
+      "Headline": "Nvidia\u2019s PE ratio drops to 31, its lowest level in 7 years, even as stock price sits near all-time highs",
+      "Headline URL": "https://cryptobriefing.com/nvidia-pe-ratio-drops-lowest-seven-years/",
+      "Published At": "2026-07-09T00:15:37Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": -0.66,
       "After Hours": 0.0,
       "Current Price": 202.78,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913476"
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-07-10T11:55:40.024090"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia's slide sends valuation back to pre-AI boom levels",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidias-slide-sends-valuation-back-to-pre-ai-boom-levels/articleshow/132274756.cms",
+      "Published At": "2026-07-09T00:14:55Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -0.66,
+      "After Hours": 0.0,
+      "Current Price": 202.78,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-07-10T11:55:40.024101"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "JPMorgan (JPM) Ranks Among the Most Profitable Stocks",
+      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4949f280-7299-4d7d-a150-2394d2ce6586",
+      "Published At": "2026-07-08T20:41:17Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.47,
+      "After Hours": 0.0,
+      "Current Price": 335.47,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-07-10T11:55:40.024112"
     },
     {
       "Ticker": "JPM",
@@ -284,35 +326,7 @@
       "Current Price": 335.47,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913488"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan to pursue smaller deals in latest growth push",
-      "Headline URL": "https://finance.yahoo.com/markets/article/jpmorgan-to-pursue-smaller-deals-in-latest-growth-push-173733501.html",
-      "Published At": "2026-07-08T17:37:33Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.47,
-      "After Hours": 0.0,
-      "Current Price": 335.47,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-07-09T22:15:52.913498"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Why JPMorgan\u2019s (JPM) Dividend Hike and $50 Billion Buyback Make It a Strong Capital-Return Tax Case",
-      "Headline URL": "https://biztoc.com/x/4736f10e4de0d1a6",
-      "Published At": "2026-07-08T12:58:10Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.47,
-      "After Hours": 0.0,
-      "Current Price": 335.47,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-09T22:15:52.913512"
+      "Timestamp": "2026-07-10T11:55:40.024125"
     },
     {
       "Ticker": "V",
@@ -321,12 +335,12 @@
       "Headline URL": "https://investorshub.advfn.com/market-news/article/31471/visa-shares-slip-as-banks-reportedly-consider-acquiring-fiserv-debit-network-v",
       "Published At": "2026-07-07T13:01:07Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.16,
+      "Regular Change": 0.19,
       "After Hours": 0.0,
-      "Current Price": 348.07,
+      "Current Price": 348.2,
       "Data Source": "AlphaVantage",
       "News Source": "Advfn.com",
-      "Timestamp": "2026-07-09T22:15:52.913522"
+      "Timestamp": "2026-07-10T11:55:40.024136"
     }
   ]
 }
