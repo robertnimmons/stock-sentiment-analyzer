@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-27T21:58:46.302867",
+    "generated_at": "2026-07-28T11:21:31.477531",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 21,
+    "total_records": 16,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,150 +15,135 @@
       "META",
       "AMZN",
       "NVDA",
-      "JPM",
-      "V"
+      "JPM"
     ]
   },
   "results": [
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Prediction: Alphabet Will Beat Apple to a $5 Trillion Market Cap",
-      "Headline URL": "https://biztoc.com/x/62d52fcfc122df94",
-      "Published At": "2026-07-26T21:47:11Z",
+      "Headline": "Option Volatility And Earnings Report For July 27-31",
+      "Headline URL": "https://biztoc.com/x/9171d58fb849fd77",
+      "Published At": "2026-07-27T11:07:33Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.17,
+      "After Hours": 0.0,
+      "Current Price": 336.91,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-07-28T11:21:31.476268"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple options are doing something unusual into earnings",
+      "Headline URL": "https://biztoc.com/x/089ec00c1272f89f",
+      "Published At": "2026-07-27T11:07:12Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.17,
+      "After Hours": 0.0,
+      "Current Price": 336.91,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-07-28T11:21:31.476296"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Vodafone AGM Highlights Three UK Integration, Dividend Growth and Cash Flow Ambitions",
+      "Headline URL": "https://www.marketbeat.com/instant-alerts/vodafone-agm-highlights-three-uk-integration-dividend-growth-and-cash-flow-ambitions-2026-07-27/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "Published At": "2026-07-27T11:01:56Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.17,
+      "Regular Change": 1.94,
       "After Hours": 0.0,
-      "Current Price": 336.91,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301406"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Fed Decision, Tech Earnings and Other Can't Miss Items this Week",
-      "Headline URL": "https://www.barchart.com/story/news/3470026/fed-decision-tech-earnings-and-other-can-t-miss-items-this-week",
-      "Published At": "2026-07-26T17:00:02Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 1.17,
-      "After Hours": 0.0,
-      "Current Price": 336.91,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-07-27T21:58:46.301425"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "What to Expect in Markets This Week: Amazon, Apple, Meta and Microsoft Earnings; Fed Interest Rate Decision",
-      "Headline URL": "https://www.investopedia.com/what-to-expect-in-markets-this-week-amazon-apple-meta-microsoft-earnings-fed-interest-rate-decision-12025525",
-      "Published At": "2026-07-26T12:40:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.17,
-      "After Hours": 0.0,
-      "Current Price": 336.91,
-      "Data Source": "AlphaVantage",
-      "News Source": "Investopedia",
-      "Timestamp": "2026-07-27T21:58:46.301455"
+      "Current Price": 389.1,
+      "Data Source": "YahooDirect",
+      "News Source": "MarketBeat",
+      "Timestamp": "2026-07-28T11:21:31.476313"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Bronstein, Gewirtz & Grossman LLC Urges Microsoft Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
-      "Headline URL": "https://www.globenewswire.com/news-release/2026/07/26/3333214/9788/en/Bronstein-Gewirtz-Grossman-LLC-Urges-Microsoft-Corporation-Investors-to-Act-Class-Action-Filed-Alleging-Investor-Harm.html",
-      "Published At": "2026-07-26T16:00:00Z",
+      "Headline": "What to Expect in Markets This Week: Amazon, Apple, Meta and Microsoft Earnings; Fed Interest Rate Decision - Investopedia",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184718118",
+      "Published At": "2026-07-27T10:32:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.94,
       "After Hours": 0.0,
       "Current Price": 389.1,
       "Data Source": "YahooDirect",
-      "News Source": "GlobeNewswire",
-      "Timestamp": "2026-07-27T21:58:46.301478"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "UBS hurries to reset AMD stock target on key AI Day signals",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/ubs-raises-amd-stock-price-target-730-advancing-ai-server-cpu",
-      "Published At": "2026-07-26T13:03:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.94,
-      "After Hours": 0.0,
-      "Current Price": 389.1,
-      "Data Source": "YahooDirect",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-07-27T21:58:46.301501"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Is Still Overvalued After Its 14% Post-Earnings Drop",
-      "Headline URL": "https://biztoc.com/x/9c89b8aea3fc60c6",
-      "Published At": "2026-07-26T20:46:12Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.22,
-      "After Hours": 0.0,
-      "Current Price": 309.22,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301519"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Big Tech Earnings Slam Into a Market in Revolt Over AI Spending - Bloomberg.com",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184705050",
-      "Published At": "2026-07-26T16:32:46Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.22,
-      "After Hours": 0.0,
-      "Current Price": 309.22,
-      "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-07-27T21:58:46.301540"
+      "Timestamp": "2026-07-28T11:21:31.476334"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Just Revealed a Quiet Win for Tesla\u2019s AI Ambitions",
-      "Headline URL": "https://biztoc.com/x/6fad61f129285e69",
-      "Published At": "2026-07-26T15:13:23Z",
+      "Headline": "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company",
+      "Headline URL": "https://247wallst.com/investing/2026/07/27/after-losing-40-of-his-net-worth-in-a-month-elon-musk-attempts-to-raise-4-billion-for-his-lowest-profile-company/",
+      "Published At": "2026-07-27T10:47:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.22,
+      "After Hours": 0.0,
+      "Current Price": 309.22,
+      "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-07-28T11:21:31.476355"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Cybertruck Called the Biggest Flop in Automotive History, as Tesla Shares Plummet",
+      "Headline URL": "https://biztoc.com/x/fe549052e67264b1",
+      "Published At": "2026-07-27T10:06:28Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.22,
       "After Hours": 0.0,
       "Current Price": 309.22,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301569"
+      "Timestamp": "2026-07-28T11:21:31.476369"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Google spent $490 million a day on AI and burned $5.9 billion in cash \u2014 its first negative quarter since going public",
-      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/google-spent-490-million-day-163000234.html",
-      "Published At": "2026-07-26T16:30:00Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Alphabet's Net Income Doesn't Matter Right Now. Follow This Metric Instead",
+      "Headline URL": "https://biztoc.com/x/bda968d1e69bdc46",
+      "Published At": "2026-07-27T10:53:20Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 2.13,
       "After Hours": 0.0,
       "Current Price": 326.56,
       "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-07-27T21:58:46.301598"
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-07-28T11:21:31.476382"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Barclays Says Big Tech Earnings and Central Banks Will Drive Summer Markets",
-      "Headline URL": "https://investorshub.advfn.com/market-news/article/32650/barclays-says-big-tech-earnings-and-central-banks-will-drive-summer-markets",
-      "Published At": "2026-07-26T15:10:54Z",
+      "Headline": "U.S. markets eye earnings season as Middle East tensions ease: Dow Jones, S&P, Nasdaq, Wall Street Futures",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/32676/u-s-markets-eye-earnings-season-as-middle-east-tensions-ease-dow-jones-sp-nasdaq-wall-street-futures",
+      "Published At": "2026-07-27T09:53:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.13,
       "After Hours": 0.0,
       "Current Price": 326.56,
       "Data Source": "YahooDirect",
       "News Source": "Advfn.com",
-      "Timestamp": "2026-07-27T21:58:46.301616"
+      "Timestamp": "2026-07-28T11:21:31.476411"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Spent $45 Billion on Artificial Intelligence Last Quarter, and It Already Plans to Spend $811 Billion More",
+      "Headline URL": "https://biztoc.com/x/db589138d533a14c",
+      "Published At": "2026-07-27T09:06:40Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.13,
+      "After Hours": 0.0,
+      "Current Price": 326.56,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-07-28T11:21:31.476422"
     },
     {
       "Ticker": "META",
@@ -172,7 +157,7 @@
       "Current Price": 593.87,
       "Data Source": "AlphaVantage",
       "News Source": "Fortune",
-      "Timestamp": "2026-07-27T21:58:46.301633"
+      "Timestamp": "2026-07-28T11:21:31.476432"
     },
     {
       "Ticker": "META",
@@ -186,77 +171,49 @@
       "Current Price": 593.87,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301653"
+      "Timestamp": "2026-07-28T11:21:31.476442"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Unacceptable S01E04 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/unacceptable-s01e04-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-07-26T21:36:51Z",
+      "Headline": "Modern Love 1990 1080p AMZN WEB-DL H264-SiGMA",
+      "Headline URL": "https://post.rlsbb.cc/modern-love-1990-1080p-amzn-web-dl-h264-sigma/",
+      "Published At": "2026-07-27T09:35:18Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.31,
       "After Hours": 0.0,
       "Current Price": 231.39,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-27T21:58:46.301666"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Stock Just Hit a Major Hurdle Ahead of Earnings",
-      "Headline URL": "https://biztoc.com/x/a6bdbb472ce7431e",
-      "Published At": "2026-07-26T17:44:11Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.31,
-      "After Hours": 0.0,
-      "Current Price": 231.39,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301683"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "My Lottery Dream Home S19E10 720p AMZN WEB-DL H264-NTb",
-      "Headline URL": "https://post.rlsbb.cc/my-lottery-dream-home-s19e10-720p-amzn-web-dl-h264-ntb/",
-      "Published At": "2026-07-26T17:38:45Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.31,
-      "After Hours": 0.0,
-      "Current Price": 231.39,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-07-27T21:58:46.301699"
+      "Timestamp": "2026-07-28T11:21:31.476450"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia just locked down deal that changes AI race",
-      "Headline URL": "https://www.thestreet.com/technology/nvidia-just-locked-down-a-deal-that-changes-the-ai-race-sk-hynix",
-      "Published At": "2026-07-26T21:07:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -4.99,
-      "After Hours": 0.0,
-      "Current Price": 196.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-07-27T21:58:46.301709"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Prediction: Nvidia Stock Will Hit $800 Per Share by 2030",
-      "Headline URL": "https://biztoc.com/x/ffad3522d08dbf7d",
-      "Published At": "2026-07-26T18:45:19Z",
+      "Headline": "Nvidia in talks to backstop $250bn of OpenAI\u2019s data-centre financing",
+      "Headline URL": "https://thenextweb.com/news/nvidia-openai-250bn-data-centre-financing-guarantee/",
+      "Published At": "2026-07-27T07:18:06Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -4.99,
       "After Hours": 0.0,
       "Current Price": 196.51,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301719"
+      "News Source": "The Next Web",
+      "Timestamp": "2026-07-28T11:21:31.476463"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
+      "Headline URL": "https://www.globenewswire.com/news-release/2026/07/27/3333237/0/en/NVIDIA-Expands-NVIDIA-Agent-Toolkit-With-NVIDIA-PhysicsNeMo-and-CUDA-X-Libraries-to-Transform-How-the-World-Engineers-Designs-and-Builds.html",
+      "Published At": "2026-07-27T00:45:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -4.99,
+      "After Hours": 0.0,
+      "Current Price": 196.51,
+      "Data Source": "AlphaVantage",
+      "News Source": "GlobeNewswire",
+      "Timestamp": "2026-07-28T11:21:31.476476"
     },
     {
       "Ticker": "JPM",
@@ -270,7 +227,7 @@
       "Current Price": 356.2,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-07-27T21:58:46.301735"
+      "Timestamp": "2026-07-28T11:21:31.476491"
     },
     {
       "Ticker": "JPM",
@@ -284,35 +241,7 @@
       "Current Price": 356.2,
       "Data Source": "YahooDirect",
       "News Source": "The Globe And Mail",
-      "Timestamp": "2026-07-27T21:58:46.301746"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Why Experts Say Earnings Growth May Be Stalling\u2014and What That Means For Stocks",
-      "Headline URL": "https://www.investopedia.com/why-experts-say-earnings-growth-may-be-stalling-and-what-that-means-for-stocks-economy-oil-prices-12026287",
-      "Published At": "2026-07-24T18:44:28Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.85,
-      "After Hours": 0.0,
-      "Current Price": 356.2,
-      "Data Source": "YahooDirect",
-      "News Source": "Investopedia",
-      "Timestamp": "2026-07-27T21:58:46.301759"
-    },
-    {
-      "Ticker": "V",
-      "Company": "Visa Inc.",
-      "Headline": "American Express Sinks 6% After Q2 Earnings Beat as Visa, Mastercard Hold Steady",
-      "Headline URL": "https://247wallst.com/investing/2026/07/24/american-express-sinks-6-after-q2-earnings-beat-as-visa-mastercard-hold-steady/",
-      "Published At": "2026-07-24T14:04:03Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.87,
-      "After Hours": 0.0,
-      "Current Price": 362.38,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-07-27T21:58:46.301771"
+      "Timestamp": "2026-07-28T11:21:31.476503"
     }
   ]
 }
