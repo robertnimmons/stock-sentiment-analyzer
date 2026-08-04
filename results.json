@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-03T22:00:44.151176",
+    "generated_at": "2026-08-04T11:27:46.911058",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 23,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -24,72 +24,128 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Live: ASX set to tumble despite Wall St rallying on Amazon earnings",
-      "Headline URL": "https://www.abc.net.au/news/2026-08-03/asx-markets-business-live-news/106988204",
-      "Published At": "2026-08-02T21:05:46Z",
+      "Headline": "Apple Shed $426 Billion in Market Cap in 2 Days. Here's What Wall Street Is Getting Wrong",
+      "Headline URL": "https://biztoc.com/x/5611576562e12bd4",
+      "Published At": "2026-08-03T10:58:13Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.78,
       "After Hours": 0.0,
       "Current Price": 303.42,
       "Data Source": "AlphaVantage",
-      "News Source": "ABC News (AU)",
-      "Timestamp": "2026-08-03T22:00:44.150069"
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-04T11:27:46.909904"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple's Hardware Is Ready for On-Device AI and PrismML Just Delivered a Real Breakthrough",
+      "Headline URL": "https://biztoc.com/x/c623d82665b2a614",
+      "Published At": "2026-08-03T05:09:43Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.78,
+      "After Hours": 0.0,
+      "Current Price": 303.42,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-04T11:27:46.909942"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "ASX 200 Slips as Iron Ore and Fortescue Slump to One-Year Lows Despite an Overnight Wall Street Rally",
+      "Headline URL": "https://www.ibtimes.com.au/asx-200-dips-iron-ore-price-drop-mining-stock-pressure-1873393",
+      "Published At": "2026-08-03T04:20:07Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.78,
+      "After Hours": 0.0,
+      "Current Price": 303.42,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-08-04T11:27:46.909953"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "3 Reasons Microsoft Stock Soared After Q4 Earnings",
-      "Headline URL": "https://biztoc.com/x/17363da7f1a19088",
-      "Published At": "2026-08-02T17:36:55Z",
+      "Headline": "Microsoft Confirms Copilot \u2018Super App\u2019 Is Coming This Year \u2014 and It\u2019s About More Than Convenience",
+      "Headline URL": "https://devops.com/microsoft-confirms-copilot-super-app-is-coming-this-year-and-its-about-more-than-convenience/",
+      "Published At": "2026-08-03T11:14:16Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.93,
       "After Hours": 0.0,
       "Current Price": 487.65,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150093"
+      "News Source": "DevOps.com",
+      "Timestamp": "2026-08-04T11:27:46.909965"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Analyst sends strong signal on SpaceX stock before earnings",
-      "Headline URL": "https://www.thestreet.com/investing/spacex-stock-cantor-earnings-outlook",
-      "Published At": "2026-08-02T17:33:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.49,
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "AMD to report Q2 earnings as chip stocks continue to waver",
+      "Headline URL": "https://finance.yahoo.com/technology/article/amd-to-report-q2-earnings-as-chip-stocks-continue-to-waver-110000620.html",
+      "Published At": "2026-08-03T11:00:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 4.93,
       "After Hours": 0.0,
-      "Current Price": 322.08,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-08-03T22:00:44.150106"
+      "Current Price": 487.65,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-08-04T11:27:46.909975"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Cathie Wood sells $5.5 million of surging tech stock",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-5-5-million-of-surging-tech-stock-snowflake-snow",
-      "Published At": "2026-08-02T16:33:00Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.49,
-      "After Hours": 0.0,
-      "Current Price": 322.08,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-08-03T22:00:44.150118"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Jokes He's a \"Former Trillionaire\" as Tesla and SpaceX Declines Erase $750 Billion in Wealth",
-      "Headline URL": "https://www.ibtimes.com.au/elon-musk-wealth-volatility-trillionaire-billionaire-1873369",
-      "Published At": "2026-08-02T12:37:18Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "MSFT Class Action Notice: Microsoft Hit with Securities Fraud Lawsuit over Copilot Functionality Misrepresentations \u2013 Investors Urged to Contact BFA Law by August 11 Deadline",
+      "Headline URL": "https://www.globenewswire.com/news-release/2026/08/03/3337333/0/en/MSFT-Class-Action-Notice-Microsoft-Hit-with-Securities-Fraud-Lawsuit-over-Copilot-Functionality-Misrepresentations-Investors-Urged-to-Contact-BFA-Law-by-August-11-Deadline.html",
+      "Published At": "2026-08-03T10:36:00Z",
       "Sentiment": "NEGATIVE",
+      "Regular Change": 4.93,
+      "After Hours": 0.0,
+      "Current Price": 487.65,
+      "Data Source": "YahooDirect",
+      "News Source": "GlobeNewswire",
+      "Timestamp": "2026-08-04T11:27:46.909989"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk's $1 Trillion Pay Package Requires Tesla Stock to Grow Roughly Sixfold to an $8.5 Trillion Market Cap",
+      "Headline URL": "https://biztoc.com/x/c848a46318715187",
+      "Published At": "2026-08-03T06:25:11Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.49,
+      "After Hours": 0.0,
+      "Current Price": 322.08,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-04T11:27:46.909998"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Musk's $1 Trillion Pay Package Requires Tesla Stock to Grow Roughly Sixfold to an $8.5 Trillion Value",
+      "Headline URL": "https://www.ibtimes.com.au/tesla-shareholders-approve-1-trillion-pay-package-elon-musk-1873409",
+      "Published At": "2026-08-03T06:05:52Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 3.49,
       "After Hours": 0.0,
       "Current Price": 322.08,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-08-03T22:00:44.150134"
+      "Timestamp": "2026-08-04T11:27:46.910020"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla\u2019s $1T pay package for Musk hinges on sixfold stock growth to $8.5T market cap",
+      "Headline URL": "https://cryptobriefing.com/tesla-1t-musk-pay-package-stock-growth/",
+      "Published At": "2026-08-03T05:51:55Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 3.49,
+      "After Hours": 0.0,
+      "Current Price": 322.08,
+      "Data Source": "AlphaVantage",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-08-04T11:27:46.910028"
     },
     {
       "Ticker": "GOOGL",
@@ -103,21 +159,35 @@
       "Current Price": 373.51,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150147"
+      "Timestamp": "2026-08-04T11:27:46.910036"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "3 Reasons Why Berkshire Hathaway Owns $29 Billion of Alphabet Stock",
-      "Headline URL": "https://biztoc.com/x/7211e71543bf3394",
-      "Published At": "2026-08-02T17:08:15Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Analyst sends strong signal on SpaceX stock before earnings",
+      "Headline URL": "https://www.thestreet.com/investing/spacex-stock-cantor-earnings-outlook",
+      "Published At": "2026-08-02T17:33:00Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 4.88,
       "After Hours": 0.0,
       "Current Price": 373.51,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150157"
+      "News Source": "TheStreet",
+      "Timestamp": "2026-08-04T11:27:46.910042"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta Earnings, Meta\u2019s Timing Problems, The Financial Tail",
+      "Headline URL": "https://stratechery.com/2026/meta-earnings-metas-timing-problems-the-financial-tail/",
+      "Published At": "2026-08-03T10:00:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 6.02,
+      "After Hours": 0.0,
+      "Current Price": 590.24,
+      "Data Source": "AlphaVantage",
+      "News Source": "Stratechery.com",
+      "Timestamp": "2026-08-04T11:27:46.910048"
     },
     {
       "Ticker": "META",
@@ -131,49 +201,63 @@
       "Current Price": 590.24,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150189"
+      "Timestamp": "2026-08-04T11:27:46.910054"
     },
     {
       "Ticker": "META",
       "Company": "Meta Platforms",
-      "Headline": "Meta\u2019s Cash Engine Is Still Running Hot, Strengthening the Bull Thesis",
-      "Headline URL": "https://www.barchart.com/story/news/3597133/metas-cash-engine-is-still-running-hot-strengthening-the-bull-thesis",
-      "Published At": "2026-08-01T19:30:02Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Meta has new profit engines about to kick in",
+      "Headline URL": "https://www.thestreet.com/investing/morgan-stanley-four-meta-stock-ai-profit-engines",
+      "Published At": "2026-08-02T13:33:00Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 6.02,
       "After Hours": 0.0,
       "Current Price": 590.24,
       "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-08-03T22:00:44.150204"
+      "News Source": "TheStreet",
+      "Timestamp": "2026-08-04T11:27:46.910065"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Unacceptable S01E05 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/unacceptable-s01e05-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-08-02T21:36:34Z",
+      "Headline": "Snapped S36E15 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/snapped-s36e15-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-03T10:52:51Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.58,
       "After Hours": 0.0,
       "Current Price": 284.02,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-03T22:00:44.150211"
+      "Timestamp": "2026-08-04T11:27:46.910073"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Samurai Detective Onihei True Master 2024 720p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.cc/samurai-detective-onihei-true-master-2024-720p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-08-02T20:20:40Z",
+      "Headline": "Hotel Coolgardie 2016 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.cc/hotel-coolgardie-2016-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-08-03T10:05:11Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 4.58,
       "After Hours": 0.0,
       "Current Price": 284.02,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-03T22:00:44.150216"
+      "Timestamp": "2026-08-04T11:27:46.910079"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The Only Way is Essex S37E02 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/the-only-way-is-essex-s37e02-1080p-amzn-web-dl-h264-rawr-2/",
+      "Published At": "2026-08-03T09:21:13Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 4.58,
+      "After Hours": 0.0,
+      "Current Price": 284.02,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-04T11:27:46.910087"
     },
     {
       "Ticker": "NVDA",
@@ -187,7 +271,7 @@
       "Current Price": 206.64,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150223"
+      "Timestamp": "2026-08-04T11:27:46.910098"
     },
     {
       "Ticker": "NVDA",
@@ -201,35 +285,35 @@
       "Current Price": 206.64,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150234"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia vs. Alphabet: What Revenue Trends Reveal About the AI Leaders",
-      "Headline URL": "https://247wallst.com/investing/2026/08/02/nvidia-vs-alphabet-what-revenue-trends-reveal-about-the-ai-leaders/",
-      "Published At": "2026-08-02T16:00:12Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.93,
-      "After Hours": 0.0,
-      "Current Price": 206.64,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-03T22:00:44.150240"
+      "Timestamp": "2026-08-04T11:27:46.910122"
     },
     {
       "Ticker": "JPM",
       "Company": "JPMorgan Chase",
-      "Headline": "J.P. Morgan Asset Management Launches JPMorgan U.S. Large Cap Value Plus ETF (JLVP), Bringing Its Extension Strategy Expertise to an ETF",
-      "Headline URL": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-launches-jpmorgan-us-large-cap-value-plus-etf-jlvp-bringing-its-extension-strategy-expertise-to-an-etf-302839608.html",
-      "Published At": "2026-07-31T13:30:00Z",
+      "Headline": "Top JPMorgan Strategist Michael Cembalest Is \"Cautious\" on AI Stocks. Should You Change Your Investments?",
+      "Headline URL": "https://biztoc.com/x/c1dbaa5e8589a455",
+      "Published At": "2026-08-03T11:14:05Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.24,
+      "After Hours": 0.0,
+      "Current Price": 352.64,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-04T11:27:46.910136"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Sensex today | Stock Market Highlights: Nifty jumps 391 points to reclaim 24,750; Sensex gains 544 as IT, banks lead rally",
+      "Headline URL": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-3rd-august-2026/article71298312.ece",
+      "Published At": "2026-08-03T10:58:20Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 0.24,
       "After Hours": 0.0,
       "Current Price": 352.64,
       "Data Source": "YahooDirect",
-      "News Source": "PRNewswire",
-      "Timestamp": "2026-08-03T22:00:44.150251"
+      "News Source": "BusinessLine",
+      "Timestamp": "2026-08-04T11:27:46.910159"
     },
     {
       "Ticker": "V",
@@ -238,12 +322,12 @@
       "Headline URL": "https://biztoc.com/x/0da59022891fd6fa",
       "Published At": "2026-08-01T15:44:11Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.14,
+      "Regular Change": -0.13,
       "After Hours": 0.0,
-      "Current Price": 365.6,
+      "Current Price": 365.67,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150257"
+      "Timestamp": "2026-08-04T11:27:46.910165"
     },
     {
       "Ticker": "MA",
@@ -257,7 +341,7 @@
       "Current Price": 570.97,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-03T22:00:44.150262"
+      "Timestamp": "2026-08-04T11:27:46.910170"
     }
   ]
 }
