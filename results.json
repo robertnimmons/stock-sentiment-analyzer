@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-04T22:05:24.933747",
+    "generated_at": "2026-08-05T11:23:42.214148",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 27,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -24,128 +24,142 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple Stock Falls Again as Four-Day Loss Exceeds 10%",
-      "Headline URL": "https://biztoc.com/x/91dd211984408047",
-      "Published At": "2026-08-03T21:02:45Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 1.96,
-      "After Hours": 0.0,
-      "Current Price": 309.38,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932468"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Stock Dips After European Commission Reveals April Acquisition",
-      "Headline URL": "https://biztoc.com/x/118c7d67d5fa8ccb",
-      "Published At": "2026-08-03T18:02:02Z",
+      "Headline": "Has Apple's Stock Peaked?",
+      "Headline URL": "https://biztoc.com/x/2014f1168b1c4412",
+      "Published At": "2026-08-04T10:37:42Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.96,
       "After Hours": 0.0,
       "Current Price": 309.38,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932497"
+      "Timestamp": "2026-08-05T11:23:42.213188"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "CXMT\u2019s 466% IPO Pop Gives Apple (AAPL) Leverage. Why Micron (MU) Investors Should Stay Patient",
-      "Headline URL": "https://biztoc.com/x/82695d463ddfa9db",
-      "Published At": "2026-08-03T17:16:26Z",
+      "Headline": "How dumb I was! When Peter Lynch regretted not buying Warren Buffett's favourite stock whose product his daughter used",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/stocks/news/how-dumb-i-was-when-peter-lynch-regretted-not-buying-warren-buffetts-favourite-stock-whose-product-his-daughter-used/articleshow/132855960.cms",
+      "Published At": "2026-08-04T09:53:36Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.96,
       "After Hours": 0.0,
       "Current Price": 309.38,
       "Data Source": "AlphaVantage",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-08-05T11:23:42.213217"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple Just Reported Earnings. With Tim Cook's Era Ending, Is the Stock a Buy for the Next Decade?",
+      "Headline URL": "https://biztoc.com/x/5f8eb9f52679b3b2",
+      "Published At": "2026-08-04T02:05:03Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 1.96,
+      "After Hours": 0.0,
+      "Current Price": 309.38,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932516"
+      "Timestamp": "2026-08-05T11:23:42.213228"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft\u2019s stock is on a run not seen in 26 years \u2014 erasing its year-to-date losses",
-      "Headline URL": "https://biztoc.com/x/24e3c92ae3f42455",
-      "Published At": "2026-08-03T21:00:57Z",
+      "Headline": "I\u2019m Hitting Buy On $20,000 of ServiceNow Stock Despite The Melt Down | NOW Stock",
+      "Headline URL": "https://247wallst.com/investing/2026/08/04/im-hitting-buy-on-20000-of-servicenow-stock-despite-the-melt-down-now-stock/",
+      "Published At": "2026-08-04T11:19:08Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 1.06,
+      "After Hours": 0.0,
+      "Current Price": 492.81,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-08-05T11:23:42.213242"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "MSFT Stock Drop: Microsoft Copilot Functionality Issues Lead to 10% Stock Drop and Securities Fraud Class Action for Investors",
+      "Headline URL": "https://www.prnewswire.com/news-releases/msft-stock-drop-microsoft-copilot-functionality-issues-lead-to-10-stock-drop-and-securities-fraud-class-action-for-investors-302841907.html",
+      "Published At": "2026-08-04T10:36:00Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": 1.06,
       "After Hours": 0.0,
       "Current Price": 492.81,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932530"
+      "News Source": "PRNewswire",
+      "Timestamp": "2026-08-05T11:23:42.213255"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Stock Jumps 4.9% as Azure Rally Hits New Gear",
-      "Headline URL": "https://biztoc.com/x/49788a2c02d4ee85",
-      "Published At": "2026-08-03T20:47:07Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Microsoft Offered Longtime Workers Up to 39 Weeks of Pay. The Bigger Decision Is When to Claim Social Security",
+      "Headline URL": "https://biztoc.com/x/b8f48261e99261c4",
+      "Published At": "2026-08-04T10:20:23Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": 1.06,
       "After Hours": 0.0,
       "Current Price": 492.81,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932541"
+      "Timestamp": "2026-08-05T11:23:42.213264"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Stock Breaks Out Into Buy Zone. Here\u2019s Why",
-      "Headline URL": "https://biztoc.com/x/ad9e251898056e9f",
-      "Published At": "2026-08-03T20:32:55Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.06,
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Trades at 140 Times Forward Earnings. Here's What Has to Go Right to Justify This Valuation",
+      "Headline URL": "https://biztoc.com/x/4dbcb27e2c3e0ad5",
+      "Published At": "2026-08-04T11:23:15Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.64,
       "After Hours": 0.0,
-      "Current Price": 492.81,
-      "Data Source": "YahooDirect",
+      "Current Price": 327.35,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932551"
+      "Timestamp": "2026-08-05T11:23:42.213273"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
       "Headline": "Tesla stock surges as super bull turns slightly more bearish",
-      "Headline URL": "https://biztoc.com/x/9ba8d43207e7b0a6",
-      "Published At": "2026-08-03T20:46:07Z",
+      "Headline URL": "https://biztoc.com/x/573c667a8b920879",
+      "Published At": "2026-08-04T00:04:59Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.64,
       "After Hours": 0.0,
       "Current Price": 327.35,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932560"
+      "Timestamp": "2026-08-05T11:23:42.213293"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Analysts Have Discovered Lost Love for Ford, But Don\u2019t Rush to Buy F Stock for 2027",
-      "Headline URL": "https://biztoc.com/x/3dd467f688e40b92",
-      "Published At": "2026-08-03T17:46:05Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Morgan Stanley says to snatch up these 24 AI-adopter stocks as their profit margins balloon",
+      "Headline URL": "https://www.businessinsider.com/ai-stocks-to-buy-now-companies-adopting-profit-margins-productivity-2026-8#article",
+      "Published At": "2026-08-04T10:46:28Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.64,
+      "Regular Change": 1.11,
       "After Hours": 0.0,
-      "Current Price": 327.35,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932590"
+      "Current Price": 377.65,
+      "Data Source": "YahooDirect",
+      "News Source": "Business Insider",
+      "Timestamp": "2026-08-05T11:23:42.213301"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Price Prediction: Could the Stock Rally 30% From Here?",
-      "Headline URL": "https://biztoc.com/x/896315795ba128ad",
-      "Published At": "2026-08-03T16:43:23Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 1.64,
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Third Point Q2 2026 Investor Letter",
+      "Headline URL": "https://seekingalpha.com/article/4929706-third-point-q2-2026-investor-letter",
+      "Published At": "2026-08-04T01:10:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.11,
       "After Hours": 0.0,
-      "Current Price": 327.35,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932599"
+      "Current Price": 377.65,
+      "Data Source": "YahooDirect",
+      "News Source": "Seeking Alpha",
+      "Timestamp": "2026-08-05T11:23:42.213307"
     },
     {
       "Ticker": "GOOGL",
@@ -159,35 +173,21 @@
       "Current Price": 377.65,
       "Data Source": "YahooDirect",
       "News Source": "CNBC",
-      "Timestamp": "2026-08-04T22:05:24.932608"
+      "Timestamp": "2026-08-05T11:23:42.213313"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Why Alphabet Stock Popped Today",
-      "Headline URL": "https://biztoc.com/x/c07e04540bdffcff",
-      "Published At": "2026-08-03T18:01:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.11,
-      "After Hours": 0.0,
-      "Current Price": 377.65,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932615"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
-      "Headline URL": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/",
-      "Published At": "2026-08-03T17:31:28Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Mark Zuckerberg sends a strong message to Meta stock investors",
+      "Headline URL": "https://biztoc.com/x/fa520bc94c3884e0",
+      "Published At": "2026-08-04T11:21:16Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.11,
+      "Regular Change": -0.39,
       "After Hours": 0.0,
-      "Current Price": 377.65,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-04T22:05:24.932623"
+      "Current Price": 587.94,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-05T11:23:42.213320"
     },
     {
       "Ticker": "META",
@@ -201,7 +201,7 @@
       "Current Price": 587.94,
       "Data Source": "AlphaVantage",
       "News Source": "CNBC",
-      "Timestamp": "2026-08-04T22:05:24.932631"
+      "Timestamp": "2026-08-05T11:23:42.213328"
     },
     {
       "Ticker": "META",
@@ -215,105 +215,35 @@
       "Current Price": 587.94,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932639"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta CEO Zuckerberg\u2019s AI Gamble Just Got Dirtier",
-      "Headline URL": "https://www.barchart.com/story/news/3612531/meta-stock-just-got-hammered-but-the-bull-case-is-getting-harder-to-ignore",
-      "Published At": "2026-08-03T13:09:44Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.39,
-      "After Hours": 0.0,
-      "Current Price": 587.94,
-      "Data Source": "AlphaVantage",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-08-04T22:05:24.932647"
+      "Timestamp": "2026-08-05T11:23:42.213333"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The OnePlus US exit is now feeling very real as remaining stock evaporates",
-      "Headline URL": "https://www.androidauthority.com/oneplus-15-us-stock-almost-sold-out-3694081/",
-      "Published At": "2026-08-03T21:29:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.32,
-      "After Hours": 0.0,
-      "Current Price": 277.42,
-      "Data Source": "YahooDirect",
-      "News Source": "Android Authority",
-      "Timestamp": "2026-08-04T22:05:24.932655"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Just Surpassed $3 Trillion Market Cap. What Comes Next for AMZN Stock",
-      "Headline URL": "https://biztoc.com/x/2354b0ff81390f83",
-      "Published At": "2026-08-03T21:17:11Z",
+      "Headline": "Bezos Sells $4 Billion In Amazon Stock As It Hits $3 Trillion For First Time. Cramer Calls It A \u201cBuzzkill.\u201d",
+      "Headline URL": "https://biztoc.com/x/6134830729b918b3",
+      "Published At": "2026-08-04T11:20:49Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.32,
       "After Hours": 0.0,
       "Current Price": 277.42,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932665"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Stock Hits Record on Stunning Signal",
-      "Headline URL": "https://biztoc.com/x/27f918c0781f3090",
-      "Published At": "2026-08-03T21:02:47Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -2.32,
-      "After Hours": 0.0,
-      "Current Price": 277.42,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932673"
+      "Timestamp": "2026-08-05T11:23:42.213341"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Stock market today: Live updates",
-      "Headline URL": "https://www.cnbc.com/2026/08/03/stock-market-today-live-updates.html",
-      "Published At": "2026-08-03T22:04:23Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.56,
-      "After Hours": 0.0,
-      "Current Price": 211.94,
-      "Data Source": "AlphaVantage",
-      "News Source": "CNBC",
-      "Timestamp": "2026-08-04T22:05:24.932681"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "NVIDIA Stock Reverses Early Loss and Jumps 3.1%",
-      "Headline URL": "https://biztoc.com/x/f2140000ecf8f5c9",
-      "Published At": "2026-08-03T18:47:53Z",
+      "Headline": "36 Analysts Share Their NVIDIA Stock Forecast Before August Earnings",
+      "Headline URL": "https://biztoc.com/x/53350f63fd4b13d7",
+      "Published At": "2026-08-04T10:37:42Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.56,
       "After Hours": 0.0,
       "Current Price": 211.94,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932689"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Retakes Key Level As Chip Stocks Waver",
-      "Headline URL": "https://biztoc.com/x/1863b563cf38ba38",
-      "Published At": "2026-08-03T17:31:29Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.56,
-      "After Hours": 0.0,
-      "Current Price": 211.94,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932698"
+      "Timestamp": "2026-08-05T11:23:42.213346"
     },
     {
       "Ticker": "JPM",
@@ -327,7 +257,7 @@
       "Current Price": 357.52,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932707"
+      "Timestamp": "2026-08-05T11:23:42.213350"
     },
     {
       "Ticker": "JPM",
@@ -341,21 +271,7 @@
       "Current Price": 357.52,
       "Data Source": "YahooDirect",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-08-04T22:05:24.932714"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Jamie Dimon Just Made a Bold Call on the Future of the Stock Market. History Says Investors Should Make This 1 Move",
-      "Headline URL": "https://biztoc.com/x/eb3ba15f1781642c",
-      "Published At": "2026-08-03T11:59:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.38,
-      "After Hours": 0.0,
-      "Current Price": 357.52,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932729"
+      "Timestamp": "2026-08-05T11:23:42.213355"
     },
     {
       "Ticker": "V",
@@ -364,26 +280,12 @@
       "Headline URL": "https://biztoc.com/x/ba9e19921701f85d",
       "Published At": "2026-08-03T19:31:56Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.06,
+      "Regular Change": 1.07,
       "After Hours": 0.0,
-      "Current Price": 369.56,
+      "Current Price": 369.59,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932738"
-    },
-    {
-      "Ticker": "V",
-      "Company": "Visa Inc.",
-      "Headline": "Visa Stock Looks Attractive After Layoffs, Strong Earnings",
-      "Headline URL": "https://biztoc.com/x/0da59022891fd6fa",
-      "Published At": "2026-08-01T15:44:11Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.06,
-      "After Hours": 0.0,
-      "Current Price": 369.56,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932746"
+      "Timestamp": "2026-08-05T11:23:42.213361"
     },
     {
       "Ticker": "MA",
@@ -397,7 +299,7 @@
       "Current Price": 571.1,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-04T22:05:24.932753"
+      "Timestamp": "2026-08-05T11:23:42.213365"
     }
   ]
 }
