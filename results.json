@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-10T21:34:06.469103",
+    "generated_at": "2026-08-11T10:02:42.222955",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 21,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,44 +22,44 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple Earnings, More on Amazon\u2019s Earnings",
+      "Headline URL": "https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/",
+      "Published At": "2026-08-10T10:00:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.53,
+      "After Hours": 0.0,
+      "Current Price": 308.26,
+      "Data Source": "AlphaVantage",
+      "News Source": "Stratechery.com",
+      "Timestamp": "2026-08-11T10:02:42.221781"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple CEO Tim Cook Just Passed His Successor a Mess",
+      "Headline URL": "https://biztoc.com/x/7afd7fa246cf8c46",
+      "Published At": "2026-08-09T22:55:13Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.53,
+      "After Hours": 0.0,
+      "Current Price": 308.26,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-11T10:02:42.221803"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone",
       "Headline URL": "https://biztoc.com/x/0c6adc2eb471b344",
       "Published At": "2026-08-09T21:23:42Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.62,
+      "Regular Change": -1.53,
       "After Hours": 0.0,
       "Current Price": 308.26,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.467846"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "If You Had Bought $10,000 of Apple Stock When Steve Jobs Handpicked Tim Cook as the Next CEO, Here's How Much You'd Have Today",
-      "Headline URL": "https://biztoc.com/x/539ed3eac0de579c",
-      "Published At": "2026-08-09T19:08:47Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.62,
-      "After Hours": 0.0,
-      "Current Price": 308.26,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.467871"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
-      "Headline URL": "https://247wallst.com/investing/2026/08/09/forget-vfiax-vanguard-sells-you-the-same-sp-500-fund-without-the-3000-toll-or-the-75-fee-fidelity-charges-to-buy-it/",
-      "Published At": "2026-08-09T16:04:46Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.62,
-      "After Hours": 0.0,
-      "Current Price": 308.26,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-10T21:34:06.467883"
+      "Timestamp": "2026-08-11T10:02:42.221821"
     },
     {
       "Ticker": "MSFT",
@@ -73,7 +73,7 @@
       "Current Price": 506.06,
       "Data Source": "YahooDirect",
       "News Source": "GlobeNewswire",
-      "Timestamp": "2026-08-10T21:34:06.467901"
+      "Timestamp": "2026-08-11T10:02:42.221845"
     },
     {
       "Ticker": "MSFT",
@@ -87,7 +87,7 @@
       "Current Price": 506.06,
       "Data Source": "YahooDirect",
       "News Source": "GlobeNewswire",
-      "Timestamp": "2026-08-10T21:34:06.467912"
+      "Timestamp": "2026-08-11T10:02:42.221860"
     },
     {
       "Ticker": "MSFT",
@@ -101,7 +101,35 @@
       "Current Price": 506.06,
       "Data Source": "YahooDirect",
       "News Source": "PRNewswire",
-      "Timestamp": "2026-08-10T21:34:06.467922"
+      "Timestamp": "2026-08-11T10:02:42.221873"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "If You'd Invested $10,000 in Tesla a Decade Ago, Here's How Much You'd Have Today",
+      "Headline URL": "https://biztoc.com/x/f169cc145aeebed7",
+      "Published At": "2026-08-10T07:44:07Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.7,
+      "After Hours": 0.0,
+      "Current Price": 330.88,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-11T10:02:42.221884"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "How to Deploy $1000 Across Tesla and Ford for Growth and Optionality",
+      "Headline URL": "https://biztoc.com/x/1353c842eeb44df8",
+      "Published At": "2026-08-10T04:42:21Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.7,
+      "After Hours": 0.0,
+      "Current Price": 330.88,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-11T10:02:42.221909"
     },
     {
       "Ticker": "TSLA",
@@ -115,21 +143,21 @@
       "Current Price": 330.88,
       "Data Source": "AlphaVantage",
       "News Source": "TheStreet",
-      "Timestamp": "2026-08-10T21:34:06.467929"
+      "Timestamp": "2026-08-11T10:02:42.221918"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders",
-      "Headline URL": "https://biztoc.com/x/339289486bc716b0",
-      "Published At": "2026-08-09T01:58:20Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.7,
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "US Stock Market: Berkshire steps up buybacks, boosts Alphabet stake as cash falls",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-berkshire-steps-up-buybacks-boosts-alphabet-stake-as-cash-falls/articleshow/133086633.cms",
+      "Published At": "2026-08-10T05:52:49Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.91,
       "After Hours": 0.0,
-      "Current Price": 330.88,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.467954"
+      "Current Price": 357.52,
+      "Data Source": "YahooDirect",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-08-11T10:02:42.221928"
     },
     {
       "Ticker": "GOOGL",
@@ -143,7 +171,7 @@
       "Current Price": 357.52,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.467967"
+      "Timestamp": "2026-08-11T10:02:42.221938"
     },
     {
       "Ticker": "GOOGL",
@@ -157,21 +185,7 @@
       "Current Price": 357.52,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.467979"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Berkshire Hathaway Cash Reserves Decline for First Time in Years Amid Surging Profits",
-      "Headline URL": "https://dailyhodl.com/2026/08/09/berkshire-hathaway-cash-reserves-decline-for-first-time-in-years-amid-surging-profits/",
-      "Published At": "2026-08-09T07:04:13Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.91,
-      "After Hours": 0.0,
-      "Current Price": 357.52,
-      "Data Source": "YahooDirect",
-      "News Source": "The Daily Hodl",
-      "Timestamp": "2026-08-10T21:34:06.467987"
+      "Timestamp": "2026-08-11T10:02:42.221947"
     },
     {
       "Ticker": "META",
@@ -185,77 +199,77 @@
       "Current Price": 594.92,
       "Data Source": "AlphaVantage",
       "News Source": "TheStreet",
-      "Timestamp": "2026-08-10T21:34:06.467995"
+      "Timestamp": "2026-08-11T10:02:42.221956"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "META Stock Returns To Familiar Ground",
-      "Headline URL": "https://www.trefis.com/articles/610552/meta-stock-returns-to-familiar-ground/2026-08-07",
-      "Published At": "2026-08-07T20:54:10Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Check-In To Murder S01E03 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/check-in-to-murder-s01e03-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-10T09:20:05Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.48,
+      "Regular Change": 1.32,
       "After Hours": 0.0,
-      "Current Price": 594.92,
+      "Current Price": 278.09,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-11T10:02:42.221965"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Last Seen On Holiday S01E02 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/last-seen-on-holiday-s01e02-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-10T09:20:05Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.32,
+      "After Hours": 0.0,
+      "Current Price": 278.09,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-11T10:02:42.221971"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Double Lives of Suburban Wives S01E01 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/double-lives-of-suburban-wives-s01e01-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-10T08:05:08Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.32,
+      "After Hours": 0.0,
+      "Current Price": 278.09,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-11T10:02:42.221976"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Mark Cuban compares Nvidia to dot-com IPO machine, warning of AI sector fragility",
+      "Headline URL": "https://cryptobriefing.com/mark-cuban-nvidia-dot-com-ai-stocks/",
+      "Published At": "2026-08-10T00:35:08Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -2.86,
+      "After Hours": 0.0,
+      "Current Price": 217.55,
       "Data Source": "AlphaVantage",
-      "News Source": "Trefis",
-      "Timestamp": "2026-08-10T21:34:06.468001"
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-08-11T10:02:42.221983"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Rises 1.2% Despite $942 Million Child-Safety Judgment",
-      "Headline URL": "https://biztoc.com/x/a458c6e4435caff3",
-      "Published At": "2026-08-07T20:14:17Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.48,
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia Is Going to Space With Elon Musk's Million-Satellites Plan. Here's Why It Could Be the Start of a Trillion-Dollar Cycle.",
+      "Headline URL": "https://www.barchart.com/story/news/3746369/nvidia-is-going-to-space-with-elon-musk-s-million-satellites-plan-here-s-why-it-could-be-the-start-of-a-trillion-dollar-cycle",
+      "Published At": "2026-08-09T20:11:12Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.86,
       "After Hours": 0.0,
-      "Current Price": 594.92,
+      "Current Price": 217.55,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.468007"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Echoes Of Valor WWII Veterans Of Washington City Utah 2025 1080p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.cc/echoes-of-valor-wwii-veterans-of-washington-city-utah-2025-1080p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-08-09T20:54:40Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.32,
-      "After Hours": 0.0,
-      "Current Price": 278.09,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-10T21:34:06.468015"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Electrified The Guitar Revolution 2010 1080p AMZN WEB-DL H264-icarus",
-      "Headline URL": "https://post.rlsbb.cc/electrified-the-guitar-revolution-2010-1080p-amzn-web-dl-h264-icarus/",
-      "Published At": "2026-08-09T19:55:24Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.32,
-      "After Hours": 0.0,
-      "Current Price": 278.09,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-10T21:34:06.468022"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Arlington Call To Honor 2009 1080p AMZN WEB-DL H264-icarus",
-      "Headline URL": "https://post.rlsbb.cc/arlington-call-to-honor-2009-1080p-amzn-web-dl-h264-icarus/",
-      "Published At": "2026-08-09T19:55:24Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.32,
-      "After Hours": 0.0,
-      "Current Price": 278.09,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-10T21:34:06.468029"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-11T10:02:42.221994"
     },
     {
       "Ticker": "NVDA",
@@ -269,21 +283,7 @@
       "Current Price": 217.55,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.468040"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-vs-avgo-nvda-181931790.html",
-      "Published At": "2026-08-09T18:19:31Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -2.86,
-      "After Hours": 0.0,
-      "Current Price": 217.55,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-10T21:34:06.468049"
+      "Timestamp": "2026-08-11T10:02:42.222001"
     },
     {
       "Ticker": "JPM",
@@ -297,7 +297,7 @@
       "Current Price": 359.79,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.468082"
+      "Timestamp": "2026-08-11T10:02:42.222009"
     },
     {
       "Ticker": "JPM",
@@ -311,21 +311,7 @@
       "Current Price": 359.79,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-10T21:34:06.468093"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPM Now Expects Fed to Hike Rates in December",
-      "Headline URL": "https://www.rigzone.com/news/jpm_now_expects_fed_to_hike_rates_in_december-07-aug-2026-184319-article/",
-      "Published At": "2026-08-07T10:24:01Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.63,
-      "After Hours": 0.0,
-      "Current Price": 359.79,
-      "Data Source": "YahooDirect",
-      "News Source": "Rigzone",
-      "Timestamp": "2026-08-10T21:34:06.468100"
+      "Timestamp": "2026-08-11T10:02:42.222017"
     }
   ]
 }
