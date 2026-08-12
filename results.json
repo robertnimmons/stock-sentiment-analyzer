@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-11T21:38:02.362103",
+    "generated_at": "2026-08-12T10:10:16.227722",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 21,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,37 +15,52 @@
       "META",
       "AMZN",
       "NVDA",
-      "JPM"
+      "JPM",
+      "MA"
     ]
   },
   "results": [
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple may scrap its all-glass iPhone. Wall Street hasn\u2019t been this alarmed since Steve Jobs\u2019 death",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/apple-may-scrap-glass-iphone-181942240.html",
-      "Published At": "2026-08-10T18:19:42Z",
+      "Headline": "Apple\u2019s glass iPhone remains on track for 2027",
+      "Headline URL": "https://www.irishtimes.com/business/2026/08/11/apples-glass-iphone-remains-on-track-for-2027/",
+      "Published At": "2026-08-11T05:46:05Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.09,
       "After Hours": 0.0,
       "Current Price": 304.91,
       "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-11T21:38:02.360817"
+      "News Source": "The Irish Times",
+      "Timestamp": "2026-08-12T10:10:16.226155"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "With latest Wall Street downgrade, Apple now has the most \u2018Sell ratings since shortly after Steve Jobs\u2019 death",
-      "Headline URL": "https://fortune.com/2026/08/10/apple-stock-downgraded-jefferies-glass-iphone-canceled/",
-      "Published At": "2026-08-10T18:19:42Z",
+      "Headline": "Apple Stock Downgraded Ahead Of iPhone 18 Launch",
+      "Headline URL": "https://biztoc.com/x/13f92b3d22dc75e6",
+      "Published At": "2026-08-11T04:59:20Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": -1.09,
       "After Hours": 0.0,
       "Current Price": 304.91,
       "Data Source": "AlphaVantage",
-      "News Source": "Fortune",
-      "Timestamp": "2026-08-11T21:38:02.360846"
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-12T10:10:16.226183"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple's next big iPhone surprise? A phone wrapped in glass for its 20th birthday",
+      "Headline URL": "https://economictimes.indiatimes.com/news/international/global-trends/apples-next-big-iphone-surprise-a-phone-wrapped-in-glass-for-its-20th-birthday/articleshow/133141907.cms",
+      "Published At": "2026-08-11T04:23:51Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.09,
+      "After Hours": 0.0,
+      "Current Price": 304.91,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-08-12T10:10:16.226197"
     },
     {
       "Ticker": "MSFT",
@@ -59,7 +74,21 @@
       "Current Price": 503.81,
       "Data Source": "YahooDirect",
       "News Source": "Business Standard",
-      "Timestamp": "2026-08-11T21:38:02.360859"
+      "Timestamp": "2026-08-12T10:10:16.226209"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "With a $40 Billion Backlog, Nebius Stock Appears Positioned for Sustained Growth",
+      "Headline URL": "https://www.barchart.com/story/news/3759905/with-a-40-billion-backlog-nebius-stock-appears-positioned-for-sustained-growth",
+      "Published At": "2026-08-10T17:08:54Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.44,
+      "After Hours": 0.0,
+      "Current Price": 503.81,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-12T10:10:16.226223"
     },
     {
       "Ticker": "MSFT",
@@ -73,49 +102,49 @@
       "Current Price": 503.81,
       "Data Source": "YahooDirect",
       "News Source": "Trefis",
-      "Timestamp": "2026-08-11T21:38:02.360868"
+      "Timestamp": "2026-08-12T10:10:16.226233"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla shares photos of first Starlink-backed Cybercab",
-      "Headline URL": "https://biztoc.com/x/922e23c4f7e0c067",
-      "Published At": "2026-08-10T18:20:46Z",
+      "Headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion",
+      "Headline URL": "https://biztoc.com/x/fbf6fb763ae1ada0",
+      "Published At": "2026-08-11T09:49:20Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.58,
+      "After Hours": 0.0,
+      "Current Price": 332.81,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-12T10:10:16.226246"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk Plans to Spend $119 Billion to Construct the World's Largest Building, Just Outside Houston",
+      "Headline URL": "https://biztoc.com/x/d021acf7e3a1bca3",
+      "Published At": "2026-08-11T02:28:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.58,
       "After Hours": 0.0,
       "Current Price": 332.81,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360879"
+      "Timestamp": "2026-08-12T10:10:16.226276"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Retail traders just drew a line under Tesla\u2019s sell-off",
-      "Headline URL": "https://biztoc.com/x/9c9630de15c92d9f",
-      "Published At": "2026-08-10T18:05:41Z",
+      "Headline": "See How a Tesla-SpaceX Merger Gives Musk a Shortcut to His $1 Trillion Payday",
+      "Headline URL": "https://biztoc.com/x/21a83a4a61a2946f",
+      "Published At": "2026-08-11T01:11:13Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.58,
       "After Hours": 0.0,
       "Current Price": 332.81,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360889"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla in the spotlight as NFL's 49ers head coach says Autopilot may have been engaged during accident",
-      "Headline URL": "https://biztoc.com/x/f42dd84c360a6271",
-      "Published At": "2026-08-10T16:22:05Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.58,
-      "After Hours": 0.0,
-      "Current Price": 332.81,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360900"
+      "Timestamp": "2026-08-12T10:10:16.226286"
     },
     {
       "Ticker": "GOOGL",
@@ -129,35 +158,7 @@
       "Current Price": 343.8,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-11T21:38:02.360926"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Google Stock Sputters, But These Catalysts Could Spark A Rebound",
-      "Headline URL": "https://biztoc.com/x/f93ed4425da0b7fb",
-      "Published At": "2026-08-10T16:21:52Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.84,
-      "After Hours": 0.0,
-      "Current Price": 343.8,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360935"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Analyst Warns Alphabet (GOOG) Faces Two Major AI Problems; SpaceX (SPCX) a Better AI Bet?",
-      "Headline URL": "https://biztoc.com/x/c7fa71760a58a126",
-      "Published At": "2026-08-10T16:05:45Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -3.84,
-      "After Hours": 0.0,
-      "Current Price": 343.8,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360946"
+      "Timestamp": "2026-08-12T10:10:16.226296"
     },
     {
       "Ticker": "META",
@@ -171,7 +172,7 @@
       "Current Price": 599.12,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-08-11T21:38:02.360955"
+      "Timestamp": "2026-08-12T10:10:16.226306"
     },
     {
       "Ticker": "META",
@@ -185,7 +186,7 @@
       "Current Price": 599.12,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.360966"
+      "Timestamp": "2026-08-12T10:10:16.226317"
     },
     {
       "Ticker": "META",
@@ -199,91 +200,91 @@
       "Current Price": 599.12,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-08-11T21:38:02.360976"
+      "Timestamp": "2026-08-12T10:10:16.226328"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "All the Amazon back-to-school deals to check off your list, starting at $3",
-      "Headline URL": "https://nypost.com/shopping/amazon-back-to-school-sale-deals/",
-      "Published At": "2026-08-10T18:25:50Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.09,
-      "After Hours": 0.0,
-      "Current Price": 272.27,
-      "Data Source": "YahooDirect",
-      "News Source": "New York Post",
-      "Timestamp": "2026-08-11T21:38:02.360987"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Absolutely Devoted to You 2026 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/absolutely-devoted-to-you-2026-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-08-10T18:05:14Z",
+      "Headline": "Judy Justice S04E67 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.cc/judy-justice-s04e67-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-08-11T09:35:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.09,
       "After Hours": 0.0,
       "Current Price": 272.27,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-11T21:38:02.360996"
+      "Timestamp": "2026-08-12T10:10:16.226334"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Just Joined the $3 Trillion Club. Here's Why It Could Reach $5 Trillion by 2029",
-      "Headline URL": "https://biztoc.com/x/23fcb4f53372bec8",
-      "Published At": "2026-08-10T17:51:57Z",
+      "Headline": "Ugliest House In America S08E04 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/ugliest-house-in-america-s08e04-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-11T09:35:45Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.09,
       "After Hours": 0.0,
       "Current Price": 272.27,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.361006"
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-12T10:10:16.226339"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Pitmasters S01E05 720p AMZN WEB-DL H264-NTb",
+      "Headline URL": "https://post.rlsbb.cc/pitmasters-s01e05-720p-amzn-web-dl-h264-ntb/",
+      "Published At": "2026-08-11T08:25:28Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.09,
+      "After Hours": 0.0,
+      "Current Price": 272.27,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-12T10:10:16.226344"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Larry Ellison Overtakes Jensen Huang As 7th-Wealthiest Person In The World As Nvidia Shares Fall",
-      "Headline URL": "https://biztoc.com/x/023af6e630078727",
-      "Published At": "2026-08-10T20:48:20Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Nvidia Targets Over $500 Billion for AI Infrastructure Financing with Global Financial Giants",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/33949/nvidia-targets-over-500-billion-for-ai-infrastructure-financing-with-global-financial-giants",
+      "Published At": "2026-08-11T10:07:09Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -0.02,
       "After Hours": 0.0,
       "Current Price": 217.5,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.361017"
+      "News Source": "Advfn.com",
+      "Timestamp": "2026-08-12T10:10:16.226355"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia teams up with Wall Street asset managers on $500 billion AI infrastructure push - CNBC",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184921718",
-      "Published At": "2026-08-10T20:12:35Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Stock futures climb as investors weigh Iran, Hormuz deal prospects: Live updates - CNBC",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184925794",
+      "Published At": "2026-08-11T08:32:10Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": -0.02,
       "After Hours": 0.0,
       "Current Price": 217.5,
       "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-08-11T21:38:02.361028"
+      "Timestamp": "2026-08-12T10:10:16.226368"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Micron vs. SK hynix: One Stock Rules AI Memory. The Other Has More Room to Run",
-      "Headline URL": "https://biztoc.com/x/5af99c93c1db2a62",
-      "Published At": "2026-08-10T20:09:46Z",
+      "Headline": "Here\u2019s Why Nvidia Stock Is Down Today",
+      "Headline URL": "https://biztoc.com/x/163c68eb52190aa9",
+      "Published At": "2026-08-11T05:14:36Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.02,
       "After Hours": 0.0,
       "Current Price": 217.5,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.361039"
+      "Timestamp": "2026-08-12T10:10:16.226375"
     },
     {
       "Ticker": "JPM",
@@ -297,35 +298,21 @@
       "Current Price": 362.04,
       "Data Source": "YahooDirect",
       "News Source": "Business Insider",
-      "Timestamp": "2026-08-11T21:38:02.361051"
+      "Timestamp": "2026-08-12T10:10:16.226385"
     },
     {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Jamie Dimon's JPMorgan Sees Gold Reaching $5,000 an Ounce by Q4, a Bullish Case for Investors Seeking a Hedge",
-      "Headline URL": "https://biztoc.com/x/3de376290f5ae229",
-      "Published At": "2026-08-08T15:53:41Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 0.63,
-      "After Hours": 0.0,
-      "Current Price": 362.04,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.361062"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "JPMorgan's $1.5 Trillion Initiative to Finance U.S. Shipbuilding and Defense Could Be a Tailwind for Industrial and Defense Stocks",
-      "Headline URL": "https://biztoc.com/x/f7b7f7a2165f0a31",
-      "Published At": "2026-08-08T08:47:51Z",
+      "Ticker": "MA",
+      "Company": "Mastercard Inc.",
+      "Headline": "The Real Upside Case For Mastercard Stock Is In The Plumbing",
+      "Headline URL": "https://www.trefis.com/articles/610755/the-real-upside-case-for-mastercard-stock-is-in-the-plumbing/2026-08-10",
+      "Published At": "2026-08-10T13:56:19Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.63,
+      "Regular Change": -0.31,
       "After Hours": 0.0,
-      "Current Price": 362.04,
+      "Current Price": 561.44,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-11T21:38:02.361074"
+      "News Source": "Trefis",
+      "Timestamp": "2026-08-12T10:10:16.226408"
     }
   ]
 }
