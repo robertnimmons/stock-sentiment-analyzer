@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-12T21:37:42.551386",
+    "generated_at": "2026-08-13T10:11:21.841874",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -14,7 +14,6 @@
       "GOOGL",
       "META",
       "AMZN",
-      "NVDA",
       "JPM",
       "MA"
     ]
@@ -23,114 +22,128 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Jefferies Downgrades Apple as iPhone Worries Mount. What This Means for AAPL Stock",
-      "Headline URL": "https://biztoc.com/x/69024efb99fd1f88",
-      "Published At": "2026-08-11T19:42:50Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Stock futures inch higher ahead of Wednesday's big inflation report: Live updates - CNBC",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184935614",
+      "Published At": "2026-08-12T09:32:07Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -0.87,
       "After Hours": 0.0,
       "Current Price": 302.25,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550100"
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-08-13T10:11:21.840745"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple Stock Falls Again After Jefferies Slashes Rating",
-      "Headline URL": "https://biztoc.com/x/650120dab18d6378",
-      "Published At": "2026-08-11T19:29:12Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -0.87,
-      "After Hours": 0.0,
-      "Current Price": 302.25,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550120"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple\u2019s Revenue Is Soaring, But Analyst Confidence in AAPL Stock Is Cooling. Here's Why",
-      "Headline URL": "https://biztoc.com/x/62094e71c097107f",
-      "Published At": "2026-08-11T17:26:12Z",
+      "Headline": "Crypto.com Launches the Future of Trading with Tokenized Stocks",
+      "Headline URL": "https://www.prnewswire.com/news-releases/cryptocom-launches-the-future-of-trading-with-tokenized-stocks-302849027.html",
+      "Published At": "2026-08-12T07:00:00Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -0.87,
       "After Hours": 0.0,
       "Current Price": 302.25,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550134"
+      "News Source": "PRNewswire",
+      "Timestamp": "2026-08-13T10:11:21.840776"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Futures: Three AI Winners Late; CPI Report Due - Investor's Business Daily",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=184933484",
+      "Published At": "2026-08-12T03:13:22Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.87,
+      "After Hours": 0.0,
+      "Current Price": 302.25,
+      "Data Source": "AlphaVantage",
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-08-13T10:11:21.840787"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Why Oklo's First-Ever Revenue Is Not Enough to Stop OKLO Stock's Decline",
-      "Headline URL": "https://biztoc.com/x/bf5e147ea0d7d74a",
-      "Published At": "2026-08-11T15:23:56Z",
-      "Sentiment": "NEGATIVE",
+      "Headline": "Hedge Funds Favor Microsoft Corporation (MSFT) Over Meta Platforms Inc. (META)",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-favor-microsoft-corporation-214046892.html",
+      "Published At": "2026-08-11T21:40:46Z",
+      "Sentiment": "NEUTRAL",
       "Regular Change": -2.26,
       "After Hours": 0.0,
       "Current Price": 492.43,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550143"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-08-13T10:11:21.840799"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft stock just cleared a big hurdle but still trails the S&P 500",
-      "Headline URL": "https://biztoc.com/x/f712b46712846762",
-      "Published At": "2026-08-11T13:22:42Z",
+      "Headline": "Palantir Technologies Inc. (PLTR) vs. Microsoft Corporation (MSFT): Can Palantir Pull Off a Microsoft-Style Comeback?",
+      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-vs-205832913.html",
+      "Published At": "2026-08-11T20:58:32Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.26,
       "After Hours": 0.0,
       "Current Price": 492.43,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550162"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-08-13T10:11:21.840814"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Ahead of Nebius Earnings, Here's What Barchart Data Says Comes Next for NBIS Stock",
+      "Headline URL": "https://www.barchart.com/story/news/3786390/ahead-of-nebius-earnings-here-s-what-barchart-data-says-comes-next-for-nbis-stock",
+      "Published At": "2026-08-11T18:36:01Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.26,
+      "After Hours": 0.0,
+      "Current Price": 492.43,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-13T10:11:21.840822"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Rises as China EV Sales Slide for Seventh Straight Month",
-      "Headline URL": "https://biztoc.com/x/9e437828d664a26f",
-      "Published At": "2026-08-11T19:44:35Z",
+      "Headline": "This Mag 7 Dividend Stock Is Trading Near 2026 Highs. Why It's Still a Buy",
+      "Headline URL": "https://biztoc.com/x/c4190cf050f4e25a",
+      "Published At": "2026-08-11T23:44:21Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.59,
+      "After Hours": 0.0,
+      "Current Price": 327.51,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-13T10:11:21.840831"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "2 Core Reasons Tesla Investors Should Be Getting Nervous",
+      "Headline URL": "https://biztoc.com/x/dc32e1f0c1c6278c",
+      "Published At": "2026-08-11T22:00:17Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.59,
       "After Hours": 0.0,
       "Current Price": 327.51,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550174"
+      "Timestamp": "2026-08-13T10:11:21.840839"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "CPI Lands Tomorrow and Could Send PLTR, TSLA Surging\u2014But Only if It's A 'Serious Shock,' Cato Economist Says",
-      "Headline URL": "https://biztoc.com/x/cbce626d268b5476",
-      "Published At": "2026-08-11T14:55:29Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety",
+      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-googl-vs-meta-221947259.html",
+      "Published At": "2026-08-11T22:19:47Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.59,
+      "Regular Change": -0.08,
       "After Hours": 0.0,
-      "Current Price": 327.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550187"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "NIO Drops 5% on Disclosed BlackRock Stake Cut While Tesla, Lucid, Rivian Hold Steady",
-      "Headline URL": "https://247wallst.com/investing/2026/08/11/nio-drops-5-on-disclosed-blackrock-stake-cut-while-tesla-lucid-rivian-hold-steady/",
-      "Published At": "2026-08-11T14:44:39Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.59,
-      "After Hours": 0.0,
-      "Current Price": 327.51,
-      "Data Source": "AlphaVantage",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-12T21:37:42.550199"
+      "Current Price": 343.54,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-08-13T10:11:21.840869"
     },
     {
       "Ticker": "GOOGL",
@@ -144,21 +157,7 @@
       "Current Price": 343.54,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550225"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-      "Headline URL": "https://biztoc.com/x/a096e95b09604de4",
-      "Published At": "2026-08-11T14:24:36Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.08,
-      "After Hours": 0.0,
-      "Current Price": 343.54,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550236"
+      "Timestamp": "2026-08-13T10:11:21.840875"
     },
     {
       "Ticker": "META",
@@ -172,7 +171,7 @@
       "Current Price": 578.85,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-08-12T21:37:42.550246"
+      "Timestamp": "2026-08-13T10:11:21.840882"
     },
     {
       "Ticker": "META",
@@ -186,7 +185,7 @@
       "Current Price": 578.85,
       "Data Source": "AlphaVantage",
       "News Source": "TechCrunch",
-      "Timestamp": "2026-08-12T21:37:42.550255"
+      "Timestamp": "2026-08-13T10:11:21.840888"
     },
     {
       "Ticker": "META",
@@ -200,91 +199,63 @@
       "Current Price": 578.85,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550265"
+      "Timestamp": "2026-08-13T10:11:21.840896"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Johnny Vegas Little Shop Of Antiques S02E04 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/johnny-vegas-little-shop-of-antiques-s02e04-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-08-11T21:25:24Z",
+      "Headline": "Kitchen Undercover S01E03 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/kitchen-undercover-s01e03-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-08-12T09:37:50Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.83,
       "After Hours": 0.0,
       "Current Price": 267.28,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-12T21:37:42.550275"
+      "Timestamp": "2026-08-13T10:11:21.840901"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Stock Drops 1.8% as $3 Trillion Rally Cools",
-      "Headline URL": "https://biztoc.com/x/3a8db31e4643ad02",
-      "Published At": "2026-08-11T19:29:40Z",
+      "Headline": "Judy Justice S04E68 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.cc/judy-justice-s04e68-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-08-12T09:22:13Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.83,
       "After Hours": 0.0,
       "Current Price": 267.28,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550283"
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-13T10:11:21.840905"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Dow Jones AI Giants Nvidia, Amazon In Or Near Buy Zones; Avnet, Okta Are Stocks To Watch",
-      "Headline URL": "https://biztoc.com/x/409a01d0cb5608f0",
-      "Published At": "2026-08-11T16:57:07Z",
+      "Headline": "Amazon Grew Revenue 20%. Here's the Only Reason I Can Think Of for Why Amazon Trades at Just 22 Times Forward Earnings",
+      "Headline URL": "https://biztoc.com/x/a446b1aecb6ffdcd",
+      "Published At": "2026-08-12T09:08:10Z",
       "Sentiment": "POSITIVE",
       "Regular Change": -1.83,
       "After Hours": 0.0,
       "Current Price": 267.28,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550293"
+      "Timestamp": "2026-08-13T10:11:21.840916"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Elon Musk\u2019s Newest Data Center \u2018Moonshot\u2019 Could Send NVIDIA Shares to $500. It Could Also Crash the Stock",
-      "Headline URL": "https://biztoc.com/x/7e93321c4e3e992c",
-      "Published At": "2026-08-11T20:11:55Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 3.03,
-      "After Hours": 0.0,
-      "Current Price": 224.09,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550305"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia\u2019s Best Customers Have a Reason to Stop Buying So Many Nvidia Chips",
-      "Headline URL": "https://biztoc.com/x/8ac4082c7b07cb01",
-      "Published At": "2026-08-11T19:57:51Z",
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Dear Intel Stock Fans, Mark Your Calendars for August 12",
+      "Headline URL": "https://www.barchart.com/story/news/3785442/dear-intel-stock-fans-mark-your-calendars-for-august-12",
+      "Published At": "2026-08-11T17:48:05Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 3.03,
+      "Regular Change": 0.87,
       "After Hours": 0.0,
-      "Current Price": 224.09,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550315"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "CME Group launches compute futures for trading on October 5",
-      "Headline URL": "https://cryptobriefing.com/cme-group-compute-futures-launch/",
-      "Published At": "2026-08-11T19:08:47Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.03,
-      "After Hours": 0.0,
-      "Current Price": 224.09,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-08-12T21:37:42.550328"
+      "Current Price": 365.18,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-13T10:11:21.840922"
     },
     {
       "Ticker": "JPM",
@@ -298,7 +269,7 @@
       "Current Price": 365.18,
       "Data Source": "YahooDirect",
       "News Source": "Business Insider",
-      "Timestamp": "2026-08-12T21:37:42.550339"
+      "Timestamp": "2026-08-13T10:11:21.840929"
     },
     {
       "Ticker": "MA",
@@ -312,7 +283,7 @@
       "Current Price": 559.73,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-12T21:37:42.550347"
+      "Timestamp": "2026-08-13T10:11:21.840936"
     },
     {
       "Ticker": "MA",
@@ -326,7 +297,7 @@
       "Current Price": 559.73,
       "Data Source": "YahooDirect",
       "News Source": "Trefis",
-      "Timestamp": "2026-08-12T21:37:42.550355"
+      "Timestamp": "2026-08-13T10:11:21.840942"
     }
   ]
 }
