@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-18T21:16:18.920249",
+    "generated_at": "2026-08-19T09:37:52.365357",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 22,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,6 +22,34 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Apple\u3001Mac\u5411\u3051\u306bmacOS 27 Golden Gate\u306eBeta\u7248\u3067\u5148\u884c\u3057\u3066\u4fee\u6b63\u3055\u308c\u305f20\u4ef6\u4ee5\u4e0a\u306e\u8106\u5f31\u6027\u3092\u4fee\u6b63\u3057\u305f\u300cmacOS Tahoe 26.6.2\u300d\u3092\u30ea\u30ea\u30fc\u30b9\u3002",
+      "Headline URL": "https://applech2.com/archives/20260818-macos-tahoe-26-6-2-security-update.html",
+      "Published At": "2026-08-17T21:45:41Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.45,
+      "After Hours": 0.0,
+      "Current Price": 310.03,
+      "Data Source": "AlphaVantage",
+      "News Source": "Applech2.com",
+      "Timestamp": "2026-08-19T09:37:52.364129"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Intel\u2019s $23 Billion Capital Raise May Have a Silver Lining for INTC Stock",
+      "Headline URL": "https://www.barchart.com/story/news/3893044/intels-23-billion-capital-raise-may-have-a-silver-lining-for-intc-stock",
+      "Published At": "2026-08-17T20:39:48Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 1.45,
+      "After Hours": 0.0,
+      "Current Price": 310.03,
+      "Data Source": "AlphaVantage",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-19T09:37:52.364161"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Why Investors Should Consider Buying Apple Stock Ahead of Its September iPhone Event",
       "Headline URL": "https://biztoc.com/x/906fded66644f6b7",
       "Published At": "2026-08-17T20:26:02Z",
@@ -31,35 +59,35 @@
       "Current Price": 310.03,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918703"
+      "Timestamp": "2026-08-19T09:37:52.364175"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Bad News For Apple Stock Fans",
-      "Headline URL": "https://biztoc.com/x/df6fd94cede4f03e",
-      "Published At": "2026-08-17T18:28:34Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.45,
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Microsoft stock under pressure: AI capex math faces investor scrutiny",
+      "Headline URL": "https://m.economictimes.com/markets/us-stocks/news/microsoft-stock-under-pressure-ai-capex-math-faces-investor-scrutiny/microsoft-stock-takes-a-hit/slideshow/133312682.cms",
+      "Published At": "2026-08-18T05:25:23Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.27,
       "After Hours": 0.0,
-      "Current Price": 310.03,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918721"
+      "Current Price": 481.63,
+      "Data Source": "YahooDirect",
+      "News Source": "Economictimes.com",
+      "Timestamp": "2026-08-19T09:37:52.364187"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple\u2019s $54 billion iPhone machine may be about to break its biggest ritual",
-      "Headline URL": "https://biztoc.com/x/1f46b5c8bbeac5b0",
-      "Published At": "2026-08-17T16:56:43Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Dear Synopsys Stock Fans, Mark Your Calendars for August 26",
+      "Headline URL": "https://www.barchart.com/story/news/3893330/dear-synopsys-stock-fans-mark-your-calendars-for-august-26",
+      "Published At": "2026-08-17T20:53:28Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.45,
+      "Regular Change": 0.27,
       "After Hours": 0.0,
-      "Current Price": 310.03,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918734"
+      "Current Price": 481.63,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-08-19T09:37:52.364198"
     },
     {
       "Ticker": "MSFT",
@@ -73,77 +101,49 @@
       "Current Price": 481.63,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918748"
+      "Timestamp": "2026-08-19T09:37:52.364208"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "America\u2019s Best Dividend Stock Has A Good Year",
-      "Headline URL": "https://247wallst.com/investing/2026/08/17/americas-best-dividend-stock-has-a-good-year/",
-      "Published At": "2026-08-17T16:48:55Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "5-star analyst sets alarming SpaceX stock price target",
+      "Headline URL": "https://biztoc.com/x/942a5517e3eb4d38",
+      "Published At": "2026-08-18T06:34:24Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
+      "Regular Change": -0.72,
       "After Hours": 0.0,
-      "Current Price": 481.63,
+      "Current Price": 336.87,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-19T09:37:52.364217"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk to Merge SpaceX and Tesla? Prediction Markets Are Betting on This Date",
+      "Headline URL": "https://biztoc.com/x/24d614ec5d92f46f",
+      "Published At": "2026-08-18T04:03:53Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.72,
+      "After Hours": 0.0,
+      "Current Price": 336.87,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-19T09:37:52.364228"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Berkshire Hathaway Boosted Its Alphabet Stake 83%\u2014Buffett Said the Investment Was His Idea",
+      "Headline URL": "https://www.investopedia.com/berkshire-hathaway-boosted-its-alphabet-stake-83-percent-buffett-said-it-was-his-idea-googl-goog-google-stock-q2-holdings-13f-12061004",
+      "Published At": "2026-08-17T17:46:30Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.06,
+      "After Hours": 0.0,
+      "Current Price": 344.2,
       "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-18T21:16:18.918761"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Vs. Alphabet: How and Why They Stand Head-and-Shoulders Above Other Hyperscalers",
-      "Headline URL": "https://biztoc.com/x/35aef8f57e82d256",
-      "Published At": "2026-08-17T16:22:57Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
-      "After Hours": 0.0,
-      "Current Price": 481.63,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918772"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Is Finally Getting Ready to Demo a Flying Roadster. It May Not Stop the Sell-Off in TSLA Stock",
-      "Headline URL": "https://biztoc.com/x/4373aab935fe65d0",
-      "Published At": "2026-08-17T19:55:47Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.72,
-      "After Hours": 0.0,
-      "Current Price": 336.87,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918787"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Batters Rivian in Self-Driving Test",
-      "Headline URL": "https://biztoc.com/x/b4aa91bb702cb1fe",
-      "Published At": "2026-08-17T17:54:04Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.72,
-      "After Hours": 0.0,
-      "Current Price": 336.87,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918811"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk Is $142 Billion Short Of A $1 Trillion Net Worth",
-      "Headline URL": "https://biztoc.com/x/22fee550fcb5a52f",
-      "Published At": "2026-08-17T16:53:14Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.72,
-      "After Hours": 0.0,
-      "Current Price": 336.87,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918821"
+      "News Source": "Investopedia",
+      "Timestamp": "2026-08-19T09:37:52.364251"
     },
     {
       "Ticker": "GOOGL",
@@ -157,35 +157,7 @@
       "Current Price": 344.2,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918832"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Billionaires Stanley Druckenmiller, Seth Klarman, and David Tepper All Are Loading into Alphabet Stock. Buffett\u2019s Berkshire Is Also Buying",
-      "Headline URL": "https://biztoc.com/x/e0c82afe221fa313",
-      "Published At": "2026-08-17T16:53:43Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.06,
-      "After Hours": 0.0,
-      "Current Price": 344.2,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918845"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Billionaires Stanley Druckenmiller, Seth Klarman, and David Tepper All Are Loading into Alphabet Stock. Buffett\u2019s Berkshire Is Also Buying.",
-      "Headline URL": "https://247wallst.com/investing/2026/08/17/billionaires-stanley-druckenmiller-seth-klarman-and-david-tepper-all-are-loading-into-alphabet-stock-buffetts-berkshire-is-also-buying/",
-      "Published At": "2026-08-17T16:47:39Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.06,
-      "After Hours": 0.0,
-      "Current Price": 344.2,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-08-18T21:16:18.918856"
+      "Timestamp": "2026-08-19T09:37:52.364264"
     },
     {
       "Ticker": "META",
@@ -199,7 +171,7 @@
       "Current Price": 543.67,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918866"
+      "Timestamp": "2026-08-19T09:37:52.364273"
     },
     {
       "Ticker": "META",
@@ -213,91 +185,77 @@
       "Current Price": 543.67,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918877"
+      "Timestamp": "2026-08-19T09:37:52.364287"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Cast A Giant Shadow 1966 1080p AMZN WEB-DL H264-icarus",
-      "Headline URL": "https://post.rlsbb.cc/cast-a-giant-shadow-1966-1080p-amzn-web-dl-h264-icarus/",
-      "Published At": "2026-08-17T20:38:51Z",
+      "Headline": "Yellow Eyes 2026 720p AMZN WEB-DL H264-BYNDR",
+      "Headline URL": "https://post.rlsbb.cc/yellow-eyes-2026-720p-amzn-web-dl-h264-byndr/",
+      "Published At": "2026-08-18T06:52:52Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.71,
       "After Hours": 0.0,
       "Current Price": 259.45,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-18T21:16:18.918885"
+      "Timestamp": "2026-08-19T09:37:52.364295"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Tinsman Road 2026 1080p AMZN WEB-DL H264-cinepth",
-      "Headline URL": "https://post.rlsbb.cc/tinsman-road-2026-1080p-amzn-web-dl-h264-cinepth/",
-      "Published At": "2026-08-17T19:52:57Z",
+      "Headline": "F X 2 1991 1080p AMZN WEB-DL H264-icarus",
+      "Headline URL": "https://post.rlsbb.cc/f-x-2-1991-1080p-amzn-web-dl-h264-icarus/",
+      "Published At": "2026-08-18T06:38:55Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.71,
       "After Hours": 0.0,
       "Current Price": 259.45,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-18T21:16:18.918893"
+      "Timestamp": "2026-08-19T09:37:52.364302"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Top Investors See Value in AMZN: \u201cAmazon Has Built One of the Largest Chip Businesses in the World and Barely Anyone Has Noticed\u201d",
-      "Headline URL": "https://biztoc.com/x/0b385819bbba3322",
-      "Published At": "2026-08-17T19:10:09Z",
+      "Headline": "Dead Still 2014 1080p AMZN WEB-DL H264-MADSKY",
+      "Headline URL": "https://post.rlsbb.cc/dead-still-2014-1080p-amzn-web-dl-h264-madsky/",
+      "Published At": "2026-08-18T04:41:10Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.71,
       "After Hours": 0.0,
       "Current Price": 259.45,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918905"
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-08-19T09:37:52.364309"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Morgan Stanley Delivers a Bullish Message for Nvidia Stock Investors",
-      "Headline URL": "https://biztoc.com/x/461cef7a997ee962",
-      "Published At": "2026-08-17T20:58:49Z",
-      "Sentiment": "POSITIVE",
+      "Headline": "Wall Street Futures Fall as Middle East Risks, Oil Prices and Canada Tariffs Take Focus: Dow Jones, S&P, Nasdaq",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/34481/wall-street-futures-fall-as-middle-east-risks-oil-prices-and-canada-tariffs-take-focus-dow-jones-sp-nasdaq",
+      "Published At": "2026-08-18T09:28:15Z",
+      "Sentiment": "NEGATIVE",
       "Regular Change": -2.34,
       "After Hours": 0.0,
       "Current Price": 219.74,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918913"
+      "News Source": "Advfn.com",
+      "Timestamp": "2026-08-19T09:37:52.364321"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "The Goldman Sachs Group (GS)\u2019s CEO Says He Has \u201ca Deep Belief\u201d in NVIDIA Corporation (NVDA). Reuters Compares the Deal to Auto Loans",
-      "Headline URL": "https://biztoc.com/x/83757af8507d8ca3",
-      "Published At": "2026-08-17T20:13:52Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -2.34,
-      "After Hours": 0.0,
-      "Current Price": 219.74,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918924"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Why Nvidia Is Teaming With OpenAI on a Massive Ohio Data Center \u2014 \u2018Now Is The Time To Scale The AI Infrastructure That Will Power The Next Industrial Revolution\u2019",
-      "Headline URL": "https://biztoc.com/x/c8fe212be0b67063",
-      "Published At": "2026-08-17T19:56:06Z",
+      "Headline": "Cathie Wood Buys $22.8 Million of Nvidia Stock, Ark Invest Dumps AMD and Palantir Shares",
+      "Headline URL": "https://biztoc.com/x/20e2951e951913d5",
+      "Published At": "2026-08-18T03:00:49Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.34,
       "After Hours": 0.0,
       "Current Price": 219.74,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918937"
+      "Timestamp": "2026-08-19T09:37:52.364331"
     },
     {
       "Ticker": "V",
@@ -306,12 +264,12 @@
       "Headline URL": "https://biztoc.com/x/97bf042db0baa446",
       "Published At": "2026-08-17T20:58:58Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.56,
+      "Regular Change": 1.51,
       "After Hours": 0.0,
-      "Current Price": 364.43,
+      "Current Price": 364.25,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-18T21:16:18.918948"
+      "Timestamp": "2026-08-19T09:37:52.364340"
     },
     {
       "Ticker": "V",
@@ -320,12 +278,12 @@
       "Headline URL": "https://forkast.news/visas-agentic-ready-program-moves-issuer-layer-readiness-from-theory-to-production/",
       "Published At": "2026-08-17T01:19:57Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.56,
+      "Regular Change": 1.51,
       "After Hours": 0.0,
-      "Current Price": 364.43,
+      "Current Price": 364.25,
       "Data Source": "AlphaVantage",
       "News Source": "Forkast.news",
-      "Timestamp": "2026-08-18T21:16:18.918957"
+      "Timestamp": "2026-08-19T09:37:52.364350"
     }
   ]
 }
