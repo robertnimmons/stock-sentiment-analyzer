@@ -1,24 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-08-24T21:21:07.789823",
+    "generated_at": "2026-08-25T09:39:10.092912",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 21,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
       "MSFT",
       "TSLA",
       "GOOGL",
-      "META",
       "AMZN",
       "NVDA",
       "JPM"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Stock market today: S&P 500, Nasdaq slip as tech stocks sag, US-Canada talks break down",
+      "Headline URL": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
+      "Published At": "2026-08-24T08:03:06Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.32,
+      "After Hours": 0.0,
+      "Current Price": 310.34,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-08-25T09:39:10.091881"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -31,7 +44,7 @@
       "Current Price": 310.34,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788682"
+      "Timestamp": "2026-08-25T09:39:10.091909"
     },
     {
       "Ticker": "AAPL",
@@ -45,21 +58,7 @@
       "Current Price": 310.34,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788709"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
-      "Headline URL": "https://biztoc.com/x/2c5ff4ca837ce5d7",
-      "Published At": "2026-08-22T14:21:49Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.32,
-      "After Hours": 0.0,
-      "Current Price": 310.34,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788721"
+      "Timestamp": "2026-08-25T09:39:10.091919"
     },
     {
       "Ticker": "MSFT",
@@ -73,7 +72,7 @@
       "Current Price": 487.31,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-24T21:21:07.788731"
+      "Timestamp": "2026-08-25T09:39:10.091927"
     },
     {
       "Ticker": "MSFT",
@@ -87,7 +86,35 @@
       "Current Price": 487.31,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-24T21:21:07.788750"
+      "Timestamp": "2026-08-25T09:39:10.091941"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters",
+      "Headline URL": "https://biztoc.com/x/f1b4ef4a247a396d",
+      "Published At": "2026-08-24T01:41:14Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.83,
+      "After Hours": 0.0,
+      "Current Price": 348.95,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-25T09:39:10.091950"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla Maintained Its Majority of the U.S. EV Market in Q2, but That's Not All You Need to Know",
+      "Headline URL": "https://biztoc.com/x/31edf821d98f7c57",
+      "Published At": "2026-08-23T22:22:07Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -3.83,
+      "After Hours": 0.0,
+      "Current Price": 348.95,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-08-25T09:39:10.091959"
     },
     {
       "Ticker": "TSLA",
@@ -101,35 +128,21 @@
       "Current Price": 348.95,
       "Data Source": "AlphaVantage",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-08-24T21:21:07.788759"
+      "Timestamp": "2026-08-25T09:39:10.091974"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla lands 500-truck order from Einride in world's largest Tesla Semi deployment",
-      "Headline URL": "https://freerepublic.com/focus/f-chat/4392843/posts",
-      "Published At": "2026-08-23T12:58:06Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Trump vs Michael Burry: US Prez buys shares of Warren Buffett's firm but 'Big Short' investor feels it's not an attractive bet",
+      "Headline URL": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-vs-michael-burry-us-prez-buys-shares-of-warren-buffetts-firm-but-big-short-investor-feels-its-not-an-attractive-bet/articleshow/133455250.cms",
+      "Published At": "2026-08-24T07:14:17Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.83,
+      "Regular Change": 0.94,
       "After Hours": 0.0,
-      "Current Price": 348.95,
-      "Data Source": "AlphaVantage",
-      "News Source": "Freerepublic.com",
-      "Timestamp": "2026-08-24T21:21:07.788768"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
-      "Headline URL": "https://biztoc.com/x/b5e7000d0ca981d3",
-      "Published At": "2026-08-23T09:54:27Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -3.83,
-      "After Hours": 0.0,
-      "Current Price": 348.95,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788796"
+      "Current Price": 348.06,
+      "Data Source": "YahooDirect",
+      "News Source": "The Times of India",
+      "Timestamp": "2026-08-25T09:39:10.091986"
     },
     {
       "Ticker": "GOOGL",
@@ -143,133 +156,91 @@
       "Current Price": 348.06,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788804"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
-      "Headline URL": "https://www.barchart.com/story/news/3988083/third-point-starts-to-raise-alarm-bells-on-broadcom-after-dumping-avgo-stock-in-q2",
-      "Published At": "2026-08-22T19:30:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.94,
-      "After Hours": 0.0,
-      "Current Price": 348.06,
-      "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-08-24T21:21:07.788812"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Platforms (META) Undercuts Anthropic and OpenAI on Price With New Coding Agent",
-      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-undercuts-anthropic-201309099.html",
-      "Published At": "2026-08-21T20:13:09Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.66,
-      "After Hours": 0.0,
-      "Current Price": 559.02,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-24T21:21:07.788818"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "What if Meta loses trial? Penalties may top $1.4 trillion, matching its market cap",
-      "Headline URL": "https://economictimes.indiatimes.com/tech/technology/what-if-meta-loses-trial-penalties-may-top-1-4-trillion-matching-its-market-cap/articleshow/133392766.cms",
-      "Published At": "2026-08-21T04:04:13Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.66,
-      "After Hours": 0.0,
-      "Current Price": 559.02,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-08-24T21:21:07.788825"
+      "Timestamp": "2026-08-25T09:39:10.091993"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Super Wings S09 1080p AMZN WEB-DL H264-LAZY",
-      "Headline URL": "https://post.rlsbb.cc/super-wings-s09-1080p-amzn-web-dl-h264-lazy/",
-      "Published At": "2026-08-23T21:20:05Z",
+      "Headline": "The Chelsea Detective S04E04 720p AMZN WEB-DL H264-NTb",
+      "Headline URL": "https://post.rlsbb.cc/the-chelsea-detective-s04e04-720p-amzn-web-dl-h264-ntb/",
+      "Published At": "2026-08-24T08:09:29Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.33,
       "After Hours": 0.0,
       "Current Price": 262.07,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-24T21:21:07.788831"
+      "Timestamp": "2026-08-25T09:39:10.092000"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Super Wings S08 1080p AMZN WEB-DL H264-LAZY",
-      "Headline URL": "https://post.rlsbb.cc/super-wings-s08-1080p-amzn-web-dl-h264-lazy/",
-      "Published At": "2026-08-23T21:06:06Z",
+      "Headline": "BLURT 2018 1080p AMZN WEB-DL H264-icarus",
+      "Headline URL": "https://post.rlsbb.cc/blurt-2018-1080p-amzn-web-dl-h264-icarus/",
+      "Published At": "2026-08-24T07:21:27Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.33,
       "After Hours": 0.0,
       "Current Price": 262.07,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-24T21:21:07.788835"
+      "Timestamp": "2026-08-25T09:39:10.092005"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Honest Candidate 2024 1080p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.cc/el-candidato-honesto-2024-1080p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-08-23T20:56:06Z",
+      "Headline": "Juke-Bar 1989 720p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.cc/juke-bar-1989-720p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-08-24T05:35:12Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.33,
       "After Hours": 0.0,
       "Current Price": 262.07,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-08-24T21:21:07.788840"
+      "Timestamp": "2026-08-25T09:39:10.092010"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Prediction: Nvidia Will Be a $6 Trillion Company Before 2026 Is Over and Its Run Kickstarts This Week",
-      "Headline URL": "https://biztoc.com/x/719d89df6eaeeb70",
-      "Published At": "2026-08-23T19:34:18Z",
+      "Headline": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
+      "Headline URL": "https://biztoc.com/x/7c255ec6c6eea7ca",
+      "Published At": "2026-08-24T09:33:29Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.91,
       "After Hours": 0.0,
       "Current Price": 208.48,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788848"
+      "Timestamp": "2026-08-25T09:39:10.092018"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock",
-      "Headline URL": "https://biztoc.com/x/60e35aa7ad4b35ac",
-      "Published At": "2026-08-23T19:18:31Z",
+      "Headline": "AI Trade in Focus as Nvidia Earnings and Iran Sanctions Keep Markets on Edge: Dow Jones, S&P, Nasdaq, Wall Street Futures",
+      "Headline URL": "https://investorshub.advfn.com/market-news/article/34860/ai-trade-in-focus-as-nvidia-earnings-and-iran-sanctions-keep-markets-on-edge-dow-jones-sp-nasdaq-wall-street-futures",
+      "Published At": "2026-08-24T09:28:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.91,
+      "After Hours": 0.0,
+      "Current Price": 208.48,
+      "Data Source": "AlphaVantage",
+      "News Source": "Advfn.com",
+      "Timestamp": "2026-08-25T09:39:10.092028"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "I've Covered Semiconductors for Years. Nvidia Is My No. 1 Pick Heading Into 2027",
+      "Headline URL": "https://biztoc.com/x/3acc381b5190b115",
+      "Published At": "2026-08-24T09:18:30Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.91,
       "After Hours": 0.0,
       "Current Price": 208.48,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788855"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia's Q2 earnings to test resurgent AI trade - Yahoo Finance",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=185119222",
-      "Published At": "2026-08-23T19:13:31Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.91,
-      "After Hours": 0.0,
-      "Current Price": 208.48,
-      "Data Source": "AlphaVantage",
-      "News Source": "Slashdot.org",
-      "Timestamp": "2026-08-24T21:21:07.788862"
+      "Timestamp": "2026-08-25T09:39:10.092036"
     },
     {
       "Ticker": "JPM",
@@ -283,7 +254,7 @@
       "Current Price": 356.39,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788870"
+      "Timestamp": "2026-08-25T09:39:10.092045"
     },
     {
       "Ticker": "JPM",
@@ -297,7 +268,7 @@
       "Current Price": 356.39,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-08-24T21:21:07.788878"
+      "Timestamp": "2026-08-25T09:39:10.092054"
     },
     {
       "Ticker": "JPM",
@@ -311,7 +282,7 @@
       "Current Price": 356.39,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-08-24T21:21:07.788889"
+      "Timestamp": "2026-08-25T09:39:10.092066"
     }
   ]
 }
