@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-09-01T00:16:49.125880",
+    "generated_at": "2026-09-01T14:01:59.125336",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 18,
+    "total_records": 19,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,6 +15,7 @@
       "META",
       "AMZN",
       "NVDA",
+      "JPM",
       "V"
     ]
   },
@@ -22,44 +23,58 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "OpenAI Hoarding Tens Of Thousands Of Apple Mac mini And Mac Studio Devices, As ASUS And MSI Burn Through Their Entire First Batch Of NVIDIA RTX Spark Chip And Beg For More",
-      "Headline URL": "https://wccftech.com/openai-hoarding-tens-of-thousands-of-apple-mac-mini-and-mac-studio-devices-as-asus-and-msi-burn-through-their-entire-first-batch-of-nvidia-rtx-spark-chip-and-beg-for-more/",
-      "Published At": "2026-08-30T23:32:54Z",
+      "Headline": "How a $5,000 Investment in Apple Compounded Under Tim Cook",
+      "Headline URL": "https://247wallst.com/investing/2026/08/31/how-a-5000-investment-in-apple-compounded-under-tim-cook/",
+      "Published At": "2026-08-31T13:15:05Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.89,
       "After Hours": 0.0,
       "Current Price": 316.85,
       "Data Source": "AlphaVantage",
-      "News Source": "Wccftech",
-      "Timestamp": "2026-09-01T00:16:49.124584"
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-01T14:01:59.124237"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Uniswap processes $1.5B in stock token trading on Robinhood Chain in six weeks",
-      "Headline URL": "https://cryptobriefing.com/uniswap-robinhood-chain-stock-token-trading/",
-      "Published At": "2026-08-30T20:59:14Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.89,
-      "After Hours": 0.0,
-      "Current Price": 316.85,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-01T00:16:49.124605"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Tim Cook Committed Apple to a $60 Billion Domestic Manufacturing Bet Just Weeks Before Handing Off the CEO Job. Here's What It Means for Apple Investors",
-      "Headline URL": "https://biztoc.com/x/325889fb2fbf1bbc",
-      "Published At": "2026-08-30T16:38:27Z",
+      "Headline": "Did Apple Go Too Far This Time?",
+      "Headline URL": "https://biztoc.com/x/1b3ea5e1bb850da5",
+      "Published At": "2026-08-31T12:55:26Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.89,
       "After Hours": 0.0,
       "Current Price": 316.85,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124633"
+      "Timestamp": "2026-09-01T14:01:59.124262"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Global Phone Shipments Drop, but Apple Positioned for Record iOS Market Share Gain",
+      "Headline URL": "https://biztoc.com/x/cbe3d5cd21a5b383",
+      "Published At": "2026-08-31T12:10:09Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.89,
+      "After Hours": 0.0,
+      "Current Price": 316.85,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-01T14:01:59.124274"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Can Microsoft Stock Surge to a New All-Time High by the End of 2026 as Azure Cloud Demand Accelerates?",
+      "Headline URL": "https://biztoc.com/x/b2f4331aaa438182",
+      "Published At": "2026-08-31T04:01:27Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.87,
+      "After Hours": 0.0,
+      "Current Price": 502.9,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-01T14:01:59.124288"
     },
     {
       "Ticker": "MSFT",
@@ -68,26 +83,12 @@
       "Headline URL": "https://dailyhodl.com/2026/08/30/remarkably-resilient-us-equities-add-nearly-12000000000000-in-market-cap-since-march-bottom/",
       "Published At": "2026-08-30T14:30:25Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.22,
+      "Regular Change": -0.87,
       "After Hours": 0.0,
-      "Current Price": 507.29,
+      "Current Price": 502.9,
       "Data Source": "YahooDirect",
       "News Source": "The Daily Hodl",
-      "Timestamp": "2026-09-01T00:16:49.124653"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
-      "Headline URL": "https://finance.yahoo.com/markets/article/all-about-acceleration-after-nvidia-earnings-the-tech-trade-is-getting-more-segmented-114905135.html",
-      "Published At": "2026-08-30T11:49:05Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.22,
-      "After Hours": 0.0,
-      "Current Price": 507.29,
-      "Data Source": "YahooDirect",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-01T00:16:49.124672"
+      "Timestamp": "2026-09-01T14:01:59.124305"
     },
     {
       "Ticker": "TSLA",
@@ -101,7 +102,7 @@
       "Current Price": 367.95,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-01T00:16:49.124685"
+      "Timestamp": "2026-09-01T14:01:59.124316"
     },
     {
       "Ticker": "TSLA",
@@ -115,49 +116,77 @@
       "Current Price": 367.95,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124699"
+      "Timestamp": "2026-09-01T14:01:59.124327"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Could Benefit as Trump Locks Down the U.S. Power Grid",
-      "Headline URL": "https://biztoc.com/x/644061360288ad60",
-      "Published At": "2026-08-30T20:41:21Z",
+      "Headline": "Tesla Just Killed Its Solar Roof After Years of Struggling to Scale. What It Means for TSLA Stock.",
+      "Headline URL": "https://www.barchart.com/story/news/4346786/tesla-just-killed-its-solar-roof-after-years-of-struggling-to-scale-what-it-means-for-tsla-stock",
+      "Published At": "2026-08-30T22:05:44Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 5.51,
       "After Hours": 0.0,
       "Current Price": 367.95,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124727"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-09-01T14:01:59.124358"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Congressman Sold Alphabet Stock Three Months After Buying It, and He Might Have Lost Money",
-      "Headline URL": "https://biztoc.com/x/1f91e58488370fcf",
-      "Published At": "2026-08-30T20:42:01Z",
+      "Headline": "Amazon Is Firing on All Cylinders. This is Where The Stock Will Go.",
+      "Headline URL": "https://247wallst.com/investing/2026/08/31/amazon-is-firing-on-all-cylinders-this-is-where-the-stock-will-go/",
+      "Published At": "2026-08-31T13:30:33Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.09,
+      "Regular Change": -1.0,
       "After Hours": 0.0,
-      "Current Price": 339.35,
+      "Current Price": 335.97,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124740"
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-01T14:01:59.124368"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade",
-      "Headline URL": "https://biztoc.com/x/1d809fc2431de220",
-      "Published At": "2026-08-30T14:53:07Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -2.09,
+      "Headline": "Pinterest Falls 4% as CFO Resigns, Snap Inches Higher, Alphabet Holds Flat",
+      "Headline URL": "https://247wallst.com/investing/2026/08/31/pinterest-falls-4-as-cfo-resigns-snap-inches-higher-alphabet-holds-flat/",
+      "Published At": "2026-08-31T12:56:58Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -1.0,
       "After Hours": 0.0,
-      "Current Price": 339.35,
+      "Current Price": 335.97,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-01T14:01:59.124377"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Will Amazon or Alphabet Better Digest AI Capex This Quarter?",
+      "Headline URL": "https://biztoc.com/x/fbc41594094df0c2",
+      "Published At": "2026-08-31T12:37:55Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.0,
+      "After Hours": 0.0,
+      "Current Price": 335.97,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124752"
+      "Timestamp": "2026-09-01T14:01:59.124385"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Prediction: Meta Stock Reclaims Its All-Time High Before 2029",
+      "Headline URL": "https://biztoc.com/x/8e46daccaa26d986",
+      "Published At": "2026-08-31T08:20:35Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.98,
+      "After Hours": 0.0,
+      "Current Price": 572.34,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-01T14:01:59.124399"
     },
     {
       "Ticker": "META",
@@ -171,7 +200,7 @@
       "Current Price": 572.34,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124762"
+      "Timestamp": "2026-09-01T14:01:59.124405"
     },
     {
       "Ticker": "META",
@@ -185,77 +214,63 @@
       "Current Price": 572.34,
       "Data Source": "AlphaVantage",
       "News Source": "The Irish Times",
-      "Timestamp": "2026-09-01T00:16:49.124774"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock And 2 Founder Led AI Picks For Higher Rates",
-      "Headline URL": "https://biztoc.com/x/8e4f1e704f07bc23",
-      "Published At": "2026-08-29T20:56:36Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.98,
-      "After Hours": 0.0,
-      "Current Price": 572.34,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124786"
+      "Timestamp": "2026-09-01T14:01:59.124412"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon Facing FTC Lawsuit Over Secretly Raising Advertiser Prices",
-      "Headline URL": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/31/ftc-files-lawsuit-against-amazon-alleging-manipulative-ad-prices/",
-      "Published At": "2026-08-31T00:00:00Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -2.5,
-      "After Hours": 0.0,
-      "Current Price": 259.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Forbes",
-      "Timestamp": "2026-09-01T00:16:49.124798"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Crossover Immortal Sins 2023 1080p AMZN WEB-DL H264-SNAKE",
-      "Headline URL": "https://post.rlsbb.cc/crossover-immortal-sins-2023-1080p-amzn-web-dl-h264-snake/",
-      "Published At": "2026-08-30T21:21:04Z",
+      "Headline": "Unarchived 2022 720p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.cc/unarchived-2022-720p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-08-31T13:53:31Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.5,
+      "Regular Change": -2.25,
       "After Hours": 0.0,
-      "Current Price": 259.77,
+      "Current Price": 253.91,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-01T00:16:49.124809"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Tokyo Taxi 2025 1080p AMZN WEB-DL H264-ppkhoa",
-      "Headline URL": "https://post.rlsbb.cc/tokyo-taxi-2025-1080p-amzn-web-dl-h264-ppkhoa/",
-      "Published At": "2026-08-30T19:51:41Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.5,
-      "After Hours": 0.0,
-      "Current Price": 259.77,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-01T00:16:49.124815"
+      "Timestamp": "2026-09-01T14:01:59.124417"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia\u2019s $96 billion quarter revealed a surprising constraint",
-      "Headline URL": "https://biztoc.com/x/54f3fde7ad2cf029",
-      "Published At": "2026-08-30T23:59:03Z",
+      "Headline": "Prediction: Nvidia Stock Will Trade at $350 on This Date",
+      "Headline URL": "https://247wallst.com/investing/2026/08/31/prediction-nvidia-stock-will-trade-at-350-on-this-date/",
+      "Published At": "2026-08-31T14:00:53Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 1.48,
       "After Hours": 0.0,
       "Current Price": 220.78,
       "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-01T14:01:59.124423"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia\u2019s (NVDA) Investment in OpenAI Highlights Circular Financing Concerns",
+      "Headline URL": "https://biztoc.com/x/17ee7fa57e2296bf",
+      "Published At": "2026-08-31T13:42:41Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 1.48,
+      "After Hours": 0.0,
+      "Current Price": 220.78,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-01T00:16:49.124823"
+      "Timestamp": "2026-09-01T14:01:59.124429"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Is Bank of America Stock Outperforming the Dow?",
+      "Headline URL": "https://www.barchart.com/story/news/4346171/is-bank-of-america-stock-outperforming-the-dow",
+      "Published At": "2026-08-30T18:53:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.27,
+      "After Hours": 0.0,
+      "Current Price": 356.97,
+      "Data Source": "YahooDirect",
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-09-01T14:01:59.124435"
     },
     {
       "Ticker": "V",
@@ -269,7 +284,7 @@
       "Current Price": 379.37,
       "Data Source": "AlphaVantage",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-09-01T00:16:49.124851"
+      "Timestamp": "2026-09-01T14:01:59.124440"
     }
   ]
 }
