@@ -1,14 +1,14 @@
 LIVE STOCK SENTIMENT ANALYSIS
 ==================================================
-Generated : 2026-09-01 22:55:25.727289
+Generated : 2026-09-02 13:26:02.469978
 Sources   : AlphaVantage, YahooDirect
 
 Records   : 22
-Stocks    : 10
+Stocks    : 9
 
 SENTIMENT
-  Positive : 5
-  Negative : 1
+  Positive : 4
+  Negative : 2
   Neutral  : 16
 
 TOP GAINERS
@@ -20,7 +20,7 @@ TOP GAINERS
 
 TOP LOSERS
   TSLA: -3.22% ($356.09) NEUTRAL
+  TSLA: -3.22% ($356.09) POSITIVE
   TSLA: -3.22% ($356.09) NEUTRAL
-  TSLA: -3.22% ($356.09) NEGATIVE
-  AMZN: -1.87% ($254.92) NEUTRAL
+  AMZN: -1.87% ($254.92) NEGATIVE
   AMZN: -1.87% ($254.92) NEUTRAL
