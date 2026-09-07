@@ -1,17 +1,16 @@
 {
   "metadata": {
-    "generated_at": "2026-09-07T14:55:37.311274",
+    "generated_at": "2026-09-07T23:13:26.862630",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 13,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
       "MSFT",
       "TSLA",
-      "GOOGL",
       "AMZN",
       "NVDA",
       "JPM"
@@ -21,44 +20,44 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple Stock: September Surprise Could Be Bigger Than a New iPhone",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1ec80caf-2a65-4968-9992-d7a02f6db528",
-      "Published At": "2026-09-06T13:00:02Z",
+      "Headline": "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
+      "Headline URL": "https://finance.yahoo.com/media-advertising/articles/apple-aapl-raises-apple-tv-224834727.html",
+      "Published At": "2026-09-06T22:48:34Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.51,
       "After Hours": 0.0,
       "Current Price": 319.97,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-07T14:55:37.310105"
+      "Timestamp": "2026-09-07T23:13:26.861494"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "\u7c73Lexar\u3001\u72ec\u81ea\u306e\u30dd\u30b4\u30d4\u30f3\u30b1\u30fc\u30d6\u30eb\u3092\u63a1\u7528\u3057\u539a\u3055\u304c1~3.8mm\u3067Apple ProRes\u9332\u753b\u306b\u3082\u5bfe\u5fdc\u3059\u308b\u30dd\u30fc\u30bf\u30d6\u30ebSSD\u300cLexar Muse Ultra-Slim Portable SSD\u300d\u3092\u767a\u8868\u3002",
-      "Headline URL": "https://applech2.com/archives/20260906-lexar-muse-ultra-slim-portable-ssd.html",
-      "Published At": "2026-09-06T10:20:23Z",
+      "Headline": "Apple (AAPL) Sets iPhone Launch Event. The First Under New CEO John Ternus",
+      "Headline URL": "https://finance.yahoo.com/technology/articles/apple-aapl-sets-iphone-launch-221225248.html",
+      "Published At": "2026-09-06T22:12:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.51,
       "After Hours": 0.0,
       "Current Price": 319.97,
       "Data Source": "AlphaVantage",
-      "News Source": "Applech2.com",
-      "Timestamp": "2026-09-07T14:55:37.310138"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-09-07T23:13:26.861512"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Say Hello to the New CEO. Where Will John Ternus Lead Apple?",
-      "Headline URL": "https://www.thedailyupside.com/technology/artificial-intelligence/say-hello-to-the-new-ceo-where-will-john-ternus-take-apple/",
-      "Published At": "2026-09-06T04:01:00Z",
+      "Headline": "Apple (AAPL)\u2019s New Mac Mini and Studio Bet Big on On-Device AI",
+      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-mac-mini-studio-201609665.html",
+      "Published At": "2026-09-06T20:16:09Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -2.51,
       "After Hours": 0.0,
       "Current Price": 319.97,
       "Data Source": "AlphaVantage",
-      "News Source": "Thedailyupside.com",
-      "Timestamp": "2026-09-07T14:55:37.310162"
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-09-07T23:13:26.861525"
     },
     {
       "Ticker": "MSFT",
@@ -72,7 +71,7 @@
       "Current Price": 499.7,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-09-07T14:55:37.310182"
+      "Timestamp": "2026-09-07T23:13:26.861538"
     },
     {
       "Ticker": "MSFT",
@@ -86,7 +85,7 @@
       "Current Price": 499.7,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-07T14:55:37.310199"
+      "Timestamp": "2026-09-07T23:13:26.861550"
     },
     {
       "Ticker": "TSLA",
@@ -100,7 +99,7 @@
       "Current Price": 354.08,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-07T14:55:37.310215"
+      "Timestamp": "2026-09-07T23:13:26.861585"
     },
     {
       "Ticker": "TSLA",
@@ -114,7 +113,7 @@
       "Current Price": 354.08,
       "Data Source": "AlphaVantage",
       "News Source": "Antelope Valley Press",
-      "Timestamp": "2026-09-07T14:55:37.310224"
+      "Timestamp": "2026-09-07T23:13:26.861595"
     },
     {
       "Ticker": "TSLA",
@@ -128,105 +127,49 @@
       "Current Price": 354.08,
       "Data Source": "AlphaVantage",
       "News Source": "Boston Herald",
-      "Timestamp": "2026-09-07T14:55:37.310245"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Google Unveils Gemini 3.8 Flash and Fairwind Program: How to Play GOOGL Stock Here",
-      "Headline URL": "https://www.barchart.com/story/news/4467718/google-unveils-gemini-3-8-flash-and-fairwind-program-how-to-play-googl-stock-here",
-      "Published At": "2026-09-06T14:00:02Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.11,
-      "After Hours": 0.0,
-      "Current Price": 338.46,
-      "Data Source": "YahooDirect",
-      "News Source": "Barchart.com",
-      "Timestamp": "2026-09-07T14:55:37.310256"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Why Gabelli\u2019s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
-      "Headline URL": "https://biztoc.com/x/079c556af2592403",
-      "Published At": "2026-09-05T16:06:32Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.11,
-      "After Hours": 0.0,
-      "Current Price": 338.46,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-07T14:55:37.310265"
+      "Timestamp": "2026-09-07T23:13:26.861609"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Surrogate Scandal 2023 1080p AMZN WEB-DL H264-ZdS",
-      "Headline URL": "https://post.rlsbb.cc/the-surrogate-scandal-2023-1080p-amzn-web-dl-h264-zds/",
-      "Published At": "2026-09-06T12:22:07Z",
+      "Headline": "Workday (WDAY)\u2019s AI Push is Easing Investor Fears, but its Own Guidance Tells a More Cautious Story",
+      "Headline URL": "https://finance.yahoo.com/technology/ai/articles/workday-wday-ai-push-easing-231129347.html",
+      "Published At": "2026-09-06T23:11:29Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.15,
+      "After Hours": 0.0,
+      "Current Price": 258.51,
+      "Data Source": "YahooDirect",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-09-07T23:13:26.861622"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The ZhuZhus S01 1080p AMZN WEB-DL H264-LAZY",
+      "Headline URL": "https://post.rlsbb.cc/the-zhuzhus-s01-1080p-amzn-web-dl-h264-lazy/",
+      "Published At": "2026-09-06T22:51:44Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.15,
       "After Hours": 0.0,
       "Current Price": 258.51,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-07T14:55:37.310272"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Newlywed Nightmare 2023 1080p AMZN WEB-DL H264-ZdS",
-      "Headline URL": "https://post.rlsbb.cc/newlywed-nightmare-2023-1080p-amzn-web-dl-h264-zds/",
-      "Published At": "2026-09-06T12:22:07Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.15,
-      "After Hours": 0.0,
-      "Current Price": 258.51,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-07T14:55:37.310277"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Haunted Harmony Mysteries Prelude To A Wedding 2026 720p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/haunted-harmony-mysteries-prelude-to-a-wedding-2026-720p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-09-06T11:52:14Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.15,
-      "After Hours": 0.0,
-      "Current Price": 258.51,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-07T14:55:37.310285"
+      "Timestamp": "2026-09-07T23:13:26.861629"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Michael Burry sends a strong warning to Palantir stock investors",
-      "Headline URL": "https://www.thestreet.com/investing/stocks/michael-burry-warns-palantir-stock-investors-bear-case",
-      "Published At": "2026-09-06T14:37:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.84,
-      "After Hours": 0.0,
-      "Current Price": 230.36,
-      "Data Source": "AlphaVantage",
-      "News Source": "TheStreet",
-      "Timestamp": "2026-09-07T14:55:37.310293"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia's $279 Billion Bet Changes Everything",
-      "Headline URL": "https://biztoc.com/x/5d597dbae0d3d179",
-      "Published At": "2026-09-06T13:37:34Z",
+      "Headline": "Nvidia's $279 Billion Bet Changes Everything (NASDAQ:NVDA)",
+      "Headline URL": "https://biztoc.com/x/b98c4b99f75b10a8",
+      "Published At": "2026-09-06T22:43:43Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 0.84,
       "After Hours": 0.0,
       "Current Price": 230.36,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-07T14:55:37.310299"
+      "Timestamp": "2026-09-07T23:13:26.861637"
     },
     {
       "Ticker": "JPM",
@@ -240,7 +183,7 @@
       "Current Price": 358.64,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-07T14:55:37.310316"
+      "Timestamp": "2026-09-07T23:13:26.861654"
     },
     {
       "Ticker": "JPM",
@@ -254,7 +197,7 @@
       "Current Price": 358.64,
       "Data Source": "YahooDirect",
       "News Source": "Seeking Alpha",
-      "Timestamp": "2026-09-07T14:55:37.310323"
+      "Timestamp": "2026-09-07T23:13:26.861662"
     }
   ]
 }
