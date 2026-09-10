@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-09-09T22:51:32.438025",
+    "generated_at": "2026-09-10T13:27:15.224969",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 23,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,58 +23,72 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple iPhone 18 Pro And Foldable iPhone Launch: Apple Unveils Video Countdown - Forbes",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=185528514",
-      "Published At": "2026-09-08T16:32:58Z",
+      "Headline": "Prediction: This Will Be Apple's Stock Price by the End of 2027",
+      "Headline URL": "https://biztoc.com/x/fa1eeb7e56dd63f3",
+      "Published At": "2026-09-09T13:14:15Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.28,
       "After Hours": 0.0,
       "Current Price": 315.34,
       "Data Source": "AlphaVantage",
-      "News Source": "Slashdot.org",
-      "Timestamp": "2026-09-09T22:51:32.437024"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
-      "Headline URL": "https://247wallst.com/investing/2026/09/08/alphabet-stock-is-pulling-back-from-its-high-heres-why-id-buy-the-dip/",
-      "Published At": "2026-09-08T14:30:15Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.47,
-      "After Hours": 0.0,
-      "Current Price": 491.65,
-      "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-09-09T22:51:32.437053"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Has a $1,000 Problem With Its Next Xbox",
-      "Headline URL": "https://biztoc.com/x/e4071ec65c2ea60c",
-      "Published At": "2026-09-07T19:32:14Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.47,
-      "After Hours": 0.0,
-      "Current Price": 491.65,
-      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437063"
+      "Timestamp": "2026-09-10T13:27:15.223967"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Stock Market Today: Dow Falls Amid Rising Oil Prices; Apple Shares Drop Ahead Of iPhone Event (Live Coverage)",
+      "Headline URL": "https://biztoc.com/x/a9d1fa76e86f81ba",
+      "Published At": "2026-09-09T12:29:39Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -0.28,
+      "After Hours": 0.0,
+      "Current Price": 315.34,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-10T13:27:15.223992"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Tim Cook: Apple \u201cReluctantly Raised Prices\u201d as Memory Costs Spiral Out of Control",
+      "Headline URL": "https://247wallst.com/investing/2026/09/09/tim-cook-apple-reluctantly-raised-prices-as-memory-costs-spiral-out-of-control/",
+      "Published At": "2026-09-09T12:25:46Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.28,
+      "After Hours": 0.0,
+      "Current Price": 315.34,
+      "Data Source": "AlphaVantage",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-10T13:27:15.224005"
     },
     {
       "Ticker": "MSFT",
       "Company": "Microsoft Corp.",
-      "Headline": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
-      "Headline URL": "https://247wallst.com/investing/2026/09/07/microsoft-is-close-to-a-new-all-time-high-this-number-will-determine-if-it-keeps-climbing/",
-      "Published At": "2026-09-07T15:45:50Z",
+      "Headline": "Why Stifel Just Revamped Its Price Target for Microsoft Stock",
+      "Headline URL": "https://www.barchart.com/story/news/4495869/why-stifel-just-revamped-its-price-target-for-microsoft-stock",
+      "Published At": "2026-09-08T17:30:55Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.47,
       "After Hours": 0.0,
       "Current Price": 491.65,
       "Data Source": "YahooDirect",
-      "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-09-09T22:51:32.437073"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-09-10T13:27:15.224013"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Is Tesla Stock a Buy in September 2026?",
+      "Headline URL": "https://biztoc.com/x/a15b06b38e36934a",
+      "Published At": "2026-09-09T11:13:57Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.1,
+      "After Hours": 0.0,
+      "Current Price": 367.81,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-10T13:27:15.224022"
     },
     {
       "Ticker": "TSLA",
@@ -88,7 +102,7 @@
       "Current Price": 367.81,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437084"
+      "Timestamp": "2026-09-10T13:27:15.224030"
     },
     {
       "Ticker": "TSLA",
@@ -102,63 +116,49 @@
       "Current Price": 367.81,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437093"
+      "Timestamp": "2026-09-10T13:27:15.224038"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Tesla Stock Rises. Musk's Robotaxi Bet Gets a New Vehicle",
-      "Headline URL": "https://biztoc.com/x/d10b82458a64e144",
-      "Published At": "2026-09-08T17:38:23Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.1,
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Meta Rises 6% as Muse AI Agent Arrives With Paid Subscription Tiers; Alphabet Falls 2%",
+      "Headline URL": "https://247wallst.com/investing/2026/09/09/meta-rises-6-as-muse-ai-agent-arrives-with-paid-subscription-tiers-alphabet-falls-2/",
+      "Published At": "2026-09-09T13:19:27Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.28,
       "After Hours": 0.0,
-      "Current Price": 367.81,
+      "Current Price": 330.65,
+      "Data Source": "YahooDirect",
+      "News Source": "24/7 Wall St.",
+      "Timestamp": "2026-09-10T13:27:15.224059"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Bill Ackman's surprising $934 million bet after dumping Alphabet",
+      "Headline URL": "https://biztoc.com/x/697b7eaf16c0eeaa",
+      "Published At": "2026-09-09T03:26:44Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.28,
+      "After Hours": 0.0,
+      "Current Price": 330.65,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-10T13:27:15.224065"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta Unleashes a New AI Weapon. Wall Street Sees Huge Upside for META Stock",
+      "Headline URL": "https://www.barchart.com/story/news/4498322/meta-unleashes-a-new-ai-weapon-wall-street-sees-huge-upside-for-meta-stock",
+      "Published At": "2026-09-08T20:29:53Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 6.55,
+      "After Hours": 0.0,
+      "Current Price": 653.69,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437101"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
-      "Headline URL": "https://biztoc.com/x/b83febf320e0bd79",
-      "Published At": "2026-09-08T19:21:54Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.28,
-      "After Hours": 0.0,
-      "Current Price": 330.65,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437119"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Is Alphabet Stock Undervalued?",
-      "Headline URL": "https://biztoc.com/x/1f88281b10997d00",
-      "Published At": "2026-09-08T16:53:30Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -2.28,
-      "After Hours": 0.0,
-      "Current Price": 330.65,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437124"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip",
-      "Headline URL": "https://biztoc.com/x/631c4a16b2a4d7c8",
-      "Published At": "2026-09-08T14:34:11Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -2.28,
-      "After Hours": 0.0,
-      "Current Price": 330.65,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437133"
+      "News Source": "Barchart.com",
+      "Timestamp": "2026-09-10T13:27:15.224073"
     },
     {
       "Ticker": "META",
@@ -172,119 +172,91 @@
       "Current Price": 653.69,
       "Data Source": "AlphaVantage",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-09-09T22:51:32.437140"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Bank of America sends wake-up call to Meta stock investors",
-      "Headline URL": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a223f6fc-fc23-459e-90bf-7fc31f2bfbdd",
-      "Published At": "2026-09-07T23:00:00Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 6.55,
-      "After Hours": 0.0,
-      "Current Price": 653.69,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-09T22:51:32.437147"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Jim Cramer Says Meta (META) is \u201cAt the Price\u201d After Settlement Eases Major Legal Overhang",
-      "Headline URL": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-meta-meta-203146510.html",
-      "Published At": "2026-09-07T20:31:46Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 6.55,
-      "After Hours": 0.0,
-      "Current Price": 653.69,
-      "Data Source": "AlphaVantage",
-      "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-09T22:51:32.437156"
+      "Timestamp": "2026-09-10T13:27:15.224080"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Britains TikTok Murder S01 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/britains-tiktok-murder-s01-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-09-08T19:54:53Z",
+      "Headline": "Extreme Buyers Club S01E08 720p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/extreme-buyers-club-s01e08-720p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-09-09T13:09:12Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.78,
       "After Hours": 0.0,
       "Current Price": 252.4,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-09T22:51:32.437163"
+      "Timestamp": "2026-09-10T13:27:15.224086"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Qualcomm strikes AI chip deal with Amazon",
-      "Headline URL": "https://biztoc.com/x/74a642873ef701e9",
-      "Published At": "2026-09-08T18:51:19Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -1.78,
-      "After Hours": 0.0,
-      "Current Price": 252.4,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437168"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Amazon's AI Buildout Is Starting to Show Up in Its Debt",
-      "Headline URL": "https://biztoc.com/x/c5cf1e2df807058b",
-      "Published At": "2026-09-08T17:38:37Z",
+      "Headline": "Michael Dell passes Jeff Bezos to become world's third-richest person",
+      "Headline URL": "https://qz.com/michael-dell-jeff-bezos-net-worth-billionaire-ranking-090926",
+      "Published At": "2026-09-09T13:08:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.78,
       "After Hours": 0.0,
       "Current Price": 252.4,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437172"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Jim Cramer picks Nvidia and Broadcom as OpenAI GPT-6 Astra winners",
-      "Headline URL": "https://qz.com/jim-cramer-nvidia-broadcom-openai-gpt6-astra-090826",
-      "Published At": "2026-09-08T17:18:03Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.91,
-      "After Hours": 0.0,
-      "Current Price": 223.67,
-      "Data Source": "AlphaVantage",
       "News Source": "Quartz India",
-      "Timestamp": "2026-09-09T22:51:32.437178"
+      "Timestamp": "2026-09-10T13:27:15.224092"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Mimi 1979 1080p AMZN WEB-DL H264-SPWEB",
+      "Headline URL": "https://post.rlsbb.cc/mimi-1979-1080p-amzn-web-dl-h264-spweb/",
+      "Published At": "2026-09-09T12:54:35Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.78,
+      "After Hours": 0.0,
+      "Current Price": 252.4,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-09-10T13:27:15.224097"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "3 Things Bears Have Wrong About Nvidia Right Now",
-      "Headline URL": "https://biztoc.com/x/bcda9e541e843dce",
-      "Published At": "2026-09-08T16:38:25Z",
+      "Headline": "AMD and Nvidia Just Experienced an Unprecedented Valuation Split",
+      "Headline URL": "https://biztoc.com/x/68ddd2207f0c68e5",
+      "Published At": "2026-09-09T10:57:46Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.91,
       "After Hours": 0.0,
       "Current Price": 223.67,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437183"
+      "Timestamp": "2026-09-10T13:27:15.224105"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Is Worth $5 Trillion. But This Could Be the Next Big Catalyst for the Stock",
-      "Headline URL": "https://biztoc.com/x/d599558d7f861318",
-      "Published At": "2026-09-08T16:22:10Z",
+      "Headline": "Nvidia Earnings Blow Everyone Away",
+      "Headline URL": "https://biztoc.com/x/1c824a1e686672fe",
+      "Published At": "2026-09-09T04:11:57Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.91,
       "After Hours": 0.0,
       "Current Price": 223.67,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-09T22:51:32.437189"
+      "Timestamp": "2026-09-10T13:27:15.224110"
+    },
+    {
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "Q3 Earnings Could Be the Catalyst the Market Has Been Waiting For",
+      "Headline URL": "https://www.marketbeat.com/articles/q3-earnings-could-be-the-catalyst-the-market-has-been-waiting-for/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "Published At": "2026-09-08T17:15:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.34,
+      "After Hours": 0.0,
+      "Current Price": 354.71,
+      "Data Source": "YahooDirect",
+      "News Source": "MarketBeat",
+      "Timestamp": "2026-09-10T13:27:15.224118"
     },
     {
       "Ticker": "JPM",
@@ -298,7 +270,7 @@
       "Current Price": 354.71,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-09-09T22:51:32.437193"
+      "Timestamp": "2026-09-10T13:27:15.224125"
     },
     {
       "Ticker": "JPM",
@@ -312,21 +284,7 @@
       "Current Price": 354.71,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-09-09T22:51:32.437199"
-    },
-    {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Asian Paints names former JPM exec Puri as next chairman",
-      "Headline URL": "https://www.thehindubusinessline.com/companies/asian-paints-names-former-jpm-exec-puri-as-next-chairman/article71438186.ece",
-      "Published At": "2026-09-07T10:24:28Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.34,
-      "After Hours": 0.0,
-      "Current Price": 354.71,
-      "Data Source": "YahooDirect",
-      "News Source": "BusinessLine",
-      "Timestamp": "2026-09-09T22:51:32.437204"
+      "Timestamp": "2026-09-10T13:27:15.224133"
     },
     {
       "Ticker": "V",
@@ -340,7 +298,7 @@
       "Current Price": 367.39,
       "Data Source": "AlphaVantage",
       "News Source": "Tautology.town",
-      "Timestamp": "2026-09-09T22:51:32.437209"
+      "Timestamp": "2026-09-10T13:27:15.224140"
     }
   ]
 }
