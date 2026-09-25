@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-09-24T23:42:36.133600",
+    "generated_at": "2026-09-25T14:30:30.739254",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
@@ -24,6 +24,20 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
+      "Headline": "Why a 2% Dividend Yield Portfolio Beats a 25% One",
+      "Headline URL": "https://thedividendguyblog.com/why-a-2-dividend-yield-portfolio-beats-a-25-one/",
+      "Published At": "2026-09-24T10:30:49Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.33,
+      "After Hours": 0.0,
+      "Current Price": 335.92,
+      "Data Source": "AlphaVantage",
+      "News Source": "Thedividendguyblog.com",
+      "Timestamp": "2026-09-25T14:30:30.738236"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
       "Headline": "Base\u2019s 24/7 stock market offers three-digit APRs for liquidity providers",
       "Headline URL": "https://cryptobriefing.com/base-stock-market-three-digit-aprs/",
       "Published At": "2026-09-23T13:42:02Z",
@@ -33,7 +47,7 @@
       "Current Price": 335.92,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-24T23:42:36.132118"
+      "Timestamp": "2026-09-25T14:30:30.738260"
     },
     {
       "Ticker": "AAPL",
@@ -47,7 +61,21 @@
       "Current Price": 335.92,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-24T23:42:36.132139"
+      "Timestamp": "2026-09-25T14:30:30.738269"
+    },
+    {
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Goldman Sachs doubles down on Microsoft stock",
+      "Headline URL": "https://biztoc.com/x/bdfbff2c542c1ce1",
+      "Published At": "2026-09-24T08:07:27Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 3.22,
+      "After Hours": 0.0,
+      "Current Price": 513.98,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-25T14:30:30.738275"
     },
     {
       "Ticker": "MSFT",
@@ -56,12 +84,12 @@
       "Headline URL": "https://247wallst.com/investing/2026/09/23/alphabet-drops-4-meta-edges-higher-as-ai-rotation-splits-big-tech-microsoft-holds-flat/",
       "Published At": "2026-09-23T16:57:41Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -0.53,
+      "Regular Change": 3.22,
       "After Hours": 0.0,
-      "Current Price": 497.93,
+      "Current Price": 513.98,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-09-24T23:42:36.132153"
+      "Timestamp": "2026-09-25T14:30:30.738285"
     },
     {
       "Ticker": "MSFT",
@@ -70,26 +98,12 @@
       "Headline URL": "https://cryptobriefing.com/stifel-upgrades-microsoft-buy-azure-ai/",
       "Published At": "2026-09-23T16:15:19Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -0.53,
+      "Regular Change": 3.22,
       "After Hours": 0.0,
-      "Current Price": 497.93,
+      "Current Price": 513.98,
       "Data Source": "YahooDirect",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-24T23:42:36.132165"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Trump discloses millions in stock trades for tech and AI firms",
-      "Headline URL": "https://cryptobriefing.com/trump-discloses-millions-tech-ai-stock-trades/",
-      "Published At": "2026-09-23T15:49:06Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.53,
-      "After Hours": 0.0,
-      "Current Price": 497.93,
-      "Data Source": "YahooDirect",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-24T23:42:36.132179"
+      "Timestamp": "2026-09-25T14:30:30.738293"
     },
     {
       "Ticker": "TSLA",
@@ -103,7 +117,7 @@
       "Current Price": 377.94,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132194"
+      "Timestamp": "2026-09-25T14:30:30.738303"
     },
     {
       "Ticker": "TSLA",
@@ -117,7 +131,7 @@
       "Current Price": 377.94,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-24T23:42:36.132203"
+      "Timestamp": "2026-09-25T14:30:30.738310"
     },
     {
       "Ticker": "TSLA",
@@ -131,7 +145,7 @@
       "Current Price": 377.94,
       "Data Source": "AlphaVantage",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-09-24T23:42:36.132215"
+      "Timestamp": "2026-09-25T14:30:30.738317"
     },
     {
       "Ticker": "GOOGL",
@@ -140,12 +154,40 @@
       "Headline URL": "https://biztoc.com/x/ed8b52d3363aa4b7",
       "Published At": "2026-09-23T17:35:56Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.34,
+      "Regular Change": 0.03,
       "After Hours": 0.0,
-      "Current Price": 342.36,
+      "Current Price": 342.46,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132226"
+      "Timestamp": "2026-09-25T14:30:30.738337"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "The Muse Is Loose: Inside Zuckerberg's $100-A-Month Bet That You'll Let Facebook Run Your Life",
+      "Headline URL": "https://biztoc.com/x/ddcf462cc4f7e193",
+      "Published At": "2026-09-24T05:07:10Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 4.5,
+      "After Hours": 0.0,
+      "Current Price": 777.59,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-09-25T14:30:30.738344"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Meta unveils $1,299 VR glasses and turns its AI glasses into hearing aids",
+      "Headline URL": "https://thenextweb.com/news/meta-vr-glasses-hearing-aid-connect-2026",
+      "Published At": "2026-09-24T00:07:04Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 4.5,
+      "After Hours": 0.0,
+      "Current Price": 777.59,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Next Web",
+      "Timestamp": "2026-09-25T14:30:30.738351"
     },
     {
       "Ticker": "META",
@@ -159,105 +201,77 @@
       "Current Price": 777.59,
       "Data Source": "AlphaVantage",
       "News Source": "CNBC",
-      "Timestamp": "2026-09-24T23:42:36.132249"
+      "Timestamp": "2026-09-25T14:30:30.738355"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Is Muse Really the Answer to Meta\u2019s AI Woes?",
-      "Headline URL": "https://biztoc.com/x/13fba90c3c329be1",
-      "Published At": "2026-09-23T20:36:41Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "MobLand S02E02 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.cc/mobland-s02e02-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-09-24T14:26:14Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 4.5,
+      "Regular Change": -0.78,
       "After Hours": 0.0,
-      "Current Price": 777.59,
-      "Data Source": "AlphaVantage",
+      "Current Price": 247.44,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-09-25T14:30:30.738359"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Wheel Of Fortune S44E08 1080p AMZN WEB-DL H264-Kitsune",
+      "Headline URL": "https://post.rlsbb.cc/wheel-of-fortune-s44e08-1080p-amzn-web-dl-h264-kitsune/",
+      "Published At": "2026-09-24T14:09:12Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.78,
+      "After Hours": 0.0,
+      "Current Price": 247.44,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-09-25T14:30:30.738362"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Stock Market Today: Dow Falls On Rising Treasury Yields; Nvidia Extends Losses (Live Coverage)",
+      "Headline URL": "https://biztoc.com/x/bf695756b3608def",
+      "Published At": "2026-09-24T13:53:27Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -0.78,
+      "After Hours": 0.0,
+      "Current Price": 247.44,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132258"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Wheeler Dealers World Tour S03E01 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/wheeler-dealers-world-tour-s03e01-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-09-23T21:51:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.04,
-      "After Hours": 0.0,
-      "Current Price": 249.38,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-24T23:42:36.132268"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Haunting of Winchester House 2009 1080p AMZN WEB-DL H264-FIEND",
-      "Headline URL": "https://post.rlsbb.cc/haunting-of-winchester-house-2009-1080p-amzn-web-dl-h264-fiend/",
-      "Published At": "2026-09-23T20:21:34Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.04,
-      "After Hours": 0.0,
-      "Current Price": 249.38,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-24T23:42:36.132276"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Photographer 2026 1080p AMZN WEB-DL H264-CHORTLE",
-      "Headline URL": "https://post.rlsbb.cc/photographer-2026-1080p-amzn-web-dl-h264-chortle/",
-      "Published At": "2026-09-23T19:25:18Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 0.04,
-      "After Hours": 0.0,
-      "Current Price": 249.38,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-09-24T23:42:36.132285"
+      "Timestamp": "2026-09-25T14:30:30.738368"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia once rattled IonQ stock. Now it plans to install IonQ tech",
-      "Headline URL": "https://biztoc.com/x/a4e4878ac5de4a04",
-      "Published At": "2026-09-23T22:22:02Z",
+      "Headline": "From Gaming Chips to AI Dominance: $1,000 in Nvidia Outpaced the S&P 500 by 54x",
+      "Headline URL": "https://biztoc.com/x/645d9100ab5be647",
+      "Published At": "2026-09-24T11:51:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.41,
       "After Hours": 0.0,
       "Current Price": 224.58,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132296"
+      "Timestamp": "2026-09-25T14:30:30.738373"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers",
-      "Headline URL": "https://biztoc.com/x/148d28e7b2caa1c0",
-      "Published At": "2026-09-23T17:53:58Z",
+      "Headline": "From NVIDIA to MEXC: Autheo Expands the Markets Behind Its Internet Operating System",
+      "Headline URL": "https://financialpost.com/globe-newswire/from-nvidia-to-mexc-autheo-expands-the-markets-behind-its-internet-operating-system",
+      "Published At": "2026-09-24T08:58:16Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.41,
       "After Hours": 0.0,
       "Current Price": 224.58,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132307"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
-      "Headline URL": "https://biztoc.com/x/6d48e5207c4d07c4",
-      "Published At": "2026-09-23T17:24:35Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -0.41,
-      "After Hours": 0.0,
-      "Current Price": 224.58,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-09-24T23:42:36.132316"
+      "News Source": "Financial Post",
+      "Timestamp": "2026-09-25T14:30:30.738377"
     },
     {
       "Ticker": "JPM",
@@ -266,12 +280,12 @@
       "Headline URL": "https://cryptobriefing.com/scott-bessent-jpmorgan-stock-disclosure-failure/",
       "Published At": "2026-09-23T15:18:49Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.31,
+      "Regular Change": 0.38,
       "After Hours": 0.0,
-      "Current Price": 338.56,
+      "Current Price": 339.85,
       "Data Source": "YahooDirect",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-09-24T23:42:36.132346"
+      "Timestamp": "2026-09-25T14:30:30.738382"
     },
     {
       "Ticker": "JPM",
@@ -280,12 +294,12 @@
       "Headline URL": "https://247wallst.com/investing/2026/09/22/jpmorgan-chase-falls-3-despite-new-20b-qia-partnership-goldman-sachs-eases-bank-of-america-slips/",
       "Published At": "2026-09-22T16:52:38Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.31,
+      "Regular Change": 0.38,
       "After Hours": 0.0,
-      "Current Price": 338.56,
+      "Current Price": 339.85,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-09-24T23:42:36.132356"
+      "Timestamp": "2026-09-25T14:30:30.738388"
     },
     {
       "Ticker": "V",
@@ -299,21 +313,7 @@
       "Current Price": 367.98,
       "Data Source": "AlphaVantage",
       "News Source": "Trefis",
-      "Timestamp": "2026-09-24T23:42:36.132366"
-    },
-    {
-      "Ticker": "V",
-      "Company": "Visa Inc.",
-      "Headline": "Visa Just Fired 2,600 People. Here\u2019s Where That Money Is Going",
-      "Headline URL": "https://www.tikr.com/blog/visa-just-fired-2600-people-heres-where-that-money-is-going?ref=yahoofinance",
-      "Published At": "2026-09-21T10:09:20Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.79,
-      "After Hours": 0.0,
-      "Current Price": 367.98,
-      "Data Source": "AlphaVantage",
-      "News Source": "Tikr.com",
-      "Timestamp": "2026-09-24T23:42:36.132376"
+      "Timestamp": "2026-09-25T14:30:30.738392"
     },
     {
       "Ticker": "MA",
@@ -322,12 +322,12 @@
       "Headline URL": "https://www.barchart.com/story/news/4727516/mastercard-is-letting-ai-agents-spend-your-money-its-partner-says-the-checkout-button-is-dying-and-a-separate-1-8-billion-bet-shows-why-mastercard-believes-it",
       "Published At": "2026-09-22T10:30:44Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.1,
+      "Regular Change": -0.06,
       "After Hours": 0.0,
-      "Current Price": 566.08,
+      "Current Price": 565.75,
       "Data Source": "YahooDirect",
       "News Source": "Barchart.com",
-      "Timestamp": "2026-09-24T23:42:36.132396"
+      "Timestamp": "2026-09-25T14:30:30.738402"
     }
   ]
 }
