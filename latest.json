@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-10-15T23:29:31.685797",
+    "generated_at": "2026-10-16T13:50:22.025345",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 23,
+    "total_records": 24,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,44 +23,58 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple Just Passed $5 Trillion. Here\u2019s What Comes Next",
-      "Headline URL": "https://biztoc.com/x/cc1c4700528416a4",
-      "Published At": "2026-10-14T23:25:53Z",
+      "Headline": "A 20% Drop in Smartphone Shipments Shows Who Wins When Memory Gets Expensive",
+      "Headline URL": "https://www.prnewswire.com/news-releases/a-20-drop-in-smartphone-shipments-shows-who-wins-when-memory-gets-expensive-302910152.html",
+      "Published At": "2026-10-15T13:28:00Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -0.28,
       "After Hours": 0.0,
       "Current Price": 342.0,
       "Data Source": "AlphaVantage",
+      "News Source": "PRNewswire",
+      "Timestamp": "2026-10-16T13:50:22.024483"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Premarket Movers: AAPL Gains On China AI Approval Report \u2014 Why WMT, NFLX Stocks Are Also Rising",
+      "Headline URL": "https://biztoc.com/x/de072c88a35837ef",
+      "Published At": "2026-10-15T11:01:08Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -0.28,
+      "After Hours": 0.0,
+      "Current Price": 342.0,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684439"
+      "Timestamp": "2026-10-16T13:50:22.024505"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
       "Headline": "Skydance Shares Tumble In Technical Adjustment As Inflation, Interest Rate Jitters Roil Markets; Apple Regains $5 Trillion Market Cap",
-      "Headline URL": "http://deadline.com/2026/10/skydance-shares-tumble-media-tech-stocks-markets-inflation-1237156999/",
-      "Published At": "2026-10-14T20:40:33Z",
+      "Headline URL": "https://biztoc.com/x/e9cd553db3a9b3bf",
+      "Published At": "2026-10-15T01:58:37Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": -0.28,
       "After Hours": 0.0,
       "Current Price": 342.0,
       "Data Source": "AlphaVantage",
-      "News Source": "Deadline",
-      "Timestamp": "2026-10-15T23:29:31.684473"
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-10-16T13:50:22.024516"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "JPMorgan resets Apple stock price target amid iPhone panic",
-      "Headline URL": "https://biztoc.com/x/f5ee843648db7220",
-      "Published At": "2026-10-14T13:18:36Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Apple shares hit new all-time closing high",
+      "Headline URL": "https://macdailynews.com/2026/10/14/apple-shares-hit-new-all-time-closing-high-34/",
+      "Published At": "2026-10-15T00:54:26Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.28,
+      "Regular Change": -0.41,
       "After Hours": 0.0,
-      "Current Price": 342.0,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684485"
+      "Current Price": 537.25,
+      "Data Source": "YahooDirect",
+      "News Source": "Macdailynews.com",
+      "Timestamp": "2026-10-16T13:50:22.024521"
     },
     {
       "Ticker": "MSFT",
@@ -69,12 +83,12 @@
       "Headline URL": "https://www.businessinsider.com/top-ai-stock-picks-to-buy-investing-productivity-msft-lly-2026-10#article",
       "Published At": "2026-10-14T09:15:01Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
+      "Regular Change": -0.41,
       "After Hours": 0.0,
-      "Current Price": 539.44,
+      "Current Price": 537.25,
       "Data Source": "YahooDirect",
       "News Source": "Business Insider",
-      "Timestamp": "2026-10-15T23:29:31.684500"
+      "Timestamp": "2026-10-16T13:50:22.024529"
     },
     {
       "Ticker": "MSFT",
@@ -83,68 +97,54 @@
       "Headline URL": "https://biztoc.com/x/962403b9a8043afd",
       "Published At": "2026-10-13T15:59:19Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
+      "Regular Change": -0.41,
       "After Hours": 0.0,
-      "Current Price": 539.44,
+      "Current Price": 537.25,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684522"
-    },
-    {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Apple shares hit new all-time high",
-      "Headline URL": "https://macdailynews.com/2026/10/13/apple-shares-hit-new-all-time-high/",
-      "Published At": "2026-10-13T15:02:17Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
-      "After Hours": 0.0,
-      "Current Price": 539.44,
-      "Data Source": "YahooDirect",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-10-15T23:29:31.684533"
+      "Timestamp": "2026-10-16T13:50:22.024537"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla's Roadster event is back on for Thursday night. Here's what to expect",
-      "Headline URL": "https://biztoc.com/x/f5f1557c2aa23d19",
-      "Published At": "2026-10-14T17:08:43Z",
+      "Headline": "Why Are Nasdaq Futures Sinking Premarket? CRWV, MU, TSM, SKHY, IBRX, RKLB, TSLA Stocks In Focus",
+      "Headline URL": "https://biztoc.com/x/5b8b6bdb6634e5e4",
+      "Published At": "2026-10-15T09:29:29Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.29,
       "After Hours": 0.0,
       "Current Price": 362.44,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684546"
+      "Timestamp": "2026-10-16T13:50:22.024543"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "Tesla's Roadster event is back on for Thursday night",
-      "Headline URL": "https://biztoc.com/x/2e372f78d3ec22cc",
-      "Published At": "2026-10-14T16:53:45Z",
+      "Headline": "Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren\u2019t Buying It",
+      "Headline URL": "https://biztoc.com/x/cc1fa81eacc25ada",
+      "Published At": "2026-10-15T06:43:10Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.29,
       "After Hours": 0.0,
       "Current Price": 362.44,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684558"
+      "Timestamp": "2026-10-16T13:50:22.024550"
     },
     {
       "Ticker": "TSLA",
       "Company": "Tesla Inc.",
-      "Headline": "SpaceX could be worth $50 trillion some day says billionaire investor Ron Baron",
-      "Headline URL": "https://biztoc.com/x/ee385d0de0779604",
-      "Published At": "2026-10-14T12:19:24Z",
+      "Headline": "TSLA Stock Slips Overnight Ahead Of Roadster Event \u2014 Elon Musk Promises \u2018Greatest Product Demo Of All Time\u2019",
+      "Headline URL": "https://biztoc.com/x/95a8a2388b87c7de",
+      "Published At": "2026-10-15T06:43:06Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.29,
       "After Hours": 0.0,
       "Current Price": 362.44,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684570"
+      "Timestamp": "2026-10-16T13:50:22.024556"
     },
     {
       "Ticker": "GOOGL",
@@ -153,12 +153,12 @@
       "Headline URL": "https://biztoc.com/x/1a34c38aec9a0c80",
       "Published At": "2026-10-14T12:03:45Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.45,
+      "Regular Change": -0.65,
       "After Hours": 0.0,
-      "Current Price": 349.22,
+      "Current Price": 346.95,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684581"
+      "Timestamp": "2026-10-16T13:50:22.024560"
     },
     {
       "Ticker": "GOOGL",
@@ -167,12 +167,26 @@
       "Headline URL": "https://biztoc.com/x/7369541e9080e30f",
       "Published At": "2026-10-13T21:46:39Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.45,
+      "Regular Change": -0.65,
       "After Hours": 0.0,
-      "Current Price": 349.22,
+      "Current Price": 346.95,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684592"
+      "Timestamp": "2026-10-16T13:50:22.024564"
+    },
+    {
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Cathie Wood's ARK Scoops Up Over 32,000 Meta Shares In 2 Days \u2014 Wall Street\u2019s Split Over AI Spending",
+      "Headline URL": "https://biztoc.com/x/38464058b1de138d",
+      "Published At": "2026-10-15T13:49:16Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.11,
+      "After Hours": 0.0,
+      "Current Price": 736.72,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-10-16T13:50:22.024570"
     },
     {
       "Ticker": "META",
@@ -186,7 +200,7 @@
       "Current Price": 736.72,
       "Data Source": "AlphaVantage",
       "News Source": "Crypto Briefing",
-      "Timestamp": "2026-10-15T23:29:31.684605"
+      "Timestamp": "2026-10-16T13:50:22.024574"
     },
     {
       "Ticker": "META",
@@ -200,91 +214,91 @@
       "Current Price": 736.72,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684616"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Rallies as Truist Raises Price Target to $1,000",
-      "Headline URL": "https://biztoc.com/x/9603da64fe1d81d3",
-      "Published At": "2026-10-13T22:31:06Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.11,
-      "After Hours": 0.0,
-      "Current Price": 736.72,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684627"
+      "Timestamp": "2026-10-16T13:50:22.024577"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Beauty and the Billionaire S01 AMZN 1080p H264 EAC3-BTN",
-      "Headline URL": "https://post.rlsbb.cc/beauty-and-the-billionaire-s01-amzn-1080p-h264-eac3-btn/",
-      "Published At": "2026-10-14T21:48:46Z",
+      "Headline": "Quiet 2024 1080p AMZN WEB-DL H264-BobDobbs",
+      "Headline URL": "https://post.rlsbb.cc/quiet-2024-1080p-amzn-web-dl-h264-bobdobbs/",
+      "Published At": "2026-10-15T12:11:39Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
+      "Regular Change": -0.32,
       "After Hours": 0.0,
-      "Current Price": 254.76,
+      "Current Price": 253.95,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-10-15T23:29:31.684638"
+      "Timestamp": "2026-10-16T13:50:22.024581"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Wheeler Dealers World Tour S03E04 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/wheeler-dealers-world-tour-s03e04-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-10-14T21:25:13Z",
+      "Headline": "Secrets In The Sisterhood 2025 1080p AMZN WEB-DL H264-BobDobbs",
+      "Headline URL": "https://post.rlsbb.cc/secrets-in-the-sisterhood-2025-1080p-amzn-web-dl-h264-bobdobbs/",
+      "Published At": "2026-10-15T12:11:39Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
+      "Regular Change": -0.32,
       "After Hours": 0.0,
-      "Current Price": 254.76,
+      "Current Price": 253.95,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-10-15T23:29:31.684666"
+      "Timestamp": "2026-10-16T13:50:22.024584"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Surrender to It 2026 1080p AMZN WEB-DL H264-playWEB",
-      "Headline URL": "https://post.rlsbb.cc/surrender-to-it-2026-1080p-amzn-web-dl-h264-playweb/",
-      "Published At": "2026-10-14T18:40:51Z",
+      "Headline": "Guardian Of Mine 2023 1080p AMZN WEB-DL H264-BobDobbs",
+      "Headline URL": "https://post.rlsbb.cc/guardian-of-mine-2023-1080p-amzn-web-dl-h264-bobdobbs/",
+      "Published At": "2026-10-15T11:26:23Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.27,
+      "Regular Change": -0.32,
       "After Hours": 0.0,
-      "Current Price": 254.76,
+      "Current Price": 253.95,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-10-15T23:29:31.684677"
+      "Timestamp": "2026-10-16T13:50:22.024587"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia stock sinks as chip sell-off deepens on hot inflation data",
-      "Headline URL": "https://biztoc.com/x/25861f9774a368a2",
-      "Published At": "2026-10-14T21:40:59Z",
+      "Headline": "Nvidia stock sinks amid concerns over AI financing",
+      "Headline URL": "https://biztoc.com/x/d02ae958c70a04aa",
+      "Published At": "2026-10-15T13:49:12Z",
       "Sentiment": "NEGATIVE",
       "Regular Change": -1.84,
       "After Hours": 0.0,
       "Current Price": 217.23,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684690"
+      "Timestamp": "2026-10-16T13:50:22.024591"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Has a Massive AI Tailwind. Here\u2019s the Bull Case",
-      "Headline URL": "https://biztoc.com/x/6fa20a013c4ca369",
-      "Published At": "2026-10-13T17:12:12Z",
+      "Headline": "QCOM, AVGO, NVDA Stocks In Focus As ByteDance Reportedly Closes In On A MediaTek Pact For AI Data Center Chips",
+      "Headline URL": "https://biztoc.com/x/e933c2cf84f9e65f",
+      "Published At": "2026-10-15T06:58:57Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -1.84,
       "After Hours": 0.0,
       "Current Price": 217.23,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684703"
+      "Timestamp": "2026-10-16T13:50:22.024597"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Would halt chip supply to buyers who develop unsafe AI, says Nvidia CEO",
+      "Headline URL": "https://www.business-standard.com/technology/tech-news/would-halt-chip-supply-to-buyers-who-develop-unsafe-ai-says-nvidia-ceo-126101500180_1.html",
+      "Published At": "2026-10-15T03:59:49Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -1.84,
+      "After Hours": 0.0,
+      "Current Price": 217.23,
+      "Data Source": "AlphaVantage",
+      "News Source": "Business Standard",
+      "Timestamp": "2026-10-16T13:50:22.024601"
     },
     {
       "Ticker": "JPM",
@@ -293,12 +307,12 @@
       "Headline URL": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
       "Published At": "2026-10-14T22:48:06Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.07,
+      "Regular Change": 2.1,
       "After Hours": 0.0,
-      "Current Price": 335.53,
+      "Current Price": 342.63,
       "Data Source": "YahooDirect",
       "News Source": "CNBC",
-      "Timestamp": "2026-10-15T23:29:31.684716"
+      "Timestamp": "2026-10-16T13:50:22.024605"
     },
     {
       "Ticker": "JPM",
@@ -307,12 +321,12 @@
       "Headline URL": "https://www.theglobeandmail.com/business/article-bank-of-america-third-quarter-results-anti-money-laundering-fine/",
       "Published At": "2026-10-14T18:36:08Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 0.07,
+      "Regular Change": 2.1,
       "After Hours": 0.0,
-      "Current Price": 335.53,
+      "Current Price": 342.63,
       "Data Source": "YahooDirect",
       "News Source": "The Globe And Mail",
-      "Timestamp": "2026-10-15T23:29:31.684728"
+      "Timestamp": "2026-10-16T13:50:22.024610"
     },
     {
       "Ticker": "JPM",
@@ -321,12 +335,12 @@
       "Headline URL": "https://www.thehindubusinessline.com/markets/q2-results-today-highlights-bhel-bilionbrains-garage-ventures-canara-bank-icicigi-ceat-hdb-financial-tata-tech-company-results-14-october-2026/article71579002.ece",
       "Published At": "2026-10-14T14:15:22Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 0.07,
+      "Regular Change": 2.1,
       "After Hours": 0.0,
-      "Current Price": 335.53,
+      "Current Price": 342.63,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-10-15T23:29:31.684751"
+      "Timestamp": "2026-10-16T13:50:22.024617"
     },
     {
       "Ticker": "V",
@@ -340,7 +354,7 @@
       "Current Price": 399.75,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-10-15T23:29:31.684762"
+      "Timestamp": "2026-10-16T13:50:22.024621"
     }
   ]
 }
