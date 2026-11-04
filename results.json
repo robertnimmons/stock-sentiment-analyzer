@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-11-03T16:54:07.713157",
+    "generated_at": "2026-11-04T00:59:24.633373",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 19,
+    "total_records": 20,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -22,44 +22,44 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple stock price down: Why is AAPL share price falling ahead of earnings call, iPhone sales report?",
-      "Headline URL": "https://economictimes.indiatimes.com/news/international/us/apple-stock-price-down-nasdaq-us-stock-market-why-is-aapl-share-price-falling-ahead-of-earnings-call/articleshow/135466215.cms",
-      "Published At": "2026-11-02T15:23:13Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": -1.83,
-      "After Hours": 0.0,
-      "Current Price": 338.32,
-      "Data Source": "AlphaVantage",
-      "News Source": "The Times of India",
-      "Timestamp": "2026-11-03T16:54:07.711850"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Stock Market Today: Oil Slides on Mideast Hopes; Stock Futures Recover After Friday's Selloff \u2014 Live Updates - WSJ",
-      "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=186557161",
-      "Published At": "2026-11-02T15:13:07Z",
+      "Headline": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
+      "Headline URL": "https://biztoc.com/x/80200422f49f32f7",
+      "Published At": "2026-11-03T00:59:06Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.83,
+      "Regular Change": -1.9,
       "After Hours": 0.0,
-      "Current Price": 338.32,
-      "Data Source": "AlphaVantage",
-      "News Source": "Slashdot.org",
-      "Timestamp": "2026-11-03T16:54:07.711883"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Earnings Prediction Market Preview: What Will John Ternus Say?",
-      "Headline URL": "https://biztoc.com/x/1930998574073bfd",
-      "Published At": "2026-11-02T14:34:48Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.83,
-      "After Hours": 0.0,
-      "Current Price": 338.32,
+      "Current Price": 331.9,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.711895"
+      "Timestamp": "2026-11-04T00:59:24.632203"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Apple beats revenue expectations in first earnings report under new CEO John Ternus",
+      "Headline URL": "https://nypost.com/2026/11/02/business/apple-beats-revenue-expectations-in-first-earnings-report-under-new-ceo-john-ternus/",
+      "Published At": "2026-11-03T00:03:25Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.9,
+      "After Hours": 0.0,
+      "Current Price": 331.9,
+      "Data Source": "AlphaVantage",
+      "News Source": "New York Post",
+      "Timestamp": "2026-11-04T00:59:24.632223"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "Big Quarterly Beats After the Close: AAPL, PLTR, LSCC, ROKU",
+      "Headline URL": "https://biztoc.com/x/315bbd3eab9aa25c",
+      "Published At": "2026-11-02T23:44:29Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": -1.9,
+      "After Hours": 0.0,
+      "Current Price": 331.9,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-04T00:59:24.632236"
     },
     {
       "Ticker": "MSFT",
@@ -68,12 +68,12 @@
       "Headline URL": "https://biztoc.com/x/81c489fd9dbd721a",
       "Published At": "2026-11-02T11:23:09Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": 1.77,
+      "Regular Change": 2.74,
       "After Hours": 0.0,
-      "Current Price": 516.09,
+      "Current Price": 520.99,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.711909"
+      "Timestamp": "2026-11-04T00:59:24.632251"
     },
     {
       "Ticker": "MSFT",
@@ -82,12 +82,12 @@
       "Headline URL": "https://biztoc.com/x/c644dc3611cd4e06",
       "Published At": "2026-11-02T10:21:37Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.77,
+      "Regular Change": 2.74,
       "After Hours": 0.0,
-      "Current Price": 516.09,
+      "Current Price": 520.99,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.711922"
+      "Timestamp": "2026-11-04T00:59:24.632265"
     },
     {
       "Ticker": "MSFT",
@@ -96,12 +96,26 @@
       "Headline URL": "https://biztoc.com/x/f56dbc592b69c5da",
       "Published At": "2026-11-02T10:03:12Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.77,
+      "Regular Change": 2.74,
       "After Hours": 0.0,
-      "Current Price": 516.09,
+      "Current Price": 520.99,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.711939"
+      "Timestamp": "2026-11-04T00:59:24.632279"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Trump Vows to Pardon Elon Musk",
+      "Headline URL": "https://newrepublic.com/post/217462/donald-trump-pardon-elon-musk",
+      "Published At": "2026-11-02T18:35:45Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -1.32,
+      "After Hours": 0.0,
+      "Current Price": 398.5,
+      "Data Source": "AlphaVantage",
+      "News Source": "The New Republic",
+      "Timestamp": "2026-11-04T00:59:24.632295"
     },
     {
       "Ticker": "TSLA",
@@ -110,12 +124,12 @@
       "Headline URL": "https://biztoc.com/x/9c4fe08c5dbb76d6",
       "Published At": "2026-11-02T15:02:59Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.0,
+      "Regular Change": -1.32,
       "After Hours": 0.0,
-      "Current Price": 403.82,
+      "Current Price": 398.5,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.711973"
+      "Timestamp": "2026-11-04T00:59:24.632307"
     },
     {
       "Ticker": "TSLA",
@@ -124,54 +138,40 @@
       "Headline URL": "https://www.ibtimes.com.au/tesla-shares-rise-above-400-tech-stock-rebound-1877772",
       "Published At": "2026-11-02T14:42:25Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 1.0,
+      "Regular Change": -1.32,
       "After Hours": 0.0,
-      "Current Price": 403.82,
+      "Current Price": 398.5,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-11-03T16:54:07.711991"
+      "Timestamp": "2026-11-04T00:59:24.632320"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "TokenInsight Q3 Report: MEXC Ranks No. 2 in Commodity Perpetuals with 17.43% Market Share",
-      "Headline URL": "https://www.newsbtc.com/news/tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share/",
-      "Published At": "2026-11-02T10:19:56Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "1 of Greg Abel's Favorite Stocks and a Top 5 Berkshire Hathaway Holding Just Suffered a Devastating Decline",
+      "Headline URL": "https://biztoc.com/x/ec9182b9cdab540b",
+      "Published At": "2026-11-02T19:52:23Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.37,
+      "After Hours": 0.0,
+      "Current Price": 280.03,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-04T00:59:24.632333"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "What's Going on with Alphabet Stock? 3 Things Investors Should Know",
+      "Headline URL": "https://biztoc.com/x/70af62f89f6dfb63",
+      "Published At": "2026-11-02T18:05:28Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.0,
+      "Regular Change": 0.37,
       "After Hours": 0.0,
-      "Current Price": 403.82,
-      "Data Source": "AlphaVantage",
-      "News Source": "newsBTC",
-      "Timestamp": "2026-11-03T16:54:07.712006"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "3 Reasons to Buy Alphabet Stock Right Now",
-      "Headline URL": "https://biztoc.com/x/342a5aca0b6bcbe8",
-      "Published At": "2026-11-02T15:18:49Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.09,
-      "After Hours": 0.0,
-      "Current Price": 278.74,
+      "Current Price": 280.03,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712018"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "S&P 500, Nasdaq Futures Rise Premarket After Wall Street\u2019s Worst Week In Months: AAPL, PLTR, GOOGL, INTC, TGTX In Focus",
-      "Headline URL": "https://biztoc.com/x/30328b871aead592",
-      "Published At": "2026-11-02T10:51:39Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.09,
-      "After Hours": 0.0,
-      "Current Price": 278.74,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712065"
+      "Timestamp": "2026-11-04T00:59:24.632342"
     },
     {
       "Ticker": "META",
@@ -180,12 +180,12 @@
       "Headline URL": "https://biztoc.com/x/0ede212aa39355de",
       "Published At": "2026-11-02T10:51:24Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.34,
+      "Regular Change": 2.36,
       "After Hours": 0.0,
-      "Current Price": 606.73,
+      "Current Price": 621.03,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712082"
+      "Timestamp": "2026-11-04T00:59:24.632353"
     },
     {
       "Ticker": "META",
@@ -194,54 +194,68 @@
       "Headline URL": "https://slashdot.org/firehose.pl?op=view&amp;id=186543787",
       "Published At": "2026-11-01T09:13:09Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -1.34,
+      "Regular Change": 2.36,
       "After Hours": 0.0,
-      "Current Price": 606.73,
+      "Current Price": 621.03,
       "Data Source": "AlphaVantage",
       "News Source": "Slashdot.org",
-      "Timestamp": "2026-11-03T16:54:07.712100"
+      "Timestamp": "2026-11-04T00:59:24.632366"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Amazon is on a course to spend half a trillion dollars in a single year: JPMorgan",
-      "Headline URL": "https://biztoc.com/x/3a8413029bc1feaf",
-      "Published At": "2026-11-02T16:47:11Z",
+      "Headline": "Bloodstained Ivory 2026 1080p AMZN WEB-DL H264-cinepth",
+      "Headline URL": "https://post.rlsbb.cc/bloodstained-ivory-2026-1080p-amzn-web-dl-h264-cinepth/",
+      "Published At": "2026-11-02T22:57:34Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
+      "Regular Change": 2.06,
       "After Hours": 0.0,
-      "Current Price": 248.28,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712113"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "The Boulet Brothers Dragula S07E02 1080p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/the-boulet-brothers-dragula-s07e02-1080p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-11-02T16:21:12Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
-      "After Hours": 0.0,
-      "Current Price": 248.28,
+      "Current Price": 250.69,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-03T16:54:07.712124"
+      "Timestamp": "2026-11-04T00:59:24.632375"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "JPMorgan has some explosive capex estimates for Amazon",
-      "Headline URL": "https://biztoc.com/x/00448a3b0e1a3042",
-      "Published At": "2026-11-02T15:47:56Z",
+      "Headline": "Home Town Takeover Canada S01E02 1080p AMZN WEB-DL H264-NTb",
+      "Headline URL": "https://post.rlsbb.cc/home-town-takeover-canada-s01e02-1080p-amzn-web-dl-h264-ntb/",
+      "Published At": "2026-11-02T19:09:02Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.08,
+      "Regular Change": 2.06,
       "After Hours": 0.0,
-      "Current Price": 248.28,
+      "Current Price": 250.69,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-11-04T00:59:24.632383"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "AWS Growth Wins Amazon Stock a $330 Upgrade",
+      "Headline URL": "https://biztoc.com/x/3f32ff9b16f7b581",
+      "Published At": "2026-11-02T18:37:30Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 2.06,
+      "After Hours": 0.0,
+      "Current Price": 250.69,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712134"
+      "Timestamp": "2026-11-04T00:59:24.632392"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "Headline URL": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+      "Published At": "2026-11-03T00:08:53Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.29,
+      "After Hours": 0.0,
+      "Current Price": 206.69,
+      "Data Source": "AlphaVantage",
+      "News Source": "Yahoo Entertainment",
+      "Timestamp": "2026-11-04T00:59:24.632405"
     },
     {
       "Ticker": "NVDA",
@@ -250,12 +264,12 @@
       "Headline URL": "https://www.ibtimes.com.au/nvidia-shares-rebound-ai-spending-concerns-1877770",
       "Published At": "2026-11-02T14:44:01Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -1.26,
+      "Regular Change": 2.29,
       "After Hours": 0.0,
-      "Current Price": 202.06,
+      "Current Price": 206.69,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-11-03T16:54:07.712151"
+      "Timestamp": "2026-11-04T00:59:24.632418"
     },
     {
       "Ticker": "JPM",
@@ -264,12 +278,12 @@
       "Headline URL": "https://biztoc.com/x/1e1aab53dae8b568",
       "Published At": "2026-11-02T14:34:30Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -1.29,
+      "Regular Change": -0.76,
       "After Hours": 0.0,
-      "Current Price": 336.2,
+      "Current Price": 337.98,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712164"
+      "Timestamp": "2026-11-04T00:59:24.632427"
     },
     {
       "Ticker": "JPM",
@@ -278,12 +292,12 @@
       "Headline URL": "https://biztoc.com/x/ea440385b4e7dbc1",
       "Published At": "2026-11-01T20:49:43Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.29,
+      "Regular Change": -0.76,
       "After Hours": 0.0,
-      "Current Price": 336.2,
+      "Current Price": 337.98,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-03T16:54:07.712176"
+      "Timestamp": "2026-11-04T00:59:24.632437"
     }
   ]
 }
