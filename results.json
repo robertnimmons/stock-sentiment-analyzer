@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-11-09T19:38:27.636148",
+    "generated_at": "2026-11-10T03:05:04.025368",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 14,
+    "total_records": 15,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -14,11 +14,24 @@
       "GOOGL",
       "META",
       "AMZN",
-      "NVDA",
-      "JPM"
+      "NVDA"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "This Is the Best-Performing Magnificent Seven Stock of 2026. Is It Still a Buy?",
+      "Headline URL": "https://biztoc.com/x/062046a1ecb1de25",
+      "Published At": "2026-11-08T21:46:22Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 2.43,
+      "After Hours": 0.0,
+      "Current Price": 350.69,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-10T03:05:04.024395"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -26,12 +39,12 @@
       "Headline URL": "https://www.quotelinks.com/api/sec-fundamentals/",
       "Published At": "2026-11-08T06:51:52Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.52,
+      "Regular Change": 2.43,
       "After Hours": 0.0,
-      "Current Price": 342.37,
+      "Current Price": 350.69,
       "Data Source": "AlphaVantage",
       "News Source": "Quotelinks.com",
-      "Timestamp": "2026-11-09T19:38:27.635027"
+      "Timestamp": "2026-11-10T03:05:04.024419"
     },
     {
       "Ticker": "MSFT",
@@ -40,12 +53,12 @@
       "Headline URL": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
       "Published At": "2026-11-08T14:49:23Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.81,
+      "Regular Change": 2.75,
       "After Hours": 0.0,
-      "Current Price": 545.52,
+      "Current Price": 545.18,
       "Data Source": "YahooDirect",
       "News Source": "24/7 Wall St.",
-      "Timestamp": "2026-11-09T19:38:27.635051"
+      "Timestamp": "2026-11-10T03:05:04.024428"
     },
     {
       "Ticker": "MSFT",
@@ -54,12 +67,12 @@
       "Headline URL": "https://biztoc.com/x/cad5ae446fc8aacd",
       "Published At": "2026-11-07T14:56:03Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.81,
+      "Regular Change": 2.75,
       "After Hours": 0.0,
-      "Current Price": 545.52,
+      "Current Price": 545.18,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635059"
+      "Timestamp": "2026-11-10T03:05:04.024435"
     },
     {
       "Ticker": "TSLA",
@@ -68,12 +81,12 @@
       "Headline URL": "https://biztoc.com/x/1fb1bec08b9e2823",
       "Published At": "2026-11-08T13:28:16Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 4.23,
+      "Regular Change": 5.54,
       "After Hours": 0.0,
-      "Current Price": 358.22,
+      "Current Price": 378.05,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635069"
+      "Timestamp": "2026-11-10T03:05:04.024445"
     },
     {
       "Ticker": "TSLA",
@@ -82,12 +95,12 @@
       "Headline URL": "https://freerepublic.com/focus/f-news/4402226/posts",
       "Published At": "2026-11-08T01:57:25Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 4.23,
+      "Regular Change": 5.54,
       "After Hours": 0.0,
-      "Current Price": 358.22,
+      "Current Price": 378.05,
       "Data Source": "AlphaVantage",
       "News Source": "Freerepublic.com",
-      "Timestamp": "2026-11-09T19:38:27.635081"
+      "Timestamp": "2026-11-10T03:05:04.024455"
     },
     {
       "Ticker": "TSLA",
@@ -96,124 +109,124 @@
       "Headline URL": "https://biztoc.com/x/079d39d849cadd3b",
       "Published At": "2026-11-07T14:10:37Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 4.23,
+      "Regular Change": 5.54,
       "After Hours": 0.0,
-      "Current Price": 358.22,
+      "Current Price": 378.05,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635090"
+      "Timestamp": "2026-11-10T03:05:04.024463"
     },
     {
       "Ticker": "GOOGL",
       "Company": "Alphabet Inc.",
-      "Headline": "Google parent reveals $548 million bet on beaten-down chip stock",
-      "Headline URL": "https://biztoc.com/x/a9f58a6aeb2fa191",
-      "Published At": "2026-11-06T14:12:06Z",
+      "Headline": "Cathie Wood buys $17.2 million of tumbling tech stock",
+      "Headline URL": "https://biztoc.com/x/74264af0226f5c01",
+      "Published At": "2026-11-08T21:15:59Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.65,
+      "Regular Change": 1.18,
       "After Hours": 0.0,
-      "Current Price": 289.47,
+      "Current Price": 288.15,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635098"
-    },
-    {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Dan Ives Forecasts 25% Drop In Capital Raises for MSFT, META, GOOGL, AMZN as 2027 CapEx Peak Sets Up\u2026",
-      "Headline URL": "https://biztoc.com/x/20592633c32bbec7",
-      "Published At": "2026-11-06T09:46:30Z",
-      "Sentiment": "NEGATIVE",
-      "Regular Change": 1.65,
-      "After Hours": 0.0,
-      "Current Price": 289.47,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635111"
+      "Timestamp": "2026-11-10T03:05:04.024471"
     },
     {
       "Ticker": "META",
       "Company": "Meta Platforms",
-      "Headline": "Mark Zuckerberg\u2019s fortune tops $200 billion. His 3 daughters won\u2019t inherit most of it",
-      "Headline URL": "https://fortune.com/2026/11/07/zuckerberg-chan-daughters-inheritance-99-percent-pledge/",
-      "Published At": "2026-11-07T09:30:00Z",
+      "Headline": "A Retiree Who Bought 1,000 Meta Shares at $38 Just Watched Zuckerberg Top $200 Billion",
+      "Headline URL": "https://biztoc.com/x/c63dde6b3a4c9317",
+      "Published At": "2026-11-09T02:52:18Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.84,
+      "Regular Change": 5.12,
       "After Hours": 0.0,
-      "Current Price": 610.15,
+      "Current Price": 641.37,
       "Data Source": "AlphaVantage",
-      "News Source": "Fortune",
-      "Timestamp": "2026-11-09T19:38:27.635121"
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-10T03:05:04.024479"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Animal DNA 2023 S01 1080p AMZN WEB-DL H264-iCX",
-      "Headline URL": "https://post.rlsbb.cc/animal-dna-2023-s01-1080p-amzn-web-dl-h264-icx/",
-      "Published At": "2026-11-08T16:46:38Z",
+      "Headline": "Magical Secret Tour 2026 1080p AMZN WEB-DL H264-Dreamingbleu",
+      "Headline URL": "https://post.rlsbb.cc/magical-secret-tour-2026-1080p-amzn-web-dl-h264-dreamingbleu/",
+      "Published At": "2026-11-09T02:45:23Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 3.37,
+      "Regular Change": 2.94,
       "After Hours": 0.0,
-      "Current Price": 268.03,
+      "Current Price": 266.93,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-09T19:38:27.635128"
+      "Timestamp": "2026-11-10T03:05:04.024486"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Two On The Edge 2021 1080p AMZN WEB H264-NGP",
-      "Headline URL": "https://post.rlsbb.cc/two-on-the-edge-2021-1080p-amzn-web-h264-ngp/",
-      "Published At": "2026-11-08T16:35:37Z",
+      "Headline": "Maigret 2025 S02E04 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/maigret-2025-s02e04-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-11-09T01:59:18Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 3.37,
+      "Regular Change": 2.94,
       "After Hours": 0.0,
-      "Current Price": 268.03,
+      "Current Price": 266.93,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-09T19:38:27.635134"
+      "Timestamp": "2026-11-10T03:05:04.024491"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "City of God The Fight Rages On S01 1080p AMZN WEB-DL DUAL Atmos H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/city-of-god-the-fight-rages-on-s01-1080p-amzn-web-dl-dual-atmos-h264-kitsune/",
-      "Published At": "2026-11-08T15:32:19Z",
+      "Headline": "Street Fighter Resurrection S01 1080p AMZN WEB-DL H264-SiGMA",
+      "Headline URL": "https://post.rlsbb.cc/street-fighter-resurrection-s01-1080p-amzn-web-dl-h264-sigma/",
+      "Published At": "2026-11-08T23:11:09Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 3.37,
+      "Regular Change": 2.94,
       "After Hours": 0.0,
-      "Current Price": 268.03,
+      "Current Price": 266.93,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-09T19:38:27.635142"
+      "Timestamp": "2026-11-10T03:05:04.024497"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Has More Than 60% Upside According to Analysts' Average Price Target. Should You Buy While the AI Trade Wobbles?",
-      "Headline URL": "https://biztoc.com/x/dd20e763832cce2a",
-      "Published At": "2026-11-08T17:18:50Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 2.78,
+      "Headline": "Nvidia falls about 3% in after-hours and perpetual futures trade",
+      "Headline URL": "https://www.channelnewsasia.com/business/nvidia-falls-about-3-in-after-hours-and-perpetual-futures-trade-6535186",
+      "Published At": "2026-11-09T03:03:56Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -4.27,
       "After Hours": 0.0,
-      "Current Price": 186.64,
+      "Current Price": 178.67,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-09T19:38:27.635153"
+      "News Source": "CNA",
+      "Timestamp": "2026-11-10T03:05:04.024504"
     },
     {
-      "Ticker": "JPM",
-      "Company": "JPMorgan Chase",
-      "Headline": "Sensex today | Stock Market Highlights: Stock markets on fire; Sensex jumps 1,718 points, Nifty reclaims 25,000",
-      "Headline URL": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-6-november-2026/article71669668.ece",
-      "Published At": "2026-11-06T11:07:11Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 2.3,
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia's out-of-hour shares fall as firm probes CEO Jensen Huang",
+      "Headline URL": "https://www.channelnewsasia.com/world/nvidia-shares-jensen-huang-probe-affair-6535186",
+      "Published At": "2026-11-09T03:03:00Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": -4.27,
       "After Hours": 0.0,
-      "Current Price": 342.18,
-      "Data Source": "YahooDirect",
-      "News Source": "BusinessLine",
-      "Timestamp": "2026-11-09T19:38:27.635163"
+      "Current Price": 178.67,
+      "Data Source": "AlphaVantage",
+      "News Source": "CNA",
+      "Timestamp": "2026-11-10T03:05:04.024510"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Nvidia Launches Independent Probe of CEO Jensen Huang After He Admits Affair Amid Chinese Spy Reports",
+      "Headline URL": "https://www.ibtimes.com.au/nvidia-board-investigation-jensen-huang-foreign-intelligence-reports-1878136",
+      "Published At": "2026-11-09T02:02:42Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -4.27,
+      "After Hours": 0.0,
+      "Current Price": 178.67,
+      "Data Source": "AlphaVantage",
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-11-10T03:05:04.024519"
     }
   ]
 }
