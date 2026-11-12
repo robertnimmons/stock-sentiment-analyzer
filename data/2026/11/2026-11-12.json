@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-11-12T02:04:22.123988",
+    "generated_at": "2026-11-12T17:27:17.575736",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 23,
+    "total_records": 22,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -23,44 +23,44 @@
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "Apple saves $2.7 billion in taxes through Singapore, overtaking Ireland as top shelter",
-      "Headline URL": "https://macdailynews.com/2026/11/10/apple-saves-2-7-billion-in-taxes-through-singapore-overtaking-ireland-as-top-shelter/",
-      "Published At": "2026-11-10T18:00:28Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.04,
-      "After Hours": 0.0,
-      "Current Price": 355.63,
-      "Data Source": "AlphaVantage",
-      "News Source": "Macdailynews.com",
-      "Timestamp": "2026-11-12T02:04:22.123226"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Is Holding Strong While Big Tech Sells Off. Is It Next?",
-      "Headline URL": "https://biztoc.com/x/166f038bc3004159",
-      "Published At": "2026-11-10T17:40:18Z",
+      "Headline": "This Apple Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday",
+      "Headline URL": "https://biztoc.com/x/e00eb796e3ff6d1c",
+      "Published At": "2026-11-11T16:34:40Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 2.04,
       "After Hours": 0.0,
       "Current Price": 355.63,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123239"
+      "Timestamp": "2026-11-12T17:27:17.574681"
     },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
-      "Headline": "\u3010\u6717\u5831\u3011Apple\u3001\u30ac\u30c1\u3067\u4e16\u754c\u738b\u8005\u3068\u306a\u308b",
-      "Headline URL": "https://itsoku.org/archives/63598199.html",
-      "Published At": "2026-11-10T16:10:40Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "China Renaissance upgrades Apple to \u2018Buy,\u2019 ups price target to $425",
+      "Headline URL": "https://macdailynews.com/2026/11/11/china-renaissance-upgrades-apple-to-buy-ups-price-target-to-425/",
+      "Published At": "2026-11-11T16:15:20Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": 2.04,
       "After Hours": 0.0,
       "Current Price": 355.63,
       "Data Source": "AlphaVantage",
-      "News Source": "Itsoku.org",
-      "Timestamp": "2026-11-12T02:04:22.123245"
+      "News Source": "Macdailynews.com",
+      "Timestamp": "2026-11-12T17:27:17.574708"
+    },
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "How Much Capital Gains Tax Does a 61-Year-Old Owe on $750,000 of Inherited Apple Stock?",
+      "Headline URL": "https://biztoc.com/x/ee9682706c309295",
+      "Published At": "2026-11-11T13:15:15Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 2.04,
+      "After Hours": 0.0,
+      "Current Price": 355.63,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-12T17:27:17.574719"
     },
     {
       "Ticker": "MSFT",
@@ -69,12 +69,12 @@
       "Headline URL": "https://biztoc.com/x/80e64a7acdf9b76c",
       "Published At": "2026-11-10T22:59:53Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": -2.26,
+      "Regular Change": 1.55,
       "After Hours": 0.0,
-      "Current Price": 521.12,
+      "Current Price": 529.21,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123252"
+      "Timestamp": "2026-11-12T17:27:17.574729"
     },
     {
       "Ticker": "MSFT",
@@ -83,12 +83,12 @@
       "Headline URL": "https://biztoc.com/x/33b6a6fcaba9a0b0",
       "Published At": "2026-11-10T20:58:24Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -2.26,
+      "Regular Change": 1.55,
       "After Hours": 0.0,
-      "Current Price": 521.12,
+      "Current Price": 529.21,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123261"
+      "Timestamp": "2026-11-12T17:27:17.574740"
     },
     {
       "Ticker": "MSFT",
@@ -97,12 +97,26 @@
       "Headline URL": "https://biztoc.com/x/f1ad41183f9a3530",
       "Published At": "2026-11-10T19:39:11Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -2.26,
+      "Regular Change": 1.55,
       "After Hours": 0.0,
-      "Current Price": 521.12,
+      "Current Price": 529.21,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123266"
+      "Timestamp": "2026-11-12T17:27:17.574747"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Elon Musk Just Put a $1 Trillion Chip Bill on Tesla\u2019s Table. That\u2019s a Warning for Anyone Holding 1,000 Tesla Shares",
+      "Headline URL": "https://biztoc.com/x/7a7ca78efee02b4d",
+      "Published At": "2026-11-11T09:56:25Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 2.91,
+      "After Hours": 0.0,
+      "Current Price": 390.84,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-12T17:27:17.574760"
     },
     {
       "Ticker": "TSLA",
@@ -116,21 +130,21 @@
       "Current Price": 390.84,
       "Data Source": "AlphaVantage",
       "News Source": "The Times of India",
-      "Timestamp": "2026-11-12T02:04:22.123277"
+      "Timestamp": "2026-11-12T17:27:17.574775"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "Elon Musk sends strong signal to Tesla stock investors",
-      "Headline URL": "https://biztoc.com/x/cbbd8e270aa7e532",
-      "Published At": "2026-11-10T04:23:38Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 2.91,
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?",
+      "Headline URL": "https://biztoc.com/x/5f8376a577482c1c",
+      "Published At": "2026-11-11T13:18:26Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 2.83,
       "After Hours": 0.0,
-      "Current Price": 390.84,
-      "Data Source": "AlphaVantage",
+      "Current Price": 301.76,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123283"
+      "Timestamp": "2026-11-12T17:27:17.574784"
     },
     {
       "Ticker": "GOOGL",
@@ -139,12 +153,12 @@
       "Headline URL": "https://biztoc.com/x/c39b3d8f6d78e741",
       "Published At": "2026-11-10T18:23:53Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.11,
+      "Regular Change": 2.83,
       "After Hours": 0.0,
-      "Current Price": 293.45,
+      "Current Price": 301.76,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123288"
+      "Timestamp": "2026-11-12T17:27:17.574790"
     },
     {
       "Ticker": "GOOGL",
@@ -153,26 +167,26 @@
       "Headline URL": "https://economictimes.indiatimes.com/news/international/us/anthropic-ipo-why-are-nvidia-google-microsoft-and-amd-investing-billions-in-their-own-ai-competitor-what-big-tech-stands-to-gain-from-the-claude-maker/articleshow/135714408.cms",
       "Published At": "2026-11-10T15:44:28Z",
       "Sentiment": "POSITIVE",
-      "Regular Change": 2.11,
+      "Regular Change": 2.83,
       "After Hours": 0.0,
-      "Current Price": 293.45,
+      "Current Price": 301.76,
       "Data Source": "YahooDirect",
       "News Source": "The Times of India",
-      "Timestamp": "2026-11-12T02:04:22.123298"
+      "Timestamp": "2026-11-12T17:27:17.574801"
     },
     {
-      "Ticker": "GOOGL",
-      "Company": "Alphabet Inc.",
-      "Headline": "Google just handed AMD a job its own chip already does",
-      "Headline URL": "https://biztoc.com/x/1858f8c57c339cfb",
-      "Published At": "2026-11-10T15:18:42Z",
+      "Ticker": "META",
+      "Company": "Meta Platforms",
+      "Headline": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder\u2019s Shares Won\u2019t Go to Family",
+      "Headline URL": "https://biztoc.com/x/18370ca8828f4a21",
+      "Published At": "2026-11-11T04:35:26Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 2.11,
+      "Regular Change": -1.97,
       "After Hours": 0.0,
-      "Current Price": 293.45,
-      "Data Source": "YahooDirect",
+      "Current Price": 628.77,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123302"
+      "Timestamp": "2026-11-12T17:27:17.574810"
     },
     {
       "Ticker": "META",
@@ -186,7 +200,7 @@
       "Current Price": 628.77,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123309"
+      "Timestamp": "2026-11-12T17:27:17.574817"
     },
     {
       "Ticker": "META",
@@ -200,105 +214,77 @@
       "Current Price": 628.77,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123314"
+      "Timestamp": "2026-11-12T17:27:17.574824"
     },
     {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "A Retiree Who Bought 1,000 Meta Shares at $38 Just Watched Zuckerberg Top $200 Billion",
-      "Headline URL": "https://biztoc.com/x/c63dde6b3a4c9317",
-      "Published At": "2026-11-09T02:52:18Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "A Major Catalyst Could Send Amazon Stock to New Highs",
+      "Headline URL": "https://biztoc.com/x/8b0244cde0949dcf",
+      "Published At": "2026-11-11T16:49:48Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.97,
+      "Regular Change": 1.29,
       "After Hours": 0.0,
-      "Current Price": 628.77,
-      "Data Source": "AlphaVantage",
+      "Current Price": 269.6,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123320"
+      "Timestamp": "2026-11-12T17:27:17.574831"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Wheel Of Fortune S44E041 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/wheel-of-fortune-s44e041-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-11-10T21:16:52Z",
+      "Headline": "Earth Odyssey With Dylan Dreyer S09E06 1080p AMZN WEB-DL H264-BurCyg",
+      "Headline URL": "https://post.rlsbb.cc/earth-odyssey-with-dylan-dreyer-s09e06-1080p-amzn-web-dl-h264-burcyg/",
+      "Published At": "2026-11-11T16:10:54Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.74,
+      "Regular Change": 1.29,
       "After Hours": 0.0,
-      "Current Price": 266.17,
+      "Current Price": 269.6,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-12T02:04:22.123325"
+      "Timestamp": "2026-11-12T17:27:17.574838"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "This Is Not A Murder Mystery S01E04 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/this-is-not-a-murder-mystery-s01e04-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-11-10T21:05:45Z",
+      "Headline": "Romance in the Wilds 2021 1080p AMZN WEB-DL H264-PiRaTeS",
+      "Headline URL": "https://post.rlsbb.cc/romance-in-the-wilds-2021-1080p-amzn-web-dl-h264-pirates/",
+      "Published At": "2026-11-11T16:05:03Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.74,
+      "Regular Change": 1.29,
       "After Hours": 0.0,
-      "Current Price": 266.17,
+      "Current Price": 269.6,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-12T02:04:22.123329"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "This Is Not A Murder Mystery S01E05 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/this-is-not-a-murder-mystery-s01e05-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-11-10T19:03:18Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.74,
-      "After Hours": 0.0,
-      "Current Price": 266.17,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-12T02:04:22.123333"
+      "Timestamp": "2026-11-12T17:27:17.574843"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia shares plummet again amid CEO Jensen Huang's affair with alleged Chinese spy",
-      "Headline URL": "https://biztoc.com/x/ff626c4cdc33c975",
-      "Published At": "2026-11-11T01:16:55Z",
+      "Headline": "Could Huang, Nvidia and company's board be held liable over affair scandal?",
+      "Headline URL": "https://economictimes.indiatimes.com/tech/technology/could-huang-nvidia-and-companys-board-be-held-liable-over-affair-scandal/articleshow/135746855.cms",
+      "Published At": "2026-11-11T17:14:01Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 2.87,
       "After Hours": 0.0,
       "Current Price": 173.73,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123339"
+      "News Source": "The Times of India",
+      "Timestamp": "2026-11-12T17:27:17.574850"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Just Lost 10% in 1 Day. Should You Buy It Before It Reports Earnings on Nov. 17?",
-      "Headline URL": "https://biztoc.com/x/67dd4e7b66752ac2",
-      "Published At": "2026-11-11T00:00:40Z",
+      "Headline": "Who Is Supporting Jensen Huang? Trump, Elon Musk, Bill Ackman and Other Famous Names Rally Behind Nvidia CEO",
+      "Headline URL": "https://www.ibtimes.com.au/figures-defend-nvidia-ceo-jensen-huang-spy-allegations-1878422",
+      "Published At": "2026-11-11T17:09:57Z",
       "Sentiment": "POSITIVE",
       "Regular Change": 2.87,
       "After Hours": 0.0,
       "Current Price": 173.73,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123345"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Cathie Wood buys $15.3 million of tumbling semiconductor stock",
-      "Headline URL": "https://biztoc.com/x/001adf5fd460f0d3",
-      "Published At": "2026-11-10T23:43:37Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 2.87,
-      "After Hours": 0.0,
-      "Current Price": 173.73,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123349"
+      "News Source": "Ibtimes.com.au",
+      "Timestamp": "2026-11-12T17:27:17.574858"
     },
     {
       "Ticker": "JPM",
@@ -307,12 +293,12 @@
       "Headline URL": "https://biztoc.com/x/0ab9b29b5a5e5328",
       "Published At": "2026-11-09T11:49:46Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.39,
+      "Regular Change": 0.42,
       "After Hours": 0.0,
-      "Current Price": 343.39,
+      "Current Price": 344.84,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123353"
+      "Timestamp": "2026-11-12T17:27:17.574865"
     },
     {
       "Ticker": "JPM",
@@ -321,12 +307,12 @@
       "Headline URL": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-9-november-2026/article71681002.ece",
       "Published At": "2026-11-09T10:44:11Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.39,
+      "Regular Change": 0.42,
       "After Hours": 0.0,
-      "Current Price": 343.39,
+      "Current Price": 344.84,
       "Data Source": "YahooDirect",
       "News Source": "BusinessLine",
-      "Timestamp": "2026-11-12T02:04:22.123359"
+      "Timestamp": "2026-11-12T17:27:17.574872"
     },
     {
       "Ticker": "V",
@@ -340,7 +326,7 @@
       "Current Price": 425.55,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-12T02:04:22.123363"
+      "Timestamp": "2026-11-12T17:27:17.574878"
     }
   ]
 }
