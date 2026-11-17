@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-11-17T03:20:01.440897",
+    "generated_at": "2026-11-17T18:18:30.989089",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 17,
+    "total_records": 22,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
@@ -15,10 +15,25 @@
       "META",
       "AMZN",
       "NVDA",
+      "JPM",
       "V"
     ]
   },
   "results": [
+    {
+      "Ticker": "AAPL",
+      "Company": "Apple Inc.",
+      "Headline": "AAPL Stock Posted Best Week In 4 Months Amid Nvidia Disruption: Apple Reportedly Plans Smart Glasses To Rival Meta Next Year",
+      "Headline URL": "https://biztoc.com/x/7af0dff4dcc3352d",
+      "Published At": "2026-11-16T09:17:20Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.98,
+      "After Hours": 0.0,
+      "Current Price": 352.78,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-17T18:18:30.987358"
+    },
     {
       "Ticker": "AAPL",
       "Company": "Apple Inc.",
@@ -31,35 +46,21 @@
       "Current Price": 352.78,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-11-17T03:20:01.439980"
+      "Timestamp": "2026-11-17T18:18:30.987394"
     },
     {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple users are about to lose something they've had for 28 years",
-      "Headline URL": "https://biztoc.com/x/c806884ea807cfcf",
-      "Published At": "2026-11-14T17:09:47Z",
+      "Ticker": "MSFT",
+      "Company": "Microsoft Corp.",
+      "Headline": "Has Microsoft Stock Become A Different Bet?",
+      "Headline URL": "https://biztoc.com/x/f31aa3b4f9e00893",
+      "Published At": "2026-11-16T09:17:47Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -0.98,
+      "Regular Change": -3.08,
       "After Hours": 0.0,
-      "Current Price": 352.78,
-      "Data Source": "AlphaVantage",
+      "Current Price": 502.02,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440003"
-    },
-    {
-      "Ticker": "AAPL",
-      "Company": "Apple Inc.",
-      "Headline": "Apple Leads Five Stocks Standing Tall Near Buy Points Despite Nvidia, Other Headwinds",
-      "Headline URL": "https://biztoc.com/x/125efb689f6554be",
-      "Published At": "2026-11-14T13:02:53Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -0.98,
-      "After Hours": 0.0,
-      "Current Price": 352.78,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440011"
+      "Timestamp": "2026-11-17T18:18:30.987407"
     },
     {
       "Ticker": "MSFT",
@@ -68,26 +69,40 @@
       "Headline URL": "https://www.insurancejournal.com/news/national/2026/11/15/892683.htm",
       "Published At": "2026-11-16T01:27:34Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.12,
+      "Regular Change": -3.08,
       "After Hours": 0.0,
-      "Current Price": 517.99,
+      "Current Price": 502.02,
       "Data Source": "YahooDirect",
       "News Source": "Insurance Journal",
-      "Timestamp": "2026-11-17T03:20:01.440018"
+      "Timestamp": "2026-11-17T18:18:30.987418"
     },
     {
-      "Ticker": "MSFT",
-      "Company": "Microsoft Corp.",
-      "Headline": "Morgan Stanley doubles down on Microsoft stock with bold outlook",
-      "Headline URL": "https://biztoc.com/x/8599445d4442680c",
-      "Published At": "2026-11-15T14:44:03Z",
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "TSLA, SPCX Diverge Overnight As Retail Traders Split On Merger Winner \u2014 Could SpaceX Get Tesla\u2019s S&P 500 Seat?",
+      "Headline URL": "https://biztoc.com/x/674de638ad2f4f64",
+      "Published At": "2026-11-16T09:18:02Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -1.12,
+      "Regular Change": -2.69,
       "After Hours": 0.0,
-      "Current Price": 517.99,
-      "Data Source": "YahooDirect",
+      "Current Price": 379.74,
+      "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440027"
+      "Timestamp": "2026-11-17T18:18:30.987456"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "The Cybertruck flopped, but investors are still buying Musk\u2019s moonshots",
+      "Headline URL": "https://www.irishtimes.com/your-money/2026/11/16/the-cybertruck-flopped-but-investors-are-still-buying-musks-moonshots/",
+      "Published At": "2026-11-16T05:00:00Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -2.69,
+      "After Hours": 0.0,
+      "Current Price": 379.74,
+      "Data Source": "AlphaVantage",
+      "News Source": "The Irish Times",
+      "Timestamp": "2026-11-17T18:18:30.987468"
     },
     {
       "Ticker": "TSLA",
@@ -101,21 +116,35 @@
       "Current Price": 379.74,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440038"
+      "Timestamp": "2026-11-17T18:18:30.987478"
     },
     {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "A 68-Year-Old Retiree Bought 1,000 Tesla Shares at $108 in January 2023. Now Musk Could Merge Tesla Into SpaceX by December, and a 15% Premium Would Turn Her Stake Into About 3,270 SpaceX Shares",
-      "Headline URL": "https://biztoc.com/x/852df77de35afd92",
-      "Published At": "2026-11-14T13:03:17Z",
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Is Alphabet Stock Cheap Right Now?",
+      "Headline URL": "https://biztoc.com/x/da8a5f7f8d084957",
+      "Published At": "2026-11-16T11:51:12Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -2.69,
+      "Regular Change": -0.75,
       "After Hours": 0.0,
-      "Current Price": 379.74,
-      "Data Source": "AlphaVantage",
+      "Current Price": 281.6,
+      "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440054"
+      "Timestamp": "2026-11-17T18:18:30.987487"
+    },
+    {
+      "Ticker": "GOOGL",
+      "Company": "Alphabet Inc.",
+      "Headline": "Walmart, Target, Amazon, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
+      "Headline URL": "https://biztoc.com/x/234e524599e07f75",
+      "Published At": "2026-11-16T09:17:02Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.75,
+      "After Hours": 0.0,
+      "Current Price": 281.6,
+      "Data Source": "YahooDirect",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-17T18:18:30.987496"
     },
     {
       "Ticker": "GOOGL",
@@ -124,12 +153,12 @@
       "Headline URL": "https://www.livemint.com/companies/people/who-is-thomas-kurian-meet-the-india-born-tech-executive-leading-google-cloud-considered-for-nvidia-ceo-s-job-11794721588970.html",
       "Published At": "2026-11-15T05:56:09Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -4.07,
+      "Regular Change": -0.75,
       "After Hours": 0.0,
-      "Current Price": 283.72,
+      "Current Price": 281.6,
       "Data Source": "YahooDirect",
       "News Source": "Livemint",
-      "Timestamp": "2026-11-17T03:20:01.440068"
+      "Timestamp": "2026-11-17T18:18:30.987506"
     },
     {
       "Ticker": "META",
@@ -143,7 +172,7 @@
       "Current Price": 626.41,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440077"
+      "Timestamp": "2026-11-17T18:18:30.987514"
     },
     {
       "Ticker": "META",
@@ -157,91 +186,133 @@
       "Current Price": 626.41,
       "Data Source": "AlphaVantage",
       "News Source": "Business Insider",
-      "Timestamp": "2026-11-17T03:20:01.440082"
+      "Timestamp": "2026-11-17T18:18:30.987520"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Maigret 2025 S02E05 720p AMZN WEB-DL H264-RAWR",
-      "Headline URL": "https://post.rlsbb.cc/maigret-2025-s02e05-720p-amzn-web-dl-h264-rawr/",
-      "Published At": "2026-11-16T01:43:25Z",
+      "Headline": "Introducing enhanced snapshots for Amazon Managed Service for Apache Flink",
+      "Headline URL": "https://aws.amazon.com/blogs/big-data/introducing-enhanced-snapshots-for-amazon-managed-service-for-apache-flink/",
+      "Published At": "2026-11-16T18:17:18Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.34,
+      "Regular Change": -0.46,
       "After Hours": 0.0,
-      "Current Price": 257.75,
+      "Current Price": 256.58,
+      "Data Source": "YahooDirect",
+      "News Source": "Amazon.com",
+      "Timestamp": "2026-11-17T18:18:30.987528"
+    },
+    {
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "Six By Sondheim 2013 720p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.cc/six-by-sondheim-2013-720p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-11-16T16:12:42Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -0.46,
+      "After Hours": 0.0,
+      "Current Price": 256.58,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-17T03:20:01.440087"
+      "Timestamp": "2026-11-17T18:18:30.987534"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "MacKenzie Scott gave Jeff Bezos 75% of their Amazon shares, Blue Origin, and the Washington Post in 2019 divorce",
-      "Headline URL": "https://biztoc.com/x/0ff68ed599cfa71b",
-      "Published At": "2026-11-15T17:01:34Z",
+      "Headline": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
+      "Headline URL": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+      "Published At": "2026-11-16T16:12:16Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.34,
+      "Regular Change": -0.46,
       "After Hours": 0.0,
-      "Current Price": 257.75,
+      "Current Price": 256.58,
       "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440094"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Lomu 2026 1080p AMZN WEB-DL X265-THESOURCE",
-      "Headline URL": "https://post.rlsbb.cc/lomu-2026-1080p-amzn-web-dl-x265-thesource/",
-      "Published At": "2026-11-15T15:42:07Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -3.34,
-      "After Hours": 0.0,
-      "Current Price": 257.75,
-      "Data Source": "YahooDirect",
-      "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-17T03:20:01.440097"
+      "News Source": "Amazon.com",
+      "Timestamp": "2026-11-17T18:18:30.987541"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "NVDA Stock Dips Again After Worst Week In 19 Months: Why Michael Burry Sees \u2018Mild Manipulation\u2019 In AI Chipmaker\u2019s China Sales?",
-      "Headline URL": "https://biztoc.com/x/d9d49eebe371f7ef",
-      "Published At": "2026-11-16T03:12:02Z",
+      "Headline": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
+      "Headline URL": "https://freerepublic.com/focus/f-news/4403248/posts",
+      "Published At": "2026-11-16T18:16:25Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": -4.12,
+      "After Hours": 0.0,
+      "Current Price": 156.14,
+      "Data Source": "AlphaVantage",
+      "News Source": "Freerepublic.com",
+      "Timestamp": "2026-11-17T18:18:30.987574"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "How will Nvidia stock fare after Huang's exit? Data provides clues",
+      "Headline URL": "https://biztoc.com/x/f308f0fcda36f53e",
+      "Published At": "2026-11-16T18:10:25Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": -4.12,
       "After Hours": 0.0,
       "Current Price": 156.14,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440107"
+      "Timestamp": "2026-11-17T18:18:30.987591"
     },
     {
       "Ticker": "NVDA",
       "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia Stock Is Down About a Third From Its October Peak. Here's My Estimate for 2030",
-      "Headline URL": "https://biztoc.com/x/a3c27535729c4398",
-      "Published At": "2026-11-16T03:11:59Z",
-      "Sentiment": "NEUTRAL",
+      "Headline": "Nvidia Stock Has a 20% Rebound in Sight\u2014If Bulls Can Clear a Hurdle",
+      "Headline URL": "https://decrypt.co/383334/nvidia-stock-rebound-in-sight-if-bulls-can-clear-hurdle",
+      "Published At": "2026-11-16T18:06:03Z",
+      "Sentiment": "POSITIVE",
       "Regular Change": -4.12,
       "After Hours": 0.0,
       "Current Price": 156.14,
       "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440113"
+      "News Source": "Decrypt",
+      "Timestamp": "2026-11-17T18:18:30.987601"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Asian shares fall before Nvidia earnings and Anthropic IPO",
-      "Headline URL": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
-      "Published At": "2026-11-16T03:02:40Z",
+      "Ticker": "JPM",
+      "Company": "JPMorgan Chase",
+      "Headline": "More Nvidia Fallout: Wall Street Journal Details Megaspeed, Other China Chip Smuggling as Jensen Plots Return Despite Serious Decline in Nvidia Competitiveness; Was Nvidia Engaged in Channel Stuffing and \u201cTrue Sale\u201d Frauds?",
+      "Headline URL": "https://www.nakedcapitalism.com/2026/11/more-nvidia-fallout-wall-street-journal-details-megaspeed-other-china-chip-smuggling-as-jensen-plots-return-despite-serious-decline-in-nvidia-competitiveness-was-nvidia-engaged-in-channel-stuffing.html",
+      "Published At": "2026-11-16T11:49:47Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -4.12,
+      "Regular Change": -2.4,
       "After Hours": 0.0,
-      "Current Price": 156.14,
+      "Current Price": 330.08,
+      "Data Source": "YahooDirect",
+      "News Source": "Nakedcapitalism.com",
+      "Timestamp": "2026-11-17T18:18:30.987617"
+    },
+    {
+      "Ticker": "V",
+      "Company": "Visa Inc.",
+      "Headline": "Visa Warns of AI-Driven \u2018Advanced Intrusion\u2019 Surge in Global Payment\u00a0Threats",
+      "Headline URL": "http://wwd.com/sourcing-journal/industry-news/visa-warns-of-ai-driven-intrusion-surge-payment-threats-1239418679/",
+      "Published At": "2026-11-16T18:00:01Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.16,
+      "After Hours": 0.0,
+      "Current Price": 426.46,
       "Data Source": "AlphaVantage",
-      "News Source": "The Straits Times",
-      "Timestamp": "2026-11-17T03:20:01.440118"
+      "News Source": "WWD",
+      "Timestamp": "2026-11-17T18:18:30.987626"
+    },
+    {
+      "Ticker": "V",
+      "Company": "Visa Inc.",
+      "Headline": "Did You Miss Visa Stock?",
+      "Headline URL": "https://biztoc.com/x/fbe7d058b33e402b",
+      "Published At": "2026-11-16T12:36:33Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.16,
+      "After Hours": 0.0,
+      "Current Price": 426.46,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-17T18:18:30.987631"
     },
     {
       "Ticker": "V",
@@ -255,7 +326,7 @@
       "Current Price": 426.46,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-17T03:20:01.440123"
+      "Timestamp": "2026-11-17T18:18:30.987637"
     }
   ]
 }
