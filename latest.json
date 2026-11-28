@@ -1,18 +1,17 @@
 {
   "metadata": {
-    "generated_at": "2026-11-27T18:45:31.144179",
+    "generated_at": "2026-11-28T03:00:54.169210",
     "data_sources": [
       "AlphaVantage",
       "YahooDirect"
     ],
-    "total_records": 20,
+    "total_records": 17,
     "real_data": true,
     "stocks_analyzed": [
       "AAPL",
       "MSFT",
       "TSLA",
       "GOOGL",
-      "META",
       "AMZN",
       "NVDA",
       "JPM"
@@ -26,12 +25,12 @@
       "Headline URL": "https://biztoc.com/x/a3ed636634d19d6a",
       "Published At": "2026-11-26T13:07:25Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.43,
+      "Regular Change": 0.83,
       "After Hours": 0.0,
-      "Current Price": 355.58,
+      "Current Price": 358.54,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.142830"
+      "Timestamp": "2026-11-28T03:00:54.168275"
     },
     {
       "Ticker": "AAPL",
@@ -40,12 +39,12 @@
       "Headline URL": "https://biztoc.com/x/9816668f64233cbb",
       "Published At": "2026-11-26T02:01:05Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 0.43,
+      "Regular Change": 0.83,
       "After Hours": 0.0,
-      "Current Price": 355.58,
+      "Current Price": 358.54,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.142851"
+      "Timestamp": "2026-11-28T03:00:54.168298"
     },
     {
       "Ticker": "MSFT",
@@ -59,7 +58,7 @@
       "Current Price": 492.85,
       "Data Source": "YahooDirect",
       "News Source": "Brentozar.com",
-      "Timestamp": "2026-11-27T18:45:31.142895"
+      "Timestamp": "2026-11-28T03:00:54.168321"
     },
     {
       "Ticker": "MSFT",
@@ -73,7 +72,7 @@
       "Current Price": 492.85,
       "Data Source": "YahooDirect",
       "News Source": "Yahoo Entertainment",
-      "Timestamp": "2026-11-27T18:45:31.142914"
+      "Timestamp": "2026-11-28T03:00:54.168329"
     },
     {
       "Ticker": "MSFT",
@@ -87,7 +86,21 @@
       "Current Price": 492.85,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.142929"
+      "Timestamp": "2026-11-28T03:00:54.168337"
+    },
+    {
+      "Ticker": "TSLA",
+      "Company": "Tesla Inc.",
+      "Headline": "Tesla-SpaceX merger talks introduce market uncertainty for Tesla stock",
+      "Headline URL": "https://cryptobriefing.com/tesla-spacex-merger-talks-introduce-market-uncertainty-for-tesla-stock/",
+      "Published At": "2026-11-26T22:18:21Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 5.22,
+      "After Hours": 0.0,
+      "Current Price": 400.0,
+      "Data Source": "AlphaVantage",
+      "News Source": "Crypto Briefing",
+      "Timestamp": "2026-11-28T03:00:54.168345"
     },
     {
       "Ticker": "TSLA",
@@ -96,12 +109,12 @@
       "Headline URL": "https://biztoc.com/x/56dbea08a12decab",
       "Published At": "2026-11-25T15:55:35Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -1.18,
+      "Regular Change": 5.22,
       "After Hours": 0.0,
-      "Current Price": 380.14,
+      "Current Price": 400.0,
       "Data Source": "AlphaVantage",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.142945"
+      "Timestamp": "2026-11-28T03:00:54.168355"
     },
     {
       "Ticker": "TSLA",
@@ -110,26 +123,12 @@
       "Headline URL": "https://www.ibtimes.com.au/tesla-shares-fall-eu-fsd-delay-spacex-merger-talks-1879380",
       "Published At": "2026-11-25T15:16:31Z",
       "Sentiment": "NEGATIVE",
-      "Regular Change": -1.18,
+      "Regular Change": 5.22,
       "After Hours": 0.0,
-      "Current Price": 380.14,
+      "Current Price": 400.0,
       "Data Source": "AlphaVantage",
       "News Source": "Ibtimes.com.au",
-      "Timestamp": "2026-11-27T18:45:31.142960"
-    },
-    {
-      "Ticker": "TSLA",
-      "Company": "Tesla Inc.",
-      "Headline": "\u2018Big Short\u2019 investor snubs Tesla stock, echoes Buffett on $1,000 play",
-      "Headline URL": "https://biztoc.com/x/e4820de6affc7c0a",
-      "Published At": "2026-11-25T12:21:23Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": -1.18,
-      "After Hours": 0.0,
-      "Current Price": 380.14,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.142997"
+      "Timestamp": "2026-11-28T03:00:54.168381"
     },
     {
       "Ticker": "GOOGL",
@@ -143,7 +142,7 @@
       "Current Price": 274.96,
       "Data Source": "YahooDirect",
       "News Source": "Economictimes.com",
-      "Timestamp": "2026-11-27T18:45:31.143010"
+      "Timestamp": "2026-11-28T03:00:54.168388"
     },
     {
       "Ticker": "GOOGL",
@@ -157,133 +156,91 @@
       "Current Price": 274.96,
       "Data Source": "YahooDirect",
       "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.143019"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "What Moved Meta Stock?",
-      "Headline URL": "https://biztoc.com/x/537b51cbbb1adaf6",
-      "Published At": "2026-11-24T17:37:50Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.4,
-      "After Hours": 0.0,
-      "Current Price": 609.89,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.143028"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "Meta Stock Dips: What's Going On?",
-      "Headline URL": "https://biztoc.com/x/9ce341ab8b9786a9",
-      "Published At": "2026-11-24T15:48:39Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.4,
-      "After Hours": 0.0,
-      "Current Price": 609.89,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.143037"
-    },
-    {
-      "Ticker": "META",
-      "Company": "Meta Platforms",
-      "Headline": "META Stock Is Down 24% From Peak: JPMorgan Sees \u2018Attractive Buying Opportunity\u2019 \u2014 But 2027 Spending, Capex Remain An Overhang",
-      "Headline URL": "https://biztoc.com/x/71030b16c40d7c97",
-      "Published At": "2026-11-24T13:16:50Z",
-      "Sentiment": "NEUTRAL",
-      "Regular Change": 3.4,
-      "After Hours": 0.0,
-      "Current Price": 609.89,
-      "Data Source": "AlphaVantage",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.143055"
+      "Timestamp": "2026-11-28T03:00:54.168395"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "Goldman Sachs sends strong signal on Amazon stock before Black Friday",
-      "Headline URL": "https://biztoc.com/x/f4a5fd492a6d7b5c",
-      "Published At": "2026-11-26T15:23:54Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": 3.96,
-      "After Hours": 0.0,
-      "Current Price": 254.12,
-      "Data Source": "YahooDirect",
-      "News Source": "Biztoc.com",
-      "Timestamp": "2026-11-27T18:45:31.143068"
-    },
-    {
-      "Ticker": "AMZN",
-      "Company": "Amazon.com Inc.",
-      "Headline": "Wheel Of Fortune S44E52 1080p AMZN WEB-DL H264-Kitsune",
-      "Headline URL": "https://post.rlsbb.cc/wheel-of-fortune-s44e52-1080p-amzn-web-dl-h264-kitsune/",
-      "Published At": "2026-11-26T13:58:37Z",
+      "Headline": "Canadas Drag Race S07E02 1080p AMZN WEB-DL H264-RAWR",
+      "Headline URL": "https://post.rlsbb.cc/canadas-drag-race-s07e02-1080p-amzn-web-dl-h264-rawr/",
+      "Published At": "2026-11-27T02:39:03Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 3.96,
       "After Hours": 0.0,
       "Current Price": 254.12,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-27T18:45:31.143075"
+      "Timestamp": "2026-11-28T03:00:54.168401"
     },
     {
       "Ticker": "AMZN",
       "Company": "Amazon.com Inc.",
-      "Headline": "The Balloonists 2025 1080p AMZN WEB-DL H264-cinepth",
-      "Headline URL": "https://post.rlsbb.cc/the-balloonists-2025-1080p-amzn-web-dl-h264-cinepth/",
-      "Published At": "2026-11-26T13:06:00Z",
+      "Headline": "Three too many 2026 1080p AMZN WEB-DL H264-playWEB",
+      "Headline URL": "https://post.rlsbb.cc/three-too-many-2026-1080p-amzn-web-dl-h264-playweb/",
+      "Published At": "2026-11-27T01:40:18Z",
       "Sentiment": "NEUTRAL",
       "Regular Change": 3.96,
       "After Hours": 0.0,
       "Current Price": 254.12,
       "Data Source": "YahooDirect",
       "News Source": "Rlsbb.cc",
-      "Timestamp": "2026-11-27T18:45:31.143082"
+      "Timestamp": "2026-11-28T03:00:54.168405"
     },
     {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia upgraded to Hold amid unresolved investigations, cautious outlook remains",
-      "Headline URL": "https://cryptobriefing.com/nvidia-upgraded-to-hold-amid-unresolved-investigations-cautious-outlook-remains/",
-      "Published At": "2026-11-26T18:37:42Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.91,
-      "After Hours": 0.0,
-      "Current Price": 149.3,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-11-27T18:45:31.143090"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Nvidia expects physical AI revenue to exceed $25 billion in fiscal 2027",
-      "Headline URL": "https://cryptobriefing.com/nvidia-physical-ai-revenue-25-billion/",
-      "Published At": "2026-11-26T18:02:03Z",
-      "Sentiment": "POSITIVE",
-      "Regular Change": -3.91,
-      "After Hours": 0.0,
-      "Current Price": 149.3,
-      "Data Source": "AlphaVantage",
-      "News Source": "Crypto Briefing",
-      "Timestamp": "2026-11-27T18:45:31.143097"
-    },
-    {
-      "Ticker": "NVDA",
-      "Company": "NVIDIA Corp.",
-      "Headline": "Trump's Thanksgiving Morning Tirade Targets NYT Reporter With 'Lowlife' Insult After Brutal Stock Market Questions",
-      "Headline URL": "https://radaronline.com/p/trumps-thanksgiving-morning-reporter-insult-stock-market-questions/",
-      "Published At": "2026-11-26T17:39:29Z",
+      "Ticker": "AMZN",
+      "Company": "Amazon.com Inc.",
+      "Headline": "The JLO Show 2026 1080p AMZN WEB-DL H264-BiOMA",
+      "Headline URL": "https://post.rlsbb.cc/the-jlo-show-2026-1080p-amzn-web-dl-h264-bioma/",
+      "Published At": "2026-11-27T01:32:46Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": -3.91,
+      "Regular Change": 3.96,
       "After Hours": 0.0,
-      "Current Price": 149.3,
+      "Current Price": 254.12,
+      "Data Source": "YahooDirect",
+      "News Source": "Rlsbb.cc",
+      "Timestamp": "2026-11-28T03:00:54.168409"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Bought Nvidia stock during the 2017 crypto boom? You could qualify for a $290 million settlement",
+      "Headline URL": "https://cryptoslate.com/who-could-share-nvidia-proposed-290-million-crypto-mining-settlement/",
+      "Published At": "2026-11-27T02:10:55Z",
+      "Sentiment": "NEUTRAL",
+      "Regular Change": 0.8,
+      "After Hours": 0.0,
+      "Current Price": 150.49,
       "Data Source": "AlphaVantage",
-      "News Source": "Radaronline.com",
-      "Timestamp": "2026-11-27T18:45:31.143106"
+      "News Source": "CryptoSlate",
+      "Timestamp": "2026-11-28T03:00:54.168416"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Rubio angry after Nvidia CEO reinstated despite warning Trump officials about security risk: report - The Independent",
+      "Headline URL": "https://slashdot.org/firehose.pl?op=view&id=186879691",
+      "Published At": "2026-11-27T01:12:44Z",
+      "Sentiment": "NEGATIVE",
+      "Regular Change": 0.8,
+      "After Hours": 0.0,
+      "Current Price": 150.49,
+      "Data Source": "AlphaVantage",
+      "News Source": "Slashdot.org",
+      "Timestamp": "2026-11-28T03:00:54.168423"
+    },
+    {
+      "Ticker": "NVDA",
+      "Company": "NVIDIA Corp.",
+      "Headline": "Jensen Huang\u2019s Return Doesn\u2019t Make Nvidia Stock (NVDA) a Buy",
+      "Headline URL": "https://biztoc.com/x/ad77ea6317dceca3",
+      "Published At": "2026-11-27T00:44:41Z",
+      "Sentiment": "POSITIVE",
+      "Regular Change": 0.8,
+      "After Hours": 0.0,
+      "Current Price": 150.49,
+      "Data Source": "AlphaVantage",
+      "News Source": "Biztoc.com",
+      "Timestamp": "2026-11-28T03:00:54.168432"
     },
     {
       "Ticker": "JPM",
@@ -292,12 +249,12 @@
       "Headline URL": "https://m.economictimes.com/industry/banking/finance/banking/jpmorgan-down-bank-says-working-to-fix-technical-issue-affecting-customers/articleshow/135900992.cms",
       "Published At": "2026-11-26T17:13:34Z",
       "Sentiment": "NEUTRAL",
-      "Regular Change": 1.92,
+      "Regular Change": 1.96,
       "After Hours": 0.0,
-      "Current Price": 322.82,
+      "Current Price": 322.96,
       "Data Source": "YahooDirect",
       "News Source": "Economictimes.com",
-      "Timestamp": "2026-11-27T18:45:31.143114"
+      "Timestamp": "2026-11-28T03:00:54.168437"
     }
   ]
 }
